@@ -1,0 +1,809 @@
+[
+  {
+    "version": "1.0.44",
+    "date": "2026-08-26T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 4.10.0 goes LIVE (build 12519617). The previous LIVE snapshot (4.9.0-live.12344265) and the last PTU snapshot (4.10.0-ptu.12504217) have both been purged — SCMDB now serves 4.10 LIVE exclusively until the next PTU cycle opens." },
+      { "type": "feat", "text": "🔧 4.10 Ore Pods + Mining Consumables — the 10 items that shipped with placeholder data now carry proper stats parser-side (Ore Pods: cargoCapacitySCU + health; Mining Consumables: charges + modifier-set with the same keys as mining_equipment lasers). Fabricator surfaces them: Ore Pod BPs show Cargo Capacity under Product Stats; Mining Module BPs show Charges + each modifier as its own stat row (Optimal Charge Window, Instability, Resistance, Shatter Damage, Overcharge Rate, …). Both product families also get their own filter chip under Ship Components (📦 Ore Pod, 💠 Mining Module) so they're findable from the sidebar." }
+    ]
+  },
+  {
+    "version": "1.0.43",
+    "date": "2026-08-25T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12504217)." }
+    ]
+  },
+  {
+    "version": "1.0.42",
+    "date": "2026-08-22T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12497254)." }
+    ]
+  },
+  {
+    "version": "1.0.41",
+    "date": "2026-08-21T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12488012)." }
+    ]
+  },
+  {
+    "version": "1.0.40",
+    "date": "2026-08-20T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12479687)." }
+    ]
+  },
+  {
+    "version": "1.0.39",
+    "date": "2026-08-19T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12473311)." }
+    ]
+  },
+  {
+    "version": "1.0.38",
+    "date": "2026-08-18T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12464883)." }
+    ]
+  },
+  {
+    "version": "1.0.37",
+    "date": "2026-08-17T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12457370)." }
+    ]
+  },
+  {
+    "version": "1.0.36",
+    "date": "2026-08-15T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12456044)." }
+    ]
+  },
+  {
+    "version": "1.0.35",
+    "date": "2026-08-14T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12448924)." },
+      { "type": "fix", "text": "🔧 /docs/*.md links from the profile now open the raw markdown file again instead of loading the app shell (which then rendered 'No game data versions could be loaded' because it thought it was on a non-app route). Service-Worker denylist extended to /docs/ — same pattern as the earlier /downloads/ fix." }
+    ]
+  },
+  {
+    "version": "1.0.34",
+    "date": "2026-08-13T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12442953)." },
+      { "type": "data", "text": "🌐 LIVE re-parse (4.9.0-live.12344265) — restores the required-intro title on 12 Adaigo salvage-chain contracts. Consumers of the Adaigo intro missions now show 'Claim #[CLAIM]: [SHIP] Salvage Rights' on their Requirements badge instead of an empty box." },
+      { "type": "fix", "text": "🌐 Mission detail: 'In-game also shown as' section + the variant-picker (both the current-viewing entry and sibling links) now run through the community translation. Previously these lines stayed English regardless of active language — Russian translator reported it. Same-modal Required-intro badge got a defensive fallback so a title-less parser reference at least shows the mission's debug name instead of an empty badge." }
+    ]
+  },
+  {
+    "version": "1.0.33",
+    "date": "2026-08-09T00:00:00Z",
+    "changes": [
+      { "type": "fix", "text": "🔍 Fabricator search now also matches community-translated names. With a language file loaded, a recipe can be found by its translated product or material name (e.g. Chinese) — previously Fab search only matched the English fields, so a translated query returned nothing. Missions already worked this way." }
+    ]
+  },
+  {
+    "version": "1.0.32",
+    "date": "2026-08-08T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🌐 Contracts now show a data-issue marker when the source data appears to file them under the wrong faction. The contract still appears under the faction its data actually references (nothing is silently moved); a ⚠ badge with a tooltip notes the likely intended faction. First cases: three \"Red Wind Straightforward Cargo Recovery\" (Medium) contracts on PTU and LIVE that reference Citizens For Prosperity but appear intended for Red Wind Linehaul." },
+      { "type": "improve", "text": "🔧 Community translation now reaches the Fabricator: crafting recipe ingredient and product names are translated via the loaded language file where a matching entry exists (looked up by English name). Untranslated names stay in English." },
+      { "type": "improve", "text": "📱 Mobile: the Watcher indicator is hidden on phones — it drives a desktop companion that doesn't apply on mobile. Detection combines viewport size and user agent, so a desktop browser in a narrow window keeps it." },
+      { "type": "improve", "text": "📱 Mobile: the LIVE/PTU channel switch is now in the mobile page menu." },
+      { "type": "improve", "text": "📱 Mobile: the mission-title column in Table view no longer collapses to a few pixels — it keeps enough width to read the start of each name." },
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12409360)." }
+    ]
+  },
+  {
+    "version": "1.0.31",
+    "date": "2026-08-07T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12399239)." }
+    ]
+  },
+  {
+    "version": "1.0.30",
+    "date": "2026-08-06T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12388491)." }
+    ]
+  },
+  {
+    "version": "1.0.29",
+    "date": "2026-08-05T00:00:00Z",
+    "changes": [
+      { "type": "fix", "text": "🔧 Crafting recipes: 10 vehicle weapons were listed as \"ballistic\" even though their weapon type is different — MaxOx NN- and NDB-series Neutron weapons (now neutron), the Banu Singe Cannon (tachyon), and the Thlilye Laser Gatling (laser). Corrected in both channels; filtering crafting recipes by weapon type now lists them under the right category." },
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12381782)." }
+    ]
+  },
+  {
+    "version": "1.0.28",
+    "date": "2026-08-04T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12373313)." }
+    ]
+  },
+  {
+    "version": "1.0.27",
+    "date": "2026-08-01T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12368639)." }
+    ]
+  },
+  {
+    "version": "1.0.26",
+    "date": "2026-07-31T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.9.0 LIVE (build 12344265)." },
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12358556)." }
+    ]
+  },
+  {
+    "version": "1.0.25",
+    "date": "2026-07-30T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12344240)." },
+      { "type": "fix", "text": "🔧 Blueprint-progress column and tile display now stay populated on PTU — they show your LIVE-owned blueprints joined against the PTU mission's pool as reference. Dimmed styling + (LIVE) label + tooltip make clear it's cross-channel info; PTU progress still doesn't persist and marking blueprints owned still requires being on LIVE. Fixes the 'BP columns look empty on PTU' report — they were correctly gated but the silent gate read as a bug." },
+      { "type": "improve", "text": "⛏ Mining Signature Identifier: the highlight / match-list box now has a collapse toggle (▾/▸) in its header. Collapsed it shrinks to a single header line ('N highlighted' / 'N matches') so a long list can't visually overlap the scan-results chart underneath. Setting persists per browser." }
+    ]
+  },
+  {
+    "version": "1.0.24",
+    "date": "2026-07-29T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12335477)." }
+    ]
+  },
+  {
+    "version": "1.0.23",
+    "date": "2026-07-28T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.10.0 PTU (build 12326622)." }
+    ]
+  },
+  {
+    "version": "1.0.22",
+    "date": "2026-07-27T00:00:00Z",
+    "changes": [
+      { "type": "fix", "text": "🔍 'Filter by pool' now resets other mission filters. Clicking the button from the Fabricator, Catalog or a blueprint-detail overlay used to keep any previously-set Reward Scope / System / Legality / Sharing filters active alongside the pool — so a user with prior filters would frequently see an empty result. The pool is now the sole active facet after the jump, matching the intent 'show me every mission in this pool'. Thanks to DarkRod for the repro." }
+    ]
+  },
+  {
+    "version": "1.0.21",
+    "date": "2026-07-25T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.9.0 LIVE (build 12302499)." },
+      { "type": "data", "text": "📦 4.10.0 PTU (build 12311913) — the 4.10 PTU cycle is now trackable in SCMDB. Switch via the LIVE/PTU toggle in the header." }
+    ]
+  },
+  {
+    "version": "1.0.20",
+    "date": "2026-07-23T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🔍 Share filter view — a '🔗 Share' button next to Clear-all in the sidebar copies a link that restores the current filter state (search, chips, ranges, blueprint pool, cargo sliders, etc.) for whoever opens it. Recipient sees a banner listing the incoming filters and picks Apply or Discard — no silent overwrite of their own filter. Also covers the 'share this blueprint pool' use-case that surfaced from a request: the BP-pool filter is one of the encoded fields." },
+      { "type": "feat", "text": "🎁 Table view: opt-in 'Scrip' column under Rewards — shows the reward amount plus the type (Council or MG Scrip) for the ~200 missions that award scrip. Sortable and bucketed by type: DESC-top shows all MG Scrip missions from highest to lowest amount, then all Council Scrip, then the rest. For the Wikelo-favor-grind use-case." },
+      { "type": "fix", "text": "⚡ PTU-fallback: users who happened to be on the PTU channel when an admin flipped PTU off could stay stranded on PTU indefinitely because the static CDN cache of the site-settings file only refreshes periodically. useSiteSettings now cross-checks Supabase when the CDN file's own updated_at is older than 30 minutes, so a real admin toggle propagates within one page-load rather than several hours. Also side-fixes the reported 'BP-progress bars disappeared in Tile view' — same root cause, since the PTU channel intentionally hides blueprint / tracking overlays." },
+      { "type": "improve", "text": "🔧 Fabricator: material-quality chip clarified — the '(min 1)' hint next to a '0.5 SCU' material was easy to misread as 'minimum 1 SCU'. Now spelled out as '(min quality N)' with a dotted underline and help cursor advertising the tooltip; the chip only appears when the recipe actually imposes a quality floor (>0), removing ~2/3 of previously-noisy '(min quality 0)' rows." },
+      { "type": "improve", "text": "🔧 Fabricator: material-quality slider now covers the recipe's full acceptance range (0-1000 for most raw materials), not just the modifier's data-defined window. Quality below the modifier's start produces the flat baseline value instead of the slider being hard-capped — matches the recipe reality that low-quality material is craftable, just doesn't add the bonus. Also brings the 'Min' preset and the manual slider into agreement." },
+      { "type": "data", "text": "🚀 Salvage Rights missions now list their target-ship pool again in the mission detail. A parser regression during the 4.9.0-live cycle had silently dropped the SalvageSpawnDescription pool resolution on 30 contracts across the Adagio, Adaigo and RR_Pyro salvage families; the intro / very-easy variants also correctly resolve to the single-Aegis-Gladius pool again. Three new Battaglia salvage contracts introduced in 4.9.0 that had never had ship-pool data now have it too. Fixed parser-side; current LIVE data files re-generated in place (no build-number bump). Thanks to RedAnxiety for spotting it." }
+    ]
+  },
+  {
+    "version": "1.0.19",
+    "date": "2026-07-20T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.9.0 LIVE (build 12269732)." },
+      { "type": "feat", "text": "🎁 Table view: two opt-in scope columns in their own '⚙ → Scope' section — 'Accept Scope' (reputation scope required to accept the mission) and 'Reward Scope' (the scope(s) actually paid out on completion). Multi-scope missions show the primary with '(+N)' and list the rest in the tooltip. Makes the ~5% of contracts where accept-scope ≠ reward-scope (e.g. 'Cargo Retrieval' requires Standing but pays Hauling) visible at a glance without opening each mission's Calculator tab." }
+    ]
+  },
+  {
+    "version": "1.0.18",
+    "date": "2026-07-19T00:00:00Z",
+    "changes": [
+      { "type": "fix",  "text": "🐛 Blueprint-Ownership-Verlust bei Log-Watcher-Backlog-Replay behoben — wenn SCMDB geöffnet wurde während Star Citizen + Watcher bereits liefen, konnte der replay-Burst der 'blueprint_received'-Events das Supabase-Profil-Fetch überholen und die owned-Blueprints der Nutzerin auf die Handvoll gerade eingespielten Tags reduzieren. Bulk-Writes laufen jetzt über eine server-side Union-RPC (kein Client-Snapshot mehr im Write-Pfad) und werden zusätzlich gepuffert bis das Profil geladen ist. Missionstracking hatte denselben latenten Bug im gleichen Codepfad, ist mitgefixt." },
+      { "type": "feat", "text": "🔍 Table view: opt-in 'Debug Name'-Spalte — zeigt den parser-emittierten internen Contract-Identifier. Wenn mehrere SubContract-Varianten zu einem Row gemerged wurden (gleiche Pools, unterschiedliche Anchors), erscheint '(+N)' hinter dem primären Namen und der Tooltip listet alle Varianten auf. Aktivierbar im ⚙-Column-Picker, default off." }
+    ]
+  },
+  {
+    "version": "1.0.17",
+    "date": "2026-07-18T00:00:00Z",
+    "changes": [
+      { "type": "data",    "text": "📦 Updated to 4.9.0 LIVE (build 12248363)." },
+      { "type": "feat",    "text": "📦 Cargo (Hauling) filter block — Total SCU range plus Max Container (1/2/4/8/16/24/32), Max Pickups and Max Dropoffs sliders. Sidebar section sits between Tracking and Events; any control moved off default scopes results to hauling missions. Three opt-in table columns (SCU · Box, Pickups, Dropoffs) via the ⚙ column picker — sortable, use the same numbers as the filter." },
+      { "type": "feat",    "text": "⛏ Signature Identifier: standalone page — the mineral-scan identifier is now deep-linkable via `?sig=<raw>` and openable in its own tab from the Mining page or the SigChart modal. Handy for sharing a specific scan without pulling the recipient through the whole Mining UI." },
+      { "type": "improve", "text": "⛏ Mining SigChart pill readability — mineral labels now sit on an opaque background so the underlying span line no longer cuts through the text." }
+    ]
+  },
+  {
+    "version": "1.0.16",
+    "date": "2026-07-16T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.9.0 LIVE (build 12232306). PTU snapshot promoted; all mission, blueprint and mining data now reflects the live patch." },
+      { "type": "feat", "text": "📡 Offline support — SCMDB now installs as a Progressive Web App and keeps working when your connection blips. Mission browsing, Fabricator recipes, Mining Solver and Patch Delta all work from cached data. Header 'OFFLINE' badge appears when the backend is unreachable; write actions like voting disable themselves rather than sit spinning. When new patch data drops while you're offline, a reload banner appears once you reconnect." },
+      { "type": "feat", "text": "📡 Log Watcher v0.1.9 — backlog replay. If SCMDB is opened while a Star Citizen session is already running, the watcher now replays events it saw before the browser connected (up to 500) so completed missions and received blueprints aren't lost. Frontend suppresses timer/modal side-effects on replay so you don't get flooded with dialogs for missions from earlier in the session. Older watcher versions (0.1.6-0.1.8) still work — replay is additive." },
+      { "type": "feat", "text": "🌐 Prerequisite Missions — the mission Requirements tab now resolves the internal completedContractTags GUIDs into human-readable lists (e.g. 'Complete any of: Journeyman Tracker License Certification, Reclusive Bounty · Nyx · Pyro · Stanton'). Covers ~700 contracts per channel where the requirement was previously invisible. Certification-style awarders float to the top, per-system regional duplicates collapse into one entry with a system tail." },
+      { "type": "feat", "text": "⛏ Mining Solver: math trace — a new 'Show math' button opens a modal walking through rock blending, loadout modifier stack, effective rock stats and yield calculation step by step. Formulas are informed by community research (Mort13, Evergr3n, Oshida). Explicitly not game-canon; this is our best-guess model and clearly marked as such." },
+      { "type": "feat", "text": "⛏ Mining Solver: current / updated stacking-model toggle — switch between additive stacking (the original SCMDB model) and multiplicative stacking (community-observed in-game behaviour). Lives in the solver header; math trace re-renders per selected model so both worldviews are inspectable side by side." },
+      { "type": "feat", "text": "🔧 Fabricator: clickable material names — click any ore or mineral in a recipe (Lindinium, Beryl, Ouratite, …) or in the dismantle result list to jump straight to the Resources page pre-filtered on that material. Middle-click opens in a new tab. Also works for hand-mined crystals (Aphorite, Hadanite, Sadaryx). Deep-link URL: `?page=mine&r=NAME`." },
+      { "type": "feat", "text": "💎 Item knownIssue annotations — items in the catalog flagged by a community source as broken or suspected-broken now carry a per-item note visible in the pool view, blueprint detail and disassemble output. Uses the same hedged language as elsewhere ('possible data inconsistency', not 'CIG bug')." },
+      { "type": "improve", "text": "🎁 Scope divergence surfaced on the ~5% of missions where the standing-required-to-accept lives on a different scope than the standing-rewarded. Side-by-side accept-scope and reward-scope rank ladders on the Calculator tab so the two aren't confused; explanatory note on the Requirements tab." },
+      { "type": "improve", "text": "🎁 Base XP column: dedupes cross-scope reward rows (contracts that grant XP to both a faction reputation AND a standing scope no longer double-count) and now surfaces event points as the Base XP value for event-only contracts." },
+      { "type": "improve", "text": "🌐 Alternate mission titles — when the parser merges two subcontracts that share pools but had different in-game titles, both titles now show in the detail modal so you can match what the game showed you." },
+      { "type": "improve", "text": "📱 Adaptive header — a stricter effective-width check gates compact-mode layout, so browsers with sidebars or narrow window widths hit the compact layout at the right threshold without leaving the header cramped." },
+      { "type": "improve", "text": "🔍 Item Catalog: pool headers now show a rank-range chip (which ranks spawn this pool) and a system chip (Stanton / Pyro / Nyx / Multi). Helps answer 'what does this pool spawn in Pyro at Sr. Tracker rank?' without opening each mission." },
+      { "type": "improve", "text": "🔧 Fabricator: Blueprint detail opens as a global overlay from the cart panel — click a cart entry to inspect its recipe without leaving whatever page you were on." },
+      { "type": "improve", "text": "🔧 Fabricator: craft-time toggle — switch between raw seconds (spreadsheet-friendly) and m:ss / h:mm:ss (planning-friendly) via a small chip in the craft-time area. Setting persists across sessions." },
+      { "type": "improve", "text": "⛏ Mining: Signature Identifier default-selects the minerals present at the currently-selected location, one click faster on first identification." },
+      { "type": "fix", "text": "⛏ Mining Solver: gadget resistance and instability now visible in the Scan Results panel. The underlying math has always applied gadgets correctly, but the display was showing only the equipment side of the stack — reading 0.87 → 0.20 for a Sabir-equipped Prospector when the true effective was 0.10. Trace now walks through the two-stage rock × gadget × equipment chain." },
+      { "type": "fix", "text": "⛏ Mining Solver: multiplicative-model math corrected — window and charge-rate gadget modifiers now chain through as a proper trailing factor instead of being additively tacked onto the already-multiplicative equipment stack. Only affects users on the 'updated model' toggle; additive model unchanged." },
+      { "type": "fix", "text": "⛏ Mining Solver: dropped the 'Window size capped at +50%' annotation from the Laser Stats bar — the +% modifier itself isn't capped, only the final rendered green zone is (90° of the 180° meter arc = 0.5 of the charge bar). Trace prose updated to match." },
+      { "type": "fix", "text": "⛏ Mining Solver: Resistance labels clarified. Scan Results shows effective resistance including active modules ('with actives'); FeasibilityPanel shows the passive-only baseline used for DPS-range calculation. Same value in different reference frames — labels now say which is which." },
+      { "type": "fix", "text": "🚨 Battaglia (and any faction whose parser-emitted rank ladder is missing higher tiers): the Calculator's rank table no longer mis-badges an out-of-ladder MAX as the top local rank. Verbal 'Mission unavailable above X' note still surfaces the requirement." },
+      { "type": "fix", "text": "🧮 Calculator: non-shareable contracts now coerce to Solo — the Multicrew toggle is disabled with a tooltip, and stale multicrew state from a previously-viewed shareable mission can no longer leak into the rep/UEC math." },
+      { "type": "fix", "text": "🎁 Reward column sort: buy-in cost is now factored into the sort key so buy-in-only contracts sort meaningfully. Previously they clustered as if their reward was zero." },
+      { "type": "fix", "text": "🗄 Mission table: virtual scroll no longer locks at 5 rows after a search that returned no results and then got cleared." }
+    ]
+  },
+  {
+    "version": "1.0.15",
+    "date": "2026-06-17T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.8.2 LIVE (build 12030094)." },
+      { "type": "data", "text": "📡 Log Watcher v0.1.8 — minor tweaks + refreshed README. v0.1.6 and v0.1.7 still work, no forced update." },
+      { "type": "improve", "text": "🧹 Header decluttered at 1080p — UI Scale, Columns slider and ★ MEMA toggle moved into the ⚙ Settings popover. View toggle (Tiles/Table) stays inline. Addresses the 'header cramped' report from 16:9 1080p users." },
+      { "type": "improve", "text": "📥 Watcher Import: conflict resolver for ambiguous blueprint names — when a log entry doesn't map cleanly to one catalogue BP (substring match with multiple candidates, or zero matches due to community string mods like Kraken's StarStrings), the import dialog now shows a per-row picker with best-guess and Skip options. Mass-apply and Skip-all buttons for batches. No more 'last wins' when multiple conflicts exist." },
+      { "type": "improve", "text": "⚒ Fabricator: slider-mode toggle (Free / Snap) visually separated from the Quality Presets row — labelled 'Slider mode:' with its own pill style, so it's no longer overlooked as a fifth preset button." },
+      { "type": "fix", "text": "⚒ Fabricator compare-view crash — comparing M3A / M4A / M5A / M6A laser cannons threw a TypeError because some weapons have a fireModes[0] wrapper without a top-level fireRate. Compare table now shows '—' for the cell instead of crashing the whole modal." },
+      { "type": "fix", "text": "⚒ Fabricator 'Clear all' filters: Size slider, the Owned / Not-owned / Blacklist tri-state and the Blacklist filter chip were not being reset. They're now included in the reset routine like the other filters." },
+      { "type": "fix", "text": "📊 Calculator: refueling missions with 250 base XP were showing only 50. Cause: contracts can emit multiple factionRewards rows for the same faction (e.g. base XP + completion bonus), and the calculator was reading only the first row. Now sums all matching-faction rows." }
+    ]
+  },
+  {
+    "version": "1.0.14",
+    "date": "2026-06-09T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.8.1 LIVE (build 11952564)." },
+      { "type": "feat", "text": "🚨 Mission Bug Reports — community 👍 / 👎 vote on each mission, from the Community tab of the detail modal. A coloured health dot in every mission card and a sortable Health column in the table summarise the crowd-source state (🟢 healthy / 🟡 minor issues / 🟠 problematic / 🔴 broken). Reason dropdown covers the common SC mission bugs: Stuck, Mission completed but doesn't finish, Mission never offered despite meeting prereqs, Cargo / freight elevator broken, Marker wrong or missing, and more. Patch-aware — counts reset at every Y.Z bump. Aggregated counts refresh 1–2× daily; your own click reflects instantly." },
+      { "type": "feat", "text": "🚨 Filter: 'Hide community-flagged missions' dropdown — pick the threshold (broken only / broken + problematic / everything except healthy). Missions with no votes yet (grey dot) are always shown so first-time voters can still find them and surface them for others." },
+      { "type": "feat", "text": "📋 Column picker for the mission table — click the ⚙ icon in the table toolbar to opt extra columns in or out. New columns include Category, Min/Max Rank, Shareable, Cooldown, Chain, Since (introduced-in patch), Active Event, Cargo, and the new Health column. Selection persists per browser; defaults match the previous layout so nothing changes unless you opt in." },
+      { "type": "feat", "text": "🌐 Pool slot disambiguation — when an availability pool contains multiple slots that resolve to the same display name (e.g. three 'Cinch Scraper Module' entries in a single pool), each one now carries a tag-derived suffix in the slot list so you can tell which roll picks which entry. Previously the pool view collapsed them into a single line." },
+      { "type": "feat", "text": "⚒ Fabricator: visual highlighting for the dismantle blacklist materials plus a tri-state filter chip. Recipes that produce one of the eight non-returnable materials are now visibly marked, and the chip lets you carve them in or out of the BP list. Builds on the dismantle blacklist banner introduced in 1.0.13." },
+      { "type": "improve", "text": "📏 Header: compact layout at 1080p — VER label dropped, nav buttons tightened, subtitle threshold raised. Prevents header crowding on common laptop widths." },
+      { "type": "improve", "text": "📱 Mining: signature chart collapsible on phone viewports — auto-collapsed below 900 px width, manual toggle button between the chart and the match list. Frees vertical space on small screens where the match list is the primary surface anyway." }
+    ]
+  },
+  {
+    "version": "1.0.13",
+    "date": "2026-06-03T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 Updated to 4.8.1 LIVE (build 11875683)." },
+      { "type": "feat", "text": "📡 Sync Sinks (preview) — opt-in outbound mirror to user-configured endpoints. Lets orgs and third-party tools consume your tracked missions, blueprints and profile in their own dashboard. LIVE / HOTFIX events only — PTU/EPTU/Tech-Preview never leaves the browser. Wire-format documented at /docs/sync-sinks.md." },
+      { "type": "improve", "text": "📡 Sync Sinks: per-sink Resync button + auto-resync on edit / clear / reopen, so downstream consumers stay consistent without manual snapshot triggers." },
+      { "type": "feat", "text": "🔍 Tri-state filter chips across Missions, Mining and Fabricator pages — every filter chip now cycles None → Include → Exclude → None. Right-click jumps straight to Exclude. Lets you carve out 'everything except X' without juggling include-only sets." },
+      { "type": "feat", "text": "🔍 'Released since/in' filter — pick a baseline patch (e.g. 'since 4.8.0') and the list narrows to missions that first appeared at or after that version. Missions appearing for the first time also get a NEW badge in the tile and table views. Built on a parser-generated patch-history index." },
+      { "type": "feat", "text": "🔍 Cargo-mission filter + debug-name search — narrow by whether a mission carries cargo manifests, and search by the CIG debugName (e.g. RR_CRU_*) in addition to the localized title." },
+      { "type": "feat", "text": "⚡ Active in-game events indicator — when a scenario is currently enabled in the loaded data, a pill in the stats bar shows '⚡ N events active'. Click it for a popover listing each active event (with the count of gated missions) plus a one-click filter to show all event-gated missions at once. Pill stays hidden when nothing is active." },
+      { "type": "feat", "text": "🔍 'Released since' dropdown now annotates each version with the count of newly-added missions — '4.8.0 (174 new)', '4.8.1 (current patch — no new missions)' — so version-only patch bumps are visible before clicking." },
+      { "type": "feat", "text": "🔍 Zero-add patch hint — when the picked 'Released since' version added no missions, the mission list shows an explanation that previously-inactive missions may have been enabled by an event activation, plus a one-click jump to the Event category filter." },
+      { "type": "fix", "text": "🔍 Reward-Scope dropdown: when two scopes share the same in-game label (e.g. 'Bounty Hunting' exists for both Northrock Service Group and Bounty Hunters Guild), the faction is now appended in parens to disambiguate. Was previously showing two identical 'Bounty Hunting' rows." },
+      { "type": "feat", "text": "🌐 SubContract families collapsed into one card — when CIG diversifies a single mission template into per-station variants (e.g. 29 'QV Breaker Station Mining Rights' contracts that are byte-identical apart from the station name), they're now grouped under a single card. The variant count is shown as a tag; the detail modal lists every station." },
+      { "type": "feat", "text": "🌐 Mission scope labels use the in-game displayName — internal CIG identifiers like 'BountyHunter' or 'FactionReputation' now resolve to their localized labels ('Bounty Hunting' / 'Standing'). The raw scopeNames are kept as internal filter values." },
+      { "type": "feat", "text": "🔧 Blueprint progress: pool-level multi-pool explanation — when a mission's blueprints come from more than one pool, the detail modal now explains the drop mechanics inline (which pool a blueprint comes from, and what 'one per pool per run' means in practice)." },
+      { "type": "feat", "text": "🔧 Blueprint progress: record-based deduplication — the BP-progress count is now computed off the parser's blueprintRecord GUID (1:1 with each item), not the product name. Fixes counts where two items in a pool happened to share a product name (5× BroadSpec-Go, 3× Defiant, 2× QuadraCell MX). Also makes the ✓/☐ toggle hit the correct row on every duplicate." },
+      { "type": "feat", "text": "🔧 Blueprint quick-preview — click a blueprint in the detail modal to see its base stats, slot composition and a direct Fabricator link without leaving the mission. Chain mission links also open in a new tab via middle/right-click now." },
+      { "type": "feat", "text": "🎁 Item reward delivery flags — the Overview tab now annotates whether each item reward is delivered to your inventory, to your hangar, applied as a vehicle component, etc. Previously this lived only in parser-emitted data." },
+      { "type": "fix", "text": "🌐 'Random' chip removed from deterministic reward bundles — was misleadingly applied to rewards that were actually fixed sets." },
+      { "type": "fix", "text": "🚀 Combat encounters: hostile beats friendly in compound encounter roles. ShipHeist targets are correctly classified as neutral, not friendly." },
+      { "type": "feat", "text": "⛏ Mining locations: CRU-L3 added to the Lagrange C survey; Terminus Ring synthesised as a Pyro mining location; HUR-L2 Faithful Dream refinery added in Stanton. Aaron Halo entries now link to the 'All Mining Base locations' survey chip." },
+      { "type": "fix", "text": "⛏ Mining Solver: extraction multipliers from gadget modules (Vaux et al.) now apply to the solver physics. Previously the modules were displayed but their effect was silently dropped." },
+      { "type": "fix", "text": "⛏ Mining Solver: opening the laser-craft modal no longer crashes (was a temporal-dead-zone error on the equipment state)." },
+      { "type": "fix", "text": "⛏ Mining: route screen sub-element percentages corrected; Glaciem Ring gets a hint about its observed yield distribution. Decay and cracking rates reverted from a broken /pcpm normalisation that had produced incorrect optimal-power values." },
+      { "type": "fix", "text": "⛏ Mining: modelled-zero quality bands are now drawn explicitly instead of silently omitted, so the band axis stays consistent across elements." },
+      { "type": "feat", "text": "⚒ Fabricator: distortion-damage weapons (Suckerpunch family) now show their real per-shot damage. Previously they reported ~0 because the parser exposed only the near-zero impact damage; the detonation payload is now picked up automatically when impact damage is functionally zero. The row label reads 'Distortion Damage / Shot (detonation)' so the source is clear." },
+      { "type": "feat", "text": "⚒ Fabricator: ship weapons show computed range (projectile speed × lifetime) instead of CIG's combatRange field — the CIG values were FPS-leaning defaults ('Medium 30-50 m' even for cannons that reach ~1800 m in-game). FPS weapons keep the category label." },
+      { "type": "improve", "text": "⚒ Fabricator: magazine tag hidden for ship energy / distortion weapons — those draw from the ship's capacitor, not a per-weapon magazine, so 'Mag: 0' was misleading. Ballistic ship weapons and personal weapons still show their magazine size." },
+      { "type": "feat", "text": "⚒ Fabricator: mission links open in a new tab via middle/right-click — matches the rest of the app." },
+      { "type": "feat", "text": "⚒ Fabricator: dismantle blacklist — a banner now lists which materials CIG won't return on disassembly (6 ores: Quantainium, Stileron, Savrilium, Lindinium, Riccite, Ouratite; 2 entity classes: Saldynium, Janalite). Blacklisted slots are shown struck-through in the disassemble view." },
+      { "type": "fix", "text": "⚒ Fabricator: recoil StatRows now use sign-magnitude comparison — CIG sometimes models recoil with negative pitch/yaw values; the signed lowerBetter check was painting -0.13 → -0.08 red even though it's a recoil reduction." },
+      { "type": "feat", "text": "📊 Calculator: per-faction party-XP quirks — InterSec and Shubin missions have their own XP multiplier rules at certain party sizes, now applied. Other factions stay on the generic curve." },
+      { "type": "improve", "text": "📥 Watcher Import dialog: shows the raw event payload alongside the resolved mission and disambiguates between multiple candidate matches when the debugName is ambiguous. Helps when an event lands on more than one possible mission." },
+      { "type": "feat", "text": "🔗 Smart-link by GUID — ?g=<guid> now resolves automatically to either a mission detail or a blueprint detail in the Fabricator, whichever the GUID matches. Lets you share a single link without knowing the target type upfront." },
+      { "type": "fix", "text": "📱 Performance: animated pulse effects switched from box-shadow to opacity keyframes — box-shadow is CPU-heavy at high frame rates; the visual is identical, the cost drops sharply." },
+      { "type": "fix", "text": "👤 Profile: action buttons render boxy again — CSS class typo had stripped the box style on the export / clear buttons." },
+      { "type": "data", "text": "📦 Parser regenerations through the 1.0.13 cycle: scope displayName resolution, parentId on SubContracts, slot-level cargoManifest, ship cargoSCU + slot-cargo pre-filter, spawnChance / maxShips, detonationDamage on ammoPools, corrected ship classifications, hedged knownIssue notes, mission-history index." }
+    ]
+  },
+  {
+    "version": "1.0.12",
+    "date": "2026-05-21T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🔧 Blueprint collection progress — tile cards and the table now show how many blueprints you already own out of each mission's pool (e.g. 3/8). Tile view gets a colored progress bar under the divider; table view shows a color-coded badge plus a separate gap (Δ) column. Both columns sortable." },
+      { "type": "feat", "text": "🔧 Blueprint filter — new sidebar filter [All / Gaps / Done / Empty] lets you narrow missions by your collection state. Only visible when signed in." },
+      { "type": "feat", "text": "🔧 Profile → BP-complete auto-mark — Tracking section now lists missions where you already own every blueprint from their pool but never explicitly accepted the mission. One click marks all of them as completed. Catches the common case where multiple missions share a single pool." },
+      { "type": "feat", "text": "👤 Profile export: opt-in identity fields — checkboxes to include your display name, verified RSI handle, and/or organizations in the exported JSON. All off by default — anonymous export stays the default. Filename includes your handle when identifying fields are opted in. Schema bumped to v3." },
+      { "type": "feat", "text": "📡 Log Watcher v0.1.7 — events now carry a channel field (LIVE / PTU / HOTFIX / EPTU). Frontend gates events strictly: LIVE/HOTFIX runs always apply to your tracking (even when the SCMDB UI is showing a different channel — watcher keeps recording in the background); PTU and other ephemeral channels never enter the DB because CIG wipes them on patch. Orange status badge + info banner explain the state." },
+      { "type": "feat", "text": "📡 Log Watcher: SubContract resolution — missions with debug-name suffix variants (e.g. FTL_Courier_Stanton_TissueSamples_Rank1_1) now resolve directly to their merged parent via the new contractDefinitionIds[] and debugNames[] arrays. No more silent misses on missions that share a generator pool." },
+      { "type": "feat", "text": "🌐 Mission detail: Available In section — Pyro and Stanton acceptance regions are now clickable chips that expand into a grouped location list (Planets / Stations / Lagrange / Asteroid Belts / Other). Previously the L-points and RAB locations were hidden by an over-aggressive filter." },
+      { "type": "feat", "text": "🌐 Mission detail: Spawn Area fallback — when a mission has no specific location constraint, a new 'Spawn Area' section shows which systems it can spawn in instead of leaving the Requirements tab blank." },
+      { "type": "feat", "text": "🌐 Mission badges: Cross-System missions now show the correct single-system badge when the parser determines the actual spawn systems (e.g. Stanton + Pyro routes show 'Multi'). The earlier Cross-System guess heuristic is replaced by the parser-derived availableSystems list." },
+      { "type": "feat", "text": "📝 Mission descriptions: propertyValues — placeholders like [FUELRATE] and [APPROVAL_CODE] in descriptions are now replaced with the mission's actual values (e.g. \"240 aUEC per SCU of Hydrogen\"). Runtime tokens like [SHIP] and [LOCATION] stay as badges since they're spawn-time random." },
+      { "type": "feat", "text": "⛏ Mining Solver: rock mass slider extended to 200k — in-game rocks of ~142k mass have been observed, the previous 100k cap left no headroom." },
+      { "type": "feat", "text": "📱 Mobile / vertical-monitor support — header layout reworked for narrow viewports (≤1280 px now treated as mobile). Pages dropdown + Filters button replace the inline nav buttons. View-controls split into a horizontally-scrollable middle cluster and a pinned right cluster (settings gear, watcher, sign-in) so the essentials are always reachable on vertical 1080p/1200p monitors." },
+      { "type": "feat", "text": "⚙ Settings overflow — theme, high-contrast, and community-translation language now live behind a single gear icon in the header, keeping the right cluster compact." },
+      { "type": "improve", "text": "🧮 Calculator tab — empty state explains when a mission has no rank XP, no event progress and no partial payout structure, instead of just showing a blank tab. Player-count number input widened so 2-digit values don't get overlapped by the spinner arrows." },
+      { "type": "improve", "text": "🌐 Mission detail: 'Available In' for Pyro now also shows when a mission spans all 4 regions (with a clarifying 'available throughout all Pyro regions' note), instead of being hidden as implicit." },
+      { "type": "improve", "text": "📥 Watcher Import dialog: warns when an export file's channel doesn't match the current SCMDB channel. PTU exports are blocked from import (they do not translate from PTU to LIVE)." },
+      { "type": "fix", "text": "⛏ Mining Solver: composition now loads correctly from share-link URLs. The URL parser was racing the mining-data fetch and silently dropping the composition param when mining_data.json arrived after the equipment lookup tables." },
+      { "type": "data", "text": "📦 Updated to 4.8.0 LIVE (build 11875683)." }
+    ]
+  },
+  {
+    "version": "1.0.11",
+    "date": "2026-05-14T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🚀 Ship Encounters: faction classification badges — each encounter group now shows a colored faction tag (Criminal, Nine Tails, XenoThreat, Vanduul, UEE, Security, Advocacy, Civilian, Unmanned)." },
+      { "type": "feat", "text": "🚀 Ship Encounters: per-group ship pools — click any encounter group to expand its exact ship list inline. Groups with fixed slot compositions show '2× Hammerhead / 3× Vanguard Warden' breakdowns; random-pick slots show 'N out of: Ship A / Ship B / Ship C'." },
+      { "type": "feat", "text": "♻ Ship Encounters: unmanned / salvage targets shown as neutral (♻) — no longer counted as hostile. Summary line shows hostile / friendly / salvage counts separately." },
+      { "type": "feat", "text": "⚒ Fabricator: size range filter — dual-handle slider (0–6) in the filter panel to narrow components by size. Size column added to Table view (sortable); size badge added to Tile cards." },
+      { "type": "feat", "text": "🎁 Item Rewards: weighted loot tables — missions with randomized item rewards now show a full probability table (e.g. 70% Armor Set A / 30% Armor Set B) in the Detail modal." },
+      { "type": "feat", "text": "📥 New feature: Log Watcher: this little script based service scans your current and old game.log to start/stop mission timers, as well as adding blueprints you gained. Find more info top right." },
+      { "type": "feat", "text": "📊 Calculator: Accept / Share range indicators — cyan left stripe marks ranks that can accept the mission; green right stripe marks ranks that can receive it when shared. Legend and tooltips explain the indicators." },
+      { "type": "improve", "text": "📊 Calculator: 'Shareable to:' row in Requirements tab — shows whether rank requirement applies to the mission owner only (any rank) or to all shared players (same rank as owner)." },
+      { "type": "improve", "text": "👤 Profile: selective tracking clear — replace single 'Clear All' with 'Clear Missions', 'Clear Blueprints', and 'Clear All' buttons (only shown when relevant data exists)." },
+      { "type": "fix", "text": "📥 Watcher Import: confirmation list now scrollable when it exceeds the dialog height." },
+      { "type": "data", "text": "📦 Updated to 4.8.0 LIVE (build 11825000)." }
+    ]
+  },
+  {
+    "version": "1.0.10",
+    "date": "2026-05-06T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⛏ Mining Solver: crafted laser quality — click the ⚒ icon on any laser tile to configure per-slot crafting quality. The resulting DPS multiplier is applied directly to solver physics. Crafted lasers are highlighted in amber in the tile grid, turret tab, and per-turret summary panel." },
+      { "type": "feat", "text": "⚒ Fabricator: 500Q snap point — in snap mode, 500Q is now an extra snap stop alongside the quality band values. Disassembling NPC items always yields 500Q materials, making this a natural crafting starting point. Slider changed from discrete band steps to a continuous nearest-snap slider; displays 'B{n}' for band values and 'NPC' for 500Q." },
+      { "type": "improve", "text": "⛏ Mining Solver: extraction DPS shown per turret in combined stats — extraction power does not stack when multiple MOLE turrets target the same rock. Identical turrets are grouped: 'T1, T2: 45 · T3: 52 DPS'." },
+      { "type": "improve", "text": "⚒ Fabricator: salvage module stats (scraping speed, radius, efficiency), tractor beam stats (min/max force, distances, volume), and radar aim assist min/max range now shown in the component stats panel." },
+      { "type": "improve", "text": "⚒ Fabricator: quantum drive speed units toggle — switch between m/s, km/s, and AU/s directly on the blueprint stats panel." },
+      { "type": "fix", "text": "⚒ Fabricator: quality snap now correctly applies on initial page load and refresh — previously snap mode was ignored until manually toggled because mining band data loads asynchronously." },
+      { "type": "data", "text": "📦 Updated to PTU 4.8.0-ptu.11777743." }
+    ]
+  },
+  {
+    "version": "1.0.9",
+    "date": "2026-04-30T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "📊 Quality bands in Resources — quality distribution charts now show band boundary lines (B1–B8). The quality detail modal displays a probability table: how likely each quality band is to roll, plus the crafting quality value each band maps to in the Fabricator." },
+      { "type": "feat", "text": "⚒ Fabricator: quality band snap mode — toggle between Free (continuous slider) and Snap (8-step band slider) in the Craft view. Snap locks the quality to the exact in-game crafting band values (B1–B8). Presets (Min / Base / 50% / Max) align to the nearest band in snap mode. State persisted to localStorage." },
+      { "type": "improve", "text": "👤 Profile export v2 — exported JSON now uses a flat array with explicit completed and favorite boolean fields per entry, making imports easier to process." },
+      { "type": "fix", "text": "⚒ Fabricator: quantum fuel requirement modifier now shown in green when reduced (lower is better)." },
+      { "type": "fix", "text": "⛏ Mining: LocationDetail channel prop was missing, causing a crash when opening a location detail directly." },
+      { "type": "fix", "text": "🛒 Shopping List: clicking a blueprint now navigates correctly (was passing the wrong identifier)." },
+      { "type": "data", "text": "📦 Updated to PTU 4.8.0-ptu.11753569 — includes quality band mappings per element (qualityBands, qualityBandBoundaries) used by the new snap mode and band visualization." }
+    ]
+  },
+  {
+    "version": "1.0.8",
+    "date": "2026-04-29T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⚒ Fabricator: ship component stats panel — shield, radar, power plant, cooler, and quantum drive blueprints now show a full base vs. crafted stats comparison table (HP, regen, EM/IR signature, range, fuel consumption, etc.) with per-slot modifier breakdown." },
+      { "type": "feat", "text": "⚒ Fabricator: Component Class, Grade, and Ammo Type filters — filter ship components by class (Military / Industrial / Stealth / Civilian / Competition) and grade (A / B / C / D), or weapons by ammo type (Ballistic / Energy / Electron / Laser). Filters only appear when relevant items are present." },
+      { "type": "improve", "text": "⚒ Fabricator: filter sections are now collapsible — click any section header to expand or collapse it. Keeps the left panel compact as more filter types are added." },
+      { "type": "improve", "text": "🔗 Share links on every page now encode the active channel (?channel=ptu or ?channel=live). Mining, Mining Solver, and Shopping List share links were previously missing the channel parameter." },
+      { "type": "fix", "text": "🔗 Mission Chain: successors are now scoped to the same system — Stanton chain missions no longer show Pyro successors as follow-up steps." },
+      { "type": "fix", "text": "🔍 Completion filter: duplicate filter entry removed from the sidebar." },
+      { "type": "data", "text": "📦 Updated to PTU 4.8.0-ptu.11740071." }
+    ]
+  },
+  {
+    "version": "1.0.7",
+    "date": "2026-04-28T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🔗 Mission Chain — visual chain path in the Requirements tab shows all steps with past/current/future styling and a position counter (e.g. 2 / 4). Click any step to jump to it, with a ← Back button to return. Gateway missions (unlocking many follow-ups) show 'Unlocks N missions' instead of a linear chain." },
+      { "type": "feat", "text": "✅ Blueprint completion prompts — when all blueprints in a mission are owned but the mission is not yet tracked, a green banner prompts you to mark it complete. If the mission is tracked but a blueprint was unchecked, an amber banner prompts you to unmark." },
+      { "type": "feat", "text": "🔍 Completion filter — new 3-state filter [All / Not done / Done] in the sidebar. Only visible when logged in with at least one tracked mission." },
+      { "type": "feat", "text": "🔒 PTU mode: community features disabled — when browsing PTU data, mission tracking, blueprint tracking, and MEMA ratings are hidden. PTU progress does not carry over to LIVE and should not be recorded." },
+      { "type": "improve", "text": "⚒ Fabricator: type icons — each item type now has a dedicated emoji (🛡 armour, 🔫 weapons, 🔋 ammo, 🔰 shield, ❄️ cooler, ⚡ powerplant, 🚀 quantum drive, 📡 radar, ⛏️ mining laser, ♻️ salvage, 🧲 tractor beam). Hover over the icon to see the type name." },
+      { "type": "improve", "text": "⚒ Fabricator: type filter is now dynamic — all types present in the data are shown as chips. New ship component types (cooler, power plant, quantum drive, radar, shield, tractor beam, mining laser, salvage) are automatically included." },
+      { "type": "data", "text": "📦 Updated to PTU 4.8.0-ptu.11733560 — includes new ship component blueprints (cooler, power plant, quantum drive, radar, shield, tractor beam, mining laser, salvage) and Reign of Xenothreat event missions." }
+    ]
+  },
+  {
+    "version": "1.0.6",
+    "date": "2026-04-22T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🔔 Update Banner — when a new version is available a non-intrusive banner appears in the top-right corner. Dismiss or reload on demand; no forced page refresh." },
+      { "type": "feat", "text": "⚒ Fabricator Catalog: faction filter — narrow the blueprint list by faction directly in the catalog popover." },
+      { "type": "feat", "text": "⏱ Community runs: short-run guard — submissions under 10 minutes auto-open the MEMA guide and require a mandatory confirmation checkbox to avoid accidental data pollution." },
+      { "type": "feat", "text": "📍 Mission Detail › Requirements tab: new 'Available At' section lists location-specific prerequisites (e.g. specific stations or outposts) when they are more specific than system level." },
+      { "type": "feat", "text": "⛏ Mining: All / NQ / HQ quality filter — when a single resource is selected, toggle between all concentration tiers, Normal Quality only, or High Quality only." },
+      { "type": "feat", "text": "⛏ Mining: collapsible deposit groups in Location Detail — click the group header to collapse/expand. State persisted per location." },
+      { "type": "improve", "text": "⛏ Mining: deposit context tooltip now shows precise probability labels — within-group % in grouped mode, absolute location % in combined mode." },
+      { "type": "improve", "text": "⛏ Mining: combined mode deposit context now shows the absolute location spawn probability instead of the within-group probability." },
+      { "type": "fix", "text": "⛏ Mining: element concentration percentages now correctly sum NQ + HQ parts (both tiers are present simultaneously). Previously only the higher tier was shown, understating total yield by up to ~85%." },
+      { "type": "fix", "text": "⛏ Mining: overview and detail views now use the same deposit-merging logic — grouped-mode overview percentages match detail view." },
+      { "type": "fix", "text": "⛏ Mining: quality distribution override for Breaker Stations Large Geode (Sadaryx) now matches correctly via location-name fallback when the element was renamed." },
+      { "type": "fix", "text": "⚒ Fabricator: Parallax Power Regulator damage bonus now shows ~+24% instead of +14% — slot-level and option-level modifier arrays are combined correctly." },
+      { "type": "fix", "text": "⚒ Fabricator: Base preset now finds the 'no-malus' quality point (every individual modifier ≥ 1.0) instead of targeting a combined balance. Fixes zero-quality results for multi-formula components." },
+      { "type": "fix", "text": "⛏ Mining Solver: rock configurator percentage sliders now reach fractional min/max bounds (e.g. 2.82%) — Math.round was incorrectly truncating the range." },
+      { "type": "fix", "text": "⛏ Mining Solver: rock decay rate is now correctly normalized by powerCapacityPerMass (10× correction — rocks were appearing 10× more stable than they are)." },
+      { "type": "fix", "text": "⚒ Fabricator: 'Blueprint owned' checkbox state now saves and restores correctly." },
+      { "type": "fix", "text": "⛏ Mining: scan signature combined view and Refinery Finder element list corrected." },
+      { "type": "improve", "text": "🔄 Version cache TTL reduced from 5 minutes to 30 seconds — new deployments propagate to clients significantly faster." },
+      { "type": "data", "text": "📦 Updated to 4.7.2-live.11674325" }
+    ]
+  },
+  {
+    "version": "1.0.5",
+    "date": "2026-04-13T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "★ Favorites — mark individual missions and blueprints as favorites (login required). Star button in Tiles, Table, and Detail views. Filter to favorites only via the ★ Favorites chip below the search field." },
+      { "type": "feat", "text": "⚒ Fabricator: Item Catalog button (📋) now available directly inside the Fabricator — click a blueprint pool to filter results in place, no navigation required." },
+      { "type": "feat", "text": "🔢 Fabricator Tiles: column count slider — adjust the number of blueprint columns (1–6) from the header, persisted across sessions." },
+      { "type": "feat", "text": "🎚 Rank Filter: Range / Exact toggle — Range (default) shows all missions accessible at the selected rank range (overlap). Exact shows only missions whose unlock rank falls within the selected range." },
+      { "type": "feat", "text": "★ MEMA toggle — hide/show MEMA community ratings globally via the ★ MEMA button in the toolbar. State persists across reloads. Community tab shows a hint when ratings are hidden." },
+      { "type": "improve", "text": "🌐 Language globe: always shows the active language code (default: EN) next to the icon. Tooltip references #SCMDB_LANG on Discord for finding translation files." },
+      { "type": "improve", "text": "🔗 Mission cards and table rows are now real links — Ctrl+Click or middle-click opens a mission in a new tab." },
+      { "type": "improve", "text": "⚒ Blueprint pool names in Mission Detail, Item Catalog, and Fabricator are now clickable — click a pool name to filter missions that reward it." },
+      { "type": "improve", "text": "👤 Profile export: favorites are embedded in the JSON export. Items that are both tracked and favorited receive a favorite: true attribute; favorites-only items are included as separate entries." },
+      { "type": "improve", "text": "💬 Feedback: form replaced with Discord channel links (#scmdb-bug-reporting, #feature-requests)." },
+      { "type": "data", "text": "📦 Updated to 4.7.1-live.11617053" }
+    ]
+  },
+  {
+    "version": "1.0.4",
+    "date": "2026-04-10T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⚗ Refinery Finder — new tool in the Resources sidebar. Compare refinery rate bonuses per mineral across all stations. Grouped view collapses identical profiles; Single view shows each station individually. System filter (Stanton / Pyro / Nyx). Select any combination of minerals to see which refinery yields the highest combined bonus, with tie-aware highlighting." },
+      { "type": "fix", "text": "⛏ Mining Solver: rock decay is now a fixed property unaffected by laser resistance — resistance reduces incoming laser damage only, not how fast the rock dissipates charge. Previously decay was incorrectly scaled down by the resistance multiplier, making rocks appear more stable than they are." },
+      { "type": "fix", "text": "⛏ Mining Solver: module damage bonuses now stack additively, matching the in-game formula. Three Rieger-C3 modules now correctly yield +75% (×1.75), not ×1.25³ ≈ +95%." },
+      { "type": "fix", "text": "⛏ Mining Solver: share-links (URL parameters) are now correctly applied even when navigating to the solver from an existing session — previously the RockConfigurator's localStorage state could override the URL." },
+      { "type": "fix", "text": "📡 Scan Signature Identifier: layout no longer shifts when toggling row highlights — row height is now stable regardless of selection state." },
+      { "type": "data", "text": "⛏ Mining data updated with community-sourced refinery rate profiles (bonus/penalty percentages per mineral for each refinery profile)." },
+      { "type": "data", "text": "📦 Updated to 4.7.1-live.11592622" }
+    ]
+  },
+  {
+    "version": "1.0.3",
+    "date": "2026-04-05T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "👥 Community tab: MEMA scores are now visible again without login — data is served from the pre-aggregated CDN cache, same source as the header badge" },
+      { "type": "feat", "text": "🏆 Rank Path Planner: system filter — filter mission paths by system (Stanton, Pyro, Nyx, …). Systems are detected dynamically from the data; auto-selected when a faction only operates in one system" },
+      { "type": "improve", "text": "👥 Community tab: note added that MEMA scores are aggregated 1–2× daily and may not reflect the latest submissions immediately" },
+      { "type": "improve", "text": "⚒ Fabricator disassembly: sub-centi-SCU resource yields (e.g. 0.005 SCU) are no longer hidden — displayed with 3-decimal precision" },
+      { "type": "improve", "text": "👤 Profile: mission and blueprint export now includes direct URLs per item" },
+      { "type": "improve", "text": "🔧 Significantly reduced database bandwidth — profile caching, static CDN delivery for aggregated data, optimistic local state for time entry mutations, and browser cache hardening for the app bundle" },
+      { "type": "fix", "text": "🔠 UI scale 'Small (90%)': gap at the bottom of the page is no longer visible" }
+    ]
+  },
+  {
+    "version": "1.0.2",
+    "date": "2026-03-31T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "📡 Scan Signature Identifier: click any row to highlight it and dim all others — click again to deselect" },
+      { "type": "feat", "text": "📡 Signatures button moved to the filter sidebar (below search field) — much easier to discover" },
+      { "type": "feat", "text": "⛏ Resources location detail: n=1 scan signature shown next to each deposit — click to open Signature Identifier with that ore pre-highlighted" },
+      { "type": "feat", "text": "⛏ Resources location detail: ROC, FPS and Salvage deposits now also show their fixed category scan signatures (4000 / 3000 / 2000)" },
+      { "type": "feat", "text": "⚒ Fabricator: Owned column in Table view — shows which blueprints you have marked as owned (login required)" },
+      { "type": "improve", "text": "⛏ Resources: mining type filter (Ship/ROC/FPS) now also filters the resources shown within each location tile, not just the location list" },
+      { "type": "improve", "text": "🌐 Translation: standing rank names now translated in Requirements tab, Calculator, and Rank Index tooltip" },
+      { "type": "improve", "text": "📡 Scan Signature Identifier: light mode now fully applied (was always dark)" },
+      { "type": "improve", "text": "📡 Scan Signature Identifier: multi row select now possible as well" },
+      { "type": "fix", "text": "⚒ Fabricator: blueprint owned-checkboxes are now hidden when not logged in" },
+      { "type": "fix", "text": "⛏ Mining Solver: passive equilibrium now correctly returns 0 when laser DPS cannot overcome rock decay at any throttle (edge case with low window position)" },
+      { "type": "fix", "text": "⛏ Mining Solver: equipment card modifier labels — 'Optimal Charge Window' and 'Optimal Charge Rate' no longer both abbreviated as 'Optima'" },
+      { "type": "fix", "text": "🎚 Rank Range Slider: overlapping thumbs at the same rank position are now always reachable via z-index priority" },
+      { "type": "data", "text": "📦 Updated to 4.7.0-live.11545720" }
+    ]
+  },
+  {
+    "version": "1.0.1",
+    "date": "2026-03-28T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🎯 Reward Scope Filter — filter missions by reputation scope (Security, Assassination, etc.) from the sidebar. Requirements tab links directly to the scope filter." },
+      { "type": "feat", "text": "⛏ Mining Solver: active module boost shown as purple annotation in modifier bars, distinguishing temporary from permanent bonuses" },
+      { "type": "feat", "text": "🏷 UNIQUE badge for self-excluded missions — missions that become unavailable after completion now show UNIQUE badge and Once Only: Yes*" },
+      { "type": "improve", "text": "⛏ Mining Solver: official in-game names for modifier stats (Optimal Charge Window, Inert Material Filtering, etc.)" },
+      { "type": "improve", "text": "⛏ Mining: split damageMultiplier into Mining and Extraction multipliers for accurate module stats" },
+      { "type": "improve", "text": "⚒ Fabricator: additive slot modifiers for recoil stats (Pitch/Yaw consistent with in-game)" },
+      { "type": "improve", "text": "⚒ Fabricator: mission links now show translated titles when a language is active" },
+      { "type": "improve", "text": "📋 Cooldown & re-accept fields were missing values" },
+      { "type": "improve", "text": "🔧 Changelog dialog: show latest 3 updates, expandable for older entries" },
+      { "type": "improve", "text": "🌐 Translation: Blueprints now also show translated mission names in mission links" },
+      { "type": "fix", "text": "🗺 Lagrange location fix: MIC-L2 mapped to group C, CRU-L2 to group E" },
+      { "type": "fix", "text": "🔫 Sequence weapon fireRate fix (e.g. Killshot Rifle now shows correct 535 RPM)" }
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-03-27T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🎉 SCMDB v1.0 — out of beta! Open registration, no invite key needed." },
+      { "type": "feat", "text": "✅ Mission & Blueprint Tracking — mark missions as completed and blueprints as owned. Tracked items show a checkmark in Tiles, Table and Detail views. Export your data from Profile." },
+      { "type": "feat", "text": "📡 Scan Signature Identifier (Resources page) — identify rock deposits by scanner signature value. Supports approximate (~) and range searches." },
+      { "type": "feat", "text": "📊 Quality Distribution Modal — click on Q:min–max for an interactive bell curve with probability readout at cursor position" },
+      { "type": "feat", "text": "🔗 OpenGraph Embeds — sharing SCMDB links in Discord/Slack now shows mission title, faction, rewards and description preview" },
+      { "type": "feat", "text": "🚀 Star-Miner link in footer — quick access to the active mining simulation at sm.scmdb.net" },
+      { "type": "improve", "text": "🌐 Translation: improved substitutions, mission chain links in translated language" },
+      { "type": "improve", "text": "⚒ Fabricator: 2 decimal precision, recoil formula fix (Pitch/Yaw now consistent with Smooth)" },
+      { "type": "improve", "text": "📋 OR-Hauling orders displayed as 'Deliver one of the following' with alternatives" },
+      { "type": "improve", "text": "🔍 Rank index filter now includes missions without max rank (open-ended availability)" },
+      { "type": "improve", "text": "⚠ Inactive event scenarios shown with red badge + border on mission detail" },
+      { "type": "improve", "text": "📜 Modal scroll fix — long content scrollable at any font size" },
+
+      { "type": "data", "text": "📦 4.7.0 LIVE (build 11518367)" }
+    ]
+  },
+  {
+    "version": "0.9.21",
+    "date": "2026-03-24T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🚀 Rank Path Planner (experimental) — calculates a mission path to reach a reputation rank, with tag-chain resolution for prerequisites. Results may not reflect the optimal route." },
+      { "type": "feat", "text": "🚀 Star-Miner Integration (experimental) — 'Open in Star-Miner' button in Mining Solver transfers your loadout + rock config to a virtual mining simulation. Not a representation of the actual in-game experience." },
+      { "type": "feat", "text": "🔍 Resource Filter: weighted percentages — single-resource filter now shows the effective max share per location, with 'contained in' hints for sub-elements" },
+      { "type": "feat", "text": "🔍 Resource Filter: primary deposits show 'small amounts available in high quality'" },
+      { "type": "feat", "text": "📊 Quality Distribution Tooltip — hover over Q:min–max to see a mini bell curve visualization" },
+      { "type": "improve", "text": "🌐 Translation: accurate per-contract translations via titleLocKey/descriptionLocKey, newline preservation, search includes translated content" },
+      { "type": "data", "text": "📦 Updated to PTU 4.7.0-ptu.11506930" }
+    ]
+  },
+  {
+    "version": "0.9.20",
+    "date": "2026-03-21T00:00:00Z",
+    "changes": [
+      { "type": "improve", "text": "⛏ Mining Solver: corrected resistance formula — sign-split blending (evergr3n), validated against in-game scans" },
+      { "type": "improve", "text": "⛏ Mining Solver: equipment modifiers now chain multiplicatively per turret" },
+      { "type": "improve", "text": "⛏ Mining Solver: modifier caps with waste indicator (Window Size max +50%, orange warning)" },
+      { "type": "improve", "text": "⛏ Mining Solver: composition dropdown filtered by equipment category (ship/ROC/FPS)" },
+      { "type": "improve", "text": "⛏ Mining Solver: ROC/GEO now uses correct vehicle parameters" },
+      { "type": "feat", "text": "⛏ Resources: quality range (Q:min–max) per element based on rarity and composition scale (Oshida)" },
+      { "type": "feat", "text": "⛏ Resources: quality legend shows ★★★/★★/★ scale tiers" },
+      { "type": "feat", "text": "⛏ Resources: location-specific quality overrides for Pyro and Rock Cracker District (Oshida)" },
+      { "type": "data", "text": "📦 Updated to PTU 4.7.0-ptu.11494258" },
+      { "type": "fix", "text": "🐛 Fixed floating-point noise in modifier display (39.999% → 40%)" }
+    ]
+  },
+  {
+    "version": "0.9.19",
+    "date": "2026-03-19T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🌐 Community Translation System — paste a language file URL from a translation team to localize the UI. Globe indicator in header, version mismatch warning, profile sync for logged-in users." },
+      { "type": "feat", "text": "⛏ Mining Solver: Scan Results panel — shows mass, resistance, instability, composition breakdown with SCU yield per material" },
+      { "type": "feat", "text": "⛏ Mining Solver: Quality Scale (Qmax) display in rock configurator" },
+      { "type": "improve", "text": "⛏ Mining Solver: smart active module boost strategy — fires charges to reach green zone, auto-throttles during boost, re-boosts if zone is lost" },
+      { "type": "improve", "text": "⛏ Mining Solver: boost markers shown on charge chart" },
+      { "type": "improve", "text": "⛏ Mining Solver: new resistance formula (probabilistic union) and volume-scaled instability" },
+      { "type": "improve", "text": "Logo now links back to home page" },
+      { "type": "fix", "text": "Lagrange point mappings corrected based on level data research by Oshida" },
+      { "type": "fix", "text": "Detail modal no longer jumps when switching tabs" }
+    ]
+  },
+  {
+    "version": "0.9.18",
+    "date": "2026-03-17T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "Thanks to evergr3n, we can now calculate aUEC rewards for post-4.0 missions. Legacy (LC) and Career (CC) flags, CIG difficulty scores, and the difficulty tab have been removed — no longer needed." },
+      { "type": "feat", "text": "📍 Location Trigger display in the Requirements tab" },
+      { "type": "feat", "text": "⛏ Mining Solver: per-turret enable/disable toggle for the MOLE" },
+      { "type": "feat", "text": "⛏ Mining Solver: added a slider to manually position the green zone within its randomized range" },
+      { "type": "improve", "text": "⛏ Mining Solver: disabled turrets are now dimmed in the modifier chart" },
+      { "type": "improve", "text": "⛏ Mining Solver: fixed I:/R: value alignment in rock configurator" },
+      { "type": "improve", "text": "⛏ Equipment Cards: corrected color coding (Instability/Resistance positive = red/bad, Shatter Damage negative = green/good)" },
+      { "type": "improve", "text": "General UI declutter to reduce visual noise" },
+      { "type": "improve", "text": "Removed built-in language toggle — replaced by the new Community Translation System in v0.9.19" },
+      { "type": "fix", "text": "Fabricator Disassemble: now floors to 0.01 SCU (centi-SCU), materials rounding to 0 are hidden" }
+    ]
+  },
+  {
+    "version": "0.9.17",
+    "date": "2026-03-16T00:00:00Z",
+    "changes": [
+      { "type": "improve", "text": "⛏ Mining Simulation updated using the research and permission of Mort13 — thank you, Mort!" },
+      { "type": "fix", "text": "Fabricator: quality presets and modifier display now work correctly for weapons (not just armor)" },
+      { "type": "fix", "text": "Fabricator: recoil modifiers properly colored red when quality causes increased recoil" },
+      { "type": "fix", "text": "Fabricator: \"Base\" preset sets each slot to its neutral point (0% modifier), \"50%\" to halfway between base and max" },
+      { "type": "fix", "text": "Fabricator: base quality and range info shown for all material slots, including those with mixed modifier ranges" },
+{ "type": "fix", "text": "Mining Solver: Golem → Prospector ship switch no longer keeps the Pitman laser selected" },
+      { "type": "fix", "text": "Fabricator: \"Clear All\" now properly resets armor class and slot filters" }
+    ]
+  },
+  {
+    "version": "0.9.16",
+    "date": "2026-03-15T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🛒 Global Shopping Cart — accessible from the topbar on any page, not just the Fabricator" },
+      { "type": "feat", "text": "⛏ Clicking a cart material on the Resources page toggles it as a resource filter" },
+      { "type": "feat", "text": "📊 Resource Matrix — visual heatmap of all resources across all locations, with click-to-filter" },
+      { "type": "feat", "text": "🧭 Route Solver (Travelling Miner) — finds the fewest locations covering all selected resources" },
+      { "type": "feat", "text": "⭐ Base XP shown on mission cards and table — sortable reputation XP at a glance (solo, FactionReputation only)" },
+      { "type": "feat", "text": "🔍 Fabricator: armor class, armor slot, and subtype filters" },
+      { "type": "fix", "text": "ACE pilot badge suppressed on Ambush missions, as per community feedback — ACE pilots only spawn on Patrol missions" }
+    ]
+  },
+  {
+    "version": "0.9.15",
+    "date": "2026-03-15T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🌐 Multi-system contracts correctly detected — 160+ contracts now properly tagged across system boundaries" },
+      { "type": "improve", "text": "System filter includes cross-system missions (e.g. filtering \"Pyro\" also shows Nyx+Pyro contracts)" },
+      { "type": "improve", "text": "Improved mission merging to avoid unnecessary duplicates" }
+    ]
+  },
+  {
+    "version": "0.9.14",
+    "date": "2026-03-14T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⭐ Community ratings expanded to 7-point scale with labeled tiers (Trivial → Extreme, Terrible → Excellent)" },
+      { "type": "feat", "text": "📊 C.Diff and C.Sat columns in Table view — sortable community difficulty and satisfaction at a glance" },
+      { "type": "improve", "text": "Column labels clarified: CIG Difficulty, Est. UEC/h, Est. Rep/h" }
+    ]
+  },
+  {
+    "version": "0.9.13",
+    "date": "2026-03-14T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🎖 Max Standing shown in Requirements tab — contracts with rank caps now display both Min and Max standing thresholds" },
+      { "type": "feat", "text": "Calculator: ranks above the contract's max standing are grayed out with a MAX badge and warning note" },
+      { "type": "feat", "text": "📋 Default Blueprints filter — 8 starter blueprints available to all players, tagged with DEFAULT badge" },
+      { "type": "fix", "text": "General bug fixes and stability improvements" }
+    ]
+  },
+  {
+    "version": "0.9.12",
+    "date": "2026-03-14T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "📍 Lagrange survey mapping — each Lagrange profile now shows matching L-points (e.g. Lagrange A → HUR-L1, HUR-L4), searchable by point name" },
+      { "type": "feat", "text": "LIVE/PTU toggle and version selector now accessible from all pages without navigating back" },
+      { "type": "improve", "text": "Mining Solver: passive modules show compact color-coded modifier summary (DMG, WIN, FLT, CHA)" },
+      { "type": "improve", "text": "Fabricator: quality slider now supports full 0–1000 range for blueprints with low-quality penalties" },
+      { "type": "improve", "text": "Fabricator: quality and factor ranges displayed per modifier slot" },
+      { "type": "improve", "text": "Game data updated to PTU 4.7.0 (build 11450623)" },
+      { "type": "fix", "text": "General bug fixes and stability improvements" }
+    ]
+  },
+  {
+    "version": "0.9.11",
+    "date": "2026-03-13T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "Required Standing shown in Requirements tab — minimum rank and XP threshold at a glance" },
+      { "type": "feat", "text": "Intro mission links — required intros and faction entry points shown as clickable links in Requirements tab" },
+      { "type": "improve", "text": "Localization overrides for incorrect in-game strings (e.g. CIG copy-paste duplicates)" },
+      { "type": "fix", "text": "General bug fixes and stability improvements" }
+    ]
+  },
+  {
+    "version": "0.9.10",
+    "date": "2026-03-13T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🌗 Light mode toggle on the main page" },
+      { "type": "improve", "text": "Fabricator: ammunition blueprints now show \"min quality required\" instead of irrelevant quality presets" },
+      { "type": "improve", "text": "Fabricator: quality range adapts dynamically to blueprint data (min/mid/max no longer hardcoded)" },
+      { "type": "improve", "text": "Fabricator: minimum quality displayed per material slot for mixed recipes" },
+      { "type": "improve", "text": "Game data updated to PTU 4.7.0 (build 11445650) — includes ammunition crafting blueprints" },
+      { "type": "fix", "text": "Mining Solver: Pitman laser no longer appears as option for Prospector/MOLE" },
+      { "type": "fix", "text": "Mining Solver: improved impossible feasibility detection" },
+      { "type": "feat", "text": "🎭 Event scenario tags — contracts requiring active events (Luminalia, Nyx Mission Pack, etc.) are now tagged and hidden by default when inactive" },
+      { "type": "feat", "text": "Per-event filter dropdown — select specific events to show (Luminalia, Nyx Mission Pack, CleanAir)" },
+      { "type": "improve", "text": "ACE pilot spawn chance now shown on Patrol missions" }
+    ]
+  },
+  {
+    "version": "0.9.9",
+    "date": "2026-03-12T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⛏ Mining Solver — simulate mining loadouts, check rock feasibility, and auto-solve optimal laser/module combos" },
+      { "type": "feat", "text": "📊 Charge simulation chart with real-time power curve visualization" },
+      { "type": "feat", "text": "🔗 Deep links — every page, detail view, and search query is now shareable via URL with full browser back/forward support" },
+      { "type": "feat", "text": "🔠 UI scale toggle — five zoom levels from 90% to 200% for better readability" },
+      { "type": "feat", "text": "⛏ Solo MOLErs rejoice: per-turret modifier charts and Auto-Solver support for 1, 2, or all 3 turrets" },
+      { "type": "improve", "text": "Blueprint reward pools now show \"1 of N\" count for clarity" },
+      { "type": "fix", "text": "Synthetic compositions (e.g. Aphorite) no longer appear in wrong mining category" }
+    ]
+  },
+  {
+    "version": "0.9.8",
+    "date": "2026-03-11T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⚒ Item Fabricator — browse crafting blueprints, compare weapon stats side-by-side, and plan your crafting cart" },
+      { "type": "feat", "text": "⛏ Updated resource distribution for 4.7.0 — mining probabilities and compositions have changed significantly" },
+      { "type": "feat", "text": "🔍 Resource Focus Mode — filter a single resource to see all locations sorted by probability" },
+      { "type": "feat", "text": "🎮 Vanduul Strike — arcade mini-game, available from the footer" },
+      { "type": "improve", "text": "Game data updated to PTU 4.7.0 (build 11414557)" },
+      { "type": "improve", "text": "Version fallback — the app now gracefully recovers if a data file is missing" },
+      { "type": "fix", "text": "Fabricator compare view now shows recoil values with full precision" },
+      { "type": "feat", "text": "🔧 Mission BPs filter — show only blueprints obtainable through missions in the Fabricator" },
+      { "type": "improve", "text": "LIVE/PTU channel selection now persists across page reloads" },
+      { "type": "feat", "text": "🔗 Direct links — Fabricator, Mining, and blueprint details are now shareable via URL" },
+      { "type": "feat", "text": "🔙 Browser back/forward navigation works across all pages and detail views" },
+      { "type": "feat", "text": "📋 Share button on mining location details" },
+      { "type": "feat", "text": "📬 Feedback form — send bug reports, feature requests, or general feedback directly to Discord" }
+    ]
+  },
+  {
+    "version": "0.9.7",
+    "date": "2026-03-08T00:00:00Z",
+    "changes": [
+      { "type": "improve", "text": "⚡ Data reduction: 19% smaller mission data, faster page loads" },
+      { "type": "feat", "text": "📊 MEMA scoring now includes all historical LIVE data across patches" },
+      { "type": "fix", "text": "Fixed incorrect faction tags, titles, and missing illegal flags on LIVE missions" },
+      { "type": "improve", "text": "MEMA tiles and table refresh instantly after submitting time entries" }
+    ]
+  },
+  {
+    "version": "0.9.6",
+    "date": "2026-03-08T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "⛏ Resource Guide — 49 mining locations with deposits, compositions, and probabilities" },
+      { "type": "feat", "text": "Search by resource name (sorted by probability) or location name" },
+      { "type": "feat", "text": "Filter by system, location type, mining method, and specific resources" },
+      { "type": "feat", "text": "Location detail view with element breakdown, difficulty ratings, and cluster info" },
+      { "type": "feat", "text": "🌍 Terrain Zones with density modifiers and boost indicators" },
+      { "type": "feat", "text": "Tile and Table views with sticky detail header" },
+      { "type": "feat", "text": "🇩🇪 German translation attribution (CC BY-SA 4.0, Star Citizen Wiki)" },
+      { "type": "improve", "text": "Game data updated to 4.6.0-live.11377160" },
+      { "type": "fix", "text": "Duplicate deposit entries merged (same rock type, different compositions)" }
+    ]
+  },
+  {
+    "version": "0.9.5",
+    "date": "2026-03-06T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "Ship Encounters v2 — groups, waves, and spawn config from game data" },
+      { "type": "feat", "text": "🚀 Hostile / 🛡 Friendly ship split on all views (Tiles, Table, Detail)" },
+      { "type": "feat", "text": "ACE badge for contracts with Ace Pilot encounters" },
+      { "type": "feat", "text": "〰 Wave count badge when multi-wave encounters" },
+      { "type": "feat", "text": "Combat / Difficulty tab with full encounter group breakdown" },
+      { "type": "improve", "text": "Location data now uses optimized lookup pools (5× smaller JSON)" }
+    ]
+  },
+  {
+    "version": "0.9.4",
+    "date": "2026-03-06T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "📋 Item Catalog — browse Wikelo rewards by category, click to search missions" },
+      { "type": "feat", "text": "Search now covers item rewards, hauling resources and commodity names" },
+      { "type": "feat", "text": "Preparation for upcoming blueprint reward system" },
+      { "type": "improve", "text": "Badge color overhaul: System→gold, Chain/Starter→teal with distinct styling" },
+      { "type": "improve", "text": "NDA safety checks in Admin panel uploads" },
+      { "type": "feat", "text": "Mobile & tablet support — collapsible filter sidebar with burger menu" },
+      { "type": "improve", "text": "Responsive tile grid: 1 column on phone, 2 on tablet, adjustable on desktop" }
+    ]
+  },
+  {
+    "version": "0.9.3",
+    "date": "2026-03-06T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "Location & Destination tooltips on placeholder tags in contract descriptions" },
+      { "type": "feat", "text": "ASD / Jorrit Dossier quick-filter button" },
+      { "type": "feat", "text": "UNQ tag color now consistent across Tile and Table views" },
+      { "type": "fix", "text": "Star system badge no longer shows single planet for multi-location contracts" },
+      { "type": "fix", "text": "Tooltip positioning adapts to screen edges" },
+      { "type": "fix", "text": "Tooltips no longer clipped by modal boundaries" },
+      { "type": "improve", "text": "Share button now uses recognizable share icon" }
+    ]
+  },
+  {
+    "version": "0.9.2",
+    "date": "2026-03-04T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "Star System filter (Stanton, Pyro, Nyx, Multi)" },
+      { "type": "feat", "text": "Contract locations resolved from game data" },
+      { "type": "feat", "text": "About modal with mission statement" },
+      { "type": "improve", "text": "Multi-system contracts tagged correctly" }
+    ]
+  },
+  {
+    "version": "0.9.1",
+    "date": "2026-03-01T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "MEMA ranking system (UEC/h, Rep/h efficiency)" },
+      { "type": "feat", "text": "Community time entries for mission timing" },
+      { "type": "feat", "text": "Profile page with RSI verification" },
+      { "type": "feat", "text": "Imprint & Privacy Policy pages" },
+      { "type": "improve", "text": "Beta badge and Discord invite link" }
+    ]
+  }
+]

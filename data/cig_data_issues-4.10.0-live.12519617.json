@@ -1,0 +1,166 @@
+{
+  "_comment": "Bekannte CIG-Datenfehler die der Parser im Output annotiert, sodass Frontend transparent kommunizieren kann was eigentlich gemeint war. Parser bleibt faithful zur CIG-Quelle, nur Annotation kommt dazu.",
+
+  "blueprintRecords": {
+    "_comment": "Per blueprintRecord-GUID: 'expected' = was die Daten eigentlich sein sollten, 'note' = menschenlesbare Erklaerung.",
+
+    "bf79619f-f10b-4f57-bd79-59f308e85e0f": {
+      "expected": {
+        "entityClass": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
+        "name": "Endurance"
+      },
+      "note": "BP_CRAFT_POWR_JUST_S01_Endurance has its entityClass pointing at Defiant (ad59f651) rather than Endurance (49d355d9). Crafting may produce a Defiant Size-0 instead of the Endurance Size-1 (not yet verified in-game). The Endurance entity exists as a separate item but appears unreachable via the crafting system at this time."
+    },
+
+    "99f5c8a9-2721-439e-9f18-b2ad7d9fc0ed": {
+      "expected": {
+        "entityClass": "53e75236-5a91-4d75-8c23-373e44daa69c",
+        "name": "JS-500"
+      },
+      "note": "BP_CRAFT_POWR_AMRS_S03_JS500 has its entityClass pointing at QuadraCell MX (ecea4817) rather than JS-500 (53e75236). Observed effect: in the BP_REWARDS_FullStrikeOnStationB pool QuadraCell MX appears twice (slots 9 and 10 both resolve to the same entityClass). Crafting may produce a QuadraCell MX instead of the JS-500 (not yet verified in-game). The JS-500 entity exists as a separate item but appears unreachable via the crafting system at this time."
+    },
+
+    "fa5951a5-5063-49c8-8f4c-a6b341801aea": {
+      "expected": {
+        "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
+        "name": "DayBreak"
+      },
+      "note": "BP_CRAFT_POWR_SASU_S02_DayBreak has its entityClass pointing at FullForce (dabd2d8d) rather than DayBreak (fda65886). Observed effect: in the BP_REWARDS_PyroFoxwellEasy pool FullForce appears twice. Crafting may produce a FullForce instead of the DayBreak (not yet verified in-game). The DayBreak entity exists as a separate item but appears unreachable via the crafting system at this time."
+    },
+
+    "a80d62fb-6742-408b-9328-0d833511f4c1": {
+      "expected": {
+        "entityClass": "324e5ee4-12b4-4f41-bccc-b3b001398a74",
+        "name": "ARMOR"
+      },
+      "note": "BP_CRAFT_SHLD_SECO_S03_ARMOR has its entityClass pointing at 6CA 'Bila' (6534d6d3) rather than the ARMOR shield (324e5ee4). Observed effect: in the BP_REWARDS_StantonHeadhuntersEasy pool 6CA 'Bila' appears twice. Crafting may produce a 6CA 'Bila' instead of the ARMOR shield (not yet verified in-game). The ARMOR shield entity exists as a separate item but appears unreachable via the crafting system at this time."
+    }
+  },
+
+  "blueprintPools": {
+    "_comment": "Per pool-id: pool-level definition bugs. 'duplicateReferences' = derselbe blueprintRecord ist mehrfach im Pool gelistet. Frontend rendert Hinweis am Pool. 'expected' kann null sein wenn kein plausibler Kandidat fuer den Replace gefunden wurde.",
+
+    "ce014e33-cfcb-45e9-a12f-06f9baff9db2": {
+      "duplicateReferences": [
+        {
+          "blueprintRecord": "9f11679b-027f-4a0b-903d-6655f2978e76",
+          "expected": {
+            "blueprintRecord": "a193c4c6-87ed-4623-87db-588e59d47c04",
+            "entityClass": "068c28b8-3ea3-409a-b08d-1d53ae1e3303",
+            "name": "LH86 Pistol Magazine (25 cap)"
+          },
+          "note": "BP_MISSIONREWARD_NorthRockFPSKill_EliminateBoss pool references F55 LMG Magazine (150 cap) twice. The other pool entries include both an F55 LMG and an LH86 Pistol; possible data copy-paste error where the second magazine reference may have been intended as LH86 Pistol Magazine. Not yet verified in-game."
+        }
+      ]
+    },
+
+    "6876ee7a-114b-4414-9af1-bfdcdd303204": {
+      "duplicateReferences": [
+        {
+          "blueprintRecord": "4885f099-b226-4a44-8cb6-03c3c176749c",
+          "expected": null,
+          "note": "BP_MISSIONREWARD_VaughnGenerator_EliminateBoss pool references Carnifex Armor Legs twice. The other Carnifex item in the pool is Carnifex Armor Core; an Arms piece would have rounded out the set, but no Carnifex Armor Arms blueprint exists in CIG data (Carnifex armor has only Core + Legs). Possible data copy-paste error. No plausible intended replacement identified. Not yet verified in-game."
+        }
+      ]
+    }
+  },
+
+  "entities": {
+    "_comment": "Per entityClass-GUID: source-data inconsistencies in entity XML attributes (e.g. AttachDef Type/SubType that does not match the entity's clear function indicated by filename, class name, or Localization keys). 'expected' may be null when the data catalog does not yet appear to define the intended value. Parser stays faithful to the raw source attribute, adds 'knownIssue' alongside.",
+
+    "d5456c35-a30b-4e13-bae2-b5609a43909a": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Norfield (Fuel_Nozzle_GRIN_NozzleFast) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@item_fuelnozzle_GRIN_Fast_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "14dd63f4-538e-413f-aea9-a4c06b7db5ac": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Marlin (Fuel_Nozzle_GRIN_NozzleSecure) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_GRIN_NozzleSecure_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "78d86759-340e-4a05-bcbe-4f42dd78573c": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Lindstrom (Fuel_Nozzle_GRIN_NozzleVeryFast) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_GRIN_NozzleVeryFast_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "60a89f06-91da-4941-b77e-2c9b3f5f57e4": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Harkin (Fuel_Nozzle_GRIN_NozzleVerySecure) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@item_fuelnozzle_GRIN_Safe_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "d6d41d8f-f2b7-45f7-8167-13f366c55e3e": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "RN-7s (Fuel_Nozzle_MISC_NozzleStandard) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@item_fuelnozzle_MISC_Standard_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "26dc23e6-cc07-4389-8e54-dd1c256182a7": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Bendix (Fuel_Nozzle_SHIN_NozzleExpensiveFast) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_SHIN_NozzleExpensiveFast_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "76e7315c-44b8-4113-8837-d01cd839f15b": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Torrez (Fuel_Nozzle_SHIN_NozzleExpensiveSecure) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_SHIN_NozzleExpensiveSecure_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+
+    "b564d9f5-e9fb-414c-abbf-48a3552044e8": {
+      "expected": {
+        "attachType": "FuelNozzle",
+        "cgItemType": "FuelNozzle"
+      },
+      "note": "Ezra (Fuel_Nozzle_SHIN_NozzleMostExpensive) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_SHIN_NozzleMostExpensive_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    }
+  },
+
+  "contracts": {
+    "_comment": "Per contract debugName: source-data inconsistencies at contract level (e.g. a factionReputation reference that differs from the contract handler and all sibling difficulty tiers). 'field' names the affected output field, 'expected' = the apparent intended value, 'note' = human-readable explanation. Parser stays faithful to the raw value; the observed value is kept and echoed as knownIssue.actual, with expected + note alongside. 'expected' may be null when no intended value is identifiable.",
+
+    "RedWind_Nyx_Medium_RecoverCargo": {
+      "field": "factionGuid",
+      "expected": {
+        "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
+        "factionName": "Red Wind Linehaul"
+      },
+      "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Nyx) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+    },
+
+    "RedWind_Stanton_Medium_RecoverCargo": {
+      "field": "factionGuid",
+      "expected": {
+        "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
+        "factionName": "Red Wind Linehaul"
+      },
+      "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Stanton) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+    },
+
+    "RedWind_Pyro_Medium_RecoverCargo": {
+      "field": "factionGuid",
+      "expected": {
+        "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
+        "factionName": "Red Wind Linehaul"
+      },
+      "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Pyro) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+    }
+  }
+}

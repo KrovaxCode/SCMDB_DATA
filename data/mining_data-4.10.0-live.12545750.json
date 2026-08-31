@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-live.12519617",
+  "version": "4.10.0-live.12545750",
   "meta": {
     "totalLocations": 50,
     "totalElements": 39,
@@ -7,7 +7,7 @@
     "totalClusteringPresets": 23,
     "totalRefineries": 20,
     "totalRefineryProfiles": 10,
-    "totalQuantizationElements": 38,
+    "totalQuantizationElements": 39,
     "totalMaterialNames": 27
   },
   "mineableElements": {
@@ -420,7 +420,7 @@
       ]
     },
     "60d46a41-5930-4a13-9c72-bd988192d3a1": {
-      "name": "Carinitepure",
+      "name": "Carinite (Pure)",
       "resourceType": "80dd9dd7-1a4e-41b9-9b3b-4f385b87396c",
       "density": 0.0,
       "instability": 300.0,
@@ -429,7 +429,17 @@
       "optimalWindowRandomness": 0.2,
       "optimalWindowThinness": 10.0,
       "explosionMultiplier": 0.5,
-      "clusterFactor": 0.0
+      "clusterFactor": 0.0,
+      "qualityBands": [
+        273,
+        554,
+        647,
+        716,
+        880,
+        909,
+        959,
+        1000
+      ]
     },
     "c2a1ab26-6b2a-4258-8bae-b32cf08818bc": {
       "name": "Dolivine",
@@ -1005,7 +1015,7 @@
       "parts": [
         {
           "elementGuid": "60d46a41-5930-4a13-9c72-bd988192d3a1",
-          "elementName": "Carinitepure",
+          "elementName": "Carinite (Pure)",
           "probability": 1.0,
           "minPercent": 50.0,
           "maxPercent": 100.0,

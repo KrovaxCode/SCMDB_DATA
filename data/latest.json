@@ -1,18 +1,18 @@
 {
   "schema": 2,
-  "generated_at": "2026-08-26T19:43:11Z",
+  "generated_at": "2026-08-31T17:39:07Z",
   "channels": {
     "live": {
-      "version": "4.10.0-live.12519617",
-      "generated_at": "2026-08-26T19:43:11Z",
+      "version": "4.10.0-live.12545750",
+      "generated_at": "2026-08-31T17:39:07Z",
       "files": {
-        "cig_data_issues": "cig_data_issues-4.10.0-live.12519617.json",
-        "crafting_blueprints": "crafting_blueprints-4.10.0-live.12519617.json",
-        "crafting_items": "crafting_items-4.10.0-live.12519617.json",
-        "merged": "merged-4.10.0-live.12519617.json",
-        "mining_data": "mining_data-4.10.0-live.12519617.json",
-        "mining_equipment": "mining_equipment-4.10.0-live.12519617.json",
-        "mission_history": "mission-history-4.10.0-live.12519617.json"
+        "cig_data_issues": "cig_data_issues-4.10.0-live.12545750.json",
+        "crafting_blueprints": "crafting_blueprints-4.10.0-live.12545750.json",
+        "crafting_items": "crafting_items-4.10.0-live.12545750.json",
+        "merged": "merged-4.10.0-live.12545750.json",
+        "mining_data": "mining_data-4.10.0-live.12545750.json",
+        "mining_equipment": "mining_equipment-4.10.0-live.12545750.json",
+        "mission_history": "mission-history-4.10.0-live.12545750.json"
       }
     }
   }

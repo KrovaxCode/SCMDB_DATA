@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-live.12519617",
+  "version": "4.10.0-live.12545750",
   "meta": {
     "totalBlueprints": 1607,
     "totalProducts": 1594,
@@ -37,14 +37,14 @@
     ],
     "blacklistedEntityClasses": [
       {
-        "guid": "ee704f52-8794-434d-bcd7-47fec365ffbd",
-        "name": "Saldynium (Ore)",
-        "nameKey": "@items_commodities_saldynium_ore"
-      },
-      {
         "guid": "e954d75e-fb1e-487e-90a8-170f0284b502",
         "name": "Janalite",
         "nameKey": "@items_commodities_janalite"
+      },
+      {
+        "guid": "ee704f52-8794-434d-bcd7-47fec365ffbd",
+        "name": "Saldynium (Ore)",
+        "nameKey": "@items_commodities_saldynium_ore"
       }
     ]
   },
@@ -241,151 +241,6 @@
   ],
   "blueprints": [
     {
-      "guid": "19b32f89-8ea6-4338-8410-fd219fc0a8b8",
-      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Golem",
-      "productEntityClass": "4c2d5e75-598a-4854-a301-7bbffeb9794e",
-      "gear": "vehiclegear",
-      "type": "orepod",
-      "subtype": null,
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Frame",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.3,
-                  "minQuality": 0,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Drake Ore Pod",
-      "manufacturer": "Drake Interplanetary"
-    },
-    {
-      "guid": "dc671104-f50a-41df-b922-e4d529c6ced7",
-      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Golem_BTGL",
-      "productEntityClass": "b0e33855-c5ae-4267-9aea-c64eee0897b6",
-      "gear": "vehiclegear",
-      "type": "orepod",
-      "subtype": null,
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Frame",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.3,
-                  "minQuality": 800,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "GOLEM MC-4 Ore Pod",
-      "manufacturer": "Drake Interplanetary"
-    },
-    {
-      "guid": "8378085b-f334-4c8e-934f-dde839c8714b",
-      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Mole",
-      "productEntityClass": "f4aebc6d-ab66-4b7a-93ce-69bdd928ca99",
-      "gear": "vehiclegear",
-      "type": "orepod",
-      "subtype": null,
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Frame",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.7,
-                  "minQuality": 0,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Argo Ore Pod",
-      "manufacturer": "Argo Astronautics"
-    },
-    {
-      "guid": "c2d44927-b79d-4d43-b46e-274d16cf6b2d",
-      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_MoleProspector_BTGL",
-      "productEntityClass": "6c5fc288-5f84-4803-aff3-d9d2b410d01e",
-      "gear": "vehiclegear",
-      "type": "orepod",
-      "subtype": null,
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Frame",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.75,
-                  "minQuality": 800,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "MISC Enhanced Ore Pod",
-      "manufacturer": "Argo Astronautics"
-    },
-    {
-      "guid": "8d811596-73c2-4baf-b5cc-eb0235adee58",
-      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Prospector",
-      "productEntityClass": "ca23670c-f690-4027-af9a-a5d6dda74c79",
-      "gear": "vehiclegear",
-      "type": "orepod",
-      "subtype": null,
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Frame",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.5,
-                  "minQuality": 0,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "MISC Ore Pod",
-      "manufacturer": "Musashi Industrial & Starflight Concern"
-    },
-    {
       "guid": "c9c67e69-063a-4d28-a156-d5809776ee22",
       "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_001",
       "productEntityClass": "905ba346-0202-4ee4-853e-cfdb2350b195",
@@ -549,211 +404,6 @@
       ],
       "productName": "Metamaterial Test #152",
       "manufacturer": null
-    },
-    {
-      "guid": "ef5d60fc-37a2-47c2-a958-d788d6cb7fcb",
-      "tag": "BP_CRAFT_Mining_Modules_Active_Clearcut",
-      "productEntityClass": "a6e3aeb0-95df-4f63-9ca1-e8ad5df1a783",
-      "gear": "vehiclegear",
-      "type": "miningmodule",
-      "subtype": "active",
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Case",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.2,
-                  "minQuality": 800,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Wiring",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.1,
-                  "minQuality": 800,
-                  "resourceName": "Copper"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Clearcut Module",
-      "manufacturer": "Musashi Industrial & Starflight Concern"
-    },
-    {
-      "guid": "f32efc4e-4ed6-4f26-b774-58cf754bfe27",
-      "tag": "BP_CRAFT_Mining_Modules_Active_Stampede",
-      "productEntityClass": "1bb6ee6d-3930-4c03-b6c6-38aad3a4703b",
-      "gear": "vehiclegear",
-      "type": "miningmodule",
-      "subtype": "active",
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Case",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.2,
-                  "minQuality": 0,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Wiring",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.1,
-                  "minQuality": 0,
-                  "resourceName": "Copper"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Stampede Module",
-      "manufacturer": "Thermyte Concern"
-    },
-    {
-      "guid": "69b3ab1d-034c-4432-b8fb-099f19a3680d",
-      "tag": "BP_CRAFT_Mining_Modules_Passive_Deluge",
-      "productEntityClass": "1f8f946d-7f09-453c-8b2b-f1fbeb8d11bf",
-      "gear": "vehiclegear",
-      "type": "miningmodule",
-      "subtype": "passive",
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Case",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.2,
-                  "minQuality": 800,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Wiring",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.1,
-                  "minQuality": 800,
-                  "resourceName": "Copper"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Deluge Module",
-      "manufacturer": "Musashi Industrial & Starflight Concern"
-    },
-    {
-      "guid": "8c60d61b-9c97-4f85-b41a-aa0d7960dfbf",
-      "tag": "BP_CRAFT_Mining_Modules_Passive_Overrun",
-      "productEntityClass": "a69721a2-06e7-4fb3-93b4-c94e4faa6820",
-      "gear": "vehiclegear",
-      "type": "miningmodule",
-      "subtype": "passive",
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Case",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.2,
-                  "minQuality": 800,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Wiring",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.1,
-                  "minQuality": 800,
-                  "resourceName": "Copper"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Overrun Module",
-      "manufacturer": "Musashi Industrial & Starflight Concern"
-    },
-    {
-      "guid": "38f9d428-75dd-4fcd-834c-c4ff876c9b3f",
-      "tag": "BP_CRAFT_Mining_Modules_Passive_Torrent_MK3",
-      "productEntityClass": "54f4471f-592d-49c1-a12f-fb24c4771ab2",
-      "gear": "vehiclegear",
-      "type": "miningmodule",
-      "subtype": "passive",
-      "tiers": [
-        {
-          "craftTimeSeconds": 95,
-          "slots": [
-            {
-              "name": "Case",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.2,
-                  "minQuality": 0,
-                  "resourceName": "Iron"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Wiring",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.1,
-                  "minQuality": 0,
-                  "resourceName": "Copper"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Torrent III Module",
-      "manufacturer": "Thermyte Concern"
     },
     {
       "guid": "017bb372-2fe2-4615-8bcb-e18020baaa4f",
@@ -77107,6 +76757,356 @@
       ],
       "productName": "Impact II Mining Laser",
       "manufacturer": "Thermyte Concern"
+    },
+    {
+      "guid": "ef5d60fc-37a2-47c2-a958-d788d6cb7fcb",
+      "tag": "BP_CRAFT_Mining_Modules_Active_Clearcut",
+      "productEntityClass": "a6e3aeb0-95df-4f63-9ca1-e8ad5df1a783",
+      "gear": "vehiclegear",
+      "type": "miningmodule",
+      "subtype": "active",
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Case",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.2,
+                  "minQuality": 800,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.1,
+                  "minQuality": 800,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Clearcut Module",
+      "manufacturer": "Musashi Industrial & Starflight Concern"
+    },
+    {
+      "guid": "f32efc4e-4ed6-4f26-b774-58cf754bfe27",
+      "tag": "BP_CRAFT_Mining_Modules_Active_Stampede",
+      "productEntityClass": "1bb6ee6d-3930-4c03-b6c6-38aad3a4703b",
+      "gear": "vehiclegear",
+      "type": "miningmodule",
+      "subtype": "active",
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Case",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.2,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.1,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Stampede Module",
+      "manufacturer": "Thermyte Concern"
+    },
+    {
+      "guid": "69b3ab1d-034c-4432-b8fb-099f19a3680d",
+      "tag": "BP_CRAFT_Mining_Modules_Passive_Deluge",
+      "productEntityClass": "1f8f946d-7f09-453c-8b2b-f1fbeb8d11bf",
+      "gear": "vehiclegear",
+      "type": "miningmodule",
+      "subtype": "passive",
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Case",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.2,
+                  "minQuality": 800,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.1,
+                  "minQuality": 800,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Deluge Module",
+      "manufacturer": "Musashi Industrial & Starflight Concern"
+    },
+    {
+      "guid": "8c60d61b-9c97-4f85-b41a-aa0d7960dfbf",
+      "tag": "BP_CRAFT_Mining_Modules_Passive_Overrun",
+      "productEntityClass": "a69721a2-06e7-4fb3-93b4-c94e4faa6820",
+      "gear": "vehiclegear",
+      "type": "miningmodule",
+      "subtype": "passive",
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Case",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.2,
+                  "minQuality": 800,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.1,
+                  "minQuality": 800,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Overrun Module",
+      "manufacturer": "Musashi Industrial & Starflight Concern"
+    },
+    {
+      "guid": "38f9d428-75dd-4fcd-834c-c4ff876c9b3f",
+      "tag": "BP_CRAFT_Mining_Modules_Passive_Torrent_MK3",
+      "productEntityClass": "54f4471f-592d-49c1-a12f-fb24c4771ab2",
+      "gear": "vehiclegear",
+      "type": "miningmodule",
+      "subtype": "passive",
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Case",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.2,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.1,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Torrent III Module",
+      "manufacturer": "Thermyte Concern"
+    },
+    {
+      "guid": "19b32f89-8ea6-4338-8410-fd219fc0a8b8",
+      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Golem",
+      "productEntityClass": "4c2d5e75-598a-4854-a301-7bbffeb9794e",
+      "gear": "vehiclegear",
+      "type": "orepod",
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.3,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Drake Ore Pod",
+      "manufacturer": "Drake Interplanetary"
+    },
+    {
+      "guid": "dc671104-f50a-41df-b922-e4d529c6ced7",
+      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Golem_BTGL",
+      "productEntityClass": "b0e33855-c5ae-4267-9aea-c64eee0897b6",
+      "gear": "vehiclegear",
+      "type": "orepod",
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.3,
+                  "minQuality": 800,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "GOLEM MC-4 Ore Pod",
+      "manufacturer": "Drake Interplanetary"
+    },
+    {
+      "guid": "8378085b-f334-4c8e-934f-dde839c8714b",
+      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Mole",
+      "productEntityClass": "f4aebc6d-ab66-4b7a-93ce-69bdd928ca99",
+      "gear": "vehiclegear",
+      "type": "orepod",
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.7,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Argo Ore Pod",
+      "manufacturer": "Argo Astronautics"
+    },
+    {
+      "guid": "c2d44927-b79d-4d43-b46e-274d16cf6b2d",
+      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_MoleProspector_BTGL",
+      "productEntityClass": "6c5fc288-5f84-4803-aff3-d9d2b410d01e",
+      "gear": "vehiclegear",
+      "type": "orepod",
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.75,
+                  "minQuality": 800,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "MISC Enhanced Ore Pod",
+      "manufacturer": "Argo Astronautics"
+    },
+    {
+      "guid": "8d811596-73c2-4baf-b5cc-eb0235adee58",
+      "tag": "BP_CRAFT_Cargo_ShipMining_Pod_Prospector",
+      "productEntityClass": "ca23670c-f690-4027-af9a-a5d6dda74c79",
+      "gear": "vehiclegear",
+      "type": "orepod",
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 95,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.5,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "MISC Ore Pod",
+      "manufacturer": "Musashi Industrial & Starflight Concern"
     },
     {
       "guid": "3aad9a44-5f8c-44d0-b3a4-80f55602fade",

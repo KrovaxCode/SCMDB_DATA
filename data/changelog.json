@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.45",
+    "date": "2026-08-31T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 4.10 LIVE data refresh (build 12545750) — bundle of parser-side fixes: Carinite (Pure) name corrected from the previous 'Carinitepure' artifact and its quality bands filled in (was empty before), and three Aztalan Legs blueprints picked up a hedged data-issue annotation on their Segment Paneling / armor_damagemitigation modifier (modifierAtStart appears to be 9.0 where 0.9 would match the rest of the Aztalan family — likely a decimal-point drift on CIG's side, we surface it without asserting it)." },
+      { "type": "feat", "text": "⚠ Data-issue markers reach the Fabricator recipe view. The parser publishes per-blueprint annotations in a side-channel; the Fabricator now consumes them and shows a ⚠ next to the affected recipe name in the list and detail views, plus a second ⚠ on the exact modifier row inside the recipe so it's obvious which value we're flagging. Tooltip carries the parser's hedged note — 'appears intended to be…', never a direct claim." },
+      { "type": "chore", "text": "🌐 Community-translation scaffolding — added ~60 localization hooks around badge labels, Fabricator panel headers, and tooltips that previously lived as English JSX literals. Zero visible change under the default English render (fallback = current wording), but the strings are now reachable for the community lang file when the parser-side translation base + a translated set (e.g. Walker's zh-CN work) land. Also switched several data-direct labels (manufacturer, fire mode, range category) to the same name-based lookup that already handles slot names." }
+    ]
+  },
+  {
     "version": "1.0.44",
     "date": "2026-08-26T00:00:00Z",
     "changes": [

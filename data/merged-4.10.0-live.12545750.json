@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-live.12519617",
+  "version": "4.10.0-live.12545750",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -8493,14 +8493,7 @@
           "blueprintRecord": "bf79619f-f10b-4f57-bd79-59f308e85e0f",
           "weight": 1,
           "entityClass": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
-          "name": "Endurance",
-          "knownIssue": {
-            "expected": {
-              "entityClass": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
-              "name": "Endurance"
-            },
-            "note": "BP_CRAFT_POWR_JUST_S01_Endurance has its entityClass pointing at Defiant (ad59f651) rather than Endurance (49d355d9). Crafting may produce a Defiant Size-0 instead of the Endurance Size-1 (not yet verified in-game). The Endurance entity exists as a separate item but appears unreachable via the crafting system at this time."
-          }
+          "name": "Endurance"
         },
         {
           "blueprintRecord": "319ae36a-601c-47d5-b165-c71e9a624654",
@@ -8716,14 +8709,7 @@
           "blueprintRecord": "99f5c8a9-2721-439e-9f18-b2ad7d9fc0ed",
           "weight": 1,
           "entityClass": "53e75236-5a91-4d75-8c23-373e44daa69c",
-          "name": "JS-500",
-          "knownIssue": {
-            "expected": {
-              "entityClass": "53e75236-5a91-4d75-8c23-373e44daa69c",
-              "name": "JS-500"
-            },
-            "note": "BP_CRAFT_POWR_AMRS_S03_JS500 has its entityClass pointing at QuadraCell MX (ecea4817) rather than JS-500 (53e75236). Observed effect: in the BP_REWARDS_FullStrikeOnStationB pool QuadraCell MX appears twice (slots 9 and 10 both resolve to the same entityClass). Crafting may produce a QuadraCell MX instead of the JS-500 (not yet verified in-game). The JS-500 entity exists as a separate item but appears unreachable via the crafting system at this time."
-          }
+          "name": "JS-500"
         }
       ],
       "source": "48blueprints"
@@ -9888,14 +9874,7 @@
           "blueprintRecord": "a80d62fb-6742-408b-9328-0d833511f4c1",
           "weight": 1,
           "entityClass": "324e5ee4-12b4-4f41-bccc-b3b001398a74",
-          "name": "ARMOR",
-          "knownIssue": {
-            "expected": {
-              "entityClass": "324e5ee4-12b4-4f41-bccc-b3b001398a74",
-              "name": "ARMOR"
-            },
-            "note": "BP_CRAFT_SHLD_SECO_S03_ARMOR has its entityClass pointing at 6CA 'Bila' (6534d6d3) rather than the ARMOR shield (324e5ee4). Observed effect: in the BP_REWARDS_StantonHeadhuntersEasy pool 6CA 'Bila' appears twice. Crafting may produce a 6CA 'Bila' instead of the ARMOR shield (not yet verified in-game). The ARMOR shield entity exists as a separate item but appears unreachable via the crafting system at this time."
-          }
+          "name": "ARMOR"
         },
         {
           "blueprintRecord": "89800887-d53c-4519-a5c2-45e551b889b4",

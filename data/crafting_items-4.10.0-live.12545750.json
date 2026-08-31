@@ -1,11 +1,11 @@
 {
-  "version": "4.10.0-live.12519617",
+  "version": "4.10.0-live.12545750",
   "meta": {
     "totalItems": 1605,
     "weapons": 270,
     "armor": 912,
-    "shipcomponents": 369,
-    "unknown": 54,
+    "shipcomponents": 379,
+    "unknown": 44,
     "unresolved": 1,
     "withLootSources": 239
   },
@@ -36449,8 +36449,6 @@
       "manufacturer": "Argo Astronautics",
       "manufacturerCode": "ARGO",
       "mass": 200.0,
-      "name": "Argo Ore Pod",
-      "cgItemType": "Container",
       "health": 3500.0,
       "cargoCapacitySCU": 12,
       "acceptedResources": [
@@ -36462,7 +36460,9 @@
       "acceptedResourceGroups": [
         "81637dc5-e451-4e67-beb6-88d3c5db94e0",
         "36623177-cbc4-48a2-b95e-f893a861ca42"
-      ]
+      ],
+      "name": "Argo Ore Pod",
+      "cgItemType": "Container"
     },
     {
       "entityClass": "7ff2c313-51c7-459b-91e5-8afd089df32f",
@@ -37919,13 +37919,13 @@
       "manufacturer": "Musashi Industrial & Starflight Concern",
       "manufacturerCode": "MIS",
       "mass": 1.5,
-      "name": "Clearcut Module",
-      "cgItemType": "MiningModifier",
       "health": 200.0,
       "charges": 6,
       "modifiers": {
         "optimalChargeWindowSize": 30.0
-      }
+      },
+      "name": "Clearcut Module",
+      "cgItemType": "MiningModifier"
     },
     {
       "entityClass": "48e2b865-a936-4346-a621-582568ebd008",
@@ -38403,13 +38403,13 @@
       "manufacturer": "Musashi Industrial & Starflight Concern",
       "manufacturerCode": "MIS",
       "mass": 1.5,
-      "name": "Deluge Module",
-      "cgItemType": "MiningModifier",
       "health": 200.0,
       "charges": 1,
       "modifiers": {
         "resistance": -15.5
-      }
+      },
+      "name": "Deluge Module",
+      "cgItemType": "MiningModifier"
     },
     {
       "entityClass": "b62224ba-5c56-4306-857a-70de7d570767",
@@ -38517,8 +38517,6 @@
       "manufacturer": "Drake Interplanetary",
       "manufacturerCode": "DRAK",
       "mass": 500.0,
-      "name": "Drake Ore Pod",
-      "cgItemType": "Container",
       "health": 5000.0,
       "cargoCapacitySCU": 16,
       "acceptedResources": [
@@ -38530,7 +38528,9 @@
       "acceptedResourceGroups": [
         "81637dc5-e451-4e67-beb6-88d3c5db94e0",
         "36623177-cbc4-48a2-b95e-f893a861ca42"
-      ]
+      ],
+      "name": "Drake Ore Pod",
+      "cgItemType": "Container"
     },
     {
       "entityClass": "50643ac7-c238-4d7a-987b-fd8b1648ac1b",
@@ -40157,8 +40157,6 @@
       "manufacturer": "Drake Interplanetary",
       "manufacturerCode": "DRAK",
       "mass": 500.0,
-      "name": "GOLEM MC-4 Ore Pod",
-      "cgItemType": "Container",
       "health": 5000.0,
       "cargoCapacitySCU": 20,
       "acceptedResources": [
@@ -40170,7 +40168,9 @@
       "acceptedResourceGroups": [
         "81637dc5-e451-4e67-beb6-88d3c5db94e0",
         "36623177-cbc4-48a2-b95e-f893a861ca42"
-      ]
+      ],
+      "name": "GOLEM MC-4 Ore Pod",
+      "cgItemType": "Container"
     },
     {
       "entityClass": "87710dba-dd06-41b4-974e-475ee7d36055",
@@ -42180,8 +42180,6 @@
       "manufacturer": "Argo Astronautics",
       "manufacturerCode": "ARGO",
       "mass": 200.0,
-      "name": "MISC Enhanced Ore Pod",
-      "cgItemType": "Container",
       "health": 3500.0,
       "cargoCapacitySCU": 15,
       "acceptedResources": [
@@ -42193,7 +42191,9 @@
       "acceptedResourceGroups": [
         "81637dc5-e451-4e67-beb6-88d3c5db94e0",
         "36623177-cbc4-48a2-b95e-f893a861ca42"
-      ]
+      ],
+      "name": "MISC Enhanced Ore Pod",
+      "cgItemType": "Container"
     },
     {
       "entityClass": "ca23670c-f690-4027-af9a-a5d6dda74c79",
@@ -42206,8 +42206,6 @@
       "manufacturer": "Musashi Industrial & Starflight Concern",
       "manufacturerCode": "MIS",
       "mass": 200.0,
-      "name": "MISC Ore Pod",
-      "cgItemType": "Container",
       "health": 5000.0,
       "cargoCapacitySCU": 8,
       "acceptedResources": [
@@ -42219,7 +42217,9 @@
       "acceptedResourceGroups": [
         "81637dc5-e451-4e67-beb6-88d3c5db94e0",
         "36623177-cbc4-48a2-b95e-f893a861ca42"
-      ]
+      ],
+      "name": "MISC Ore Pod",
+      "cgItemType": "Container"
     },
     {
       "entityClass": "662e4a88-d893-46fd-9fcc-e33e4b783fae",
@@ -42807,13 +42807,13 @@
       "manufacturer": "Musashi Industrial & Starflight Concern",
       "manufacturerCode": "MIS",
       "mass": 1.5,
-      "name": "Overrun Module",
-      "cgItemType": "MiningModifier",
       "health": 200.0,
       "charges": 1,
       "modifiers": {
         "resistance": -24.8
-      }
+      },
+      "name": "Overrun Module",
+      "cgItemType": "MiningModifier"
     },
     {
       "entityClass": "1f8845fb-22de-4c73-b6e6-ed1d1b066808",
@@ -45218,14 +45218,14 @@
       "manufacturer": "Thermyte Concern",
       "manufacturerCode": "THCN",
       "mass": 1.5,
-      "name": "Stampede Module",
-      "cgItemType": "MiningModifier",
       "health": 200.0,
       "charges": 6,
       "modifiers": {
         "instability": -10.0,
         "shatterDamage": -10.0
-      }
+      },
+      "name": "Stampede Module",
+      "cgItemType": "MiningModifier"
     },
     {
       "entityClass": "1fc13db3-38bd-40b4-aada-3d4d665d1679",
@@ -46214,14 +46214,14 @@
       "manufacturer": "Thermyte Concern",
       "manufacturerCode": "THCN",
       "mass": 1.5,
-      "name": "Torrent III Module",
-      "cgItemType": "MiningModifier",
       "health": 200.0,
       "charges": 1,
       "modifiers": {
         "optimalChargeWindowSize": -1.0,
         "optimalChargeRate": 45.0
-      }
+      },
+      "name": "Torrent III Module",
+      "cgItemType": "MiningModifier"
     },
     {
       "entityClass": "76e7315c-44b8-4113-8837-d01cd839f15b",

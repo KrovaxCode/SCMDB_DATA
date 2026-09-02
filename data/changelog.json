@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.46",
+    "date": "2026-09-02T00:00:00Z",
+    "changes": [
+      { "type": "fix", "text": "🩹 Mission detail's Combat tab was crashing to a black screen on any mission with an Ace Pilot encounter (Headhunters and similar). The translation-hook rollout from 1.0.45 wrapped the encounter ⚠ ACE badge in a loc() call inside a sub-component that hadn't been given access to the localizer. Prop passed through, tab renders again — thanks DarkRod, smileygladhand, Cove for the reports." }
+    ]
+  },
+  {
     "version": "1.0.45",
     "date": "2026-08-31T00:00:00Z",
     "changes": [

@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.47",
+    "date": "2026-09-04T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 4.10 LIVE data refresh (build 12568521). Parser added two new per-damage-type fields to damageResistancePools — damageCap (hard cap on damage per hit, applied independently of the multiplier) and damageCapLimit (currently 0 everywhere, semantics unclear so we hold off on displaying it until it starts carrying values). At 4.10 exactly one pool actually uses damageCap: the BUL-H4 family (Armor, Helmet, and their Snow Camo variants) get 45 for most damage types and 10 for biochemical. Every other armor still has 0 across the board." },
+      { "type": "feat", "text": "🛡 Fabricator Armor Stats picks up a new 'Damage Cap' section under the Damage Resistance grid — only shows when at least one damage type carries a non-zero cap. For the BUL-H4 items this now surfaces the 45-per-hit ceiling that was invisible before; the other 15 armor records render exactly as they did." },
+      { "type": "fix", "text": "🩹 Patch Delta view no longer prints '[object Object]' when a comparison touches damageResistance. A dedicated per-type renderer now shows the actual multiplier and cap changes side-by-side (e.g. 'Physical Resist: ×0.10 → ×0.13'), matching the pattern the ammo-diff renderer already followed. Existing multiplier-only deltas keep rendering the same way." }
+    ]
+  },
+  {
     "version": "1.0.46",
     "date": "2026-09-02T00:00:00Z",
     "changes": [

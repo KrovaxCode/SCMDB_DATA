@@ -3,7 +3,7 @@
   "blueprints_enabled": true,
   "require_rsi_for_entries": false,
   "updated_by": null,
-  "updated_at": "2026-08-30T19:51:18.201+00:00",
+  "updated_at": "2026-09-02T14:15:45.047+00:00",
   "ptu_enabled": false,
   "scenario_overrides": {
     "ptu": {
@@ -16,11 +16,11 @@
       "RoX_Scenario": false,
       "NMP2_Scenario": true,
       "CleanAir_Scenario": false,
-      "ContentBlocker_Scenario": false,
+      "ContentBlocker_Scenario": true,
       "Luminalia Holiday Event": false
     }
   },
   "mema_enabled": true,
   "mema_cache_interval_hours": 12,
-  "mema_cache_last_refreshed": "2026-09-02T14:13:44Z"
+  "mema_cache_last_refreshed": "2026-09-04T08:46:48Z"
 }

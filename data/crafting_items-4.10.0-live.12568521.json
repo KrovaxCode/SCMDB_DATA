@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-live.12545750",
+  "version": "4.10.0-live.12568521",
   "meta": {
     "totalItems": 1605,
     "weapons": 270,
@@ -13,189 +13,273 @@
     {
       "physical": {
         "multiplier": 0.85,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.85,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.85,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.85,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.85,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.9
     },
     {
       "physical": {
         "multiplier": 0.6,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.6,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.6,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.6,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.6,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.4,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.65
     },
     {
       "physical": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.8,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.9
     },
     {
       "physical": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.7,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.55,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.6925
     },
     {
       "physical": {
         "multiplier": 0.125,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 45.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.125,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 45.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.225,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 45.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.225,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 45.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.225,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 10.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.125,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 45.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.125
     },
     {
       "physical": {
         "multiplier": 0.95,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.95,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.95,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.95,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.95,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.9,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 1.0
     },
     {
       "physical": {
         "multiplier": 0.75,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "energy": {
         "multiplier": 0.75,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "distortion": {
         "multiplier": 0.75,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "thermal": {
         "multiplier": 0.75,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "biochemical": {
         "multiplier": 0.75,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "stun": {
         "multiplier": 0.4,
-        "threshold": 0.0
+        "threshold": 0.0,
+        "damageCap": 0.0,
+        "damageCapLimit": 0.0
       },
       "impactForce": 0.65
     }

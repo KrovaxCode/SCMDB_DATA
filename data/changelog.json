@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.48",
+    "date": "2026-09-05T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🏷 Fixed factions on the Orison Relief Support event missions (PTU 4.10.1). Ten of them were all filed under Foxwell Enforcement; the hauling and delivery contracts now correctly show Covalex and Ling Family Hauling, and the ORS-scenario missions that genuinely have no faction no longer borrow one." }
+    ]
+  },
+  {
     "version": "1.0.47",
     "date": "2026-09-04T00:00:00Z",
     "changes": [

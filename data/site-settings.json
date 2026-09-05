@@ -3,12 +3,12 @@
   "blueprints_enabled": true,
   "require_rsi_for_entries": false,
   "updated_by": null,
-  "updated_at": "2026-09-02T14:15:45.047+00:00",
-  "ptu_enabled": false,
+  "updated_at": "2026-09-04T22:31:32.795+00:00",
+  "ptu_enabled": true,
   "scenario_overrides": {
     "ptu": {
       "ORS_Scenario": true,
-      "RoX_Scenario": true,
+      "RoX_Scenario": false,
       "NMP2_Scenario": true,
       "ContentBlocker_Scenario": true
     },

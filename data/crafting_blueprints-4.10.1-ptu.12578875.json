@@ -37,14 +37,14 @@
     ],
     "blacklistedEntityClasses": [
       {
-        "guid": "ee704f52-8794-434d-bcd7-47fec365ffbd",
-        "name": "Saldynium (Ore)",
-        "nameKey": "@items_commodities_saldynium_ore"
-      },
-      {
         "guid": "e954d75e-fb1e-487e-90a8-170f0284b502",
         "name": "Janalite",
         "nameKey": "@items_commodities_janalite"
+      },
+      {
+        "guid": "ee704f52-8794-434d-bcd7-47fec365ffbd",
+        "name": "Saldynium (Ore)",
+        "nameKey": "@items_commodities_saldynium_ore"
       }
     ]
   },

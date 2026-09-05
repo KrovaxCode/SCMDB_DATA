@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-09-05T11:35:30Z",
+  "generated_at": "2026-09-05T12:33:25Z",
   "channels": {
     "live": {
       "version": "4.10.0-live.12568521",
@@ -17,7 +17,7 @@
     },
     "ptu": {
       "version": "4.10.1-ptu.12578875",
-      "generated_at": "2026-09-05T11:35:30Z",
+      "generated_at": "2026-09-05T12:33:25Z",
       "files": {
         "cig_data_issues": "cig_data_issues-4.10.1-ptu.12578875.json",
         "crafting_blueprints": "crafting_blueprints-4.10.1-ptu.12578875.json",

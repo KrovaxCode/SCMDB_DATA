@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.49",
+    "date": "2026-09-08T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 LIVE data refresh (build 12572603). No game-data changes in this one — the mission, blueprint and item deltas against the previous LIVE build all come back empty. What it brings is the contractor fields the parser added last week." },
+      { "type": "feat", "text": "🏷 The mission giver shown on LIVE is now the contractor the game names, not the reputation faction behind it. The two often differ — contracts filed under \"Covalex\" are offered in-game by \"Covalex Independent Contractors\". 27 contracts that used to read \"Unknown\" now show a real name: Rough & Ready, Gilly's Flight School and Cornerstone Developments have no faction record at all, which is why there was nothing to display. Twelve tutorial contracts genuinely have no commissioner and show a dash. Contractor names are searchable as well. PTU has had this since last week." },
+      { "type": "fix", "text": "🩹 Fifteen Adaigo salvage claims were showing a raw internal token where the giver should be. CIG stores that particular contractor as a runtime redirect rather than plain text and it came through unresolved; those contracts now fall back to Adagio Holdings until the data is corrected upstream. Was visible on PTU since last week." }
+    ]
+  },
+  {
     "version": "1.0.48",
     "date": "2026-09-05T00:00:00Z",
     "changes": [

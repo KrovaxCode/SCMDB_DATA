@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "live",
-  "current_version": "4.10.0-live.12568521",
-  "generated_at": "2026-09-04T11:45:28Z",
+  "current_version": "4.10.0-live.12572603",
+  "generated_at": "2026-09-08T21:09:17Z",
   "versions_seen": [
     "4.9.0",
     "4.10.0"

@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.50",
+    "date": "2026-09-10T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.1-ptu.12625701. The Orison Relief missions now point at August Dunlow Spaceport rather than Orison as a whole, and \"Stop Nine Tails Regrouping\" was buffed: reward 106,500 → 186,000 aUEC, time limit 19 → 30 minutes." },
+      { "type": "fix", "text": "📄 The Sync Sink schema doc rendered em dashes and other punctuation as garbled characters in the browser. The file itself was fine, but it was served without a character encoding, so browsers guessed wrong; it now declares UTF-8. Thanks CowTipperVirus." }
+    ]
+  },
+  {
     "version": "1.0.49",
     "date": "2026-09-08T00:00:00Z",
     "changes": [

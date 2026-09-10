@@ -1,5 +1,5 @@
 {
-  "version": "4.10.1-ptu.12578875",
+  "version": "4.10.1-ptu.12625701",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -602,28 +602,28 @@
       "category": null,
       "tiers": [
         {
-          "minPoints": 43200,
-          "badge": "None"
+          "minPoints": 10800,
+          "badge": "ORS_Pistol"
+        },
+        {
+          "minPoints": 18000,
+          "badge": "ORS_Light_Armor"
+        },
+        {
+          "minPoints": 30960,
+          "badge": "ORS_Rifle"
+        },
+        {
+          "minPoints": 41040,
+          "badge": "ORS_Medium_Armor"
+        },
+        {
+          "minPoints": 57600,
+          "badge": "ORS_SMG"
         },
         {
           "minPoints": 72000,
-          "badge": "None"
-        },
-        {
-          "minPoints": 123840,
-          "badge": "None"
-        },
-        {
-          "minPoints": 164160,
-          "badge": "None"
-        },
-        {
-          "minPoints": 230400,
-          "badge": "None"
-        },
-        {
-          "minPoints": 288000,
-          "badge": "None"
+          "badge": "ORS_Heavy_Armor"
         }
       ]
     },
@@ -15391,9 +15391,6 @@
       "Anvil F7C-R Hornet Tracker Mk I",
       "Anvil F7C-S Hornet Ghost Mk I"
     ],
-    "e923515e7af3": [
-      "CHCO Auris PDC Monitor"
-    ],
     "5118849fb6eb": [
       "Vanduul Scythe"
     ],
@@ -16857,6 +16854,9 @@
       "RSI Zeus Mk II CL",
       "RSI Zeus Mk II ES"
     ],
+    "e923515e7af3": [
+      "CHCO Auris PDC Monitor"
+    ],
     "efe117d41706": [
       "C.O. Mustang Delta",
       "CHCO Auris PDC Monitor",
@@ -17694,6 +17694,474 @@
     "c89efae26658": [
       "Aegis Gladius",
       "Aegis Hammerhead"
+    ],
+    "90f26662a75f": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan",
+      "Aegis Avenger Titan Renegade",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil Gladiator",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Anvil Terrapin",
+      "Anvil Terrapin Medic",
+      "Aopoa Khartu-al",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Mustang Gamma",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Drake Buccaneer",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Drake Vulture",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Prospector",
+      "MISC Reliant Kore",
+      "MISC Reliant Mako",
+      "MISC Reliant Sen",
+      "MISC Reliant Tana",
+      "Mirai Razor",
+      "Mirai Razor EX",
+      "Mirai Razor LX",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 300i",
+      "Origin 315p",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR",
+      "RSI Mantis",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
+    ],
+    "b1ebacc78322": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan Renegade",
+      "Anvil C8 Pisces",
+      "Anvil C8R Pisces Rescue",
+      "Anvil C8X Pisces Expedition",
+      "Anvil Gladiator",
+      "Anvil Terrapin",
+      "Anvil Terrapin Medic",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Mustang Gamma",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Drake Vulture",
+      "Kruger P-52 Merlin",
+      "MISC Prospector",
+      "MISC Reliant Mako",
+      "MISC Reliant Sen",
+      "MISC Reliant Tana",
+      "Mirai Razor LX",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 315p",
+      "Origin 85X Limited",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR"
+    ],
+    "196d27176f37": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan",
+      "Aegis Avenger Titan Renegade",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil C8 Pisces",
+      "Anvil C8R Pisces Rescue",
+      "Anvil C8X Pisces Expedition",
+      "Anvil Gladiator",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Anvil Terrapin",
+      "Anvil Terrapin Medic",
+      "Aopoa Khartu-al",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Mustang Gamma",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Drake Buccaneer",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Drake Vulture",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Prospector",
+      "MISC Reliant Kore",
+      "MISC Reliant Mako",
+      "MISC Reliant Sen",
+      "MISC Reliant Tana",
+      "Mirai Razor",
+      "Mirai Razor EX",
+      "Mirai Razor LX",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 300i",
+      "Origin 315p",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin 85X Limited",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR",
+      "RSI Mantis",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
+    ],
+    "7be5208bbdca": [
+      "Aegis Avenger Titan",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Aopoa Khartu-al",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Drake Buccaneer",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Reliant Kore",
+      "Mirai Razor",
+      "Mirai Razor EX",
+      "Origin 300i",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR",
+      "RSI Mantis",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
+    ],
+    "e168f0ab59f7": [
+      "Aegis Avenger Titan",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil C8 Pisces",
+      "Anvil C8R Pisces Rescue",
+      "Anvil C8X Pisces Expedition",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Aopoa Khartu-al",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Drake Buccaneer",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Hull A",
+      "MISC Reliant Kore",
+      "Mirai Razor",
+      "Mirai Razor EX",
+      "Origin 300i",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin 85X Limited",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR",
+      "RSI Mantis",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
+    ],
+    "7f401e173d3c": [
+      "Aegis Avenger Titan",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Anvil Hawk",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Nomad",
+      "Drake Buccaneer",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Reliant Kore",
+      "Mirai Razor EX",
+      "Origin 300i",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR"
+    ],
+    "907b5fd88b54": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan",
+      "Aegis Avenger Titan Renegade",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Anvil C8 Pisces",
+      "Anvil C8R Pisces Rescue",
+      "Anvil C8X Pisces Expedition",
+      "Anvil Gladiator",
+      "Anvil Hawk",
+      "Anvil Terrapin",
+      "Anvil Terrapin Medic",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Mustang Gamma",
+      "C.O. Nomad",
+      "Drake Buccaneer",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Drake Vulture",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Hull A",
+      "MISC Prospector",
+      "MISC Reliant Kore",
+      "MISC Reliant Mako",
+      "MISC Reliant Sen",
+      "MISC Reliant Tana",
+      "Mirai Razor EX",
+      "Mirai Razor LX",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 300i",
+      "Origin 315p",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin 85X Limited",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR"
+    ],
+    "ce6a3957ba8b": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan",
+      "Aegis Avenger Titan Renegade",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil C8 Pisces",
+      "Anvil C8R Pisces Rescue",
+      "Anvil C8X Pisces Expedition",
+      "Anvil Gladiator",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Anvil Terrapin",
+      "Anvil Terrapin Medic",
+      "Aopoa Khartu-al",
+      "Argo MOLE",
+      "Argo RAFT",
+      "Banu Defender",
+      "Broad & Rabiee Overseer Orbital Sentry",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Mustang Gamma",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Drake Buccaneer",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Drake Vulture",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "Kruger P-52 Merlin",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Hull A",
+      "MISC Prospector",
+      "MISC Reliant Kore",
+      "MISC Reliant Mako",
+      "MISC Reliant Sen",
+      "MISC Reliant Tana",
+      "Mirai Razor",
+      "Mirai Razor EX",
+      "Mirai Razor LX",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 300i",
+      "Origin 315p",
+      "Origin 325a",
+      "Origin 350r",
+      "Origin 85X Limited",
+      "Origin M50 Interceptor",
+      "RSI Aurora Mk I  LX",
+      "RSI Aurora Mk I CL",
+      "RSI Aurora Mk I ES",
+      "RSI Aurora Mk I LN",
+      "RSI Aurora Mk I MR",
+      "RSI Mantis",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
     ],
     "40744868de10": [
       "Aegis Avenger Stalker",
@@ -53507,7 +53975,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -53667,7 +54135,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -53826,7 +54294,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -53951,7 +54419,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -54111,7 +54579,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -54271,7 +54739,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -55226,7 +55694,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -56180,7 +56648,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -57100,7 +57568,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -58055,7 +58523,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -59010,7 +59478,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -59208,7 +59676,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -59405,7 +59873,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -59568,7 +60036,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -59766,7 +60234,7 @@
       "title": "Claim #[CLAIM]: [SHIP] Salvage Rights",
       "description": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
       "factionGuid": "5f6a61ef-e9a4-427d-9358-2b38efe43d11",
-      "contractorName": "~mission(Contractor|SalvageContractorFrom)",
+      "contractorName": "Adagio Holdings",
       "contractorNameKey": "@SalvageContractor_From",
       "canBeShared": true,
       "illegal": false,
@@ -118530,50 +118998,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 46,
-          "totalMaxShips": 52
+          "totalMinShips": 44,
+          "totalMaxShips": 50
         }
       },
       "propertyValues": {
@@ -118957,50 +119387,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 39,
-          "totalMaxShips": 49
+          "totalMinShips": 37,
+          "totalMaxShips": 47
         }
       },
       "propertyValues": {
@@ -119326,50 +119718,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 39,
-          "totalMaxShips": 49
+          "totalMinShips": 37,
+          "totalMaxShips": 47
         }
       },
       "propertyValues": {
@@ -139591,50 +139945,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 21,
-          "totalMaxShips": 36
+          "totalMinShips": 19,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -140003,50 +140319,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 20,
-          "totalMaxShips": 36
+          "totalMinShips": 18,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -140357,50 +140635,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 20,
-          "totalMaxShips": 36
+          "totalMinShips": 18,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -177907,50 +178147,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 20,
-          "totalMaxShips": 36
+          "totalMinShips": 18,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -178289,50 +178491,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 20,
-          "totalMaxShips": 36
+          "totalMinShips": 18,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -180774,50 +180938,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 16
+          "totalMinShips": 10,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -181138,50 +181264,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 16
+          "totalMinShips": 10,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -188866,7 +188954,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Large Fabrication Order",
-      "description": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
+      "description": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
       "factionGuid": null,
       "contractorName": "Cornerstone Developments",
       "contractorNameKey": "@ConerstoneDevelopments_From",
@@ -188912,7 +189000,7 @@
         "2926c9ad408c"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189069,7 +189157,7 @@
       "completionTags": [
         {
           "tag": "d198231e-1ad9-463f-b0d7-95ec655854bb",
-          "count": 15714,
+          "count": 3294,
           "splitPointsForParty": false
         }
       ],
@@ -189105,7 +189193,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Large Supply Haul",
-      "description": "Hey, it’s El.\\n\\nOff the bat – this particular job’s a big deal, so if you’re looking to take this one on for us, make sure you’re confident in your ability to do a job well. \\n\\nWe’ve been contracted by Crusader to deliver medical supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Bear in mind, this is gonna be a big one, so make sure bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>24 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nI can’t stress the importance of this contract enough – lots of good people got hurt in those attacks, and it’s our responsibility to do what we can to help them in the aftermath. We owe the victims that much, at the very least.\\n\\nLet’s do right by them,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "description": "Hey, it’s El.\\n\\nOff the bat – this particular job’s a big deal, so if you’re looking to take this one on for us, make sure you’re confident in your ability to do a job well. \\n\\nWe’ve been contracted by Crusader to deliver medical supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Bear in mind, this is gonna be a big one, so make sure bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>16 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nI can’t stress the importance of this contract enough – lots of good people got hurt in those attacks, and it’s our responsibility to do what we can to help them in the aftermath. We owe the victims that much, at the very least.\\n\\nLet’s do right by them,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "factionGuid": "3b2f7882-73cc-41a4-9dce-f188d927e905",
       "contractorName": "Covalex Independent Contractors",
       "contractorNameKey": "@mission_contractor_0003",
@@ -189172,7 +189260,7 @@
         "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
         "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
         "ReputationRank": "@RepStanding_TransportGuild_Rank6",
-        "MissionMaxSCUSize": "@FreightElevator_24SCU"
+        "MissionMaxSCUSize": "@FreightElevator_16SCU"
       },
       "descriptionLocKey": "ORS_MedicalAid_HaulingLarge_Desc",
       "titleLocKey": "ORS_MedicalAid_HaulingLarge_title",
@@ -189214,7 +189302,7 @@
         "15a181728888"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189278,7 +189366,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Medium Fabrication Order",
-      "description": "Hullo,\\n\\nCrusader have been in touch to say that the scale of the damage to their platforms is greater than they initially thought and they'll need more propulsors than they originally estimated for.\\n\\nWe're contracting out their request to anyone with an available Item Fabricator standing by. Though I guess you could source the propulsors some other way, but that's on you.\\n\\nOnce ready, deliver them to <EM4>[DESTINATION]</EM4>. Payment sent on completion.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
+      "description": "Hullo,\\n\\nCrusader have been in touch to say that the scale of the damage to their platforms is greater than they initially thought and they'll need more propulsors than they originally estimated for.\\n\\nWe're contracting out their request to anyone with an available Item Fabricator standing by. Though I guess you could source the propulsors some other way, but that's on you.\\n\\nOnce ready, deliver them to <EM4>[DESTINATION]</EM4>. Payment sent on completion.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
       "factionGuid": null,
       "contractorName": "Cornerstone Developments",
       "contractorNameKey": "@ConerstoneDevelopments_From",
@@ -189324,7 +189412,7 @@
         "2926c9ad408c"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189446,7 +189534,7 @@
         "15a181728888"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189481,7 +189569,7 @@
       "completionTags": [
         {
           "tag": "d198231e-1ad9-463f-b0d7-95ec655854bb",
-          "count": 12540,
+          "count": 2208,
           "splitPointsForParty": false
         }
       ],
@@ -189517,7 +189605,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Medium Supply Haul",
-      "description": "Hey, it’s El.\\n\\nCrusader is still trying to make things right in Orison following the attack, so I’m hoping you’re free to keep assisting with the effort.\\n\\nWe been contracted to deliver relief supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. \\nNot too shabby a haul either, so make sure you’re in a ship that can hold <EM4>24 SCU cargo containers</EM4> and bring a <EM4>handheld tractor beam</EM4>, or you’ll make us all look unprofessional.\\n\\nI’m not kidding around with this job being important to get done right. Lotta people got hurt during the Nine Tails raid, and they’re relying on people like us to get them the help they need. So let’s do right by them, okay?\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "description": "Hey, it’s El.\\n\\nCrusader is still trying to make things right in Orison following the attack, so I’m hoping you’re free to keep assisting with the effort.\\n\\nWe been contracted to deliver relief supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. \\nNot too shabby a haul either, so make sure you’re in a ship that can hold <EM4>8 SCU cargo containers</EM4> and bring a <EM4>handheld tractor beam</EM4>, or you’ll make us all look unprofessional.\\n\\nI’m not kidding around with this job being important to get done right. Lotta people got hurt during the Nine Tails raid, and they’re relying on people like us to get them the help they need. So let’s do right by them, okay?\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "factionGuid": "3b2f7882-73cc-41a4-9dce-f188d927e905",
       "contractorName": "Covalex Independent Contractors",
       "contractorNameKey": "@mission_contractor_0003",
@@ -189533,7 +189621,7 @@
         "15a181728888"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189584,7 +189672,7 @@
         "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
         "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
         "ReputationRank": "@RepStanding_TransportGuild_Rank6",
-        "MissionMaxSCUSize": "@FreightElevator_24SCU"
+        "MissionMaxSCUSize": "@FreightElevator_8SCU"
       },
       "descriptionLocKey": "ORS_MedicalAid_HaulingMedium_desc",
       "titleLocKey": "ORS_MedicalAid_HaulingMedium_Title",
@@ -189657,7 +189745,7 @@
       ],
       "destinations": [
         "db17a1be6e86",
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189749,7 +189837,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Small Fabrication Order",
-      "description": "Now then,\\n\\nAfter the Nine Tails attack, the folks at Crusader could do with more than just a helping hand. What they need are proper propulsors to help replace the ones damaged in the attacks.\\n\\nWe've attached a blueprint outlining what materials you'll need to create them. Up to you whether you go out and find those materials yourself or buy them from a trader. Either way you will need access to an Item Fabricator to make the propulsors yourself.\\n\\nOnce you're done bring them to <EM4>[DESTINATION]</EM4> and one of the team will sort out the rest.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
+      "description": "Now then,\\n \\nAfter the Nine Tails attack, the folks at Crusader could do with more than just a helping hand. What they need are proper propulsors to help replace the ones damaged in the attacks.\\n \\nWe've attached a blueprint for the TH-01 Propulsor that you can access at an <EM4>Item Fabricator.</EM4> Just search for it on the fabricator's terminal and you'll be able to see what materials are needed. Up to you whether you go out and find those materials yourself or buy them from a trader. (And if you don't have a fabricator yet, you'll have to purchase one at a shop, unload it at a freight elevator, and then set it up in a hangar or ship's cargo bay.) \\n \\nOnce you're done bring them to <EM4>[DESTINATION]</EM4> and one of the team will sort out the rest.\\n \\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
       "factionGuid": null,
       "contractorName": "Cornerstone Developments",
       "contractorNameKey": "@ConerstoneDevelopments_From",
@@ -189795,7 +189883,7 @@
         "2926c9ad408c"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189917,7 +190005,7 @@
         "15a181728888"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -189952,7 +190040,7 @@
       "completionTags": [
         {
           "tag": "d198231e-1ad9-463f-b0d7-95ec655854bb",
-          "count": 8360,
+          "count": 1710,
           "splitPointsForParty": false
         }
       ],
@@ -189988,7 +190076,7 @@
       "missionType": "Priority",
       "missionTypeKey": "@mobiglas_ui_Priority",
       "title": "Orison Relief: Small Supply Haul",
-      "description": "Hey, it’s El.\\n\\nNeed a reliable contractor for a pretty important delivery today. I’m sure you’re aware of what went down in Orison, big commotion. Made my job about ten times harder.\\n\\nAnyway, we’ve been contracted by Crusader to deliver some medical stuff to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Shouldn’t be too heavy an order for this one, just make sure you’ve got a ship that can hold <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>, or you’ll really embarrass yourself when you get there.\\n\\nLook, I’ll level with you. This job isn’t just hauling for hauling’s sake. Orison got pretty messed up by those Nine Tails, so anything we can do to help them out is probably the right thing to do.\\n\\nLet’s get it done,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "description": "Hey, it’s El.\\n\\nNeed a reliable contractor for a pretty important delivery today. I’m sure you’re aware of what went down in Orison, big commotion. Made my job about ten times harder.\\n\\nAnyway, we’ve been contracted by Crusader to deliver some medical stuff to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Shouldn’t be too heavy an order for this one, just make sure you’ve got a ship that can hold <EM4>1 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>, or you’ll really embarrass yourself when you get there.\\n\\nLook, I’ll level with you. This job isn’t just hauling for hauling’s sake. Orison got pretty messed up by those Nine Tails, so anything we can do to help them out is probably the right thing to do.\\n\\nLet’s get it done,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "factionGuid": "3b2f7882-73cc-41a4-9dce-f188d927e905",
       "contractorName": "Covalex Independent Contractors",
       "contractorNameKey": "@mission_contractor_0003",
@@ -190004,7 +190092,7 @@
         "15a181728888"
       ],
       "destinations": [
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -190055,7 +190143,7 @@
         "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
         "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
         "ReputationRank": "@RepStanding_TransportGuild_Rank6",
-        "MissionMaxSCUSize": "@FreightElevator_24SCU"
+        "MissionMaxSCUSize": "@FreightElevator_1SCU"
       },
       "descriptionLocKey": "ORS_MedicalAid_HaulingSmall_Desc",
       "titleLocKey": "ORS_MedicalAid_HaulingSmall_Title",
@@ -190087,7 +190175,7 @@
       "contractorNameKey": "@foxwell_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 19,
+      "timeToComplete": 30,
       "locations": [
         "0220fb9c67d4",
         "0a75393be9ca",
@@ -190128,7 +190216,7 @@
       ],
       "destinations": [
         "db17a1be6e86",
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -190151,7 +190239,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 106500,
+      "rewardUEC": 186000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -190160,65 +190248,60 @@
           "groups": [
             {
               "role": "WaveShips",
-              "poolId": "e927e8dfb22a",
+              "poolId": "ce6a3957ba8b",
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 6,
-                  "maxShips": 6,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
                     {
-                      "poolId": "e927e8dfb22a",
+                      "poolId": "7be5208bbdca",
                       "minCount": 1,
                       "maxCount": 1
                     },
                     {
-                      "poolId": "e927e8dfb22a",
-                      "minCount": 3,
-                      "maxCount": 3
-                    },
-                    {
-                      "poolId": "e927e8dfb22a",
+                      "poolId": "e168f0ab59f7",
                       "minCount": 2,
                       "maxCount": 2
+                    },
+                    {
+                      "poolId": "7f401e173d3c",
+                      "minCount": 1,
+                      "maxCount": 1
                     }
                   ]
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 10,
-                  "maxShips": 10,
+                  "minShips": 6,
+                  "maxShips": 6,
                   "slots": [
                     {
-                      "poolId": "e927e8dfb22a",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "poolId": "7be5208bbdca",
+                      "minCount": 1,
+                      "maxCount": 1
                     },
                     {
-                      "poolId": "e927e8dfb22a",
-                      "minCount": 4,
-                      "maxCount": 4
+                      "poolId": "b1ebacc78322",
+                      "minCount": 3,
+                      "maxCount": 3
                     },
                     {
-                      "poolId": "e927e8dfb22a",
-                      "minCount": 2,
-                      "maxCount": 2
-                    },
-                    {
-                      "poolId": "e927e8dfb22a",
+                      "poolId": "907b5fd88b54",
                       "minCount": 2,
                       "maxCount": 2
                     }
                   ]
                 }
               ],
-              "classification": "ninetails"
+              "classification": "criminal"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 16,
-          "totalMaxShips": 16
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": null,
@@ -190244,7 +190327,7 @@
       "completionTags": [
         {
           "tag": "d198231e-1ad9-463f-b0d7-95ec655854bb",
-          "count": 3800,
+          "count": 6000,
           "splitPointsForParty": false
         }
       ],
@@ -190332,7 +190415,7 @@
       ],
       "destinations": [
         "db17a1be6e86",
-        "582fbedf5e71"
+        "d56b03ec64ca"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -190364,27 +190447,27 @@
           "groups": [
             {
               "role": "ScoutsSpawnDescriptions",
-              "poolId": "7ff24e20292d",
+              "poolId": "196d27176f37",
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 7,
-                  "maxShips": 7,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
                     {
-                      "poolId": "50cc4d8c0cb3",
+                      "poolId": "90f26662a75f",
                       "minCount": 3,
                       "maxCount": 3
                     },
                     {
-                      "poolId": "e927e8dfb22a",
-                      "minCount": 4,
-                      "maxCount": 4
+                      "poolId": "b1ebacc78322",
+                      "minCount": 1,
+                      "maxCount": 1
                     }
                   ]
                 }
               ],
-              "classification": "ninetails"
+              "classification": "criminal"
             },
             {
               "role": "TargetSpawnDescriptions",
@@ -190408,8 +190491,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 8,
-          "totalMaxShips": 8
+          "totalMinShips": 5,
+          "totalMaxShips": 5
         }
       },
       "propertyValues": null,
@@ -190435,7 +190518,7 @@
       "completionTags": [
         {
           "tag": "d198231e-1ad9-463f-b0d7-95ec655854bb",
-          "count": 2000,
+          "count": 4000,
           "splitPointsForParty": false
         }
       ],
@@ -191521,50 +191604,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 31,
-          "totalMaxShips": 41
+          "totalMinShips": 29,
+          "totalMaxShips": 39
         }
       },
       "propertyValues": {
@@ -191869,50 +191914,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 20,
-          "totalMaxShips": 36
+          "totalMinShips": 18,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -192190,50 +192197,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 13,
-          "totalMaxShips": 16
+          "totalMinShips": 11,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -192584,50 +192553,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 46,
-          "totalMaxShips": 53
+          "totalMinShips": 44,
+          "totalMaxShips": 51
         }
       },
       "propertyValues": {
@@ -192929,50 +192860,12 @@
               ],
               "spawnChance": 0.2,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 21,
-          "totalMaxShips": 36
+          "totalMinShips": 19,
+          "totalMaxShips": 34
         }
       },
       "propertyValues": {
@@ -193262,50 +193155,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {
@@ -193608,50 +193463,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 28,
-          "totalMaxShips": 38
+          "totalMinShips": 26,
+          "totalMaxShips": 36
         }
       },
       "propertyValues": {
@@ -193865,50 +193682,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -194119,50 +193898,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -194460,50 +194201,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 55,
-          "totalMaxShips": 55
+          "totalMinShips": 53,
+          "totalMaxShips": 53
         }
       },
       "propertyValues": {
@@ -217907,50 +217610,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 28,
-          "totalMaxShips": 38
+          "totalMinShips": 26,
+          "totalMaxShips": 36
         }
       },
       "propertyValues": {
@@ -218289,50 +217954,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 28,
-          "totalMaxShips": 38
+          "totalMinShips": 26,
+          "totalMaxShips": 36
         }
       },
       "propertyValues": {
@@ -220700,50 +220327,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 39,
-          "totalMaxShips": 49
+          "totalMinShips": 37,
+          "totalMaxShips": 47
         }
       },
       "propertyValues": {
@@ -221097,50 +220686,12 @@
               ],
               "spawnChance": 0.33,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 39,
-          "totalMaxShips": 49
+          "totalMinShips": 37,
+          "totalMaxShips": 47
         }
       },
       "propertyValues": {
@@ -253805,50 +253356,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {
@@ -254199,50 +253712,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {
@@ -254535,50 +254010,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {
@@ -259854,50 +259291,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -260183,50 +259582,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -260446,50 +259807,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -273682,50 +273005,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 13,
-          "totalMaxShips": 16
+          "totalMinShips": 11,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -274076,50 +273361,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 16
+          "totalMinShips": 10,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -274412,50 +273659,12 @@
               ],
               "spawnChance": 0.1,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 16
+          "totalMinShips": 10,
+          "totalMaxShips": 14
         }
       },
       "propertyValues": {
@@ -277548,50 +276757,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 31,
-          "totalMaxShips": 41
+          "totalMinShips": 29,
+          "totalMaxShips": 39
         }
       },
       "propertyValues": {
@@ -277960,50 +277131,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 28,
-          "totalMaxShips": 38
+          "totalMinShips": 26,
+          "totalMaxShips": 36
         }
       },
       "propertyValues": {
@@ -278314,50 +277447,12 @@
               ],
               "spawnChance": 0.25,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 28,
-          "totalMaxShips": 38
+          "totalMinShips": 26,
+          "totalMaxShips": 36
         }
       },
       "propertyValues": {
@@ -338101,50 +337196,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -338400,50 +337457,12 @@
                 }
               ],
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 6,
-          "totalMaxShips": 6
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -338844,50 +337863,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {
@@ -339214,50 +338195,12 @@
               ],
               "spawnChance": 0.05,
               "classification": "criminal"
-            },
-            {
-              "role": "SearchAndDestroy_FriendlyObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "FriendlyProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "civilian"
-            },
-            {
-              "role": "SearchAndDestroy_HostileObject",
-              "poolId": "e923515e7af3",
-              "waves": [
-                {
-                  "name": "HostileProbe",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "e923515e7af3",
-                      "minCount": 1,
-                      "maxCount": 1
-                    }
-                  ]
-                }
-              ],
-              "classification": "ninetails"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 12,
-          "totalMaxShips": 12
+          "totalMinShips": 10,
+          "totalMaxShips": 10
         }
       },
       "propertyValues": {

@@ -1,5 +1,5 @@
 {
-  "version": "4.10.1-ptu.12625701",
+  "version": "4.10.1-ptu.12650677",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -388,46 +388,46 @@
           "name": "Prospective Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank0",
           "minReputation": 0,
-          "rangeXP": 2400,
+          "rangeXP": 700,
           "rankIndex": 0
         },
         {
           "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
           "name": "Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank1",
-          "minReputation": 2400,
-          "rangeXP": 3600,
+          "minReputation": 700,
+          "rangeXP": 1400,
           "rankIndex": 1
         },
         {
           "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
           "name": "Trusted Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank2",
-          "minReputation": 6000,
-          "rangeXP": 4800,
+          "minReputation": 2100,
+          "rangeXP": 300,
           "rankIndex": 2
         },
         {
           "guid": "e72afefd-831e-4578-8629-ed1911f77019",
           "name": "Prestige 1",
           "nameKey": "@mg_battaglia_RepScope_Rank3",
-          "minReputation": 10800,
-          "rangeXP": 19200,
+          "minReputation": 2400,
+          "rangeXP": 300,
           "rankIndex": 3
         },
         {
           "guid": "f592f3a5-8584-45a9-a697-de9ab9026ad3",
           "name": "Prestige 2",
           "nameKey": "@mg_battaglia_RepScope_Rank4",
-          "minReputation": 30000,
-          "rangeXP": 39600,
+          "minReputation": 2700,
+          "rangeXP": 300,
           "rankIndex": 4
         },
         {
           "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
           "name": "Prestige 3",
           "nameKey": "@mg_battaglia_RepScope_Rank5",
-          "minReputation": 69600,
+          "minReputation": 3000,
           "rangeXP": null,
           "rankIndex": 5
         }
@@ -47893,7 +47893,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48012,7 +48012,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48023,7 +48023,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48126,7 +48126,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48137,7 +48137,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48284,7 +48284,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48295,7 +48295,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -68740,7 +68740,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -68751,7 +68751,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -88134,7 +88134,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -88145,7 +88145,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -91400,7 +91400,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -97037,7 +97037,7 @@
       "minStanding": {
         "guid": "e72afefd-831e-4578-8629-ed1911f77019",
         "name": "Prestige 1",
-        "minReputation": 10800,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank3",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -97048,7 +97048,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -119901,7 +119901,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165360,7 +165360,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165371,7 +165371,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165475,7 +165475,7 @@
       "minStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165486,7 +165486,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165713,7 +165713,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167337,7 +167337,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167348,7 +167348,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167461,7 +167461,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167472,7 +167472,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169397,7 +169397,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169408,7 +169408,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169512,7 +169512,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169661,7 +169661,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169672,7 +169672,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -172888,7 +172888,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -188796,7 +188796,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -188807,7 +188807,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247004,7 +247004,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247015,7 +247015,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247173,7 +247173,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247184,7 +247184,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247312,7 +247312,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 6000,
+        "minReputation": 2100,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247323,7 +247323,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -252928,7 +252928,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 2400,
+        "minReputation": 700,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -252939,7 +252939,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -253046,7 +253046,7 @@
       "minStanding": {
         "guid": "f592f3a5-8584-45a9-a697-de9ab9026ad3",
         "name": "Prestige 2",
-        "minReputation": 30000,
+        "minReputation": 2700,
         "nameKey": "mg_battaglia_RepScope_Rank4",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -253057,7 +253057,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -263406,7 +263406,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 69600,
+        "minReputation": 3000,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",

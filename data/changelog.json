@@ -1,9 +1,17 @@
 [
   {
+    "version": "1.0.52",
+    "date": "2026-09-15T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "🏅 Patch Delta has a new Reputation tab. It lists reputation ladders that changed between two builds: ranks added or dropped, and how much reputation each rank needs, shown as the full ladder old next to new. It also shows ladders that missions started or stopped referencing. Until now a change like the Battaglia compression in the latest PTU build was invisible there, because no mission field changed, only the ladder behind them, so the build pair showed zero differences. That pair now shows it." },
+      { "type": "fix", "text": "🔄 Watcher history import: with a community global.ini such as StarStrings, blueprint names in the log carry a prefix (\"Mil/2/A QuadraCell MT\") and never match the catalogue exactly. The import then asked you to pick a match for every such blueprint, including ones you already had, and once you had worked through them all it had left was a greyed-out \"Review 0 items\" and no explanation. Blueprints you already own are no longer asked about, candidates you already have are marked \"already known\", and the best guess is now the closest name rather than the first one found. When there is nothing new to import, the dialog now says why and lets you close it, or, if some missions have every blueprint collected, go straight to marking those complete. Thanks MajorZach." }
+    ]
+  },
+  {
     "version": "1.0.51",
     "date": "2026-09-14T00:00:00Z",
     "changes": [
-      { "type": "data", "text": "🧪 New PTU build — 4.10.1-ptu.12650677. The one gameplay-relevant difference we can see is the Recco Battaglia reputation ladder, which appears to have been compressed hard: reaching Prestige 3 now reads as 3,000 reputation where it was 69,600, with the ranks below scaled down to match. That flows into the rank requirements on the 43 Battaglia missions and into what the Missions Calculator works out for them. The spacing looks unusual enough that it may be a PTU test value rather than the final number, so treat it as provisional until it reaches LIVE." }
+      { "type": "data", "text": "🧪 New PTU build — 4.10.1-ptu.12650677. The one gameplay-relevant difference we can see is the Recco Battaglia reputation ladder, which appears to have been compressed hard: reaching Prestige 3 now reads as 3,000 reputation where it was 69,600, with the ranks below scaled down to match. That flows into the rank requirements on the 25 Battaglia missions and into what the Missions Calculator works out for them. The spacing looks unusual enough that it may be a PTU test value rather than the final number, so treat it as provisional until it reaches LIVE." }
     ]
   },
   {

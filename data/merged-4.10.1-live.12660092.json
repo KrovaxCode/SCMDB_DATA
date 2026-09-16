@@ -1,5 +1,5 @@
 {
-  "version": "4.10.1-ptu.12650677",
+  "version": "4.10.1-live.12660092",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -388,46 +388,46 @@
           "name": "Prospective Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank0",
           "minReputation": 0,
-          "rangeXP": 700,
+          "rangeXP": 2400,
           "rankIndex": 0
         },
         {
           "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
           "name": "Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank1",
-          "minReputation": 700,
-          "rangeXP": 1400,
+          "minReputation": 2400,
+          "rangeXP": 3600,
           "rankIndex": 1
         },
         {
           "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
           "name": "Trusted Associate",
           "nameKey": "@mg_battaglia_RepScope_Rank2",
-          "minReputation": 2100,
-          "rangeXP": 300,
+          "minReputation": 6000,
+          "rangeXP": 4800,
           "rankIndex": 2
         },
         {
           "guid": "e72afefd-831e-4578-8629-ed1911f77019",
           "name": "Prestige 1",
           "nameKey": "@mg_battaglia_RepScope_Rank3",
-          "minReputation": 2400,
-          "rangeXP": 300,
+          "minReputation": 10800,
+          "rangeXP": 19200,
           "rankIndex": 3
         },
         {
           "guid": "f592f3a5-8584-45a9-a697-de9ab9026ad3",
           "name": "Prestige 2",
           "nameKey": "@mg_battaglia_RepScope_Rank4",
-          "minReputation": 2700,
-          "rangeXP": 300,
+          "minReputation": 30000,
+          "rangeXP": 39600,
           "rankIndex": 4
         },
         {
           "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
           "name": "Prestige 3",
           "nameKey": "@mg_battaglia_RepScope_Rank5",
-          "minReputation": 3000,
+          "minReputation": 69600,
           "rangeXP": null,
           "rankIndex": 5
         }
@@ -47893,7 +47893,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48012,7 +48012,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48023,7 +48023,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48126,7 +48126,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48137,7 +48137,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48284,7 +48284,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -48295,7 +48295,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -51079,7 +51079,7 @@
         "94be848a-e2a8-4a3e-99f9-f88e1b2a4a7a",
         "234e8d71-7ae0-4987-94fc-cb7d4ff113d4"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -51227,7 +51227,7 @@
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
+      "canReacceptAfterFailing": true,
       "hasPersonalCooldown": true,
       "personalCooldownTime": 45,
       "abandonedCooldownTime": 45,
@@ -51351,7 +51351,7 @@
       },
       "descriptionLocKey": "cfp_defend_regionshift_desc_001",
       "titleLocKey": "cfp_defend_regionshift_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -54394,7 +54394,7 @@
       },
       "titleLocKey": "Adagio_BasicSalvage_Title_01",
       "descriptionLocKey": "Adagio_BasicSalvage_Desc_01",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -57543,7 +57543,7 @@
         "6fcaf7d2-f179-4843-9f15-7a3a0709f7de",
         "08849b50-43fe-42c2-b863-91f577df0f8c"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -60011,7 +60011,7 @@
         "46919a67-d009-eeea-0444-2b67a075d584",
         "4d9b89c3-e981-f352-8481-012625bd3dac"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -68740,7 +68740,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -68751,7 +68751,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -88134,7 +88134,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -88145,7 +88145,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -91400,7 +91400,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -91535,7 +91535,7 @@
           "title": "Minor Mining Job"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -92831,7 +92831,7 @@
       "haulingOrders": null,
       "descriptionLocKey": "cfp_eliminateall_intro_desc_001",
       "titleLocKey": "cfp_eliminateall_intro_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -92963,7 +92963,7 @@
         "fcc4ef27-a37d-4238-94f2-11b95abc7751",
         "4a784fb3-52a0-4761-9661-72fe0fa06128"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -97037,7 +97037,7 @@
       "minStanding": {
         "guid": "e72afefd-831e-4578-8629-ed1911f77019",
         "name": "Prestige 1",
-        "minReputation": 2400,
+        "minReputation": 10800,
         "nameKey": "mg_battaglia_RepScope_Rank3",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -97048,7 +97048,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -101022,7 +101022,7 @@
           "title": "Establishing Security"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -109985,7 +109985,7 @@
       },
       "descriptionLocKey": "headhunters_HaulCargo_RegionLink_desc_001",
       "titleLocKey": "headhunters_HaulCargo_RegionLink_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -110116,7 +110116,7 @@
       },
       "descriptionLocKey": "headhunters_HaulCargo_RegionLink_desc_001",
       "titleLocKey": "headhunters_HaulCargo_RegionLink_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -110256,7 +110256,7 @@
       },
       "descriptionLocKey": "headhunters_HaulCargo_RegionLink_desc_001",
       "titleLocKey": "headhunters_HaulCargo_RegionLink_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -110380,7 +110380,7 @@
       },
       "descriptionLocKey": "headhunters_HaulCargo_RegionLink_desc_001",
       "titleLocKey": "headhunters_HaulCargo_RegionLink_title_001",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -119843,10 +119843,10 @@
       },
       "descriptionLocKey": "LingFamily_delivery_desc_ICC_Special_Cryo",
       "titleLocKey": "LingFamily_delivery_name_ICC_Special_Cryo",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
-      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterAbandoning": true,
       "canReacceptAfterFailing": false,
       "hasPersonalCooldown": false,
       "personalCooldownTime": 1,
@@ -119901,7 +119901,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -120036,7 +120036,7 @@
           "title": "Minor Mining Job"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -123098,7 +123098,7 @@
         "e85d0742-1cb4-4ad9-a953-ed1f66bf7d51",
         "7b7a4c1d-2574-4811-9fa3-68a182a849af"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -123249,7 +123249,7 @@
         "2f7a100d-73f6-4822-a1e7-aeb439248170",
         "8c245d96-3922-45b9-a25b-488c5979a651"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -123457,7 +123457,7 @@
         "8b1aa151-74c6-487e-baef-5dfefbe0e21c",
         "e452f074-62a0-4aec-a8e6-1466b5a4d59a"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -123605,7 +123605,7 @@
         "e9f5f661-1e36-4c25-8c8e-1d3c476189f5",
         "6bfcaa27-8bf5-4a4a-a918-cb4a03a91d5c"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -123745,7 +123745,7 @@
         "0b5c6181-cba3-420c-8227-2633f9dbf424",
         "4c5f2274-1152-4ffa-bc6b-a1da76f2b792"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -124029,7 +124029,7 @@
         "bcc81a08-a392-4b20-995a-185001783bbe",
         "243876a2-1d82-48dc-8e4b-b3ee144bbe91"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -124166,7 +124166,7 @@
         "80bbaa50-6bcd-4e74-a634-dfaf0e9f50ff",
         "02b3d744-c4e4-4431-90fb-a9e0551f7b5e"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -124304,7 +124304,7 @@
         "c236d102-6c1c-4b41-9a1c-2e6d32defbc4",
         "28cdd614-e721-48a3-bf3f-d39bd47742cc"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -165360,7 +165360,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165371,7 +165371,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165475,7 +165475,7 @@
       "minStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165486,7 +165486,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -165713,7 +165713,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167337,7 +167337,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167348,7 +167348,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167461,7 +167461,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -167472,7 +167472,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169397,7 +169397,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169408,7 +169408,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169512,7 +169512,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169661,7 +169661,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169672,7 +169672,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -169999,7 +169999,7 @@
       ],
       "descriptionLocKey": "TheCollector_Ships_Wolf_Unique_Desc",
       "titleLocKey": "TheCollector_Ships_Wolf_Unique_Title",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -171265,7 +171265,7 @@
           "title": "Establishing Security"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -171411,7 +171411,7 @@
           "title": "Establishing Security"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -171567,7 +171567,7 @@
           "title": "Establishing Security"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -171708,7 +171708,7 @@
           "title": "Establishing Security"
         }
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -172888,7 +172888,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -188796,7 +188796,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -188807,7 +188807,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -197694,7 +197694,7 @@
         "095285dc-79d9-44d7-890c-e09b36ab63ae",
         "e50585ed-528b-41e6-ab99-f64921a21f73"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -198490,7 +198490,7 @@
       "haulingOrders": null,
       "descriptionLocKey": "northrock_bounty_prisoner_desc_intro",
       "titleLocKey": "northrock_bounty_prisoner_title_intro",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 50,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -198560,7 +198560,7 @@
       "haulingOrders": null,
       "descriptionLocKey": "northrock_bounty_PVP_desc_first",
       "titleLocKey": "northrock_bounty_PVP_title_first",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 50,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -232791,7 +232791,7 @@
         "84e9fc27-ba0e-4518-8c8d-d404333885dc",
         "11494508-4355-4b12-b586-8025fb759dad"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
@@ -235516,7 +235516,7 @@
       "availableInPrison": false,
       "canReacceptAfterAbandoning": false,
       "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
+      "hasPersonalCooldown": true,
       "personalCooldownTime": 15,
       "abandonedCooldownTime": 1,
       "hideInMobiGlas": false,
@@ -242847,7 +242847,7 @@
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
       "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
+      "hasPersonalCooldown": true,
       "personalCooldownTime": 60,
       "abandonedCooldownTime": 60,
       "hideInMobiGlas": false,
@@ -247004,7 +247004,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247015,7 +247015,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247173,7 +247173,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247184,7 +247184,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247312,7 +247312,7 @@
       "minStanding": {
         "guid": "ed57ef3d-fc4c-4615-ad2f-1a5c8a5b3ead",
         "name": "Trusted Associate",
-        "minReputation": 2100,
+        "minReputation": 6000,
         "nameKey": "mg_battaglia_RepScope_Rank2",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -247323,7 +247323,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -252928,7 +252928,7 @@
       "minStanding": {
         "guid": "637f8a61-9702-4eea-97a7-9d28950da767",
         "name": "Associate",
-        "minReputation": 700,
+        "minReputation": 2400,
         "nameKey": "mg_battaglia_RepScope_Rank1",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -252939,7 +252939,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -253046,7 +253046,7 @@
       "minStanding": {
         "guid": "f592f3a5-8584-45a9-a697-de9ab9026ad3",
         "name": "Prestige 2",
-        "minReputation": 2700,
+        "minReputation": 30000,
         "nameKey": "mg_battaglia_RepScope_Rank4",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -253057,7 +253057,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -258958,7 +258958,7 @@
         "27778920-90c4-4c09-83ca-9e97222bba57",
         "3691c525-67f8-465a-95e5-892ec39b9bb3"
       ],
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -263406,7 +263406,7 @@
       "maxStanding": {
         "guid": "cf6b1540-1d1a-4634-a25e-fe7ca7be8784",
         "name": "Prestige 3",
-        "minReputation": 3000,
+        "minReputation": 69600,
         "nameKey": "mg_battaglia_RepScope_Rank5",
         "scopeName": "MissionProviderReputation_Battaglia",
         "scopeDisplayName": "Standing",
@@ -291727,7 +291727,7 @@
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
       "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
+      "hasPersonalCooldown": true,
       "personalCooldownTime": 240,
       "abandonedCooldownTime": 1,
       "hideInMobiGlas": false,
@@ -296614,7 +296614,7 @@
       "hasPersonalCooldown": false,
       "personalCooldownTime": 0,
       "abandonedCooldownTime": 0,
-      "hideInMobiGlas": false,
+      "hideInMobiGlas": true,
       "systems": [
         "Stanton"
       ],
@@ -296721,7 +296721,7 @@
       "hasPersonalCooldown": false,
       "personalCooldownTime": 0,
       "abandonedCooldownTime": 0,
-      "hideInMobiGlas": false,
+      "hideInMobiGlas": true,
       "systems": [
         "Stanton"
       ],
@@ -296828,7 +296828,7 @@
       "hasPersonalCooldown": false,
       "personalCooldownTime": 0,
       "abandonedCooldownTime": 0,
-      "hideInMobiGlas": false,
+      "hideInMobiGlas": true,
       "systems": [
         "Stanton"
       ],
@@ -301525,7 +301525,7 @@
       "hasPersonalCooldown": false,
       "personalCooldownTime": 0,
       "abandonedCooldownTime": 0,
-      "hideInMobiGlas": false,
+      "hideInMobiGlas": true,
       "systems": [
         "Stanton"
       ],
@@ -309432,7 +309432,7 @@
       },
       "descriptionLocKey": "Kaboos_Intro_Description",
       "titleLocKey": "Kaboos_Intro_Title",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -323530,7 +323530,7 @@
       "hasPersonalCooldown": false,
       "personalCooldownTime": 0,
       "abandonedCooldownTime": 0,
-      "hideInMobiGlas": false,
+      "hideInMobiGlas": true,
       "systems": [
         "Stanton"
       ],
@@ -324704,7 +324704,7 @@
       },
       "descriptionLocKey": "Battaglia_Story01_desc",
       "titleLocKey": "Battaglia_Story01_title",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,
@@ -325345,7 +325345,7 @@
       ],
       "descriptionLocKey": "TheCollector_Intro_Desc",
       "titleLocKey": "TheCollector_Intro_Title",
-      "onceOnly": false,
+      "onceOnly": true,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
       "canReacceptAfterAbandoning": true,

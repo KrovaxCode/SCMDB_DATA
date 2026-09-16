@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.53",
+    "date": "2026-09-16T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 New LIVE build — 4.10.1-live.12660092. The Orison Relief changes we saw on PTU are on LIVE now: those missions point at August Dunlow Spaceport rather than Orison as a whole, and \"Stop Nine Tails Regrouping\" pays 186,000 aUEC instead of 106,500, with 30 minutes instead of 19. The compressed Recco Battaglia reputation ladder did not come along — on LIVE, Prestige 3 still reads 69,600 reputation, which fits what we flagged last patch as possibly a PTU-only test value." },
+      { "type": "fix", "text": "🔁 36 missions were listed as repeatable although they can only be run once — among them the intro contracts for Recco Battaglia, the CFP, Foxwell Enforcement, Eckhart Security, Red Wind and Northrock, the Jorrit Dossier chain and the first salvage claim. Our parser reads their once-only flag correctly again, so they carry the UNQ tag and the Rank Path Planner no longer counts them as repeatable reputation income." }
+    ]
+  },
+  {
     "version": "1.0.52",
     "date": "2026-09-15T00:00:00Z",
     "changes": [

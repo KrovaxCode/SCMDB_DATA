@@ -1,11 +1,18 @@
 [
   {
+    "version": "1.0.54",
+    "date": "2026-09-17T00:00:00Z",
+    "changes": [
+      { "type": "fix", "text": "🔢 Sorting the mission table by Est. UEC/h, Est. Rep/h, C.Diff or C.Sat put rows in the wrong place. The comparison read one mission's combined value against the other mission's solo-only value, so the column came out roughly ordered but not actually sorted, and missions with no solo runs were pushed down. All four columns now compare like for like. Thanks Biter." }
+    ]
+  },
+  {
     "version": "1.0.53",
     "date": "2026-09-16T00:00:00Z",
     "changes": [
       { "type": "data", "text": "📦 New LIVE build — 4.10.1-live.12660092. The Orison Relief changes we saw on PTU are on LIVE now: those missions point at August Dunlow Spaceport rather than Orison as a whole, and \"Stop Nine Tails Regrouping\" pays 186,000 aUEC instead of 106,500, with 30 minutes instead of 19. The compressed Recco Battaglia reputation ladder did not come along — on LIVE, Prestige 3 still reads 69,600 reputation, which fits what we flagged last patch as possibly a PTU-only test value." },
       { "type": "fix", "text": "🔁 36 missions were listed as repeatable although they can only be run once — among them the intro contracts for Recco Battaglia, the CFP, Foxwell Enforcement, Eckhart Security, Red Wind and Northrock, the Jorrit Dossier chain and the first salvage claim. Our parser reads their once-only flag correctly again, so they carry the UNQ tag and the Rank Path Planner no longer counts them as repeatable reputation income." },
-      { "type": "fix", "text": "👥 The event calculator no longer claims that party points are not split. The client data carries a split flag on every completion tag — including the plain mission-chain tags, where party points can't mean anything — and it reads \"not split\" on nearly all of them, so we were presenting a default value as an answer and locking the toggle to it. You can switch between solo and party yourself now, with a note that the current patch notes say a party divides the points. Event missions were the exception for a while, which is where that claim came from; the same outdated line in the MEMA info text is gone too." }
+      { "type": "fix", "text": "👥 The event calculator no longer states that party points are not split. The current patch notes say points from a contract completed as a party are divided between the party members, so the solo/party switch is yours to set again and the note below it points at that. Event missions were the exception for a while, which is where the old claim came from; the same outdated line in the MEMA info text is gone too." }
     ]
   },
   {

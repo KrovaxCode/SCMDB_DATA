@@ -1,5 +1,9 @@
 [
   {
+    "version": "4.10.2-ptu.12770507",
+    "file": "merged-4.10.2-ptu.12770507.json"
+  },
+  {
     "version": "4.10.1-live.12660092",
     "file": "merged-4.10.1-live.12660092.json"
   }

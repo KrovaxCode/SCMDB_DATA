@@ -26131,6 +26131,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -26351,6 +26373,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -29418,6 +29462,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_1C_AttackCFP_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -48987,6 +49053,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -49100,6 +49188,28 @@
       "descriptionKey": "@headhunters_bombingrun_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -49225,6 +49335,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -49332,6 +49464,28 @@
       "descriptionKey": "@headhunters_bombingrun_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -61380,6 +61534,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -75689,6 +75865,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -83010,6 +83208,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "a2da9707-9859-4da0-9f4b-90e5afe45833",
@@ -83124,6 +83344,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -85637,10 +85879,10 @@
       "rewardUEC": 48000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -85662,6 +85904,28 @@
       "descriptionKey": "@CFP_SabotageRelays_HH_001_Desc",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -87218,6 +87482,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -110488,6 +110774,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "633d4069-c160-43d2-892d-2d8222261c20",
@@ -112860,6 +113168,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -116908,6 +117238,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -117061,6 +117413,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -117208,6 +117582,28 @@
       "descriptionKey": "@headhunters_killship_cfp_mrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -117367,6 +117763,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -117508,6 +117926,28 @@
       "descriptionKey": "@headhunters_killship_cfp_mrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -118331,6 +118771,28 @@
       "descriptionKey": "@headhunters_eliminateall_cfp_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -131900,6 +132362,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -132067,6 +132551,28 @@
       "descriptionKey": "@headhunters_killship_cfp_hrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -132246,6 +132752,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -132407,6 +132935,28 @@
       "descriptionKey": "@headhunters_killship_cfp_hrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -139678,6 +140228,28 @@
       "descriptionKey": "@headhunters_eliminateall_cfp_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -170431,6 +171003,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "f05fa898-1580-4ce3-95e2-8f5c4a1d1891",
@@ -170551,6 +171145,28 @@
       "descriptionKey": "@headhunters_EliminateSpecific_CFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -170760,6 +171376,28 @@
       "descriptionKey": "@headhunters_EliminateSpecific_CFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -191306,6 +191944,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "9cf3799c-2347-46a6-bd65-203f8a426f79",
@@ -196899,6 +197559,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "9cf3799c-2347-46a6-bd65-203f8a426f79",
@@ -197851,6 +198533,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -198016,6 +198720,28 @@
       "descriptionKey": "@headhunters_killship_cfp_vhrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -198193,6 +198919,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -198352,6 +199100,28 @@
       "descriptionKey": "@headhunters_killship_cfp_vhrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -211834,6 +212604,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "633d4069-c160-43d2-892d-2d8222261c20",
@@ -212086,6 +212878,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -216821,6 +217635,16 @@
       "availableSystems": [
         "Stanton"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
+      ],
       "pickupCount": 3,
       "blueprintRewards": [
         {
@@ -218244,6 +219068,16 @@
       "availableSystems": [
         "Stanton"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "5b74b911-ef2e-4bcd-8767-84abdc6bf6f9",
@@ -218483,6 +219317,16 @@
       "descriptionKey": "@Foxwell_HaulCargo_AToB_OLP_desc_01",
       "availableSystems": [
         "Stanton"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
       ],
       "blueprintRewards": [
         {
@@ -242261,6 +243105,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "bd54c374-923e-4095-96c1-3a76e857c35a",
@@ -264487,6 +265353,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "f05fa898-1580-4ce3-95e2-8f5c4a1d1891",
@@ -265722,10 +266610,10 @@
       "rewardUEC": 48000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -265747,6 +266635,28 @@
       "descriptionKey": "@Headhunters_SabotageRelays_CFP_001_Desc",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -286925,6 +287835,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -288201,6 +289133,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -288314,6 +289268,28 @@
       "descriptionKey": "@headhunters_bombingrun_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -288438,6 +289414,28 @@
       "descriptionKey": "@headhunters_bombingrun_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -288679,6 +289677,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -291828,6 +292848,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy1": "@destroyItems_BombingRunItem",
@@ -292764,6 +293806,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_AttackCFP_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -325582,6 +326646,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -325695,6 +326781,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -325820,6 +326928,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -325927,6 +327057,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {

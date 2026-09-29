@@ -1,5 +1,15 @@
 [
   {
+    "version": "1.0.56",
+    "date": "2026-09-29T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12811422. The Iasi event missions pay more and give more time — \"Procure Refined Quantainium\", for example, now pays 511,000 aUEC instead of 20,000 — and award between 104 and 1,602 points each instead of a flat 100. The ship weapon damage increase from the previous PTU build is gone again; damage is back to the LIVE values." },
+      { "type": "feat", "text": "🔒 Missions now show when standing with another faction keeps you from accepting them. The Pyro rivals lock each other out: 41 Headhunters missions can't be taken with Citizens for Prosperity standing, and 10 CFP missions not with Headhunters standing. Those missions carry a LOCK tag in the table and a LOCKOUT badge on their card, and the Requirements tab shows which standing blocks them and whether that also applies when the mission is shared to you. \"Disable Headhunter Comm Towers\" and \"Shutdown CFP’s Comms\" now also show their actual requirement, Jr. Contractor, instead of Neutral." },
+      { "type": "feat", "text": "👥 The event calculator now starts from what each mission says about party runs: whether its points are divided between the members, or every member gets the full amount. This can differ between missions of the same event, and even between the scores one mission counts towards, so the note names the score it means. You can still switch between solo and party yourself." },
+      { "type": "feat", "text": "🔌 Other apps can now act as a Log Watcher for SCMDB. The Watcher panel shows which app is connected, and the protocol is documented at scmdb.net/docs/watcher-protocol.md. The Watcher also got stricter about test builds: events that don't say which game channel they come from are no longer applied, so test-build runs can't end up in your profile. That includes Watcher versions older than 0.1.6, which can't tell a test build from LIVE — if the Watcher panel says Outdated, please update. And right after the page loaded, the Watcher sometimes connected without showing its version and channel — that's fixed too." }
+    ]
+  },
+  {
     "version": "1.0.55",
     "date": "2026-09-27T00:00:00Z",
     "changes": [

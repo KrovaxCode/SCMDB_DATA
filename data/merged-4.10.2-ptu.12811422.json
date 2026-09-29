@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12770507",
+  "version": "4.10.2-ptu.12811422",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -19455,25 +19455,13 @@
       "Aegis Avenger Titan",
       "Aegis Avenger Titan Renegade"
     ],
-    "2036dfb56b14": [
-      "Aegis Sabre",
-      "Aegis Sabre Comet",
-      "Aegis Sabre Firebird",
-      "Aegis Sabre Raven",
-      "Anvil F7A Hornet Mk I",
-      "Anvil F7A Hornet Mk II",
-      "Anvil F7C Hornet Mk II",
-      "Anvil F7C-R Hornet Tracker Mk I",
-      "Anvil Gladiator",
-      "Banu Defender",
-      "Drake Golem",
-      "Drake Herald",
-      "Drake Vulture",
-      "Esperia Glaive",
-      "MISC Prospector",
-      "RSI Mantis",
-      "Vanduul Glaive",
-      "Vanduul Scythe"
+    "8039d8da6dea": [
+      "Argo RAFT",
+      "Drake Cutlass Black",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "RSI Zeus Mk II CL"
     ],
     "676af19f9426": [
       "Aegis Avenger Stalker",
@@ -19505,27 +19493,22 @@
       "RSI Aurora Mk I LN",
       "RSI Aurora Mk I MR"
     ],
-    "d1a9018b3dcf": [
+    "0244a420238d": [
       "Aegis Vanguard Harbinger",
-      "Aegis Vanguard Hoplite",
-      "Aegis Vanguard Sentinel",
       "Aegis Vanguard Warden",
       "Anvil F8A Lightning",
-      "Anvil Terrapin",
-      "Anvil Terrapin Medic",
-      "Argo MOLE",
-      "Argo RAFT",
+      "Anvil Paladin",
+      "Crusader Ares Star Fighter Inferno",
+      "Crusader Ares Star Fighter Ion",
       "Drake Cutlass Black",
-      "Drake Cutlass Blue",
-      "Drake Cutlass Red",
       "Drake Cutlass Steel",
-      "Esperia Prowler",
       "Esperia Stinger",
-      "MISC Freelancer",
-      "MISC Freelancer DUR",
       "MISC Freelancer MAX",
       "MISC Freelancer MIS",
-      "RSI Zeus Mk II CL"
+      "RSI Scorpius",
+      "RSI Scorpius Antares",
+      "RSI Zeus Mk II CL",
+      "Vanduul Stinger"
     ],
     "2adeb892eb22": [
       "Aegis Avenger Stalker",
@@ -19620,16 +19603,10 @@
       "RSI Aurora Mk I MR",
       "RSI Mantis"
     ],
-    "f6a71d3dddff": [
-      "Aegis Hammerhead",
-      "Anvil Carrack",
-      "Crusader A2 Hercules Starlifter",
-      "Crusader C2 Hercules Starlifter",
-      "Crusader M2 Hercules Starlifter",
-      "Drake Caterpillar",
-      "MISC Hull C",
-      "MISC Starfarer",
-      "Origin 600i"
+    "77ee31549aee": [
+      "Anvil Valkyrie",
+      "Drake Corsair",
+      "RSI Constellation Phoenix"
     ],
     "bd5a88da2f60": [
       "Aegis Hammerhead",
@@ -19907,11 +19884,8 @@
       "C.O. Mustang Delta",
       "Origin M50 Interceptor"
     ],
-    "a85b0f31856d": [
-      "Crusader Mercury Star Runner"
-    ],
-    "a7e31d83cf8d": [
-      "Anvil Carrack"
+    "aafb9aa80f5f": [
+      "MISC Starfarer"
     ],
     "2f81cc74ba57": [
       "Aegis Reclaimer"
@@ -26653,7 +26627,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 6,
+      "timeToComplete": 8,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -26710,14 +26684,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 125,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 26500,
+      "rewardUEC": 35500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -26744,14 +26718,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 167,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 167,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -26797,7 +26771,7 @@
       "contractorNameKey": "@FTL_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 20,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -26855,7 +26829,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 38750,
+      "rewardUEC": 51500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -26953,14 +26927,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 417,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 417,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -27006,7 +26980,7 @@
       "contractorNameKey": "@Guild_United_Wayfarers_Club",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 13,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27061,14 +27035,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 208,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 33500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27166,14 +27140,14 @@
       ],
       "completionTags": [
         {
-          "count": 3,
+          "count": 271,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 271,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -27223,7 +27197,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 5,
+      "timeToComplete": 6,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27281,7 +27255,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 17500,
+      "rewardUEC": 21000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27308,14 +27282,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 125,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 125,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -27361,7 +27335,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 16,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27418,14 +27392,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 626,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 62000,
+      "rewardUEC": 66250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27452,14 +27426,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -27502,13 +27476,13 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Important Supply Haul",
-      "description": "Pick up cargo from <EM4>[LOCATION]</EM4> and deliver to <EM4>[DESTINATION]</EM4>.\\n\\nYou will need a ship that can carry <EM4>4 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>.",
+      "description": "Pick up cargo from <EM4>[LOCATION]</EM4> and deliver to <EM4>[DESTINATION]</EM4>.\\n\\nYou will need a ship that can carry <EM4>16 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>.",
       "factionGuid": "3b2f7882-73cc-41a4-9dce-f188d927e905",
       "contractorName": "Covalex",
       "contractorNameKey": "@Covalex_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 21,
+      "timeToComplete": 30,
       "locations": [
         "0a75393be9ca"
       ],
@@ -27528,14 +27502,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 417,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 86750,
+      "rewardUEC": 124000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27556,14 +27530,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 625,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 625,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
@@ -27589,7 +27563,7 @@
       "tokenSubstitutions": {
         "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
         "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
-        "MissionMaxSCUSize": "@FreightElevator_4SCU"
+        "MissionMaxSCUSize": "@FreightElevator_16SCU"
       },
       "descriptionLocKey": "iasi_Hauling_Supply_2_Desc",
       "titleLocKey": "iasi_Hauling_Supply_2_Title",
@@ -27618,7 +27592,7 @@
       "contractorNameKey": "@Ling_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 13,
+      "timeToComplete": 17,
       "locations": [
         "0a75393be9ca"
       ],
@@ -27638,14 +27612,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 417,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 51000,
+      "rewardUEC": 66750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27666,14 +27640,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 354,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 354,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
@@ -27722,7 +27696,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Ling Supply Delivery",
-      "description": "Pick up cargo from <EM4>[LOCATION]</EM4> and deliver to <EM4>[DESTINATION]</EM4>.\\n\\nYou will need a ship that can carry <EM4>4 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>.",
+      "description": "Pick up cargo from <EM4>[LOCATION]</EM4> and deliver to <EM4>[DESTINATION]</EM4>.\\n\\nYou will need a ship that can carry <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>.",
       "factionGuid": "8ca58dc2-ecec-49ea-bb62-39a56bb28420",
       "contractorName": "Ling Family Hauling",
       "contractorNameKey": "@Ling_RepUI_Name",
@@ -27748,7 +27722,7 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 354,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
@@ -27776,14 +27750,14 @@
       ],
       "completionTags": [
         {
-          "count": 11,
+          "count": 417,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 417,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
@@ -27809,7 +27783,7 @@
       "tokenSubstitutions": {
         "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
         "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
-        "MissionMaxSCUSize": "@FreightElevator_4SCU"
+        "MissionMaxSCUSize": "@FreightElevator_24SCU"
       },
       "descriptionLocKey": "iasi_Hauling_Supply_Desc",
       "titleLocKey": "iasi_Hauling_Supply_Title",
@@ -27838,7 +27812,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 12,
+      "timeToComplete": 20,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27893,14 +27867,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 208,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 72000,
+      "rewardUEC": 119750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27909,7 +27883,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "f6a71d3dddff",
+              "poolId": "77ee31549aee",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -27917,7 +27891,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "f6a71d3dddff",
+                      "poolId": "77ee31549aee",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -27933,21 +27907,14 @@
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
                     {
                       "poolId": "9810a99bc9df",
                       "minCount": 3,
                       "maxCount": 3
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave2",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
+                    },
                     {
                       "poolId": "bd5a88da2f60",
                       "minCount": 1,
@@ -27987,14 +27954,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 417,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 417,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -28095,7 +28062,7 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 250,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
@@ -28173,7 +28140,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "d1a9018b3dcf",
+              "poolId": "0244a420238d",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28181,7 +28148,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "d1a9018b3dcf",
+                      "poolId": "0244a420238d",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28336,14 +28303,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 333,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 333,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -28389,7 +28356,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 8,
+      "timeToComplete": 10,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -28444,14 +28411,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 146,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 35500,
+      "rewardUEC": 44250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -28460,7 +28427,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "d1a9018b3dcf",
+              "poolId": "0244a420238d",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28468,7 +28435,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "d1a9018b3dcf",
+                      "poolId": "0244a420238d",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28484,21 +28451,14 @@
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
                     {
                       "poolId": "2adeb892eb22",
                       "minCount": 3,
                       "maxCount": 3
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave2",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
+                    },
                     {
                       "poolId": "aff056057480",
                       "minCount": 1,
@@ -28538,14 +28498,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 208,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 208,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -28646,7 +28606,7 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 333,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
@@ -28726,7 +28686,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "f6a71d3dddff",
+              "poolId": "77ee31549aee",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28734,7 +28694,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "f6a71d3dddff",
+                      "poolId": "77ee31549aee",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28895,14 +28855,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 417,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 417,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -28948,7 +28908,7 @@
       "contractorNameKey": "@FTL_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 12,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -29006,7 +28966,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 36750,
+      "rewardUEC": 46000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29061,14 +29021,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -29117,7 +29077,7 @@
       "contractorNameKey": "@FTL_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 12,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -29174,14 +29134,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 2,
+          "requiredCountValue": 313,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 43500,
+      "rewardUEC": 54250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29241,14 +29201,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -29297,7 +29257,7 @@
       "contractorNameKey": "@FTL_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 14,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -29354,14 +29314,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 626,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 62000,
+      "rewardUEC": 66500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29416,14 +29376,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -29472,7 +29432,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 11,
+      "timeToComplete": 44,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29493,7 +29453,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 81000,
+      "rewardUEC": 324000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29514,14 +29474,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 911,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 911,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
@@ -29563,7 +29523,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 9,
+      "timeToComplete": 39,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29584,7 +29544,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 45750,
+      "rewardUEC": 198500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29605,14 +29565,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 812,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 812,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
@@ -29654,7 +29614,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 77,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29675,7 +29635,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 20000,
+      "rewardUEC": 511000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29696,13 +29656,13 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 1602,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
+          "count": 1602,
           "splitPointsForParty": true
         }
       ],
@@ -29745,7 +29705,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 13,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -29802,14 +29762,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 313,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 53750,
+      "rewardUEC": 62000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29836,14 +29796,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -29892,7 +29852,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 11,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -29950,7 +29910,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 44000,
+      "rewardUEC": 60000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29977,14 +29937,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30033,7 +29993,7 @@
       "contractorNameKey": "@Guild_United_Wayfarers_Club",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 5,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30089,7 +30049,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 13000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30149,14 +30109,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 104,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 104,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30206,7 +30166,7 @@
       "contractorNameKey": "@iasi_faction_name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 12,
       "locations": [
         "0a75393be9ca"
       ],
@@ -30229,7 +30189,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 31000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30250,14 +30210,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 250,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 250,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30288,7 +30248,7 @@
       "contractorNameKey": "@iasi_faction_name",
       "canBeShared": false,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 12,
       "locations": [
         "0a75393be9ca"
       ],
@@ -30310,7 +30270,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 31000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30336,14 +30296,14 @@
           "splitPointsForParty": false
         },
         {
-          "count": 1,
+          "count": 250,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 250,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30374,7 +30334,7 @@
       "contractorNameKey": "@iasi_faction_name",
       "canBeShared": false,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 12,
       "locations": [
         "0a75393be9ca"
       ],
@@ -30391,7 +30351,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 31000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30412,14 +30372,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 250,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 250,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30450,7 +30410,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 10,
+      "timeToComplete": 15,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30507,14 +30467,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 3,
+          "requiredCountValue": 167,
           "tags": [
             "0cfd698b-a4c5-4139-b175-56157424d5c9"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 49000,
+      "rewardUEC": 73500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30541,14 +30501,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 313,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 313,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -30594,7 +30554,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 34,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30666,16 +30626,10 @@
           {
             "name": "Stanton4"
           }
-        ],
-        "completedContractTags": {
-          "requiredCountValue": 3,
-          "tags": [
-            "6574be32-ca50-4e95-9403-c2e707e87c8b"
-          ]
-        }
+        ]
       },
       "pyroRegion": null,
-      "rewardUEC": 76500,
+      "rewardUEC": 173250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30735,20 +30689,20 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 709,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
+          "count": 709,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 150,
-          "maxSCU": 150,
+          "minSCU": 55,
+          "maxSCU": 55,
           "maxContainerSize": -1,
           "resource": "d542a9747c96"
         }
@@ -30795,208 +30749,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
-      "locations": [
-        "35c3ed47bd36",
-        "99c43e1e85bd",
-        "648636bf0041",
-        "bced3e1d984f",
-        "c72718053d50",
-        "c664d65bf1a8",
-        "dc082238a5f2",
-        "b5224145ba6b",
-        "7376a9a337a5",
-        "46e296ad90af",
-        "11a4696ac43c",
-        "55dbe3c9968f",
-        "00ba64989794",
-        "4eb4aebdcc37",
-        "6e5b52f73ed4",
-        "ca4a689496af",
-        "71259e487239",
-        "e2c9d59de95f",
-        "71cd00a8ecf3",
-        "51333e9154e0",
-        "b1572c3ed9f8",
-        "b912c365e93a",
-        "a80b025c0a8d",
-        "982f0ea2ac70",
-        "7fcf0a839ccf",
-        "15a181728888",
-        "960c8cc0f396",
-        "a04622ab97b4",
-        "25aa2c378538",
-        "675b12c67264",
-        "e5f28a5b940d",
-        "57af51fd4c53",
-        "705704694b60",
-        "2926c9ad408c"
-      ],
-      "destinations": [
-        "cdbe5c5a9cc4",
-        "a135f4e98ad2",
-        "e95b4a8986f3",
-        "581b65066988",
-        "b59e5f3521ad",
-        "018f9a8014f4",
-        "b3580d2b56f8",
-        "360e510ac13b",
-        "f6d49b8ef987",
-        "baff0c674b66",
-        "afc85b274a27",
-        "51c7fcbf4b91",
-        "cd6ab6ce61a7",
-        "4a0bccec3491",
-        "f14fda6625d9",
-        "02c36d96275b",
-        "4411e7a6a465",
-        "757b267eceb1"
-      ],
-      "locationSets": null,
-      "prerequisites": {
-        "locality": [
-          {
-            "name": "Stanton1"
-          },
-          {
-            "name": "Stanton2"
-          },
-          {
-            "name": "Stanton3"
-          },
-          {
-            "name": "Stanton4"
-          }
-        ],
-        "completedContractTags": {
-          "requiredCountValue": 1,
-          "tags": [
-            "6574be32-ca50-4e95-9403-c2e707e87c8b"
-          ]
-        }
-      },
-      "pyroRegion": null,
-      "rewardUEC": 52750,
-      "buyIn": null,
-      "minStanding": null,
-      "maxStanding": null,
-      "shipEncounters": {
-        "spawnConfig": {
-          "groups": [
-            {
-              "role": "SalvageSpawnDescription",
-              "poolId": "a7e31d83cf8d",
-              "waves": [
-                {
-                  "name": "SalvageableShip",
-                  "minShips": 1,
-                  "maxShips": 1,
-                  "slots": [
-                    {
-                      "poolId": "a7e31d83cf8d",
-                      "minCount": 1,
-                      "maxCount": 1,
-                      "inexact": true,
-                      "cargoManifest": "legalcargo_generic_lowvalue_halfcargo"
-                    }
-                  ]
-                }
-              ],
-              "classification": "unmanned"
-            }
-          ],
-          "waveDelay": null,
-          "numberOfWaves": null,
-          "totalMinShips": 1,
-          "totalMaxShips": 1
-        }
-      },
-      "propertyValues": {
-        "duration": 0.0,
-        "ClaimNumber": 10000
-      },
-      "subContractIds": [
-        "b353c7cd-61ed-4810-b46b-bee486ea3fa9",
-        "d42d9d70-6951-4940-b1b8-14e423ade1f8",
-        "4a3934c0-0eb8-4f3d-ae70-9f31528780aa"
-      ],
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@iasi_Salvage_ResourceGathering_M_Title",
-      "descriptionKey": "@iasi_Salvage_ResourceGathering_M_Desc",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredScenarios": [
-        {
-          "name": "VisitingIasi_Scenario",
-          "enabled": false
-        }
-      ],
-      "completionTags": [
-        {
-          "count": 1,
-          "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
-          "splitPointsForParty": false
-        },
-        {
-          "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
-        }
-      ],
-      "haulingOrders": [
-        {
-          "minSCU": 100,
-          "maxSCU": 100,
-          "maxContainerSize": -1,
-          "resource": "7f48d80cf93e"
-        }
-      ],
-      "descriptionLocKey": "iasi_Salvage_ResourceGathering_M_Desc",
-      "titleLocKey": "iasi_Salvage_ResourceGathering_M_Title",
-      "debugNames": [
-        "Iasi_Salvage_Medium",
-        "Iasi_Salvage_Medium_0",
-        "Iasi_Salvage_Medium_1",
-        "Iasi_Salvage_Medium_2"
-      ],
-      "contractDefinitionIds": [
-        "950242fe-e25d-4e64-b621-860e4305c6f1",
-        "b353c7cd-61ed-4810-b46b-bee486ea3fa9",
-        "d42d9d70-6951-4940-b1b8-14e423ade1f8",
-        "4a3934c0-0eb8-4f3d-ae70-9f31528780aa"
-      ],
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": false,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0
-    },
-    {
-      "id": "90ad94c4-514d-4a5d-a301-f86b2a835710",
-      "debugName": "Iasi_Salvage_Small",
-      "category": "event",
-      "missionType": "IASI Event",
-      "missionTypeKey": "@iasi_Journal_Title",
-      "title": "<REDACTED>: UCM Order (S)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any size salvage ship.",
-      "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
-      "contractorName": "Adagio Holdings",
-      "contractorNameKey": "@Adagio_from",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 33,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31071,7 +30824,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 52750,
+      "rewardUEC": 116250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31080,7 +30833,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "a85b0f31856d",
+              "poolId": "aafb9aa80f5f",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -31088,7 +30841,202 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "a85b0f31856d",
+                      "poolId": "aafb9aa80f5f",
+                      "minCount": 1,
+                      "maxCount": 1,
+                      "inexact": true,
+                      "cargoManifest": "legalcargo_generic_lowvalue_halfcargo"
+                    }
+                  ]
+                }
+              ],
+              "classification": "unmanned"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 1,
+          "totalMaxShips": 1
+        }
+      },
+      "propertyValues": {
+        "duration": 0.0,
+        "ClaimNumber": 10000
+      },
+      "subContractIds": [
+        "b353c7cd-61ed-4810-b46b-bee486ea3fa9",
+        "d42d9d70-6951-4940-b1b8-14e423ade1f8",
+        "4a3934c0-0eb8-4f3d-ae70-9f31528780aa"
+      ],
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@iasi_Salvage_ResourceGathering_M_Title",
+      "descriptionKey": "@iasi_Salvage_ResourceGathering_M_Desc",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "requiredScenarios": [
+        {
+          "name": "VisitingIasi_Scenario",
+          "enabled": false
+        }
+      ],
+      "completionTags": [
+        {
+          "count": 684,
+          "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
+          "splitPointsForParty": false
+        },
+        {
+          "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
+          "count": 684,
+          "splitPointsForParty": true
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minSCU": 50,
+          "maxSCU": 50,
+          "maxContainerSize": -1,
+          "resource": "7f48d80cf93e"
+        }
+      ],
+      "descriptionLocKey": "iasi_Salvage_ResourceGathering_M_Desc",
+      "titleLocKey": "iasi_Salvage_ResourceGathering_M_Title",
+      "debugNames": [
+        "Iasi_Salvage_Medium",
+        "Iasi_Salvage_Medium_0",
+        "Iasi_Salvage_Medium_1",
+        "Iasi_Salvage_Medium_2"
+      ],
+      "contractDefinitionIds": [
+        "950242fe-e25d-4e64-b621-860e4305c6f1",
+        "b353c7cd-61ed-4810-b46b-bee486ea3fa9",
+        "d42d9d70-6951-4940-b1b8-14e423ade1f8",
+        "4a3934c0-0eb8-4f3d-ae70-9f31528780aa"
+      ],
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 1,
+      "abandonedCooldownTime": 1,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
+    },
+    {
+      "id": "90ad94c4-514d-4a5d-a301-f86b2a835710",
+      "debugName": "Iasi_Salvage_Small",
+      "category": "event",
+      "missionType": "IASI Event",
+      "missionTypeKey": "@iasi_Journal_Title",
+      "title": "<REDACTED>: UCM Order (S)",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any size salvage ship.",
+      "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
+      "contractorName": "Adagio Holdings",
+      "contractorNameKey": "@Adagio_from",
+      "canBeShared": true,
+      "illegal": false,
+      "timeToComplete": 34,
+      "locations": [
+        "35c3ed47bd36",
+        "99c43e1e85bd",
+        "648636bf0041",
+        "bced3e1d984f",
+        "c72718053d50",
+        "c664d65bf1a8",
+        "dc082238a5f2",
+        "b5224145ba6b",
+        "7376a9a337a5",
+        "46e296ad90af",
+        "11a4696ac43c",
+        "55dbe3c9968f",
+        "00ba64989794",
+        "4eb4aebdcc37",
+        "6e5b52f73ed4",
+        "ca4a689496af",
+        "71259e487239",
+        "e2c9d59de95f",
+        "71cd00a8ecf3",
+        "51333e9154e0",
+        "b1572c3ed9f8",
+        "b912c365e93a",
+        "a80b025c0a8d",
+        "982f0ea2ac70",
+        "7fcf0a839ccf",
+        "15a181728888",
+        "960c8cc0f396",
+        "a04622ab97b4",
+        "25aa2c378538",
+        "675b12c67264",
+        "e5f28a5b940d",
+        "57af51fd4c53",
+        "705704694b60",
+        "2926c9ad408c"
+      ],
+      "destinations": [
+        "cdbe5c5a9cc4",
+        "a135f4e98ad2",
+        "e95b4a8986f3",
+        "581b65066988",
+        "b59e5f3521ad",
+        "018f9a8014f4",
+        "b3580d2b56f8",
+        "360e510ac13b",
+        "f6d49b8ef987",
+        "baff0c674b66",
+        "afc85b274a27",
+        "51c7fcbf4b91",
+        "cd6ab6ce61a7",
+        "4a0bccec3491",
+        "f14fda6625d9",
+        "02c36d96275b",
+        "4411e7a6a465",
+        "757b267eceb1"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Stanton1"
+          },
+          {
+            "name": "Stanton2"
+          },
+          {
+            "name": "Stanton3"
+          },
+          {
+            "name": "Stanton4"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 119750,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "SalvageSpawnDescription",
+              "poolId": "be7e3ed77729",
+              "waves": [
+                {
+                  "name": "SalvageableShip",
+                  "minShips": 1,
+                  "maxShips": 1,
+                  "slots": [
+                    {
+                      "poolId": "be7e3ed77729",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -31131,20 +31079,20 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 717,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 717,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 16,
-          "maxSCU": 16,
+          "minSCU": 12,
+          "maxSCU": 12,
           "maxContainerSize": -1,
           "resource": "9f3423b93e06"
         }
@@ -31191,7 +31139,7 @@
       "contractorNameKey": "@Guild_United_Wayfarers_Club",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 3,
+      "timeToComplete": 5,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31246,14 +31194,14 @@
           }
         ],
         "completedContractTags": {
-          "requiredCountValue": 1,
+          "requiredCountValue": 104,
           "tags": [
             "d26f3e42-d9b4-41dc-a52b-174833256dac"
           ]
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 7750,
+      "rewardUEC": 13000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31313,14 +31261,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 104,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 104,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -31487,7 +31435,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "2036dfb56b14",
+              "poolId": "8039d8da6dea",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31495,7 +31443,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2036dfb56b14",
+                      "poolId": "8039d8da6dea",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -31638,14 +31586,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 250,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 250,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -31691,7 +31639,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 6,
+      "timeToComplete": 7,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31747,7 +31695,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 24000,
+      "rewardUEC": 28000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31756,7 +31704,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "2036dfb56b14",
+              "poolId": "8039d8da6dea",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31764,7 +31712,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2036dfb56b14",
+                      "poolId": "8039d8da6dea",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -31822,14 +31770,14 @@
       ],
       "completionTags": [
         {
-          "count": 1,
+          "count": 146,
           "tag": "0cfd698b-a4c5-4139-b175-56157424d5c9",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 100,
-          "splitPointsForParty": true
+          "count": 146,
+          "splitPointsForParty": false
         }
       ],
       "haulingOrders": null,
@@ -32335,6 +32283,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -32555,6 +32525,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -35622,6 +35614,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_1C_AttackCFP_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -55332,6 +55346,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -55445,6 +55481,28 @@
       "descriptionKey": "@headhunters_bombingrun_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -55570,6 +55628,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -55677,6 +55757,28 @@
       "descriptionKey": "@headhunters_bombingrun_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -67725,6 +67827,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -82034,6 +82158,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -89355,6 +89501,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "a2da9707-9859-4da0-9f4b-90e5afe45833",
@@ -89469,6 +89637,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -91982,10 +92172,10 @@
       "rewardUEC": 48000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -92007,6 +92197,28 @@
       "descriptionKey": "@CFP_SabotageRelays_HH_001_Desc",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -93563,6 +93775,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -116833,6 +117067,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "633d4069-c160-43d2-892d-2d8222261c20",
@@ -119205,6 +119461,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -123253,6 +123531,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -123406,6 +123706,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -123553,6 +123875,28 @@
       "descriptionKey": "@headhunters_killship_cfp_mrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -123712,6 +124056,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -123853,6 +124219,28 @@
       "descriptionKey": "@headhunters_killship_cfp_mrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -124676,6 +125064,28 @@
       "descriptionKey": "@headhunters_eliminateall_cfp_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -138359,6 +138769,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -138526,6 +138958,28 @@
       "descriptionKey": "@headhunters_killship_cfp_hrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -138705,6 +139159,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -138866,6 +139342,28 @@
       "descriptionKey": "@headhunters_killship_cfp_hrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -146137,6 +146635,28 @@
       "descriptionKey": "@headhunters_eliminateall_cfp_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -159467,7 +159987,7 @@
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
       "title": "Master Tracker License Certification",
-      "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM] \\nRISK ASSESSMENT: Extreme\\nLAST KNOWN LOCATION: [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: As acknowledgment of your expertise in the craft, the Bounty Hunters Guild would like to offer you the chance to earn a Master Tracker License.\\n\\nThis license would signify that you are qualified to track and apprehend Extreme-Risk Targets (ERT). These are criminals who travel in sub-capital ships with heavy escorts. This class of bounty only gets assigned to the most experienced of trackers.\\n\\nTo successfully complete this certification process, you must apprehend an ERT ranked criminal by the name of <EM4>[TARGET]</EM4> last seen at <EM4>[LOCATION]</EM4>.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
+      "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM] \\nRISK ASSESSMENT: Extreme\\nLAST KNOWN LOCATION: [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: As acknowledgment of your expertise in the craft, the Bounty Hunters Guild would like to offer you the chance to earn a Master Tracker License.\\n\\nThis license would signify that you are qualified to track and apprehend Extreme-Risk Targets (ERT). These are criminals who travel in powerful ships with heavy escorts. This class of bounty only gets assigned to the most experienced of trackers.\\n\\nTo successfully complete this certification process, you must apprehend an ERT ranked criminal by the name of <EM4>[TARGET]</EM4> last seen at <EM4>[LOCATION]</EM4>.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
       "contractorNameKey": "@BHG_From",
@@ -177264,6 +177784,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "f05fa898-1580-4ce3-95e2-8f5c4a1d1891",
@@ -177384,6 +177926,28 @@
       "descriptionKey": "@headhunters_EliminateSpecific_CFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -177593,6 +178157,28 @@
       "descriptionKey": "@headhunters_EliminateSpecific_CFP_M_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -198275,6 +198861,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "9cf3799c-2347-46a6-bd65-203f8a426f79",
@@ -204248,6 +204856,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "9cf3799c-2347-46a6-bd65-203f8a426f79",
@@ -205200,6 +205830,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "0e810eae-7b66-45aa-a18f-ffc1aae15585",
@@ -205365,6 +206017,28 @@
       "descriptionKey": "@headhunters_killship_cfp_vhrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -205542,6 +206216,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "de417e15-2936-497a-8f90-7a52eb2eb12a",
@@ -205701,6 +206397,28 @@
       "descriptionKey": "@headhunters_killship_cfp_vhrt_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "f340b011-c40c-4229-b9c1-ce6a3eb1df77",
+          "scopeName": "Affinity",
+          "scopeDisplayName": "Affinity",
+          "minStanding": {
+            "guid": "cf6f6a08-b8a0-4b13-9e20-2b74cd783059",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "RepStanding_MissionGiver_Default_Neutral_Name"
+          },
+          "maxStanding": {
+            "guid": "bcd1f776-9a6e-4ffd-85c4-6df64f4cf2ed",
+            "name": "Exalted",
+            "minReputation": 10000,
+            "nameKey": "RepStanding_MissionGiver_Default_Exalted_Name"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -219183,6 +219901,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "633d4069-c160-43d2-892d-2d8222261c20",
@@ -219435,6 +220175,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -224171,6 +224933,16 @@
       "availableSystems": [
         "Stanton"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
+      ],
       "pickupCount": 3,
       "blueprintRewards": [
         {
@@ -225671,6 +226443,16 @@
       "availableSystems": [
         "Stanton"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "5b74b911-ef2e-4bcd-8767-84abdc6bf6f9",
@@ -225911,6 +226693,16 @@
       "descriptionKey": "@Foxwell_HaulCargo_AToB_OLP_desc_01",
       "availableSystems": [
         "Stanton"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
+          "factionName": "Foxwell Enforcement",
+          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+          "scopeName": "Security",
+          "scopeDisplayName": "Security",
+          "includeWhenSharing": false
+        }
       ],
       "blueprintRewards": [
         {
@@ -249765,6 +250557,28 @@
           "titleLocKey": "cfp_eliminateall_intro_title_001"
         }
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "bd54c374-923e-4095-96c1-3a76e857c35a",
@@ -272219,6 +273033,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "f05fa898-1580-4ce3-95e2-8f5c4a1d1891",
@@ -273454,10 +274290,10 @@
       "rewardUEC": 48000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -273479,6 +274315,28 @@
       "descriptionKey": "@Headhunters_SabotageRelays_CFP_001_Desc",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -294975,6 +295833,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e9947de1-6160-4d62-a319-2f4693140c88",
@@ -296251,6 +297131,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -296364,6 +297266,28 @@
       "descriptionKey": "@headhunters_bombingrun_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -296488,6 +297412,28 @@
       "descriptionKey": "@headhunters_bombingrun_E_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -296729,6 +297675,28 @@
           "title": "Establishing Security",
           "titleKey": "@cfp_eliminateall_intro_title_001",
           "titleLocKey": "cfp_eliminateall_intro_title_001"
+        }
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
+          "factionName": "Headhunters",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
         }
       ],
       "blueprintRewards": [
@@ -299878,6 +300846,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy1": "@destroyItems_BombingRunItem",
@@ -300814,6 +301804,28 @@
       "descriptionKey": "@headhunters_ChainElimAll_AttackCFP_E_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "blueprintRewards": [
         {
@@ -319686,7 +320698,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | Extreme-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -319867,7 +320879,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | Extreme-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -320084,7 +321096,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | HeadHunters | High-Risk Target (Large Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | HeadHunters | High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: HeadHunters\\nNOTES: Headhunters are a reputed criminal organization who have a long history of clashes with law enforcement. There is a good chance that they might have other gang members when confronted so exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -320880,7 +321892,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | HeadHunters | Moderate-Risk Target (Small Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | HeadHunters | Moderate-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: HeadHunters\\nNOTES: Headhunters are a reputed criminal organization who have a long history of clashes with law enforcement. There is a good chance that they might have other gang members when confronted so exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -321670,7 +322682,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | HeadHunters | Very High-Risk Target (Large Multicrew Craft, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | HeadHunters | Very High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: HeadHunters\\nNOTES: Headhunters are a reputed criminal organization who have a long history of clashes with law enforcement. There is a good chance that they might have other gang members when confronted so exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -322472,7 +323484,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | High-Risk Target (Large Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -322654,7 +323666,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | High-Risk Target (Large Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -323468,7 +324480,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | High-Risk Target (Large Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -323680,7 +324692,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Low-Risk Target (Single Seater Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -323854,7 +324866,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Low-Risk Target (Single Seater Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -324653,7 +325665,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Low-Risk Target (Single Seater Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -324862,7 +325874,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target (Small Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -325038,7 +326050,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target (Small Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -325846,7 +326858,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target (Small Multicrew Craft, Average Support)",
+      "title": "Verified Bounty: [TARGET] | Moderate-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -326052,7 +327064,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Very High-Risk Target (Large Multicrew Craft, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | Very High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -326234,7 +327246,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Very High-Risk Target (Large Multicrew Craft, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | Very High-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -326446,7 +327458,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target (Single Seater Craft, Minimal Support)",
+      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -326597,7 +327609,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target (Single Seater Craft, Minimal Support)",
+      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -327379,7 +328391,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target (Single Seater Craft, Minimal Support)",
+      "title": "Verified Bounty: [TARGET] | Very Low-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: They have several known associates with criminal records so they may not be alone so arm up and exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -327572,7 +328584,7 @@
       "category": "career",
       "missionType": "Bounty Hunter",
       "missionTypeKey": "@mobiglas_ui_BountyHunter",
-      "title": "Verified Bounty: [TARGET] | XenoThreat | Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
+      "title": "Verified Bounty: [TARGET] | XenoThreat | Extreme-Risk Target",
       "description": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM]\\nRISK ASSESSMENT: [DANGER]\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: XenoThreat\\nNOTES: Xenothreat has consistently displayed unprovoked aggression against any law enforcement or security personnel. There is a good chance that they might have other gang members when confronted so exercise caution when engaging.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
       "contractorName": "Bounty Hunters Guild",
@@ -331663,12 +332675,11 @@
       ],
       "itemRewards": [
         {
-          "entityClass": "80c96371-9c46-44f2-bee8-627a66b37dca",
-          "name": "RSI Constellation Taurus Wikelo War Special",
+          "entityClass": "7a37e5c1-a659-4b8b-aa30-22a540f5df22",
+          "name": null,
           "amount": 1,
           "sendToPlayerHomeLocation": false,
-          "awardOnlyToMissionOwner": true,
-          "itemType": "vehicle"
+          "awardOnlyToMissionOwner": true
         }
       ],
       "haulingOrders": [
@@ -333632,6 +334643,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -333745,6 +334778,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -333870,6 +334925,28 @@
       "availableSystems": [
         "Pyro"
       ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ItemsToDestroy": "@destoryitems_item_03",
@@ -333977,6 +335054,28 @@
       "descriptionKey": "@headhunters_sabotage_servers_M_CFP_desc_001",
       "availableSystems": [
         "Pyro"
+      ],
+      "reputationLockout": [
+        {
+          "factionGuid": "5a6914c9-3d56-47e0-9fe2-b264ee17b992",
+          "factionName": "Citizens For Prosperity",
+          "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+          "scopeName": "FactionReputation",
+          "scopeDisplayName": "Standing",
+          "minStanding": {
+            "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+            "name": "Neutral",
+            "minReputation": 0,
+            "nameKey": "mobiGlas_Reputation_Stance_Neutral"
+          },
+          "maxStanding": {
+            "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+            "name": "Elite Contractor",
+            "minReputation": 95250,
+            "nameKey": "RepScope_Contractor_Rank6"
+          },
+          "includeWhenSharing": true
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {

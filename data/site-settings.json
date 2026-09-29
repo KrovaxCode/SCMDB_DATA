@@ -3,13 +3,14 @@
   "blueprints_enabled": true,
   "require_rsi_for_entries": false,
   "updated_by": null,
-  "updated_at": "2026-09-16T20:02:47.294+00:00",
-  "ptu_enabled": false,
+  "updated_at": "2026-09-27T19:46:29.452+00:00",
+  "ptu_enabled": true,
   "scenario_overrides": {
     "ptu": {
       "ORS_Scenario": true,
       "RoX_Scenario": false,
       "NMP2_Scenario": true,
+      "VisitingIasi_Scenario": true,
       "ContentBlocker_Scenario": true
     },
     "live": {
@@ -23,5 +24,5 @@
   },
   "mema_enabled": true,
   "mema_cache_interval_hours": 12,
-  "mema_cache_last_refreshed": "2026-09-27T13:45:25Z"
+  "mema_cache_last_refreshed": "2026-09-29T16:25:19Z"
 }

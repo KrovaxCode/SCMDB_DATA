@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12770507",
+  "version": "4.10.2-ptu.12811422",
   "meta": {
     "totalItems": 1616,
     "weapons": 271,
@@ -4158,7 +4158,7 @@
       "speed": 1196.0,
       "lifetime": 2.26,
       "damage": {
-        "physical": 157.6584,
+        "physical": 72.99,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4172,7 +4172,7 @@
       "speed": 1184.0,
       "lifetime": 2.53,
       "damage": {
-        "physical": 236.0016,
+        "physical": 109.26,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4186,7 +4186,7 @@
       "speed": 1200.0,
       "lifetime": 2.08,
       "damage": {
-        "physical": 104.976,
+        "physical": 48.6,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4239,7 +4239,7 @@
       "speed": 1296.0,
       "lifetime": 2.16,
       "damage": {
-        "physical": 145.8432,
+        "physical": 84.4,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4253,7 +4253,7 @@
       "speed": 1251.0,
       "lifetime": 3.2,
       "damage": {
-        "physical": 177.12,
+        "physical": 102.5,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4267,7 +4267,7 @@
       "speed": 1215.0,
       "lifetime": 4.94,
       "damage": {
-        "physical": 410.184,
+        "physical": 189.9,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4282,7 +4282,7 @@
       "lifetime": 0.96,
       "damage": {
         "physical": 0.0,
-        "energy": 0.000245,
+        "energy": 0.0001,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4381,7 +4381,7 @@
       "lifetime": 1.07,
       "damage": {
         "physical": 0.0,
-        "energy": 83.3,
+        "energy": 34.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4395,7 +4395,7 @@
       "lifetime": 1.16,
       "damage": {
         "physical": 0.0,
-        "energy": 134.75,
+        "energy": 55.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4409,7 +4409,7 @@
       "lifetime": 1.3,
       "damage": {
         "physical": 0.0,
-        "energy": 210.7,
+        "energy": 86.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4423,7 +4423,7 @@
       "lifetime": 1.56,
       "damage": {
         "physical": 0.0,
-        "energy": 245.0,
+        "energy": 100.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4437,7 +4437,7 @@
       "lifetime": 2.3,
       "damage": {
         "physical": 0.0,
-        "energy": 367.5,
+        "energy": 150.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4451,7 +4451,7 @@
       "lifetime": 3.56,
       "damage": {
         "physical": 0.0,
-        "energy": 1238.108,
+        "energy": 505.35,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4542,7 +4542,7 @@
       "speed": 1495.0,
       "lifetime": 1.44,
       "damage": {
-        "physical": 116.64,
+        "physical": 54.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4556,7 +4556,7 @@
       "speed": 1152.0,
       "lifetime": 3.04,
       "damage": {
-        "physical": 1404.0,
+        "physical": 975.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4610,7 +4610,7 @@
       "lifetime": 1.07,
       "damage": {
         "physical": 0.0,
-        "energy": 42.8652,
+        "energy": 17.496,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4624,7 +4624,7 @@
       "lifetime": 1.16,
       "damage": {
         "physical": 0.0,
-        "energy": 64.2978,
+        "energy": 26.244,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4638,7 +4638,7 @@
       "lifetime": 1.3,
       "damage": {
         "physical": 0.0,
-        "energy": 106.9425,
+        "energy": 43.65,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4652,7 +4652,7 @@
       "lifetime": 1.56,
       "damage": {
         "physical": 0.0,
-        "energy": 160.3035,
+        "energy": 65.43,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4666,7 +4666,7 @@
       "lifetime": 2.3,
       "damage": {
         "physical": 0.0,
-        "energy": 240.5655,
+        "energy": 98.19,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4680,7 +4680,7 @@
       "lifetime": 3.56,
       "damage": {
         "physical": 0.0,
-        "energy": 360.9585,
+        "energy": 147.33,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4732,7 +4732,7 @@
       "speed": 1196.0,
       "lifetime": 2.26,
       "damage": {
-        "physical": 349.92,
+        "physical": 162.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4825,7 +4825,7 @@
       "lifetime": 0.89,
       "damage": {
         "physical": 0.0,
-        "energy": 0.000245,
+        "energy": 0.0001,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4846,7 +4846,7 @@
       "lifetime": 0.96,
       "damage": {
         "physical": 0.0,
-        "energy": 0.000245,
+        "energy": 0.0001,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4867,7 +4867,7 @@
       "lifetime": 1.08,
       "damage": {
         "physical": 0.0,
-        "energy": 0.000245,
+        "energy": 0.0001,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -4887,7 +4887,7 @@
       "speed": 1200.0,
       "lifetime": 2.08,
       "damage": {
-        "physical": 259.2,
+        "physical": 120.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4901,7 +4901,7 @@
       "speed": 1196.0,
       "lifetime": 2.26,
       "damage": {
-        "physical": 302.4,
+        "physical": 140.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4915,7 +4915,7 @@
       "speed": 1184.0,
       "lifetime": 2.53,
       "damage": {
-        "physical": 486.864,
+        "physical": 225.4,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4929,7 +4929,7 @@
       "speed": 1152.0,
       "lifetime": 3.04,
       "damage": {
-        "physical": 1054.08,
+        "physical": 610.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4943,7 +4943,7 @@
       "speed": 1112.0,
       "lifetime": 4.5,
       "damage": {
-        "physical": 1641.6,
+        "physical": 950.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -4957,7 +4957,7 @@
       "speed": 1080.0,
       "lifetime": 6.94,
       "damage": {
-        "physical": 3320.352,
+        "physical": 1537.2,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -5089,7 +5089,7 @@
       "lifetime": 1.11,
       "damage": {
         "physical": 0.0,
-        "energy": 154.35,
+        "energy": 63.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5103,7 +5103,7 @@
       "lifetime": 1.2,
       "damage": {
         "physical": 0.0,
-        "energy": 242.55,
+        "energy": 99.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5117,7 +5117,7 @@
       "lifetime": 1.35,
       "damage": {
         "physical": 0.0,
-        "energy": 341.775,
+        "energy": 139.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5130,7 +5130,7 @@
       "speed": 1215.0,
       "lifetime": 4.94,
       "damage": {
-        "physical": 307.584,
+        "physical": 142.4,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -5145,7 +5145,7 @@
       "lifetime": 1.51,
       "damage": {
         "physical": 0.0,
-        "energy": 0.0002205,
+        "energy": 9e-05,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5205,7 +5205,7 @@
       "lifetime": 1.67,
       "damage": {
         "physical": 0.0,
-        "energy": 120.6576,
+        "energy": 49.248,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5219,7 +5219,7 @@
       "lifetime": 1.81,
       "damage": {
         "physical": 0.0,
-        "energy": 181.3833,
+        "energy": 74.034,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5233,7 +5233,7 @@
       "lifetime": 2.03,
       "damage": {
         "physical": 0.0,
-        "energy": 271.4796,
+        "energy": 110.808,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5325,7 +5325,7 @@
       "lifetime": 1.16,
       "damage": {
         "physical": 0.0,
-        "energy": 244.314,
+        "energy": 99.72,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5377,7 +5377,7 @@
       "speed": 900.0,
       "lifetime": 1.39,
       "damage": {
-        "physical": 101.088,
+        "physical": 46.8,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -5391,7 +5391,7 @@
       "speed": 897.0,
       "lifetime": 1.51,
       "damage": {
-        "physical": 151.2,
+        "physical": 70.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -5523,7 +5523,7 @@
       "lifetime": 2.43,
       "damage": {
         "physical": 0.0,
-        "energy": 407.2194,
+        "energy": 166.212,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5537,7 +5537,7 @@
       "lifetime": 3.6,
       "damage": {
         "physical": 0.0,
-        "energy": 609.2415,
+        "energy": 248.67,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5551,7 +5551,7 @@
       "lifetime": 5.56,
       "damage": {
         "physical": 0.0,
-        "energy": 916.6406,
+        "energy": 374.139,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5604,7 +5604,7 @@
       "lifetime": 1.67,
       "damage": {
         "physical": 0.0,
-        "energy": 446.5125,
+        "energy": 182.25,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5618,7 +5618,7 @@
       "lifetime": 1.81,
       "damage": {
         "physical": 0.0,
-        "energy": 669.7687,
+        "energy": 273.375,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5632,7 +5632,7 @@
       "lifetime": 2.03,
       "damage": {
         "physical": 0.0,
-        "energy": 1004.951,
+        "energy": 410.184,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5646,7 +5646,7 @@
       "lifetime": 2.43,
       "damage": {
         "physical": 0.0,
-        "energy": 1507.426,
+        "energy": 615.276,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5660,7 +5660,7 @@
       "lifetime": 3.6,
       "damage": {
         "physical": 0.0,
-        "energy": 2258.361,
+        "energy": 921.78,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5674,7 +5674,7 @@
       "lifetime": 5.56,
       "damage": {
         "physical": 0.0,
-        "energy": 3389.526,
+        "energy": 1383.48,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5688,7 +5688,7 @@
       "lifetime": 1.81,
       "damage": {
         "physical": 0.0,
-        "energy": 668.7765,
+        "energy": 272.97,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5701,7 +5701,7 @@
       "speed": 1332.0,
       "lifetime": 1.8,
       "damage": {
-        "physical": 41.04,
+        "physical": 32.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -5716,7 +5716,7 @@
       "lifetime": 1.57,
       "damage": {
         "physical": 0.0,
-        "energy": 93.051,
+        "energy": 37.98,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5730,7 +5730,7 @@
       "lifetime": 1.7,
       "damage": {
         "physical": 0.0,
-        "energy": 139.5765,
+        "energy": 56.97,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5744,7 +5744,7 @@
       "lifetime": 1.91,
       "damage": {
         "physical": 0.0,
-        "energy": 209.475,
+        "energy": 85.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5758,7 +5758,7 @@
       "lifetime": 1.63,
       "damage": {
         "physical": 0.0,
-        "energy": 247.94,
+        "energy": 101.2,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5772,7 +5772,7 @@
       "lifetime": 1.77,
       "damage": {
         "physical": 0.0,
-        "energy": 374.36,
+        "energy": 152.8,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5786,7 +5786,7 @@
       "lifetime": 1.99,
       "damage": {
         "physical": 0.0,
-        "energy": 540.715,
+        "energy": 220.7,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5839,7 +5839,7 @@
       "lifetime": 1.67,
       "damage": {
         "physical": 0.0,
-        "energy": 238.14,
+        "energy": 97.2,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5853,7 +5853,7 @@
       "lifetime": 2.03,
       "damage": {
         "physical": 0.0,
-        "energy": 535.815,
+        "energy": 218.7,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5867,7 +5867,7 @@
       "lifetime": 1.81,
       "damage": {
         "physical": 0.0,
-        "energy": 357.21,
+        "energy": 145.8,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5881,7 +5881,7 @@
       "lifetime": 2.43,
       "damage": {
         "physical": 0.0,
-        "energy": 803.3256,
+        "energy": 327.888,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5895,7 +5895,7 @@
       "lifetime": 3.6,
       "damage": {
         "physical": 0.0,
-        "energy": 1205.782,
+        "energy": 492.156,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -5909,7 +5909,7 @@
       "lifetime": 5.56,
       "damage": {
         "physical": 0.0,
-        "energy": 1809.07,
+        "energy": 738.396,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6117,7 +6117,7 @@
       "speed": 888.0,
       "lifetime": 1.69,
       "damage": {
-        "physical": 226.8,
+        "physical": 105.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6249,7 +6249,7 @@
       "lifetime": 1.6,
       "damage": {
         "physical": 0.0,
-        "energy": 121.275,
+        "energy": 49.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6380,7 +6380,7 @@
       "lifetime": 1.3,
       "damage": {
         "physical": 0.0,
-        "energy": 857.5,
+        "energy": 350.0,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6393,7 +6393,7 @@
       "speed": 1296.0,
       "lifetime": 2.16,
       "damage": {
-        "physical": 136.728,
+        "physical": 63.3,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6485,7 +6485,7 @@
       "speed": 1500.0,
       "lifetime": 1.33,
       "damage": {
-        "physical": 38.88,
+        "physical": 18.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6499,7 +6499,7 @@
       "speed": 1495.0,
       "lifetime": 1.44,
       "damage": {
-        "physical": 51.84,
+        "physical": 24.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6513,7 +6513,7 @@
       "speed": 1480.0,
       "lifetime": 1.62,
       "damage": {
-        "physical": 97.2,
+        "physical": 45.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6605,7 +6605,7 @@
       "speed": 1345.5,
       "lifetime": 1.61,
       "damage": {
-        "physical": 27.432,
+        "physical": 12.7,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6620,7 +6620,7 @@
       "lifetime": 2.86,
       "damage": {
         "physical": 0.0,
-        "energy": 496.125,
+        "energy": 202.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6634,7 +6634,7 @@
       "lifetime": 3.1,
       "damage": {
         "physical": 0.0,
-        "energy": 1157.625,
+        "energy": 472.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6648,7 +6648,7 @@
       "lifetime": 3.47,
       "damage": {
         "physical": 0.0,
-        "energy": 2480.625,
+        "energy": 1012.5,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6661,7 +6661,7 @@
       "speed": 1155.0,
       "lifetime": 2.6,
       "damage": {
-        "physical": 486.0,
+        "physical": 225.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6675,7 +6675,7 @@
       "speed": 1151.15,
       "lifetime": 2.81,
       "damage": {
-        "physical": 1134.0,
+        "physical": 525.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6689,7 +6689,7 @@
       "speed": 1139.6,
       "lifetime": 3.16,
       "damage": {
-        "physical": 2430.0,
+        "physical": 1125.0,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6766,7 +6766,7 @@
       "speed": 1200.0,
       "lifetime": 2.08,
       "damage": {
-        "physical": 131.22,
+        "physical": 60.75,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6780,7 +6780,7 @@
       "speed": 1196.0,
       "lifetime": 2.26,
       "damage": {
-        "physical": 197.1216,
+        "physical": 91.26,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6794,7 +6794,7 @@
       "speed": 1184.0,
       "lifetime": 2.53,
       "damage": {
-        "physical": 295.0992,
+        "physical": 136.62,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6809,7 +6809,7 @@
       "lifetime": 1.28,
       "damage": {
         "physical": 0.0,
-        "energy": 41.895,
+        "energy": 17.1,
         "distortion": 0.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6822,7 +6822,7 @@
       "speed": 1345.5,
       "lifetime": 1.61,
       "damage": {
-        "physical": 48.6,
+        "physical": 22.5,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -6914,7 +6914,7 @@
       "speed": 1350.0,
       "lifetime": 1.48,
       "damage": {
-        "physical": 16.3296,
+        "physical": 7.56,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -35582,18 +35582,18 @@
       "selfRepairTime": 98.0,
       "emSignature": 1800.0,
       "powerDraw": 4.0,
-      "shieldHealth": 120000.0,
-      "shieldRegen": 6175.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "shieldHealth": 100000.0,
+      "shieldRegen": 19000.0,
+      "downedRegenDelay": 12.1,
+      "damagedRegenDelay": 6.05,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35615,7 +35615,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -35657,18 +35657,18 @@
       "selfRepairTime": 56.0,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
-      "shieldRegen": 2470.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 10000.0,
+      "shieldRegen": 1900.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35690,7 +35690,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -35732,18 +35732,18 @@
       "selfRepairTime": 32.0,
       "emSignature": 900.0,
       "powerDraw": 2.0,
-      "shieldHealth": 3510.0,
-      "shieldRegen": 741.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 3000.0,
+      "shieldRegen": 570.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35765,7 +35765,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -35807,18 +35807,18 @@
       "selfRepairTime": 89.1,
       "emSignature": 1800.0,
       "powerDraw": 4.0,
-      "shieldHealth": 120000.0,
-      "shieldRegen": 6500.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 100000.0,
+      "shieldRegen": 20000.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35840,7 +35840,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -35882,18 +35882,18 @@
       "selfRepairTime": 50.9,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
-      "shieldRegen": 2600.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 10000.0,
+      "shieldRegen": 2000.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35915,7 +35915,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -35957,18 +35957,18 @@
       "selfRepairTime": 29.1,
       "emSignature": 900.0,
       "powerDraw": 2.0,
-      "shieldHealth": 3510.0,
-      "shieldRegen": 780.0,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "shieldHealth": 3000.0,
+      "shieldRegen": 600.0,
+      "downedRegenDelay": 9.09,
+      "damagedRegenDelay": 4.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -35990,7 +35990,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36032,18 +36032,18 @@
       "selfRepairTime": 81.7,
       "emSignature": 1800.0,
       "powerDraw": 4.0,
-      "shieldHealth": 120000.0,
-      "shieldRegen": 7150.0,
-      "downedRegenDelay": 17.2,
-      "damagedRegenDelay": 10.1,
+      "shieldHealth": 100000.0,
+      "shieldRegen": 22000.0,
+      "downedRegenDelay": 10.1,
+      "damagedRegenDelay": 5.04,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36065,7 +36065,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36107,18 +36107,18 @@
       "selfRepairTime": 46.7,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
-      "shieldRegen": 2860.0,
-      "downedRegenDelay": 15.6,
-      "damagedRegenDelay": 9.2,
+      "shieldHealth": 10000.0,
+      "shieldRegen": 2200.0,
+      "downedRegenDelay": 9.17,
+      "damagedRegenDelay": 4.58,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36140,7 +36140,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36182,18 +36182,18 @@
       "selfRepairTime": 26.7,
       "emSignature": 900.0,
       "powerDraw": 2.0,
-      "shieldHealth": 3510.0,
-      "shieldRegen": 858.0,
-      "downedRegenDelay": 14.2,
-      "damagedRegenDelay": 8.3,
+      "shieldHealth": 3000.0,
+      "shieldRegen": 660.0,
+      "downedRegenDelay": 8.33,
+      "damagedRegenDelay": 4.17,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36215,7 +36215,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36271,18 +36271,18 @@
       "selfRepairTime": 111.0,
       "emSignature": 1500.0,
       "powerDraw": 4.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4680.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 14400.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36304,7 +36304,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36529,18 +36529,18 @@
       "selfRepairTime": 40.0,
       "emSignature": 1240.0,
       "powerDraw": 3.0,
-      "shieldHealth": 3707.0,
-      "shieldRegen": 782.6,
-      "downedRegenDelay": 19.6,
-      "damagedRegenDelay": 11.5,
+      "shieldHealth": 3168.0,
+      "shieldRegen": 602.0,
+      "downedRegenDelay": 11.5,
+      "damagedRegenDelay": 5.75,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36562,7 +36562,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36823,18 +36823,18 @@
       "selfRepairTime": 61.6,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1684.8,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1296.0,
+      "downedRegenDelay": 12.1,
+      "damagedRegenDelay": 6.05,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36856,7 +36856,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -36912,18 +36912,18 @@
       "selfRepairTime": 56.0,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1778.4,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1368.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -36945,7 +36945,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -37069,18 +37069,18 @@
       "selfRepairTime": 63.6,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1872.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1440.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -37102,7 +37102,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -37208,18 +37208,18 @@
       "selfRepairTime": 77.0,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
-      "shieldRegen": 1497.6,
-      "downedRegenDelay": 17.5,
-      "damagedRegenDelay": 10.3,
+      "shieldHealth": 6400.0,
+      "shieldRegen": 1152.0,
+      "downedRegenDelay": 10.3,
+      "damagedRegenDelay": 5.14,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -37241,7 +37241,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -37283,18 +37283,18 @@
       "selfRepairTime": 89.1,
       "emSignature": 2480.0,
       "powerDraw": 5.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4680.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 14400.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -37316,7 +37316,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -37766,18 +37766,18 @@
       "selfRepairTime": 32.0,
       "emSignature": 1490.0,
       "powerDraw": 3.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 533.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 410.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -37799,7 +37799,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -37979,18 +37979,18 @@
       "selfRepairTime": 18.3,
       "emSignature": 990.0,
       "powerDraw": 2.0,
-      "shieldHealth": 842.0,
-      "shieldRegen": 296.4,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "shieldHealth": 720.0,
+      "shieldRegen": 228.0,
+      "downedRegenDelay": 9.09,
+      "damagedRegenDelay": 4.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -38012,7 +38012,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -38192,18 +38192,18 @@
       "selfRepairTime": 50.9,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1872.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1440.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -38225,7 +38225,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -38286,18 +38286,18 @@
       "selfRepairTime": 39.6,
       "emSignature": 250.0,
       "powerDraw": 1.0,
-      "shieldHealth": 2625.0,
-      "shieldRegen": 525.2,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "shieldHealth": 2244.0,
+      "shieldRegen": 404.0,
+      "downedRegenDelay": 7.7,
+      "damagedRegenDelay": 3.85,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -38319,7 +38319,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -38481,18 +38481,18 @@
       "selfRepairTime": 63.6,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
-      "shieldRegen": 2745.6,
-      "downedRegenDelay": 19.6,
-      "damagedRegenDelay": 11.5,
+      "shieldHealth": 10560.0,
+      "shieldRegen": 2112.0,
+      "downedRegenDelay": 11.5,
+      "damagedRegenDelay": 5.75,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -38514,7 +38514,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -39371,18 +39371,18 @@
       "selfRepairTime": 33.3,
       "emSignature": 1240.0,
       "powerDraw": 3.0,
-      "shieldHealth": 3707.0,
-      "shieldRegen": 906.1,
-      "downedRegenDelay": 16.3,
-      "damagedRegenDelay": 9.6,
+      "shieldHealth": 3168.0,
+      "shieldRegen": 697.0,
+      "downedRegenDelay": 9.58,
+      "damagedRegenDelay": 4.79,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -39404,7 +39404,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -39446,18 +39446,18 @@
       "selfRepairTime": 58.3,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
-      "shieldRegen": 3019.9,
-      "downedRegenDelay": 17.9,
-      "damagedRegenDelay": 10.5,
+      "shieldHealth": 10560.0,
+      "shieldRegen": 2323.0,
+      "downedRegenDelay": 10.5,
+      "damagedRegenDelay": 5.27,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -39479,7 +39479,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -39521,18 +39521,18 @@
       "selfRepairTime": 102.0,
       "emSignature": 2060.0,
       "powerDraw": 5.0,
-      "shieldHealth": 126720.0,
-      "shieldRegen": 7550.4,
-      "downedRegenDelay": 19.7,
-      "damagedRegenDelay": 11.6,
+      "shieldHealth": 105600.0,
+      "shieldRegen": 23232.0,
+      "downedRegenDelay": 11.6,
+      "damagedRegenDelay": 5.8,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -39554,7 +39554,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -39634,18 +39634,18 @@
       "selfRepairTime": 44.0,
       "emSignature": 818.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2246.0,
-      "shieldRegen": 449.8,
-      "downedRegenDelay": 15.9,
-      "damagedRegenDelay": 9.4,
+      "shieldHealth": 1920.0,
+      "shieldRegen": 346.0,
+      "downedRegenDelay": 9.35,
+      "damagedRegenDelay": 4.68,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -39667,7 +39667,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -39899,18 +39899,18 @@
       "selfRepairTime": 36.4,
       "emSignature": 1240.0,
       "powerDraw": 3.0,
-      "shieldHealth": 3707.0,
-      "shieldRegen": 824.2,
-      "downedRegenDelay": 17.9,
-      "damagedRegenDelay": 10.5,
+      "shieldHealth": 3168.0,
+      "shieldRegen": 634.0,
+      "downedRegenDelay": 10.5,
+      "damagedRegenDelay": 5.23,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -39932,7 +39932,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40224,18 +40224,18 @@
       "selfRepairTime": 111.0,
       "emSignature": 2060.0,
       "powerDraw": 5.0,
-      "shieldHealth": 126720.0,
-      "shieldRegen": 6864.0,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "shieldHealth": 105600.0,
+      "shieldRegen": 21120.0,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.33,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40257,7 +40257,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40430,18 +40430,18 @@
       "selfRepairTime": 70.0,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
-      "shieldRegen": 2607.8,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "shieldHealth": 10560.0,
+      "shieldRegen": 2006.0,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.33,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40463,7 +40463,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40531,18 +40531,18 @@
       "selfRepairTime": 123.0,
       "emSignature": 1500.0,
       "powerDraw": 4.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4446.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 13680.0,
+      "downedRegenDelay": 12.1,
+      "damagedRegenDelay": 6.05,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40564,7 +40564,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40740,18 +40740,18 @@
       "selfRepairTime": 250.0,
       "emSignature": 2720.0,
       "powerDraw": 6.0,
-      "shieldHealth": 1080000.0,
-      "shieldRegen": 19800.0,
-      "downedRegenDelay": 20.7,
-      "damagedRegenDelay": 12.2,
+      "shieldHealth": 360000.0,
+      "shieldRegen": 26400.0,
+      "downedRegenDelay": 12.2,
+      "damagedRegenDelay": 6.1,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40773,7 +40773,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40862,18 +40862,18 @@
       "selfRepairTime": 29.1,
       "emSignature": 1490.0,
       "powerDraw": 3.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 561.6,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 432.0,
+      "downedRegenDelay": 9.09,
+      "damagedRegenDelay": 4.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40895,7 +40895,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -40937,18 +40937,18 @@
       "selfRepairTime": 135.0,
       "emSignature": 1500.0,
       "powerDraw": 4.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4212.0,
-      "downedRegenDelay": 22.6,
-      "damagedRegenDelay": 13.3,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 12960.0,
+      "downedRegenDelay": 13.3,
+      "damagedRegenDelay": 6.66,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -40970,7 +40970,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -41012,18 +41012,18 @@
       "selfRepairTime": 36.4,
       "emSignature": 750.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 561.6,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 432.0,
+      "downedRegenDelay": 9.09,
+      "damagedRegenDelay": 4.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -41045,7 +41045,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -41087,18 +41087,18 @@
       "selfRepairTime": 63.6,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
-      "shieldRegen": 1664.0,
-      "downedRegenDelay": 14.5,
-      "damagedRegenDelay": 8.5,
+      "shieldHealth": 6400.0,
+      "shieldRegen": 1280.0,
+      "downedRegenDelay": 8.5,
+      "damagedRegenDelay": 4.25,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -41120,7 +41120,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -41395,18 +41395,18 @@
       "selfRepairTime": 547.0,
       "emSignature": 2480.0,
       "powerDraw": 6.0,
-      "shieldHealth": 4224000.0,
+      "shieldHealth": 1056000.0,
       "shieldRegen": 77440.0,
-      "downedRegenDelay": 26.2,
-      "damagedRegenDelay": 15.4,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 7.72,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -41428,7 +41428,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -41628,18 +41628,18 @@
       "selfRepairTime": 44.0,
       "emSignature": 750.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 505.7,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 389.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -41661,7 +41661,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -42008,18 +42008,18 @@
       "selfRepairTime": 36.4,
       "emSignature": 818.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2246.0,
-      "shieldRegen": 499.2,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "shieldHealth": 1920.0,
+      "shieldRegen": 384.0,
+      "downedRegenDelay": 7.73,
+      "damagedRegenDelay": 3.86,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -42041,7 +42041,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -42773,18 +42773,18 @@
       "selfRepairTime": 30.0,
       "emSignature": 250.0,
       "powerDraw": 1.0,
-      "shieldHealth": 2625.0,
-      "shieldRegen": 642.2,
-      "downedRegenDelay": 9.9,
-      "damagedRegenDelay": 5.8,
+      "shieldHealth": 2244.0,
+      "shieldRegen": 494.0,
+      "downedRegenDelay": 5.83,
+      "damagedRegenDelay": 2.92,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -42806,7 +42806,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -42939,18 +42939,18 @@
       "selfRepairTime": 63.0,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
-      "shieldRegen": 1847.3,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "shieldHealth": 7480.0,
+      "shieldRegen": 1421.0,
+      "downedRegenDelay": 7.7,
+      "damagedRegenDelay": 3.85,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -42972,7 +42972,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -43230,18 +43230,18 @@
       "selfRepairTime": 22.9,
       "emSignature": 375.0,
       "powerDraw": 1.0,
-      "shieldHealth": 842.0,
-      "shieldRegen": 296.4,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "shieldHealth": 720.0,
+      "shieldRegen": 228.0,
+      "downedRegenDelay": 9.09,
+      "damagedRegenDelay": 4.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -43263,7 +43263,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -43305,18 +43305,18 @@
       "selfRepairTime": 26.7,
       "emSignature": 1490.0,
       "powerDraw": 3.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 617.5,
-      "downedRegenDelay": 14.2,
-      "damagedRegenDelay": 8.3,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 475.0,
+      "downedRegenDelay": 8.33,
+      "damagedRegenDelay": 4.17,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -43338,7 +43338,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -43394,18 +43394,18 @@
       "selfRepairTime": 81.7,
       "emSignature": 2480.0,
       "powerDraw": 5.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 5148.0,
-      "downedRegenDelay": 17.2,
-      "damagedRegenDelay": 10.1,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 15840.0,
+      "downedRegenDelay": 10.1,
+      "damagedRegenDelay": 5.04,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -43427,7 +43427,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -43896,18 +43896,18 @@
       "selfRepairTime": 77.0,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1684.8,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1296.0,
+      "downedRegenDelay": 12.1,
+      "damagedRegenDelay": 6.05,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -43929,7 +43929,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -43971,18 +43971,18 @@
       "selfRepairTime": 143.0,
       "emSignature": 2970.0,
       "powerDraw": 6.0,
-      "shieldHealth": 330480.0,
-      "shieldRegen": 6415.2,
-      "downedRegenDelay": 18.9,
-      "damagedRegenDelay": 11.1,
+      "shieldHealth": 194400.0,
+      "shieldRegen": 14256.0,
+      "downedRegenDelay": 11.1,
+      "damagedRegenDelay": 5.55,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44004,7 +44004,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44084,18 +44084,18 @@
       "selfRepairTime": 46.7,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 2059.2,
-      "downedRegenDelay": 15.6,
-      "damagedRegenDelay": 9.2,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1584.0,
+      "downedRegenDelay": 9.17,
+      "damagedRegenDelay": 4.58,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44117,7 +44117,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44549,18 +44549,18 @@
       "selfRepairTime": 70.0,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
-      "shieldRegen": 1778.4,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 7200.0,
+      "shieldRegen": 1368.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44582,7 +44582,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44662,18 +44662,18 @@
       "selfRepairTime": 44.0,
       "emSignature": 1240.0,
       "powerDraw": 3.0,
-      "shieldHealth": 3707.0,
-      "shieldRegen": 741.0,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "shieldHealth": 3168.0,
+      "shieldRegen": 570.0,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.33,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44695,7 +44695,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44737,18 +44737,18 @@
       "selfRepairTime": 135.0,
       "emSignature": 2060.0,
       "powerDraw": 5.0,
-      "shieldHealth": 126720.0,
-      "shieldRegen": 6177.6,
-      "downedRegenDelay": 26.0,
-      "damagedRegenDelay": 15.3,
+      "shieldHealth": 105600.0,
+      "shieldRegen": 19008.0,
+      "downedRegenDelay": 15.3,
+      "damagedRegenDelay": 7.65,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44770,7 +44770,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44812,18 +44812,18 @@
       "selfRepairTime": 77.0,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
-      "shieldRegen": 2471.3,
-      "downedRegenDelay": 23.6,
-      "damagedRegenDelay": 13.9,
+      "shieldHealth": 10560.0,
+      "shieldRegen": 1901.0,
+      "downedRegenDelay": 13.9,
+      "damagedRegenDelay": 6.96,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -44845,7 +44845,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -44972,18 +44972,18 @@
       "selfRepairTime": 57.3,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
-      "shieldRegen": 1944.8,
-      "downedRegenDelay": 11.9,
-      "damagedRegenDelay": 7.0,
+      "shieldHealth": 7480.0,
+      "shieldRegen": 1496.0,
+      "downedRegenDelay": 7.0,
+      "damagedRegenDelay": 3.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -45005,7 +45005,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -45047,18 +45047,18 @@
       "selfRepairTime": 36.0,
       "emSignature": 250.0,
       "powerDraw": 1.0,
-      "shieldHealth": 2625.0,
-      "shieldRegen": 553.8,
-      "downedRegenDelay": 11.9,
-      "damagedRegenDelay": 7.0,
+      "shieldHealth": 2244.0,
+      "shieldRegen": 426.0,
+      "downedRegenDelay": 7.0,
+      "damagedRegenDelay": 3.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -45080,7 +45080,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -45122,18 +45122,18 @@
       "selfRepairTime": 69.3,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
-      "shieldRegen": 1749.8,
-      "downedRegenDelay": 14.4,
-      "damagedRegenDelay": 8.5,
+      "shieldHealth": 7480.0,
+      "shieldRegen": 1346.0,
+      "downedRegenDelay": 8.47,
+      "damagedRegenDelay": 4.24,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -45155,7 +45155,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -45681,18 +45681,18 @@
       "selfRepairTime": 35.2,
       "emSignature": 1490.0,
       "powerDraw": 3.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 505.7,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 389.0,
+      "downedRegenDelay": 11.0,
+      "damagedRegenDelay": 5.5,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -45714,7 +45714,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -45756,18 +45756,18 @@
       "selfRepairTime": 98.0,
       "emSignature": 2480.0,
       "powerDraw": 5.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4446.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 13680.0,
+      "downedRegenDelay": 12.1,
+      "damagedRegenDelay": 6.05,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -45789,7 +45789,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -46102,18 +46102,18 @@
       "selfRepairTime": 123.0,
       "emSignature": 2060.0,
       "powerDraw": 5.0,
-      "shieldHealth": 126720.0,
-      "shieldRegen": 6520.8,
-      "downedRegenDelay": 23.6,
-      "damagedRegenDelay": 13.9,
+      "shieldHealth": 105600.0,
+      "shieldRegen": 20064.0,
+      "downedRegenDelay": 13.9,
+      "damagedRegenDelay": 6.96,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -46135,7 +46135,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -46334,18 +46334,18 @@
       "selfRepairTime": 40.0,
       "emSignature": 818.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2246.0,
-      "shieldRegen": 474.5,
-      "downedRegenDelay": 14.5,
-      "damagedRegenDelay": 8.5,
+      "shieldHealth": 1920.0,
+      "shieldRegen": 365.0,
+      "downedRegenDelay": 8.5,
+      "damagedRegenDelay": 4.25,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -46367,7 +46367,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -46624,18 +46624,18 @@
       "selfRepairTime": 70.0,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
-      "shieldRegen": 1580.8,
-      "downedRegenDelay": 15.9,
-      "damagedRegenDelay": 9.4,
+      "shieldHealth": 6400.0,
+      "shieldRegen": 1216.0,
+      "downedRegenDelay": 9.35,
+      "damagedRegenDelay": 4.68,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -46657,7 +46657,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -46838,18 +46838,18 @@
       "selfRepairTime": 52.5,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
-      "shieldRegen": 2139.8,
-      "downedRegenDelay": 10.9,
-      "damagedRegenDelay": 6.4,
+      "shieldHealth": 7480.0,
+      "shieldRegen": 1646.0,
+      "downedRegenDelay": 6.42,
+      "damagedRegenDelay": 3.21,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -46871,7 +46871,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -47056,18 +47056,18 @@
       "selfRepairTime": 32.7,
       "emSignature": 250.0,
       "powerDraw": 1.0,
-      "shieldHealth": 2625.0,
-      "shieldRegen": 583.7,
-      "downedRegenDelay": 10.8,
-      "damagedRegenDelay": 6.4,
+      "shieldHealth": 2244.0,
+      "shieldRegen": 449.0,
+      "downedRegenDelay": 6.36,
+      "damagedRegenDelay": 3.18,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -47089,7 +47089,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -47369,18 +47369,18 @@
       "selfRepairTime": 40.0,
       "emSignature": 750.0,
       "powerDraw": 2.0,
-      "shieldHealth": 2527.0,
-      "shieldRegen": 533.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "shieldHealth": 2160.0,
+      "shieldRegen": 410.0,
+      "downedRegenDelay": 10.0,
+      "damagedRegenDelay": 5.0,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -47402,7 +47402,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,
@@ -47470,18 +47470,18 @@
       "selfRepairTime": 108.0,
       "emSignature": 2480.0,
       "powerDraw": 5.0,
-      "shieldHealth": 86400.0,
-      "shieldRegen": 4212.0,
-      "downedRegenDelay": 22.6,
-      "damagedRegenDelay": 13.3,
+      "shieldHealth": 72000.0,
+      "shieldRegen": 12960.0,
+      "downedRegenDelay": 13.3,
+      "damagedRegenDelay": 6.66,
       "shieldResistance": {
         "physical": {
-          "min": 0.4,
-          "max": 0.5
+          "min": 0.0,
+          "max": 0.25
         },
         "energy": {
-          "min": 0.35,
-          "max": 0.45
+          "min": 0.0,
+          "max": 0.0
         },
         "distortion": {
           "min": 0.75,
@@ -47503,7 +47503,7 @@
       "shieldAbsorption": {
         "physical": {
           "min": 0.0,
-          "max": 0.8
+          "max": 0.45
         },
         "energy": {
           "min": 1.0,

@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.57",
+    "date": "2026-10-01T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12839153. The Iasi missions were rebalanced in two directions. The combat and delivery missions pay about 60% more and give about 60% more time — \"Clear Hostiles from Site\" now pays 56,750 aUEC with 12.8 minutes instead of 35,500 with 8. The six procurement orders pay less and award fewer event points — \"Procure Refined Quantainium\" now gives 340,250 aUEC and 1,142 points instead of 511,000 and 1,602. In the Foxwell reward pool, a blueprint that showed up as a second \"FullForce\" now reads \"DayBreak\"." },
+      { "type": "feat", "text": "🏷 Missions have a separate Contractor filter now. The table shows who offers a mission, but the Faction filter went by the faction that gets the reputation — and in the Iasi event most contractors (Shubin, Adagio, United Wayfarers, Foxwell and others) give Northrock reputation, so the filter didn't match what you saw. The Faction filter is now labelled as the reputation one, the table column is called Contractor, an optional Faction column shows the reputation faction, and cards and the detail view say where the reputation goes when it's a different faction. Search finds both names. Thanks Hurric4ne." },
+      { "type": "feat", "text": "🔗 The Fabricator and Resources pages have a Share button too. It appears once a filter is active and copies a link; whoever opens it sees the shared filters and can apply or discard them, like on Missions. Thanks DarkRod." },
+      { "type": "fix", "text": "🧮 The Base XP column showed event points twice for event missions, because it added up every score a mission counts towards — its category and the event total. It now shows them once, matching the Calculator. Thanks Hurric4ne." },
+      { "type": "fix", "text": "🔢 Fabricator: switching a filter chip from excluded back to off left the list and the \"x of y Blueprints\" count on the excluded result until another filter changed. Every chip filter was affected, not just size. Thanks DarkRod." },
+      { "type": "fix", "text": "📐 The Fabricator table keeps the blueprint name readable when the window gets narrower. Less important columns drop out step by step instead — slots and subtype first, then manufacturer and stat tags, then materials and class, then size and craft time. On phones it shows the name, compare and cart without sideways scrolling. Thanks solrwnd." }
+    ]
+  },
+  {
     "version": "1.0.56",
     "date": "2026-09-29T00:00:00Z",
     "changes": [

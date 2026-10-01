@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12811422",
+  "version": "4.10.2-ptu.12839153",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -516,15 +516,15 @@
       "category": "Transport",
       "tiers": [
         {
-          "minPoints": 1000,
+          "minPoints": 2000,
           "badge": "R_PU_IASI_TRANSPORT_1"
         },
         {
-          "minPoints": 1000,
+          "minPoints": 4000,
           "badge": "R_PU_IASI_TRANSPORT_2"
         },
         {
-          "minPoints": 5000,
+          "minPoints": 6500,
           "badge": "R_PU_IASI_TRANSPORT_3"
         },
         {
@@ -538,15 +538,15 @@
       "category": "Collection",
       "tiers": [
         {
-          "minPoints": 1000,
+          "minPoints": 2000,
           "badge": "R_PU_IASI_COLLECTION_1"
         },
         {
-          "minPoints": 1000,
+          "minPoints": 4000,
           "badge": "R_PU_IASI_COLLECTION_2"
         },
         {
-          "minPoints": 5000,
+          "minPoints": 6500,
           "badge": "R_PU_IASI_COLLECTION_3"
         },
         {
@@ -560,15 +560,15 @@
       "category": "Defense",
       "tiers": [
         {
-          "minPoints": 1000,
+          "minPoints": 2000,
           "badge": "R_PU_IASI_DEFENSE_1"
         },
         {
-          "minPoints": 1000,
+          "minPoints": 4000,
           "badge": "R_PU_IASI_DEFENSE_2"
         },
         {
-          "minPoints": 5000,
+          "minPoints": 6500,
           "badge": "R_PU_IASI_DEFENSE_3"
         },
         {
@@ -582,15 +582,15 @@
       "category": null,
       "tiers": [
         {
-          "minPoints": 9000,
+          "minPoints": 4500,
           "badge": "R_PU_IASI_OP_1"
         },
         {
-          "minPoints": 21000,
+          "minPoints": 9900,
           "badge": "R_PU_IASI_OP_2"
         },
         {
-          "minPoints": 27000,
+          "minPoints": 24000,
           "badge": "R_PU_IASI_OP_3"
         },
         {
@@ -9763,8 +9763,8 @@
         {
           "blueprintRecord": "fa5951a5-5063-49c8-8f4c-a6b341801aea",
           "weight": 1,
-          "entityClass": "dabd2d8d-c06c-4ebf-8791-192ace67ac33",
-          "name": "FullForce",
+          "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
+          "name": "DayBreak",
           "knownIssue": {
             "expected": {
               "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
@@ -19455,12 +19455,11 @@
       "Aegis Avenger Titan",
       "Aegis Avenger Titan Renegade"
     ],
-    "8039d8da6dea": [
+    "5adf2c4d6ebf": [
       "Argo RAFT",
-      "Drake Cutlass Black",
+      "Drake Cutlass Red",
       "MISC Freelancer",
       "MISC Freelancer DUR",
-      "MISC Freelancer MAX",
       "RSI Zeus Mk II CL"
     ],
     "676af19f9426": [
@@ -19493,22 +19492,11 @@
       "RSI Aurora Mk I LN",
       "RSI Aurora Mk I MR"
     ],
-    "0244a420238d": [
-      "Aegis Vanguard Harbinger",
-      "Aegis Vanguard Warden",
-      "Anvil F8A Lightning",
-      "Anvil Paladin",
-      "Crusader Ares Star Fighter Inferno",
-      "Crusader Ares Star Fighter Ion",
-      "Drake Cutlass Black",
-      "Drake Cutlass Steel",
-      "Esperia Stinger",
-      "MISC Freelancer MAX",
-      "MISC Freelancer MIS",
-      "RSI Scorpius",
-      "RSI Scorpius Antares",
-      "RSI Zeus Mk II CL",
-      "Vanduul Stinger"
+    "c75b09e36652": [
+      "Anvil Valkyrie",
+      "Crusader Mercury Star Runner",
+      "Origin 400i",
+      "RSI Constellation Taurus"
     ],
     "2adeb892eb22": [
       "Aegis Avenger Stalker",
@@ -19602,11 +19590,6 @@
       "RSI Aurora Mk I LN",
       "RSI Aurora Mk I MR",
       "RSI Mantis"
-    ],
-    "77ee31549aee": [
-      "Anvil Valkyrie",
-      "Drake Corsair",
-      "RSI Constellation Phoenix"
     ],
     "bd5a88da2f60": [
       "Aegis Hammerhead",
@@ -19883,12 +19866,6 @@
     "2083eabc2082": [
       "C.O. Mustang Delta",
       "Origin M50 Interceptor"
-    ],
-    "aafb9aa80f5f": [
-      "MISC Starfarer"
-    ],
-    "2f81cc74ba57": [
-      "Aegis Reclaimer"
     ],
     "9f4429c23fe9": [
       "Aegis Avenger Stalker",
@@ -26627,7 +26604,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 8,
+      "timeToComplete": 12.8,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -26691,7 +26668,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 35500,
+      "rewardUEC": 56750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27197,7 +27174,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 6,
+      "timeToComplete": 9.6,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27255,7 +27232,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 21000,
+      "rewardUEC": 33750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27702,7 +27679,7 @@
       "contractorNameKey": "@Ling_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 20,
       "locations": [
         "0a75393be9ca"
       ],
@@ -27729,7 +27706,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 62000,
+      "rewardUEC": 82750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27812,7 +27789,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 20,
+      "timeToComplete": 32,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -27874,7 +27851,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 119750,
+      "rewardUEC": 191750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -27883,7 +27860,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "77ee31549aee",
+              "poolId": "3638da5e744b",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -27891,7 +27868,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "77ee31549aee",
+                      "poolId": "3638da5e744b",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28007,7 +27984,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 16,
+      "timeToComplete": 25.6,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -28069,7 +28046,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 66250,
+      "rewardUEC": 106000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -28140,7 +28117,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "0244a420238d",
+              "poolId": "c75b09e36652",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28148,7 +28125,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "0244a420238d",
+                      "poolId": "c75b09e36652",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28356,7 +28333,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 10,
+      "timeToComplete": 16,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -28418,7 +28395,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 44250,
+      "rewardUEC": 70750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -28427,7 +28404,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "0244a420238d",
+              "poolId": "c75b09e36652",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28435,7 +28412,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "0244a420238d",
+                      "poolId": "c75b09e36652",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -28551,7 +28528,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 20,
+      "timeToComplete": 32,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -28613,7 +28590,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 112250,
+      "rewardUEC": 179500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -28686,7 +28663,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "77ee31549aee",
+              "poolId": "3638da5e744b",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -28694,7 +28671,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "77ee31549aee",
+                      "poolId": "3638da5e744b",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -29432,7 +29409,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 44,
+      "timeToComplete": 37.5,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29453,7 +29430,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 324000,
+      "rewardUEC": 206250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29474,19 +29451,19 @@
       ],
       "completionTags": [
         {
-          "count": 911,
+          "count": 780,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 911,
+          "count": 780,
           "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 10,
+          "minSCU": 8,
           "maxSCU": 0,
           "maxContainerSize": -1,
           "resource": "af99217bbabe"
@@ -29523,7 +29500,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 39,
+      "timeToComplete": 23.2,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29544,7 +29521,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 198500,
+      "rewardUEC": 101250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29565,19 +29542,19 @@
       ],
       "completionTags": [
         {
-          "count": 812,
+          "count": 483,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 812,
+          "count": 483,
           "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 100,
+          "minSCU": 6,
           "maxSCU": 0,
           "maxContainerSize": -1,
           "resource": "cefa8a960681"
@@ -29614,7 +29591,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 77,
+      "timeToComplete": 58.8,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29635,7 +29612,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 511000,
+      "rewardUEC": 340250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29656,19 +29633,19 @@
       ],
       "completionTags": [
         {
-          "count": 1602,
+          "count": 1142,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 1602,
+          "count": 1142,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 1,
+          "minSCU": 4,
           "maxSCU": 0,
           "maxContainerSize": -1,
           "resource": "c30a5939bb67"
@@ -30410,7 +30387,7 @@
       "contractorNameKey": "@NorthRock_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 24,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30474,7 +30451,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 73500,
+      "rewardUEC": 117750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30554,7 +30531,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 34,
+      "timeToComplete": 26.13,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30629,7 +30606,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 173250,
+      "rewardUEC": 114000,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30638,7 +30615,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "2f81cc74ba57",
+              "poolId": "4bb7dc3661b1",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -30646,7 +30623,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2f81cc74ba57",
+                      "poolId": "4bb7dc3661b1",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -30689,20 +30666,20 @@
       ],
       "completionTags": [
         {
-          "count": 709,
+          "count": 544,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 709,
+          "count": 544,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 55,
-          "maxSCU": 55,
+          "minSCU": 40,
+          "maxSCU": 40,
           "maxContainerSize": -1,
           "resource": "d542a9747c96"
         }
@@ -30749,7 +30726,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 33,
+      "timeToComplete": 27.25,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30824,7 +30801,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 116250,
+      "rewardUEC": 94250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30833,7 +30810,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "aafb9aa80f5f",
+              "poolId": "4bb7dc3661b1",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -30841,7 +30818,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "aafb9aa80f5f",
+                      "poolId": "4bb7dc3661b1",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -30884,20 +30861,20 @@
       ],
       "completionTags": [
         {
-          "count": 684,
+          "count": 568,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 684,
+          "count": 568,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 50,
-          "maxSCU": 50,
+          "minSCU": 40,
+          "maxSCU": 40,
           "maxContainerSize": -1,
           "resource": "7f48d80cf93e"
         }
@@ -30938,13 +30915,13 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (S)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any size salvage ship.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any small-sized salvage ship.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 34,
+      "timeToComplete": 27.05,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31019,7 +30996,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 119750,
+      "rewardUEC": 93500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31028,7 +31005,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "be7e3ed77729",
+              "poolId": "faa97af32d86",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -31036,7 +31013,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "be7e3ed77729",
+                      "poolId": "faa97af32d86",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -31079,20 +31056,20 @@
       ],
       "completionTags": [
         {
-          "count": 717,
+          "count": 564,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 717,
+          "count": 564,
           "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 12,
-          "maxSCU": 12,
+          "minSCU": 9,
+          "maxSCU": 9,
           "maxContainerSize": -1,
           "resource": "9f3423b93e06"
         }
@@ -31318,7 +31295,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 12,
+      "timeToComplete": 19.2,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31374,7 +31351,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 36750,
+      "rewardUEC": 58750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31435,7 +31412,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "8039d8da6dea",
+              "poolId": "5adf2c4d6ebf",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31443,7 +31420,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "8039d8da6dea",
+                      "poolId": "5adf2c4d6ebf",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -31639,7 +31616,7 @@
       "contractorNameKey": "@Foxwell_RepUI_Name",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 7,
+      "timeToComplete": 11.2,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -31695,7 +31672,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 28000,
+      "rewardUEC": 44750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31704,7 +31681,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "8039d8da6dea",
+              "poolId": "5adf2c4d6ebf",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31712,7 +31689,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "8039d8da6dea",
+                      "poolId": "5adf2c4d6ebf",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"

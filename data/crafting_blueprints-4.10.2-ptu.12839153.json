@@ -1,8 +1,8 @@
 {
-  "version": "4.10.2-ptu.12811422",
+  "version": "4.10.2-ptu.12839153",
   "meta": {
     "totalBlueprints": 1618,
-    "totalProducts": 1604,
+    "totalProducts": 1606,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -84329,7 +84329,7 @@
     {
       "guid": "fa5951a5-5063-49c8-8f4c-a6b341801aea",
       "tag": "BP_CRAFT_POWR_SASU_S02_DayBreak_SCItem",
-      "productEntityClass": "dabd2d8d-c06c-4ebf-8791-192ace67ac33",
+      "productEntityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
       "gear": "vehiclegear",
       "type": "powerplant",
       "subtype": "size2",
@@ -84467,11 +84467,8 @@
           ]
         }
       ],
-      "productName": "FullForce",
-      "manufacturer": "Lightning Power Ltd.",
-      "suggestedName": "DayBreak",
-      "suggestedProductEntityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
-      "cigDataError": true
+      "productName": "DayBreak",
+      "manufacturer": "Sakura Sun"
     },
     {
       "guid": "683c5b10-5dc3-48ee-aeb0-d830e0d398c0",
@@ -89186,7 +89183,7 @@
     {
       "guid": "d0d47aec-82ae-4a0b-866c-df86f5fba6d3",
       "tag": "BP_CRAFT_QDRV_JUST_S01_Goliath_SCItem",
-      "productEntityClass": "dadc9318-d0f2-48c2-aad4-f2dd0c5f7fd3",
+      "productEntityClass": "fc3fadaa-cd29-4ac5-a2f5-51d4988d3def",
       "gear": "vehiclegear",
       "type": "quantumdrive",
       "subtype": "size1",
@@ -89284,11 +89281,8 @@
           ]
         }
       ],
-      "productName": "FoxFire",
-      "manufacturer": "Ace Astrogation",
-      "suggestedName": "Goliath",
-      "suggestedProductEntityClass": "fc3fadaa-cd29-4ac5-a2f5-51d4988d3def",
-      "cigDataError": true
+      "productName": "Goliath",
+      "manufacturer": "Juno Starwerk"
     },
     {
       "guid": "ea853542-ae72-4060-b566-64de83f1eb58",

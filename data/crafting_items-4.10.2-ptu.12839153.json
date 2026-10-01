@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12811422",
+  "version": "4.10.2-ptu.12839153",
   "meta": {
     "totalItems": 1616,
     "weapons": 271,
@@ -26103,14 +26103,6 @@
       "manufacturer": "Kilgore and Poole",
       "manufacturerCode": "KAP",
       "mass": 6.0,
-      "temperatureResistance": {
-        "min": -5.0,
-        "max": 50.0
-      },
-      "radiationResistance": {
-        "capacity": 0.0,
-        "dissipationRate": 0.0
-      },
       "name": "Monolith Backpack",
       "cgItemType": "Char_Armor_Backpack"
     },
@@ -35459,14 +35451,6 @@
       "manufacturer": "Kilgore and Poole",
       "manufacturerCode": "KAP",
       "mass": 6.0,
-      "temperatureResistance": {
-        "min": -5.0,
-        "max": 50.0
-      },
-      "radiationResistance": {
-        "capacity": 0.0,
-        "dissipationRate": 0.0
-      },
       "name": null,
       "cgItemType": "Char_Armor_Backpack"
     },

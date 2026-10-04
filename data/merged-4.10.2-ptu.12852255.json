@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12839153",
+  "version": "4.10.2-ptu.12852255",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -19245,14 +19245,15 @@
       "Origin 325a",
       "Origin 350r"
     ],
-    "2f92df653bf8": [
+    "509c5e5469bf": [
       "Aegis Hammerhead",
       "Aegis Retaliator",
       "Argo MOLE",
       "Crusader Mercury Star Runner",
       "Drake Corsair",
       "Origin 400i",
-      "RSI Constellation Taurus"
+      "RSI Constellation Taurus",
+      "RSI Polaris"
     ],
     "f1dfadcbc2ec": [
       "Crusader A2 Hercules Starlifter",
@@ -19455,12 +19456,11 @@
       "Aegis Avenger Titan",
       "Aegis Avenger Titan Renegade"
     ],
-    "5adf2c4d6ebf": [
+    "f74f1ed18cd7": [
       "Argo RAFT",
       "Drake Cutlass Red",
       "MISC Freelancer",
-      "MISC Freelancer DUR",
-      "RSI Zeus Mk II CL"
+      "MISC Freelancer DUR"
     ],
     "676af19f9426": [
       "Aegis Avenger Stalker",
@@ -19866,6 +19866,12 @@
     "2083eabc2082": [
       "C.O. Mustang Delta",
       "Origin M50 Interceptor"
+    ],
+    "7ad897e88e7d": [
+      "Anvil Terrapin"
+    ],
+    "aafb9aa80f5f": [
+      "MISC Starfarer"
     ],
     "9f4429c23fe9": [
       "Aegis Avenger Stalker",
@@ -27403,13 +27409,13 @@
       ],
       "completionTags": [
         {
-          "count": 313,
+          "count": 333,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 313,
+          "count": 333,
           "splitPointsForParty": false
         }
       ],
@@ -29403,7 +29409,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Procure Refined Beryl",
-      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>beryl</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>.",
+      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>beryl</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Shubin Interstellar",
       "contractorNameKey": "@shubin_from",
@@ -29494,7 +29500,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Procure Refined Iron",
-      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>iron</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>.",
+      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>iron</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Shubin Interstellar",
       "contractorNameKey": "@shubin_from",
@@ -29585,7 +29591,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Procure Refined Quantainium",
-      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>quantainium</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>.",
+      "description": "Use a <EM4>mining ship</EM4> to harvest <EM4>quantainium</EM4>, <EM4>process it a refinery center</EM4>, and deliver it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Shubin Interstellar",
       "contractorNameKey": "@shubin_from",
@@ -30239,12 +30245,7 @@
             "name": "Stanton System",
             "navIcon": "Default"
           }
-        ],
-        "completedContractTags": {
-          "excludedTags": [
-            "20c32799-9749-4a42-bff9-0ecae95d5824"
-          ]
-        }
+        ]
       },
       "pyroRegion": null,
       "rewardUEC": 31000,
@@ -30267,11 +30268,6 @@
         }
       ],
       "completionTags": [
-        {
-          "count": 1,
-          "tag": "20c32799-9749-4a42-bff9-0ecae95d5824",
-          "splitPointsForParty": false
-        },
         {
           "count": 250,
           "tag": "d26f3e42-d9b4-41dc-a52b-174833256dac",
@@ -30525,13 +30521,13 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (L)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires large-sized salvage ship.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires large-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 26.13,
+      "timeToComplete": 11.98,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30606,7 +30602,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 114000,
+      "rewardUEC": 52250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30615,7 +30611,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "4bb7dc3661b1",
+              "poolId": "aafb9aa80f5f",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -30623,7 +30619,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "4bb7dc3661b1",
+                      "poolId": "aafb9aa80f5f",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -30666,20 +30662,20 @@
       ],
       "completionTags": [
         {
-          "count": 544,
+          "count": 250,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 544,
+          "count": 250,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 40,
-          "maxSCU": 40,
+          "minSCU": 250,
+          "maxSCU": 250,
           "maxContainerSize": -1,
           "resource": "d542a9747c96"
         }
@@ -30720,13 +30716,13 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (M)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires medium-sized salvage ship.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires medium-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 27.25,
+      "timeToComplete": 7.58,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30801,7 +30797,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 94250,
+      "rewardUEC": 26250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30861,20 +30857,20 @@
       ],
       "completionTags": [
         {
-          "count": 568,
+          "count": 158,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 568,
+          "count": 158,
           "splitPointsForParty": true
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 40,
-          "maxSCU": 40,
+          "minSCU": 39,
+          "maxSCU": 39,
           "maxContainerSize": -1,
           "resource": "7f48d80cf93e"
         }
@@ -30915,13 +30911,13 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (S)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any small-sized salvage ship.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any small-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 27.05,
+      "timeToComplete": 4.1,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30996,7 +30992,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 93500,
+      "rewardUEC": 14250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31005,7 +31001,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "faa97af32d86",
+              "poolId": "7ad897e88e7d",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -31013,11 +31009,10 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "faa97af32d86",
+                      "poolId": "7ad897e88e7d",
                       "minCount": 1,
                       "maxCount": 1,
-                      "inexact": true,
-                      "cargoManifest": "legalcargo_generic_lowvalue_halfcargo"
+                      "inexact": true
                     }
                   ]
                 }
@@ -31056,20 +31051,20 @@
       ],
       "completionTags": [
         {
-          "count": 564,
+          "count": 85,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 564,
+          "count": 85,
           "splitPointsForParty": false
         }
       ],
       "haulingOrders": [
         {
-          "minSCU": 9,
-          "maxSCU": 9,
+          "minSCU": 1,
+          "maxSCU": 1,
           "maxContainerSize": -1,
           "resource": "9f3423b93e06"
         }
@@ -31412,7 +31407,7 @@
             },
             {
               "role": "SupportAttackedShip_AttackedShipSpawnDescriptions",
-              "poolId": "5adf2c4d6ebf",
+              "poolId": "f74f1ed18cd7",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31420,7 +31415,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "5adf2c4d6ebf",
+                      "poolId": "f74f1ed18cd7",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -31681,7 +31676,7 @@
           "groups": [
             {
               "role": "AttackedShipSpawnDescriptions",
-              "poolId": "5adf2c4d6ebf",
+              "poolId": "f74f1ed18cd7",
               "waves": [
                 {
                   "name": "ShipToDefend",
@@ -31689,7 +31684,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "5adf2c4d6ebf",
+                      "poolId": "f74f1ed18cd7",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "legalcargo_generic_lowvalue_minimalcargo"
@@ -60916,7 +60911,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "2f92df653bf8",
+              "poolId": "509c5e5469bf",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -60924,7 +60919,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2f92df653bf8",
+                      "poolId": "509c5e5469bf",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -64844,7 +64839,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "2f92df653bf8",
+              "poolId": "509c5e5469bf",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -64852,7 +64847,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2f92df653bf8",
+                      "poolId": "509c5e5469bf",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -66555,7 +66550,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "2f92df653bf8",
+              "poolId": "509c5e5469bf",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -66563,7 +66558,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "2f92df653bf8",
+                      "poolId": "509c5e5469bf",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,

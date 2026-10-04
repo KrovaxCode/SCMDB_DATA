@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.58",
+    "date": "2026-10-04T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12852255. The three Iasi salvage orders (UCM Order S/M/L) pay less, award fewer event points and have much shorter time limits. \"UCM Order (L)\", for example, now gives 52,250 aUEC and 250 points instead of 114,000 and 544. Outside the event, the RSI Polaris can now turn up as the wreck in Adagio's medium salvage claims." },
+      { "type": "data", "text": "📊 Missing from the last notes: build 12839153 also changed the Iasi tiers, and this build keeps them. Transport, Collection and Defense now need 2,000 / 4,000 / 6,500 / 10,000 points instead of 1,000 / 1,000 / 5,000 / 10,000. The overall Iasi score needs 4,500 / 9,900 / 24,000 / 30,000 instead of 9,000 / 21,000 / 27,000 / 30,000. The calculator was already using the new tiers." },
+      { "type": "feat", "text": "👥 The event calculator now takes the party rule from the mission instead of asking you. If every party member gets the full points, there's nothing to set. If the points are divided, you enter your party size and the table shows what each member earns and how many runs each tier takes. Only missions without that information keep the solo/party switch. If a mission's rule looks off, please let us know. Thanks DarkRod." }
+    ]
+  },
+  {
     "version": "1.0.57",
     "date": "2026-10-01T00:00:00Z",
     "changes": [

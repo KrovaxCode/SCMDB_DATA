@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12852255",
+  "version": "4.10.2-ptu.12858901",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -13747,7 +13747,7 @@
           "blueprintRecord": "129eaa5c-b5a5-4ce6-809f-c90949178625",
           "weight": 1,
           "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
-          "name": "@item_Name_kap_combat_heavy_helmet_01_04_01"
+          "name": "Monolith Helmet"
         }
       ],
       "source": "collectorwikelo"
@@ -30521,7 +30521,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (L)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires large-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM (Salvage) to freight elevator at <EM4>[DESTINATION]</EM4>. Requires large-sized salvage ship (Aegis Reclaimer). Contractor can keep any RMC they collect. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
@@ -30716,7 +30716,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (M)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires medium-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM (Pieces) to freight elevator at <EM4>[DESTINATION]</EM4>. Requires medium-sized salvage ship (Argo MOTH). Contractor can keep any RMC they collect. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
@@ -30911,7 +30911,7 @@
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: UCM Order (S)",
-      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any small-sized salvage ship. Please be mindful that any extra materials delivered will not be returned.",
+      "description": "Salvage ship at <EM4>[LOCATION]</EM4> and deliver UCM (Rubble) to freight elevator at <EM4>[DESTINATION]</EM4>. Requires any small-sized salvage ship (RSI Salvation, Drake Vulture, MISC Fortune). Contractor can keep any RMC they collect. Please be mindful that any extra materials delivered will not be returned.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Adagio Holdings",
       "contractorNameKey": "@Adagio_from",
@@ -176579,7 +176579,7 @@
                   "armorClass": "heavy"
                 },
                 {
-                  "name": "@item_Name_kap_combat_heavy_helmet_01_04_01",
+                  "name": "Monolith Helmet",
                   "amount": 1,
                   "itemType": "armor",
                   "armorSlot": "helmet",

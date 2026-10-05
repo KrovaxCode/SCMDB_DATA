@@ -116,6 +116,42 @@
         "cgItemType": "FuelNozzle"
       },
       "note": "Ezra (Fuel_Nozzle_SHIN_NozzleMostExpensive) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_SHIN_NozzleMostExpensive_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type — this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
+    },
+    "fecbf518-e3e5-4e58-905a-729a02e86265": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NDB-26 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+    },
+    "2365f40c-fbd3-4859-ad80-f5cfbc305c83": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NDB-28 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+    },
+    "2f9fad1d-f591-4e69-ae64-af5ba0a883f7": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NDB-30 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+    },
+    "3fc83638-fbe5-4d75-8e18-678736fefbc4": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NN-13 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+    },
+    "596ced46-195e-4f60-826a-7cc5bb2e2f02": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NN-14 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+    },
+    "231fd67b-49a6-40e9-8eef-20268cfc0b2c": {
+      "expected": {
+        "manufacturer": "maxOx"
+      },
+      "note": "NN-15 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
     }
   },
   "contracts": {

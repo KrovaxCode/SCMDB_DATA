@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.59",
+    "date": "2026-10-05T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12858901. The Iasi salvage orders now name the ships they're meant for — Aegis Reclaimer (L), Argo MOTH (M), and RSI Salvation, Drake Vulture or MISC Fortune (S) — and let you keep any RMC you collect. The Monolith Very Smooth helmet from Wikelo has its name now; the other Very Smooth pieces still show internal names. Six maxOx ship weapons that are listed under Aegis Dynamics now carry a note about it." },
+      { "type": "feat", "text": "🔍 Patch Delta shows more of what changes between builds: a mission's event points and whether a party splits them, cargo amounts, the ships it spawns, once-only status, reputation lockouts, and description text with the changed words marked. A new Events tab lists event tiers old next to new. On PTU this already covers the earlier 4.10.2 builds; LIVE gets it from the next build on." }
+    ]
+  },
+  {
     "version": "1.0.58",
     "date": "2026-10-04T00:00:00Z",
     "changes": [

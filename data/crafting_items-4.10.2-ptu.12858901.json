@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12852255",
+  "version": "4.10.2-ptu.12858901",
   "meta": {
     "totalItems": 1616,
     "weapons": 271,
@@ -11309,7 +11309,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 48,
       "ammoIndex": 73,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NDB-26 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "2365f40c-fbd3-4859-ad80-f5cfbc305c83",
@@ -11331,7 +11337,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 48,
       "ammoIndex": 74,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NDB-28 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "2f9fad1d-f591-4e69-ae64-af5ba0a883f7",
@@ -11353,7 +11365,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 48,
       "ammoIndex": 75,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NDB-30 Repeater resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "3fc83638-fbe5-4d75-8e18-678736fefbc4",
@@ -11375,7 +11393,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 49,
       "ammoIndex": 76,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NN-13 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "596ced46-195e-4f60-826a-7cc5bb2e2f02",
@@ -11397,7 +11421,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 49,
       "ammoIndex": 77,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NN-14 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "231fd67b-49a6-40e9-8eef-20268cfc0b2c",
@@ -11419,7 +11449,13 @@
       "cgItemType": "WeaponGun",
       "fireModesIndex": 49,
       "ammoIndex": 78,
-      "magazineIndex": 7
+      "magazineIndex": 7,
+      "knownIssue": {
+        "expected": {
+          "manufacturer": "maxOx"
+        },
+        "note": "NN-15 Cannon resolves to manufacturer 'Aegis Dynamics' although its manufacturer code is MXOX (maxOx). The SCItemManufacturer record scitemmanufacturer/mxox.xml carries Code=\"MXOX\" but its Localization Name points at @manufacturer_NameAEGS and its Description at @manufacturer_DescAEGS; two of its three logo paths (LogoFullColor, LogoSimplifiedWhite) also reference AEGS assets, while the main Logo references Maxox_256.tif. A dedicated string @manufacturer_NameMXOX (\"maxOx\") exists in the localization data and appears to be unused. Whether that attribution is intended can't be told from the data. The game resolves the same localization key, so the in-game display may show the same name. Parser stays faithful to the resolved value; manufacturerCode remains MXOX and can be used to identify the items."
+      }
     },
     {
       "entityClass": "aa5b80da-8bb8-4712-9277-e2cb3a052d4c",
@@ -26107,7 +26143,7 @@
       "cgItemType": "Char_Armor_Backpack"
     },
     {
-      "entityClass": "d9071899-894f-4515-b439-d7dad8e1777a",
+      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
       "itemType": "armor",
       "attachType": "Char_Armor_Helmet",
       "attachSubType": "Heavy",
@@ -26116,7 +26152,7 @@
       "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
       "manufacturer": "Kilgore and Poole",
       "manufacturerCode": "KAP",
-      "mass": 2.0,
+      "mass": 5.0,
       "temperatureResistance": {
         "min": 3.0,
         "max": 33.0
@@ -26128,7 +26164,31 @@
       "name": "Monolith Helmet",
       "cgItemType": "Char_Armor_Helmet",
       "damageResistanceIndex": 1,
-      "signaturesIndex": 2
+      "signaturesIndex": 3
+    },
+    {
+      "entityClass": "d9071899-894f-4515-b439-d7dad8e1777a",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": 3.0,
+        "max": 33.0
+      },
+      "radiationResistance": {
+        "capacity": 0.0,
+        "dissipationRate": 0.0
+      },
+      "name": "Monolith Helmet",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
     },
     {
       "entityClass": "73754ce9-d505-4510-9a7e-e7be4c1943bc",
@@ -35501,30 +35561,6 @@
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
-    },
-    {
-      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Helmet",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Texture_04 Color_01",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 2.0,
-      "temperatureResistance": {
-        "min": 3.0,
-        "max": 33.0
-      },
-      "radiationResistance": {
-        "capacity": 0.0,
-        "dissipationRate": 0.0
-      },
-      "name": null,
-      "cgItemType": "Char_Armor_Helmet",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 2
     },
     {
       "entityClass": "b930194d-391e-48db-aa08-3b0e089e7273",

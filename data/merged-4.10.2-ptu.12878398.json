@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12868798",
+  "version": "4.10.2-ptu.12878398",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -13747,7 +13747,7 @@
           "blueprintRecord": "129eaa5c-b5a5-4ce6-809f-c90949178625",
           "weight": 1,
           "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
-          "name": "Monolith Helmet"
+          "name": "@item_Name_kap_combat_heavy_helmet_01_04_01"
         }
       ],
       "source": "collectorwikelo"
@@ -176490,7 +176490,7 @@
                   "armorClass": "heavy"
                 },
                 {
-                  "name": "Monolith Helmet",
+                  "name": "@item_Name_kap_combat_heavy_helmet_01_04_01",
                   "amount": 1,
                   "itemType": "armor",
                   "armorSlot": "helmet",

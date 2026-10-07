@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12868798",
+  "version": "4.10.2-ptu.12878398",
   "meta": {
     "totalItems": 1616,
     "weapons": 271,
@@ -26143,30 +26143,6 @@
       "cgItemType": "Char_Armor_Backpack"
     },
     {
-      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Helmet",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 5.0,
-      "temperatureResistance": {
-        "min": 3.0,
-        "max": 33.0
-      },
-      "radiationResistance": {
-        "capacity": 0.0,
-        "dissipationRate": 0.0
-      },
-      "name": "Monolith Helmet",
-      "cgItemType": "Char_Armor_Helmet",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 3
-    },
-    {
       "entityClass": "d9071899-894f-4515-b439-d7dad8e1777a",
       "itemType": "armor",
       "attachType": "Char_Armor_Helmet",
@@ -35561,6 +35537,30 @@
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
+    },
+    {
+      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": 3.0,
+        "max": 33.0
+      },
+      "radiationResistance": {
+        "capacity": 0.0,
+        "dissipationRate": 0.0
+      },
+      "name": null,
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
     },
     {
       "entityClass": "b930194d-391e-48db-aa08-3b0e089e7273",

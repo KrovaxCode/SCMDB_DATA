@@ -1,8 +1,8 @@
 {
-  "version": "4.10.2-ptu.12868798",
+  "version": "4.10.2-ptu.12878398",
   "meta": {
     "totalBlueprints": 1618,
-    "totalProducts": 1605,
+    "totalProducts": 1606,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -35473,8 +35473,8 @@
           ]
         }
       ],
-      "productName": "Monolith Helmet",
-      "manufacturer": "Kilgore and Poole"
+      "productName": null,
+      "manufacturer": null
     },
     {
       "guid": "b79899aa-5d5a-48dc-bee4-1b8f5a89a990",

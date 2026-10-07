@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.61",
+    "date": "2026-10-07T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12878398. Hardly anything changed: the Monolith Very Smooth helmet from Wikelo has lost its name again and shows an internal one." },
+      { "type": "feat", "text": "⛏ The Mining Solver's auto-solver now works with active modules. Where a laser and passive modules can't crack a rock comfortably, it checks whether Surge, Stampede and the like get it done and lists those loadouts — until now only gadgets came into play there. Results with a free module slot also show when actives would crack the rock noticeably faster, and a click loads that variant. Loadouts that work comfortably are now listed before very difficult ones, and the charge chart fires fitted actives right away to reach the green zone sooner. Thanks solrwnd." },
+      { "type": "fix", "text": "🔧 The auto-solver's times now come from the same charge simulation you see after loading a result. It used to assume the wrong rock density, which made rocks look less stable than in the charge chart, so some of them appeared harder or impossible when they aren't." }
+    ]
+  },
+  {
     "version": "1.0.60",
     "date": "2026-10-07T00:00:00Z",
     "changes": [

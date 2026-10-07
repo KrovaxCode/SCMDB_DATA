@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.60",
+    "date": "2026-10-07T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.2-ptu.12868798. Another Iasi rebalance: the UCM salvage orders pay and score considerably more again and give more time — \"UCM Order (L)\" now gives 101,750 aUEC and 486 points instead of 52,250 and 250, and is delivered to the main spaceports instead of the Lagrange stations. The Beryl and Iron procurement orders pay and score about 15% less, and \"Scavenger Hunt\" no longer appears in this build." }
+    ]
+  },
+  {
     "version": "1.0.59",
     "date": "2026-10-05T00:00:00Z",
     "changes": [

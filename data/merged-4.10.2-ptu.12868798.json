@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12858901",
+  "version": "4.10.2-ptu.12868798",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -27712,7 +27712,7 @@
         }
       },
       "pyroRegion": null,
-      "rewardUEC": 82750,
+      "rewardUEC": 78500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29415,7 +29415,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 37.5,
+      "timeToComplete": 32.1,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29436,7 +29436,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 206250,
+      "rewardUEC": 176500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29457,13 +29457,13 @@
       ],
       "completionTags": [
         {
-          "count": 780,
+          "count": 669,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 780,
+          "count": 669,
           "splitPointsForParty": false
         }
       ],
@@ -29506,7 +29506,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 23.2,
+      "timeToComplete": 19.6,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29527,7 +29527,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 101250,
+      "rewardUEC": 85500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -29548,13 +29548,13 @@
       ],
       "completionTags": [
         {
-          "count": 483,
+          "count": 408,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 483,
+          "count": 408,
           "splitPointsForParty": false
         }
       ],
@@ -29597,7 +29597,7 @@
       "contractorNameKey": "@shubin_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 58.8,
+      "timeToComplete": 54.8,
       "locations": [
         "0a75393be9ca"
       ],
@@ -29618,7 +29618,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 340250,
+      "rewardUEC": 317250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30295,89 +30295,13 @@
       "availabilityIndex": 0
     },
     {
-      "id": "70630c85-c2e2-4c06-bc33-ee624e4933e8",
-      "debugName": "Iasi_ResourceGathering_BasicItem",
-      "category": "event",
-      "missionType": "IASI Event",
-      "missionTypeKey": "@iasi_Journal_Title",
-      "title": "<REDACTED>: Scavenger Hunt",
-      "description": "Collect Picos from landing zones and hand them in at <EM4>[DESTINATION]</EM4>.",
-      "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
-      "contractorName": "[IASI]",
-      "contractorNameKey": "@iasi_faction_name",
-      "canBeShared": false,
-      "illegal": false,
-      "timeToComplete": 12,
-      "locations": [
-        "0a75393be9ca"
-      ],
-      "destinations": [
-        "d21ee531e95f"
-      ],
-      "locationSets": null,
-      "prerequisites": {
-        "location": [
-          {
-            "name": "Stanton System",
-            "navIcon": "Default"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 31000,
-      "buyIn": null,
-      "minStanding": null,
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@iasi_BasicBox_ResourceGathering_Title",
-      "descriptionKey": "@iasi_BasicBox_ResourceGathering_Desc",
-      "availableSystems": null,
-      "requiredScenarios": [
-        {
-          "name": "VisitingIasi_Scenario",
-          "enabled": false
-        }
-      ],
-      "completionTags": [
-        {
-          "count": 250,
-          "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
-          "splitPointsForParty": false
-        },
-        {
-          "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 250,
-          "splitPointsForParty": false
-        }
-      ],
-      "haulingOrders": null,
-      "descriptionLocKey": "iasi_BasicBox_ResourceGathering_Desc",
-      "titleLocKey": "iasi_BasicBox_ResourceGathering_Title",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": false,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0
-    },
-    {
       "id": "72d73d7b-0fe9-4d5e-9d32-2438d3bba8db",
       "debugName": "Iasi_EliminateBoss_Hard",
       "category": "event",
       "missionType": "IASI Event",
       "missionTypeKey": "@iasi_Journal_Title",
       "title": "<REDACTED>: Take Out Gang Leader",
-      "description": "<REDACTED>: Take Out Gang Leader",
+      "description": "Eliminate <EM4>[TARGET]</EM4> located at <EM4>[LOCATION]</EM4>.",
       "factionGuid": "d84f1767-e406-448a-a413-9a526350c83f",
       "contractorName": "Northrock Service Group",
       "contractorNameKey": "@NorthRock_RepUI_Name",
@@ -30462,7 +30386,7 @@
       "parentId": null,
       "subContractIndex": null,
       "titleKey": "@iasi_EliminateBoss_H_Title",
-      "descriptionKey": "@iasi_EliminateBoss_H_Title",
+      "descriptionKey": "@iasi_EliminateBoss_H_Desc",
       "availableSystems": [
         "Stanton"
       ],
@@ -30485,7 +30409,7 @@
         }
       ],
       "haulingOrders": null,
-      "descriptionLocKey": "iasi_EliminateBoss_H_Title",
+      "descriptionLocKey": "iasi_EliminateBoss_H_Desc",
       "titleLocKey": "iasi_EliminateBoss_H_Title",
       "debugNames": [
         "Iasi_EliminateBoss_Hard",
@@ -30527,7 +30451,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 11.98,
+      "timeToComplete": 23.31,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30565,24 +30489,11 @@
         "2926c9ad408c"
       ],
       "destinations": [
-        "cdbe5c5a9cc4",
-        "a135f4e98ad2",
-        "e95b4a8986f3",
-        "581b65066988",
-        "b59e5f3521ad",
-        "018f9a8014f4",
-        "b3580d2b56f8",
-        "360e510ac13b",
-        "f6d49b8ef987",
-        "baff0c674b66",
-        "afc85b274a27",
-        "51c7fcbf4b91",
-        "cd6ab6ce61a7",
-        "4a0bccec3491",
-        "f14fda6625d9",
-        "02c36d96275b",
-        "4411e7a6a465",
-        "757b267eceb1"
+        "33494a2baa8a",
+        "10b299e2ccf9",
+        "32e3bb3ae27a",
+        "d56b03ec64ca",
+        "0c19e0494d99"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -30602,7 +30513,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 52250,
+      "rewardUEC": 101750,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30662,13 +30573,13 @@
       ],
       "completionTags": [
         {
-          "count": 250,
+          "count": 486,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 250,
+          "count": 486,
           "splitPointsForParty": true
         }
       ],
@@ -30722,7 +30633,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 7.58,
+      "timeToComplete": 12.24,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30797,7 +30708,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 26250,
+      "rewardUEC": 42250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -30857,13 +30768,13 @@
       ],
       "completionTags": [
         {
-          "count": 158,
+          "count": 255,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 158,
+          "count": 255,
           "splitPointsForParty": true
         }
       ],
@@ -30917,7 +30828,7 @@
       "contractorNameKey": "@Adagio_from",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 4.1,
+      "timeToComplete": 8.77,
       "locations": [
         "35c3ed47bd36",
         "99c43e1e85bd",
@@ -30992,7 +30903,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 14250,
+      "rewardUEC": 30250,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -31051,13 +30962,13 @@
       ],
       "completionTags": [
         {
-          "count": 85,
+          "count": 183,
           "tag": "6574be32-ca50-4e95-9403-c2e707e87c8b",
           "splitPointsForParty": false
         },
         {
           "tag": "dbb7f59e-523a-4fb4-ac73-cf1fe8971c98",
-          "count": 85,
+          "count": 183,
           "splitPointsForParty": false
         }
       ],
@@ -242017,7 +241928,7 @@
           "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
           "factionName": "Red Wind Linehaul"
         },
-        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Nyx) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Nyx) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. The Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Whether either deviation is intended can't be told from the data. Not yet verified in-game."
       },
       "systems": [
         "Nyx"
@@ -242310,7 +242221,7 @@
           "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
           "factionName": "Red Wind Linehaul"
         },
-        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Pyro) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Pyro) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. The Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Whether either deviation is intended can't be told from the data. Not yet verified in-game."
       },
       "systems": [
         "Pyro"
@@ -242547,7 +242458,7 @@
           "factionGuid": "aa5f0bf8-f36f-423a-b9dd-73084139db23",
           "factionName": "Red Wind Linehaul"
         },
-        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Stanton) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. Possible source-data copy-paste inconsistency — the Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Not yet verified in-game."
+        "note": "Red Wind Straightforward Cargo Recovery (Medium tier, Stanton) has its factionReputation pointing at Citizens For Prosperity rather than Red Wind Linehaul. The contract handler and all sibling difficulty tiers (Easy / Hard / Very Hard / Special) reference Red Wind Linehaul. Observed effect: this contract appears under the Citizens For Prosperity faction instead of Red Wind. The Medium tier also carries a reward pool GUID that differs from the other Red Wind tiers. Whether either deviation is intended can't be told from the data. Not yet verified in-game."
       },
       "systems": [
         "Stanton"

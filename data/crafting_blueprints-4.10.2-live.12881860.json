@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12878398",
+  "version": "4.10.2-live.12881860",
   "meta": {
     "totalBlueprints": 1618,
     "totalProducts": 1606,
@@ -25877,8 +25877,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Monolith Armor Arms Shadowflux",
+      "manufacturer": "Kilgore and Poole"
     },
     {
       "guid": "2d5a4987-c430-4f28-9a74-7cb95d9020db",
@@ -26488,8 +26488,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Monolith Backpack Shadowflux",
+      "manufacturer": "Kilgore and Poole"
     },
     {
       "guid": "09816997-514c-4dce-afb0-f663a1e5d922",
@@ -26646,8 +26646,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Monolith Armor Core Shadowflux",
+      "manufacturer": "Kilgore and Poole"
     },
     {
       "guid": "42dd7691-8119-4643-9477-512b31aaccc8",
@@ -27989,8 +27989,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Monolith Armor Legs Shadowflux",
+      "manufacturer": "Kilgore and Poole"
     },
     {
       "guid": "81f972e5-634e-42e4-bcfd-37e0a72ee9c3",
@@ -35473,8 +35473,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Monolith Helmet Shadowflux",
+      "manufacturer": "Kilgore and Poole"
     },
     {
       "guid": "b79899aa-5d5a-48dc-bee4-1b8f5a89a990",

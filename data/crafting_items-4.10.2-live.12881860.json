@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-ptu.12878398",
+  "version": "4.10.2-live.12881860",
   "meta": {
     "totalItems": 1616,
     "weapons": 271,
@@ -26081,6 +26081,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "b930194d-391e-48db-aa08-3b0e089e7273",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "Marine_Heavy Set_01 Texture_04 Color_01 SM_Marine",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 6.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Monolith Armor Arms Shadowflux",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "b00197b9-3179-4bf7-8067-49f3199d8e3d",
       "itemType": "armor",
       "attachType": "Char_Armor_Torso",
@@ -26100,6 +26124,30 @@
         "dissipationRate": 145.8
       },
       "name": "Monolith Armor Core",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 2
+    },
+    {
+      "entityClass": "3c7c48f2-0c4c-4b1f-9a6c-4f340dee6017",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "Survival_Heavy Set_01 Texture_04 Color_01 SM_RestrictedArm",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 7.0,
+      "temperatureResistance": {
+        "min": -77.0,
+        "max": 107.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Monolith Armor Core Shadowflux",
       "cgItemType": "Char_Armor_Torso",
       "damageResistanceIndex": 1,
       "signaturesIndex": 2
@@ -26129,6 +26177,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "736a7125-d45d-4c54-8daf-aacad83fb021",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "Marine_Heavy Set_01 Texture_04 Color_01 SM_Marine",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 8.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Monolith Armor Legs Shadowflux",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "5a57e015-d77c-4741-b364-d2488d190fc3",
       "itemType": "armor",
       "attachType": "Char_Armor_Backpack",
@@ -26140,6 +26212,20 @@
       "manufacturerCode": "KAP",
       "mass": 6.0,
       "name": "Monolith Backpack",
+      "cgItemType": "Char_Armor_Backpack"
+    },
+    {
+      "entityClass": "20656be4-506f-4e4c-8db7-a813a9fd757d",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Backpack",
+      "attachSubType": "Personal",
+      "size": 3,
+      "grade": 1,
+      "tags": "Set_01 Texture_04 Color_01 backpack SM_RestrictedArm",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 6.0,
+      "name": "Monolith Backpack Shadowflux",
       "cgItemType": "Char_Armor_Backpack"
     },
     {
@@ -26162,6 +26248,30 @@
         "dissipationRate": 0.0
       },
       "name": "Monolith Helmet",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
+    },
+    {
+      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
+      "manufacturer": "Kilgore and Poole",
+      "manufacturerCode": "KAP",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": 3.0,
+        "max": 33.0
+      },
+      "radiationResistance": {
+        "capacity": 0.0,
+        "dissipationRate": 0.0
+      },
+      "name": "Monolith Helmet Shadowflux",
       "cgItemType": "Char_Armor_Helmet",
       "damageResistanceIndex": 1,
       "signaturesIndex": 3
@@ -35475,116 +35585,6 @@
       "cgItemType": "Char_Armor_Undersuit",
       "damageResistanceIndex": 0,
       "signaturesIndex": 8
-    },
-    {
-      "entityClass": "20656be4-506f-4e4c-8db7-a813a9fd757d",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Backpack",
-      "attachSubType": "Personal",
-      "size": 3,
-      "grade": 1,
-      "tags": "Set_01 Texture_04 Color_01 backpack SM_RestrictedArm",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 6.0,
-      "name": null,
-      "cgItemType": "Char_Armor_Backpack"
-    },
-    {
-      "entityClass": "3c7c48f2-0c4c-4b1f-9a6c-4f340dee6017",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Torso",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "Survival_Heavy Set_01 Texture_04 Color_01 SM_RestrictedArm",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 7.0,
-      "temperatureResistance": {
-        "min": -77.0,
-        "max": 107.0
-      },
-      "radiationResistance": {
-        "capacity": 26800.0,
-        "dissipationRate": 145.8
-      },
-      "name": null,
-      "cgItemType": "Char_Armor_Torso",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 2
-    },
-    {
-      "entityClass": "736a7125-d45d-4c54-8daf-aacad83fb021",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Legs",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "Marine_Heavy Set_01 Texture_04 Color_01 SM_Marine",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 8.0,
-      "temperatureResistance": {
-        "min": -70.0,
-        "max": 100.0
-      },
-      "radiationResistance": {
-        "capacity": 26800.0,
-        "dissipationRate": 145.8
-      },
-      "name": null,
-      "cgItemType": "Char_Armor_Legs",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 1
-    },
-    {
-      "entityClass": "9d2f06d6-44c7-49d9-a4d6-ee74bfcd299f",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Helmet",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "SM_RestrictedArm Helmet HelmetCarryable Survival_Heavy Set_01 Color_01",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 5.0,
-      "temperatureResistance": {
-        "min": 3.0,
-        "max": 33.0
-      },
-      "radiationResistance": {
-        "capacity": 0.0,
-        "dissipationRate": 0.0
-      },
-      "name": null,
-      "cgItemType": "Char_Armor_Helmet",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 3
-    },
-    {
-      "entityClass": "b930194d-391e-48db-aa08-3b0e089e7273",
-      "itemType": "armor",
-      "attachType": "Char_Armor_Arms",
-      "attachSubType": "Heavy",
-      "size": 1,
-      "grade": 1,
-      "tags": "Marine_Heavy Set_01 Texture_04 Color_01 SM_Marine",
-      "manufacturer": "Kilgore and Poole",
-      "manufacturerCode": "KAP",
-      "mass": 6.0,
-      "temperatureResistance": {
-        "min": -70.0,
-        "max": 100.0
-      },
-      "radiationResistance": {
-        "capacity": 26800.0,
-        "dissipationRate": 145.8
-      },
-      "name": null,
-      "cgItemType": "Char_Armor_Arms",
-      "damageResistanceIndex": 1,
-      "signaturesIndex": 1
     },
     {
       "entityClass": "51bf9a6e-0ad7-49d2-8d41-d1d5e69669e6",

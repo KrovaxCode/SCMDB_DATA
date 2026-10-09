@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.62",
+    "date": "2026-10-09T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 New LIVE build — 4.10.2-live.12881860. The event we followed on PTU as Iasi is here as RSI Discovery Month: 30 missions with Transport, Collection and Defense scores plus an overall total, listed under that name in the Events filter. On LIVE its ships are all RSI — the salvage orders use Mantis, Constellation Taurus and Polaris wrecks, and the escort missions bring a Zeus Mk II CL — and across all missions the Constellation Andromeda, Aquila, Phoenix and Taurus now appear as Mk IV." },
+      { "type": "data", "text": "🎒 Also new on LIVE: Wikelo's \"Big Style LMG\" and \"Monolith Armor Very Smooth\" trades with the Monolith armour blueprints, Shadowflux pieces included, and more destinations for mining purchase orders." },
+      { "type": "feat", "text": "⛏ The Mining Solver remembers your last loadout for each ship in this browser, so leaving the page or switching ships no longer resets it. \"Clear all\" starts over, and Share is still the way to keep a setup elsewhere. Thanks solrwnd." }
+    ]
+  },
+  {
     "version": "1.0.61",
     "date": "2026-10-07T00:00:00Z",
     "changes": [

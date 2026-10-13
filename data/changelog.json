@@ -4,7 +4,7 @@
     "date": "2026-10-13T00:00:00Z",
     "changes": [
       { "type": "data", "text": "📦 New LIVE build — 4.10.2-live.12913470, a hotfix. No mission changes in the data." },
-      { "type": "feat", "text": "🏷 Two Antium armour blueprints carry the wrong name in this patch: the Maroon arms read \"Antium Helmet Jet\", and the Jet helmet reads \"Antium Core Jet\". Mission rewards and the Fabricator now say which item each one appears to be, and searching for the real name finds it. The items themselves appear unaffected, so the Maroon arms should still come from the Foxwell missions that list them. Thanks liljimmy." },
+      { "type": "feat", "text": "🏷 Two Antium armour blueprints carry the wrong name — as they have in most patches since 4.8; only 4.10.1 had them right: the Maroon arms read \"Antium Helmet Jet\", and the Jet helmet reads \"Antium Core Jet\". Mission rewards and the Fabricator now say which item each one appears to be, and searching for the real name finds it. The items themselves appear unaffected, so the Maroon arms should still come from the Foxwell missions that list them. Thanks liljimmy." },
       { "type": "feat", "text": "🔎 Search understands \"quoted phrases\": the words have to appear together in one name, so \"Antium Arms Maroon\" in quotes no longer matches missions that only reward other Antium pieces with those words spread across them. Without quotes, search works as before. In the Fabricator, searching for a component class or grade such as \"military\" now works too." }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "version": "4.10.2-live.12881860",
+  "version": "4.10.2-live.12913470",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -9764,14 +9764,7 @@
           "blueprintRecord": "fa5951a5-5063-49c8-8f4c-a6b341801aea",
           "weight": 1,
           "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
-          "name": "DayBreak",
-          "knownIssue": {
-            "expected": {
-              "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
-              "name": "DayBreak"
-            },
-            "note": "BP_CRAFT_POWR_SASU_S02_DayBreak has its entityClass pointing at FullForce (dabd2d8d) rather than DayBreak (fda65886). Observed effect: in the BP_REWARDS_PyroFoxwellEasy pool FullForce appears twice. Crafting may produce a FullForce instead of the DayBreak (not yet verified in-game). The DayBreak entity exists as a separate item but appears unreachable via the crafting system at this time."
-          }
+          "name": "DayBreak"
         },
         {
           "blueprintRecord": "35b476f2-8c2f-4e09-aae4-20e4c754c6db",
@@ -12081,7 +12074,14 @@
           "blueprintRecord": "2487dc3a-6a2e-4071-a165-f140d0c8b20d",
           "weight": 1,
           "entityClass": "4ddd8283-1b5c-422b-825d-5dee1e776fcf",
-          "name": "Antium Core Jet"
+          "name": "Antium Core Jet",
+          "knownIssue": {
+            "expected": {
+              "name": "Antium Helmet Jet"
+            },
+            "note": "This blueprint produces the Jet helmet of the Antium set, but is labelled 'Antium Core Jet', which is also the name of the Jet torso (entity 7ffc92db). Its tag is BP_CRAFT_qrt_specialist_heavy_helmet_01_01_12 and it points at entity 4ddd8283 (cgItemType Char_Armor_Helmet). The string behind its localization key @item_Name_qrt_specialist_heavy_helmet_01_01_12 currently reads 'Antium Core Jet', while in 4.10.1-live.12660092 it read 'Antium Helmet Jet'. Observed effect: the BP_MISSIONREWARD_FoxwellEnforcement_Ambush pool lists 'Antium Core Jet' twice, and two items share that name. The item and the blueprint appear unaffected - the label is the only thing that differs. Whether the changed string is intended can't be told from the data. Not yet verified in-game.",
+            "kind": "label"
+          }
         },
         {
           "blueprintRecord": "c633e1c4-7d50-41ad-8411-fe924029eaa9",
@@ -12141,7 +12141,14 @@
           "blueprintRecord": "cdd236fa-56b9-4913-90cf-be7f4e6ca5a7",
           "weight": 1,
           "entityClass": "572a21b6-4c39-4311-89af-93bbfefbef6a",
-          "name": "Antium Helmet Jet"
+          "name": "Antium Helmet Jet",
+          "knownIssue": {
+            "expected": {
+              "name": "Antium Arms Maroon"
+            },
+            "note": "This blueprint produces the Maroon arms of the Antium set, but is labelled 'Antium Helmet Jet'. Its tag is BP_CRAFT_qrt_specialist_heavy_arms_01_01_13, it points at entity 572a21b6 (cgItemType Char_Armor_Arms, record entities/scitem/characters/human/armor/pu_armor/heavy/arms/qrt_specialist_heavy_arms_01_01_13.xml), and that entity carries the matching localization key @item_Name_qrt_specialist_heavy_arms_01_01_13. Only the string behind that key differs: it currently reads 'Antium Helmet Jet', while in 4.10.1-live.12660092 it read 'Antium Arms Maroon'. The sibling variants of the same colourway (core, legs and helmet _01_01_13) still read 'Maroon'. Observed effect: the BP_MISSIONREWARD_FoxwellEnforcement_Generator pool appears to be missing the Maroon arms and to carry a stray helmet instead, and no item named 'Antium Arms Maroon' can be found at all. The item and the blueprint appear unaffected - the label is the only thing that differs, so the arms appear to remain obtainable from these missions. Whether the changed string is intended can't be told from the data. Not yet verified in-game.",
+            "kind": "label"
+          }
         },
         {
           "blueprintRecord": "197066ae-86df-40a1-a10b-1b927a43cbe7",
@@ -26535,7 +26542,7 @@
         "name": "Constellation MK V Centaurus",
         "career": "Multi-Role",
         "role": "Medium Freight / Gun Ship",
-        "cargo": 96
+        "cargo": 240
       },
       {
         "name": "Constellation Phoenix MK IV",

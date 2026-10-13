@@ -1,14 +1,7 @@
 {
   "_comment": "Bekannte CIG-Datenfehler die der Parser im Output annotiert, sodass Frontend transparent kommunizieren kann was eigentlich gemeint war. Parser bleibt faithful zur CIG-Quelle, nur Annotation kommt dazu.",
   "blueprintRecords": {
-    "_comment": "Per blueprintRecord-GUID: 'expected' = was die Daten eigentlich sein sollten, 'note' = menschenlesbare Erklaerung.",
-    "fa5951a5-5063-49c8-8f4c-a6b341801aea": {
-      "expected": {
-        "entityClass": "fda65886-0ccb-4a80-a5ee-528b186d4584",
-        "name": "DayBreak"
-      },
-      "note": "BP_CRAFT_POWR_SASU_S02_DayBreak has its entityClass pointing at FullForce (dabd2d8d) rather than DayBreak (fda65886). Observed effect: in the BP_REWARDS_PyroFoxwellEasy pool FullForce appears twice. Crafting may produce a FullForce instead of the DayBreak (not yet verified in-game). The DayBreak entity exists as a separate item but appears unreachable via the crafting system at this time."
-    },
+    "_comment": "Per blueprintRecord-GUID: 'expected' = was die Daten eigentlich sein sollten, 'note' = menschenlesbare Erklaerung. Optional 'kind': \"label\" = richtiges Item, falscher Name (nur expected.name); \"entity\" = Blueprint zeigt auf ein anderes Item (expected.entityClass + name). Fehlt 'kind', rendert das Frontend wie bisher -- nicht aus fehlenden Feldern ableiten. 'expected' traegt nur die Felder, die abweichen. Entspricht 'expected' dem Ist-Wert, legt der Parser die Annotation still und warnt beim Lauf.",
     "2663f762-5648-41d4-8746-c8dcc07e71b1": {
       "slot": "Segment Paneling",
       "propertyKey": "armor_damagemitigation",
@@ -32,6 +25,20 @@
         "modifierAtStart": 0.9
       },
       "note": "Aztalan Galena Legs (BP_CRAFT_thp_light_legs_01_01_12) has its armor_damagemitigation modifierAtStart set to 9.0 in the 'Segment Paneling' slot, where 0.9 would match the surrounding pattern. The nine other Aztalan pieces (Arms, Core and Helmet across the base, Tamarack and Galena variants) use 0.9 -> 1.1 over the same 0-1000 quality range, and the three Legs blueprints hold the only values outside the 0.80-0.975 band across all 868 armor_damagemitigation modifiers in this build. modifierAtEnd (1.1) matches the other pieces, so a shifted decimal point in the start value appears more likely than a different scale. Observed effect: consumers interpolating the factor may show a ninefold damage mitigation at quality 0, and any heuristic deriving direction from start versus end may read this as 'lower is better' for a property where higher is better."
+    },
+    "cdd236fa-56b9-4913-90cf-be7f4e6ca5a7": {
+      "kind": "label",
+      "expected": {
+        "name": "Antium Arms Maroon"
+      },
+      "note": "This blueprint produces the Maroon arms of the Antium set, but is labelled 'Antium Helmet Jet'. Its tag is BP_CRAFT_qrt_specialist_heavy_arms_01_01_13, it points at entity 572a21b6 (cgItemType Char_Armor_Arms, record entities/scitem/characters/human/armor/pu_armor/heavy/arms/qrt_specialist_heavy_arms_01_01_13.xml), and that entity carries the matching localization key @item_Name_qrt_specialist_heavy_arms_01_01_13. Only the string behind that key differs: it currently reads 'Antium Helmet Jet', while in 4.10.1-live.12660092 it read 'Antium Arms Maroon'. The sibling variants of the same colourway (core, legs and helmet _01_01_13) still read 'Maroon'. Observed effect: the BP_MISSIONREWARD_FoxwellEnforcement_Generator pool appears to be missing the Maroon arms and to carry a stray helmet instead, and no item named 'Antium Arms Maroon' can be found at all. The item and the blueprint appear unaffected - the label is the only thing that differs, so the arms appear to remain obtainable from these missions. Whether the changed string is intended can't be told from the data. Not yet verified in-game."
+    },
+    "2487dc3a-6a2e-4071-a165-f140d0c8b20d": {
+      "kind": "label",
+      "expected": {
+        "name": "Antium Helmet Jet"
+      },
+      "note": "This blueprint produces the Jet helmet of the Antium set, but is labelled 'Antium Core Jet', which is also the name of the Jet torso (entity 7ffc92db). Its tag is BP_CRAFT_qrt_specialist_heavy_helmet_01_01_12 and it points at entity 4ddd8283 (cgItemType Char_Armor_Helmet). The string behind its localization key @item_Name_qrt_specialist_heavy_helmet_01_01_12 currently reads 'Antium Core Jet', while in 4.10.1-live.12660092 it read 'Antium Helmet Jet'. Observed effect: the BP_MISSIONREWARD_FoxwellEnforcement_Ambush pool lists 'Antium Core Jet' twice, and two items share that name. The item and the blueprint appear unaffected - the label is the only thing that differs. Whether the changed string is intended can't be told from the data. Not yet verified in-game."
     }
   },
   "blueprintPools": {

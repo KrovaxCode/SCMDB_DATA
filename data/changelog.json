@@ -1,5 +1,15 @@
 [
   {
+    "version": "1.0.64",
+    "date": "2026-10-23T00:00:00Z",
+    "changes": [
+      { "type": "feat", "text": "📊 Events that split their score into categories, like RSI Discovery Month with Defense, Transport and Collection, now show those categories in the \"⚡ events active\" list; one click lists only the missions that count for that score. While an event is filtered, the mission table adds an Event and an Event Category column, which you can sort by; they go away again when you clear the filter. The categories can also be picked under Events in the filters, and Event Category is available in the column picker." },
+      { "type": "feat", "text": "📥 Missions, Fabricator and Resources can now be exported as a CSV file: what the page currently shows, in the same order. For missions it's the columns you have visible in the table view. Numbers come out as plain values for spreadsheets. If Excel puts everything into one column, switch the separator next to the button from \",\" to \";\". Thanks Roober_The_Stroober." },
+      { "type": "fix", "text": "🔧 The mission title column in the table no longer gets squeezed to almost nothing when many columns are visible." },
+      { "type": "fix", "text": "📱 On phones, the Share button at the top of the Resources page was pushed off the screen. The buttons there now move to a second line when space runs out." }
+    ]
+  },
+  {
     "version": "1.0.63",
     "date": "2026-10-13T00:00:00Z",
     "changes": [

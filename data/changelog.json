@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.65",
+    "date": "2026-10-24T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.12999338. Ten new InterSec Defense Solutions missions in Nyx go up against the Vanduul and the Shattered Blade. Eight of them, along with \"Eradicate UEE Threat\" and \"Terminate UEE Threat\", are tied to the Ship Battles V3 scenario; \"Living Vanduul Sample\" and \"Raid Shattered Blade Base\" are open without it. The two UEE Threat missions no longer ask for a contractor rank, and \"Terminate UEE Threat\" now picks its final target from 34 ships, among them the Idris-P, Eclipse and Redeemer, instead of only the Hammerhead. Six Vanduul missions add a new Vanduul ship to their spawns; it has no name in this build yet and shows its internal one. Crafting and mining are unchanged from LIVE." }
+    ]
+  },
+  {
     "version": "1.0.64",
     "date": "2026-10-23T00:00:00Z",
     "changes": [

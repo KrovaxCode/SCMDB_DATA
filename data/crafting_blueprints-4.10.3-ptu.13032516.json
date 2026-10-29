@@ -1,8 +1,8 @@
 {
-  "version": "4.10.3-ptu.12999338",
+  "version": "4.10.3-ptu.13032516",
   "meta": {
-    "totalBlueprints": 1618,
-    "totalProducts": 1606,
+    "totalBlueprints": 1619,
+    "totalProducts": 1607,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -100409,8 +100409,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Lephari",
+      "manufacturer": "WillsOp"
     },
     {
       "guid": "fe10b216-fbda-4d6e-97c8-75fd2064269b",
@@ -126150,6 +126150,103 @@
       ],
       "productName": "Karna \"Alpine Sunset\" Rifle",
       "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "6ee1ad6f-2c93-48f8-ba75-f6ad83f4f5a4",
+      "tag": "BP_CRAFT_lbco_rifle_energy_01_mr01",
+      "productEntityClass": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Sadaryx"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Skarnov \"Raider Camo\" Rifle",
+      "manufacturer": "LBCO"
     },
     {
       "guid": "e3097998-28ef-48ad-a220-2ddaa1a85ce3",

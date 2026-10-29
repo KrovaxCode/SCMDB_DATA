@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.12999338",
+  "version": "4.10.3-ptu.13032516",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -5332,8 +5332,8 @@
       "planet": "Crusader",
       "moon": "Daymar"
     },
-    "6dc02fa8b46e": {
-      "name": "a derelict outpost",
+    "9a698bf4b49d": {
+      "name": "Abandoned Facility",
       "type": "Destination",
       "system": "Stanton",
       "planet": "Hurston",
@@ -6214,8 +6214,8 @@
       "planet": "Crusader",
       "moon": "Daymar"
     },
-    "b6c6797919e8": {
-      "name": "a derelict outpost",
+    "8e9633c64d6a": {
+      "name": "Abandoned Facility",
       "type": "Outpost",
       "system": "Stanton",
       "planet": "Crusader",
@@ -6361,8 +6361,8 @@
       "planet": null,
       "moon": null
     },
-    "0002fbd7f95b": {
-      "name": "a derelict outpost",
+    "1b63b0291a98": {
+      "name": "Abandoned Facility",
       "type": "Outpost",
       "system": "Stanton",
       "planet": "Hurston",
@@ -6725,8 +6725,8 @@
       "planet": "microTech",
       "moon": "Calliope"
     },
-    "b84b8df98c38": {
-      "name": "a derelict outpost",
+    "4e66b8b3af23": {
+      "name": "Abandoned Facility",
       "type": "Outpost",
       "system": "Stanton",
       "planet": "microTech",
@@ -6942,13 +6942,6 @@
       "planet": "microTech",
       "moon": "Calliope"
     },
-    "c13974506530": {
-      "name": "Frontier Fighters Hideout",
-      "type": "Outpost",
-      "system": "Stanton",
-      "planet": "microTech",
-      "moon": "Euterpe"
-    },
     "b3903a0458bf": {
       "name": "Dunboro",
       "type": "Outpost",
@@ -7075,8 +7068,8 @@
       "planet": "ArcCorp",
       "moon": "Wala"
     },
-    "d6cbfed7e972": {
-      "name": "a derelict outpost",
+    "b6bb4022147c": {
+      "name": "Abandoned Facility",
       "type": "Outpost",
       "system": "Stanton",
       "planet": "ArcCorp",
@@ -14014,6 +14007,158 @@
       ],
       "source": "ors"
     },
+    "65abf96f-eb4f-4a70-a3ff-3dcda2c8047f": {
+      "name": "BP_REWARD_BEHR_LaserCannon_S1_mr02",
+      "blueprints": [
+        {
+          "blueprintRecord": "04fa9b45-45a6-4dae-a21d-7a865053fccc",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "49e5c63e-7ba1-412d-a64c-cfbf2cc2beb0": {
+      "name": "BP_REWARD_BEHR_LaserCannon_S2_mr02",
+      "blueprints": [
+        {
+          "blueprintRecord": "4394e0c5-8ffc-47aa-be0c-062f3213aa89",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "fed61c42-055e-400f-9d39-8bfa44e9bcff": {
+      "name": "BP_REWARD_BEHR_LaserCannon_S3_mr02",
+      "blueprints": [
+        {
+          "blueprintRecord": "06e3f3bc-a75b-4d12-8dd6-fadc0184b88e",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "909180a9-2e15-4243-8900-29bf24a4e8f3": {
+      "name": "BP_REWARD_lbco_rifle_energy_01_mr01",
+      "blueprints": [
+        {
+          "blueprintRecord": "6ee1ad6f-2c93-48f8-ba75-f6ad83f4f5a4",
+          "weight": 1,
+          "entityClass": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6",
+          "name": "Skarnov \"Raider Camo\" Rifle"
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "eb6eecbc-89ae-4fdf-87e1-5b24f6bb760c": {
+      "name": "BP_REWARD_omc_utility_heavy_arms_01_03_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "41f5d2b5-3bbe-42d7-bce6-6c5a4662e51f",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "2a0d5e3a-ba89-48cf-a9f9-c86aa17f9b99": {
+      "name": "BP_REWARD_omc_utility_heavy_core_01_03_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "b356eedd-43f0-4c0e-9797-2a864da94735",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "0677f2e1-9016-49db-80c9-337641b1048c": {
+      "name": "BP_REWARD_omc_utility_heavy_helmet_01_03_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "d5737fc2-fd2e-42d4-8246-76bc624c390e",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "987a95ac-5f16-45b2-87c1-b304c3c4b0c9": {
+      "name": "BP_REWARD_omc_utility_heavy_legs_01_03_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "98ef4a00-9d0b-4504-8246-178440327138",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "a85e4e89-4281-4786-875c-acf5fa70bf7d": {
+      "name": "BP_REWARD_qrt_utility_heavy_arms_01_04_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "b33bdfb5-6d25-4a7a-86f6-fdf6da4362bb",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "1cd1ae0f-9534-4cd8-9271-215d2be09fe4": {
+      "name": "BP_REWARD_qrt_utility_heavy_backpack_01_05_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "62646684-53f5-4ef3-95f8-2022da314aaf",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "6ac3efa4-46f2-48da-8de7-08f9a9aa4bca": {
+      "name": "BP_REWARD_qrt_utility_heavy_core_01_04_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "f43fcac4-3bb2-4cb4-bd01-2768b585209d",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "9a407b93-c4e1-4b58-80c6-245ef9b0a41b": {
+      "name": "BP_REWARD_qrt_utility_heavy_helmet_01_04_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "4454b4bc-fc57-4421-a689-cd4ac8599649",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "00495d07-54cb-4d92-a987-a4da725e75b9": {
+      "name": "BP_REWARD_qrt_utility_heavy_legs_01_04_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "61666d7d-06ca-48d2-8dbd-9e245cc129a3",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "0800fb93-4eec-4a40-b6b6-69a1e48b6279": {
+      "name": "BP_REWARD_vgl_flightsuit_01_03_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "e6234718-dfc7-45c5-968e-c8dd1b390caa",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
+    "f12f04aa-882a-4235-9b2e-562fec0b7e0e": {
+      "name": "BP_REWARD_vgl_flightsuit_helmet_01_11_01",
+      "blueprints": [
+        {
+          "blueprintRecord": "018a29dc-d128-4697-b181-a885c60ee29c",
+          "weight": 1
+        }
+      ],
+      "source": "vanduulincursion"
+    },
     "f638ceff-38a2-442f-9233-389619957104": {
       "name": "BP_REWARDS_Xenothreat2_100_01",
       "blueprints": [
@@ -17917,6 +18062,17 @@
     "57673e2428c1": [
       "@vehicle_NameVNCL_King_Hunter",
       "Vanduul Mauler Destroyer"
+    ],
+    "9eded38c0fe8": [
+      "Anvil Carrack",
+      "Crusader A2 Hercules Starlifter",
+      "Crusader C2 Hercules Starlifter",
+      "Crusader M2 Hercules Starlifter",
+      "Drake Caterpillar",
+      "MISC Hull C",
+      "MISC Starfarer",
+      "MISC Starfarer Gemini",
+      "Origin 600i"
     ],
     "d85f0ff23e6c": [
       "@vehicle_NameVNCL_King_Hunter",
@@ -26669,37 +26825,37 @@
         "cargo": 2
       },
       {
-        "name": "Constellation Andromeda MK IV",
+        "name": "Constellation Mk IV Andromeda",
         "career": "Multi-Role",
         "role": "Medium Freight / Gun Ship",
         "cargo": 96
       },
       {
-        "name": "Constellation Aquila MK IV",
+        "name": "Constellation Mk IV Aquila",
         "career": "Exploration",
         "role": "Expedition",
         "cargo": 96
       },
       {
-        "name": "Constellation MK V Centaurus",
+        "name": "Constellation Mk V Centaurus",
         "career": "Multi-Role",
         "role": "Medium Freight / Gun Ship",
         "cargo": 240
       },
       {
-        "name": "Constellation Phoenix MK IV",
+        "name": "Constellation Mk IV Phoenix",
         "career": "Exploration",
         "role": "Luxury Touring",
         "cargo": 96
       },
       {
-        "name": "Constellation Phoenix Emerald MK IV",
+        "name": "Constellation Mk IV Phoenix Emerald",
         "career": "Exploration",
         "role": "Luxury Touring",
         "cargo": 96
       },
       {
-        "name": "Constellation Taurus MK IV",
+        "name": "Constellation Mk IV Taurus",
         "career": "Transporter",
         "role": "Medium Freight",
         "cargo": 174
@@ -67413,6 +67569,20 @@
         {
           "name": "ContentBlocker_Scenario",
           "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "987a95ac-5f16-45b2-87c1-b304c3c4b0c9",
+          "chance": 1,
+          "poolName": "BP_REWARD_omc_utility_heavy_legs_01_03_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "eb6eecbc-89ae-4fdf-87e1-5b24f6bb760c",
+          "chance": 1,
+          "poolName": "BP_REWARD_omc_utility_heavy_arms_01_03_01",
+          "trigger": "complete"
         }
       ],
       "haulingOrders": null,
@@ -123864,6 +124034,20 @@
           "enabled": false
         }
       ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "0677f2e1-9016-49db-80c9-337641b1048c",
+          "chance": 1,
+          "poolName": "BP_REWARD_omc_utility_heavy_helmet_01_03_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "2a0d5e3a-ba89-48cf-a9f9-c86aa17f9b99",
+          "chance": 1,
+          "poolName": "BP_REWARD_omc_utility_heavy_core_01_03_01",
+          "trigger": "complete"
+        }
+      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -144891,7 +145075,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -145126,7 +145310,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -145333,7 +145517,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -165878,7 +166062,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -166104,7 +166288,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -176899,6 +177083,20 @@
         {
           "name": "ContentBlocker_Scenario",
           "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "a85e4e89-4281-4786-875c-acf5fa70bf7d",
+          "chance": 1,
+          "poolName": "BP_REWARD_qrt_utility_heavy_arms_01_04_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "00495d07-54cb-4d92-a987-a4da725e75b9",
+          "chance": 1,
+          "poolName": "BP_REWARD_qrt_utility_heavy_legs_01_04_01",
+          "trigger": "complete"
         }
       ],
       "haulingOrders": null,
@@ -215007,6 +215205,14 @@
       "descriptionKey": "@Intersec_ElimAux_ShatteredBlade_Med_Desc_001",
       "availableSystems": [
         "Nyx"
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "909180a9-2e15-4243-8900-29bf24a4e8f3",
+          "chance": 1,
+          "poolName": "BP_REWARD_lbco_rifle_energy_01_mr01",
+          "trigger": "complete"
+        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -269904,6 +270110,7 @@
             },
             {
               "role": "FinalWaveWithTarget",
+              "poolId": "9140f724b764",
               "waves": [
                 {
                   "name": "Wave1",
@@ -269911,9 +270118,9 @@
                   "maxShips": 3,
                   "slots": [
                     {
+                      "poolId": "b6cb63fc04c5",
                       "minCount": 1,
-                      "maxCount": 1,
-                      "poolId": "57673e2428c1"
+                      "maxCount": 1
                     },
                     {
                       "poolId": "b2cea3353acd",
@@ -269923,14 +270130,13 @@
                   ]
                 }
               ],
-              "classification": "vanduul",
-              "poolId": "d85f0ff23e6c"
+              "classification": "vanduul"
             }
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 19,
-          "totalMaxShips": 19
+          "totalMinShips": 7,
+          "totalMaxShips": 7
         }
       },
       "propertyValues": null,
@@ -269955,16 +270161,387 @@
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
-      "debugNames": [
-        "Intersec_DrawOutBoss_Nyx_Hard_Van",
-        "Intersec_DrawOutBoss_Nyx_Super_Van",
-        "Intersec_DrawOutBoss_Nyx_VeryHard_Van"
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 20,
+      "abandonedCooldownTime": 20,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Nyx"
       ],
-      "contractDefinitionIds": [
-        "a81a232c-2cfa-4273-a147-6d987539fadd",
-        "22afc3c3-5a36-4da9-8877-5d1b717622b5",
-        "b4570e85-55f9-4723-bf40-c01fe7aa3be2"
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0,
+      "factionRewardsIndex": 62
+    },
+    {
+      "id": "22afc3c3-5a36-4da9-8877-5d1b717622b5",
+      "debugName": "Intersec_DrawOutBoss_Nyx_Super_Van",
+      "category": "career",
+      "missionType": "Mercenary",
+      "missionTypeKey": "@mobiglas_ui_Mercenary",
+      "title": "Seek and Destroy Maulers",
+      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nScanners have detected the engine signatures of a significant number of Vanduul vessels, including potential Maulers, at <EM4>[LOCATION]</EM4>. In the event these scans prove accurate, the Maulers should be considered priority targets. \\n\\nYou are advised to arrange for backup to accompany you. This looks to be the kind of mission that leads to more substantial  contracts.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
+      "contractorName": "InterSec Defense Solutions",
+      "contractorNameKey": "@InterSec_From",
+      "canBeShared": true,
+      "illegal": false,
+      "timeToComplete": 51,
+      "locations": [
+        "2bfaa11ff510",
+        "09d6ce156e8f",
+        "9542fdb52c04",
+        "698deb941a6c",
+        "3ec889190196",
+        "1b514e20ca22"
       ],
+      "destinations": null,
+      "locationSets": null,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 457250,
+      "buyIn": null,
+      "minStanding": {
+        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+        "name": "Neutral",
+        "minReputation": 0,
+        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "maxStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "WaveShips",
+              "poolId": "b2cea3353acd",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 4,
+                  "maxShips": 4,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave2",
+                  "minShips": 3,
+                  "maxShips": 3,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 3,
+                      "maxCount": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave3",
+                  "minShips": 2,
+                  "maxShips": 2,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 2,
+                      "maxCount": 2
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            },
+            {
+              "role": "FinalWaveWithTarget",
+              "poolId": "d85f0ff23e6c",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 10,
+                  "maxShips": 10,
+                  "slots": [
+                    {
+                      "poolId": "57673e2428c1",
+                      "minCount": 1,
+                      "maxCount": 1
+                    },
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    },
+                    {
+                      "poolId": "9eded38c0fe8",
+                      "minCount": 5,
+                      "maxCount": 5
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 19,
+          "totalMaxShips": 19
+        }
+      },
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
+      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
+      "availableSystems": [
+        "Nyx"
+      ],
+      "requiredScenarios": [
+        {
+          "name": "ContentBlocker_Scenario",
+          "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "49e5c63e-7ba1-412d-a64c-cfbf2cc2beb0",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S2_mr02",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "65abf96f-eb4f-4a70-a3ff-3dcda2c8047f",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S1_mr02",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "fed61c42-055e-400f-9d39-8bfa44e9bcff",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S3_mr02",
+          "trigger": "complete"
+        }
+      ],
+      "haulingOrders": null,
+      "tokenSubstitutions": {
+        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      },
+      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
+      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 20,
+      "abandonedCooldownTime": 20,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Nyx"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0,
+      "factionRewardsIndex": 62
+    },
+    {
+      "id": "b4570e85-55f9-4723-bf40-c01fe7aa3be2",
+      "debugName": "Intersec_DrawOutBoss_Nyx_VeryHard_Van",
+      "category": "career",
+      "missionType": "Mercenary",
+      "missionTypeKey": "@mobiglas_ui_Mercenary",
+      "title": "Seek and Destroy Maulers",
+      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nScanners have detected the engine signatures of a significant number of Vanduul vessels, including potential Maulers, at <EM4>[LOCATION]</EM4>. In the event these scans prove accurate, the Maulers should be considered priority targets. \\n\\nYou are advised to arrange for backup to accompany you. This looks to be the kind of mission that leads to more substantial  contracts.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
+      "contractorName": "InterSec Defense Solutions",
+      "contractorNameKey": "@InterSec_From",
+      "canBeShared": true,
+      "illegal": false,
+      "timeToComplete": 51,
+      "locations": [
+        "2bfaa11ff510",
+        "09d6ce156e8f",
+        "9542fdb52c04",
+        "698deb941a6c",
+        "3ec889190196",
+        "1b514e20ca22"
+      ],
+      "destinations": null,
+      "locationSets": null,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 457250,
+      "buyIn": null,
+      "minStanding": {
+        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
+        "name": "Neutral",
+        "minReputation": 0,
+        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "maxStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "WaveShips",
+              "poolId": "b2cea3353acd",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 4,
+                  "maxShips": 4,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave2",
+                  "minShips": 3,
+                  "maxShips": 3,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 3,
+                      "maxCount": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave3",
+                  "minShips": 2,
+                  "maxShips": 2,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 2,
+                      "maxCount": 2
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            },
+            {
+              "role": "FinalWaveWithTarget",
+              "poolId": "9140f724b764",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 5,
+                  "maxShips": 5,
+                  "slots": [
+                    {
+                      "poolId": "b6cb63fc04c5",
+                      "minCount": 1,
+                      "maxCount": 1
+                    },
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 14,
+          "totalMaxShips": 14
+        }
+      },
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
+      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
+      "availableSystems": [
+        "Nyx"
+      ],
+      "requiredScenarios": [
+        {
+          "name": "ContentBlocker_Scenario",
+          "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "0800fb93-4eec-4a40-b6b6-69a1e48b6279",
+          "chance": 1,
+          "poolName": "BP_REWARD_vgl_flightsuit_01_03_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "f12f04aa-882a-4235-9b2e-562fec0b7e0e",
+          "chance": 1,
+          "poolName": "BP_REWARD_vgl_flightsuit_helmet_01_11_01",
+          "trigger": "complete"
+        }
+      ],
+      "haulingOrders": null,
+      "tokenSubstitutions": {
+        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      },
+      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
+      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
       "availableInPrison": false,
@@ -278208,7 +278785,7 @@
         "f7ae9db4d80d",
         "bbd717ea0069",
         "14a251c2a182",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -278715,7 +279292,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -278966,7 +279543,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -280930,7 +281507,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -281156,7 +281733,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -281382,7 +281959,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -281608,7 +282185,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -281834,7 +282411,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -282060,7 +282637,7 @@
         "4fe818d05110",
         "f7ae9db4d80d",
         "bbd717ea0069",
-        "6dc02fa8b46e",
+        "9a698bf4b49d",
         "c86a85526824",
         "7b2d2eb9b1d4",
         "b5a2c136f699",
@@ -294601,6 +295178,26 @@
         {
           "name": "ContentBlocker_Scenario",
           "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "6ac3efa4-46f2-48da-8de7-08f9a9aa4bca",
+          "chance": 1,
+          "poolName": "BP_REWARD_qrt_utility_heavy_core_01_04_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "1cd1ae0f-9534-4cd8-9271-215d2be09fe4",
+          "chance": 1,
+          "poolName": "BP_REWARD_qrt_utility_heavy_backpack_01_05_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "9a407b93-c4e1-4b58-80c6-245ef9b0a41b",
+          "chance": 1,
+          "poolName": "BP_REWARD_qrt_utility_heavy_helmet_01_04_01",
+          "trigger": "complete"
         }
       ],
       "haulingOrders": null,
@@ -359149,7 +359746,7 @@
         "caf1d4054425",
         "939db9c047f8",
         "cdf8c616027a",
-        "d6cbfed7e972",
+        "b6bb4022147c",
         "506133aa9ece",
         "87890be8c56e",
         "910011967b3f",
@@ -360376,7 +360973,7 @@
       "locations": [
         "b077fa805d8f",
         "eac7f1ce3c0b",
-        "b84b8df98c38",
+        "4e66b8b3af23",
         "f44f8c4ebc77",
         "344489ef2811",
         "cc32f6b0f1d8",
@@ -360423,7 +361020,6 @@
         "b176e4cfd0f4",
         "a6688ee0da7a",
         "e1420e9dff60",
-        "c13974506530",
         "b3903a0458bf",
         "f69703185b66",
         "b849180f4901",
@@ -360536,7 +361132,7 @@
         "caf1d4054425",
         "939db9c047f8",
         "cdf8c616027a",
-        "d6cbfed7e972",
+        "b6bb4022147c",
         "506133aa9ece",
         "87890be8c56e",
         "910011967b3f",
@@ -362834,7 +363430,7 @@
         "f7dad4439ff2",
         "81c9737b5e34",
         "d7f6e64900b0",
-        "0002fbd7f95b",
+        "1b63b0291a98",
         "16fde5456b0a",
         "1d606f53b8f1",
         "76c784260564",
@@ -363854,7 +364450,7 @@
         "e2c9d59de95f",
         "b077fa805d8f",
         "eac7f1ce3c0b",
-        "b84b8df98c38",
+        "4e66b8b3af23",
         "f44f8c4ebc77",
         "344489ef2811",
         "cc32f6b0f1d8",
@@ -363901,7 +364497,6 @@
         "b176e4cfd0f4",
         "a6688ee0da7a",
         "e1420e9dff60",
-        "c13974506530",
         "b3903a0458bf",
         "f69703185b66",
         "b849180f4901",
@@ -363973,7 +364568,7 @@
           "locations": [
             "b077fa805d8f",
             "eac7f1ce3c0b",
-            "b84b8df98c38",
+            "4e66b8b3af23",
             "f44f8c4ebc77",
             "344489ef2811",
             "cc32f6b0f1d8",
@@ -364020,7 +364615,6 @@
             "b176e4cfd0f4",
             "a6688ee0da7a",
             "e1420e9dff60",
-            "c13974506530",
             "b3903a0458bf",
             "f69703185b66",
             "b849180f4901",
@@ -365472,7 +366066,7 @@
         "f2d7471c5237",
         "e3e069ac0d03",
         "d349a20587a2",
-        "b6c6797919e8",
+        "8e9633c64d6a",
         "34cb23f0c792",
         "05f61731da71",
         "377f888147ba",
@@ -366065,7 +366659,7 @@
         "f7dad4439ff2",
         "81c9737b5e34",
         "d7f6e64900b0",
-        "0002fbd7f95b",
+        "1b63b0291a98",
         "16fde5456b0a",
         "1d606f53b8f1",
         "76c784260564",
@@ -367101,7 +367695,7 @@
       "locations": [
         "b077fa805d8f",
         "eac7f1ce3c0b",
-        "b84b8df98c38",
+        "4e66b8b3af23",
         "f44f8c4ebc77",
         "344489ef2811",
         "cc32f6b0f1d8",
@@ -367148,7 +367742,6 @@
         "b176e4cfd0f4",
         "a6688ee0da7a",
         "e1420e9dff60",
-        "c13974506530",
         "b3903a0458bf",
         "f69703185b66",
         "b849180f4901",
@@ -367275,7 +367868,7 @@
         "f7dad4439ff2",
         "81c9737b5e34",
         "d7f6e64900b0",
-        "0002fbd7f95b",
+        "1b63b0291a98",
         "16fde5456b0a",
         "1d606f53b8f1",
         "76c784260564",
@@ -368084,7 +368677,7 @@
         "f2d7471c5237",
         "e3e069ac0d03",
         "d349a20587a2",
-        "b6c6797919e8",
+        "8e9633c64d6a",
         "34cb23f0c792",
         "05f61731da71",
         "377f888147ba",
@@ -368144,7 +368737,7 @@
             "f2d7471c5237",
             "e3e069ac0d03",
             "d349a20587a2",
-            "b6c6797919e8",
+            "8e9633c64d6a",
             "34cb23f0c792",
             "05f61731da71",
             "377f888147ba",
@@ -376385,7 +376978,7 @@
         "e2c9d59de95f",
         "b077fa805d8f",
         "eac7f1ce3c0b",
-        "b84b8df98c38",
+        "4e66b8b3af23",
         "f44f8c4ebc77",
         "344489ef2811",
         "cc32f6b0f1d8",
@@ -376432,7 +377025,6 @@
         "b176e4cfd0f4",
         "a6688ee0da7a",
         "e1420e9dff60",
-        "c13974506530",
         "b3903a0458bf",
         "f69703185b66",
         "b849180f4901",
@@ -376516,7 +377108,7 @@
           "locations": [
             "b077fa805d8f",
             "eac7f1ce3c0b",
-            "b84b8df98c38",
+            "4e66b8b3af23",
             "f44f8c4ebc77",
             "344489ef2811",
             "cc32f6b0f1d8",
@@ -376563,7 +377155,6 @@
             "b176e4cfd0f4",
             "a6688ee0da7a",
             "e1420e9dff60",
-            "c13974506530",
             "b3903a0458bf",
             "f69703185b66",
             "b849180f4901",

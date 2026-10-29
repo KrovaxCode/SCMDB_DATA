@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.66",
+    "date": "2026-10-29T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13032516. Six of the new InterSec Defense Solutions missions in Nyx now award blueprints. \"Raid Shattered Blade Base\" gives the new Skarnov \"Raider Camo\" Rifle; the other pools don't list their blueprints in this build yet and show as \"Unknown Item\" — going by their names, they look like heavy utility armour, Behring laser cannons and a Virgil flight suit. \"Seek and Destroy Maulers\" comes in two more difficulty levels, and the existing one no longer spawns human cargo ships alongside the Vanduul." }
+    ]
+  },
+  {
     "version": "1.0.65",
     "date": "2026-10-24T00:00:00Z",
     "changes": [

@@ -1,13 +1,13 @@
 {
-  "version": "4.10.3-ptu.12999338",
+  "version": "4.10.3-ptu.13032516",
   "meta": {
-    "totalItems": 1616,
-    "weapons": 271,
+    "totalItems": 1617,
+    "weapons": 272,
     "armor": 922,
     "shipcomponents": 379,
     "unknown": 44,
     "unresolved": 1,
-    "withLootSources": 242
+    "withLootSources": 243
   },
   "damageResistancePools": [
     {
@@ -3834,6 +3834,62 @@
     ],
     [
       {
+        "name": "Rapid",
+        "fireRate": 375.0,
+        "heatPerShot": 5.0,
+        "wearPerShot": 0.07,
+        "type": "rapid",
+        "spread": {
+          "min": 0.18,
+          "max": 5.0,
+          "firstAttack": 1.35,
+          "attack": 1.25,
+          "decay": 6.5
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.2,
+          "pitchMaxDeg": 1.0,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 3.0,
+          "smoothTime": 0.4,
+          "decayStart": 0.13,
+          "minDecay": 0.5,
+          "maxDecay": 0.8
+        }
+      },
+      {
+        "name": "Single",
+        "fireRate": 376.0,
+        "heatPerShot": 5.0,
+        "wearPerShot": 0.07,
+        "type": "single",
+        "spread": {
+          "min": 0.15,
+          "max": 1.89,
+          "firstAttack": 1.45,
+          "attack": 1.35,
+          "decay": 4.0
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.0,
+          "pitchMaxDeg": 0.12,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 1.0,
+          "smoothTime": 0.09,
+          "decayStart": 0.13,
+          "minDecay": 1.0,
+          "maxDecay": 1.75
+        }
+      }
+    ],
+    [
+      {
         "name": "Charge",
         "fireRate": null,
         "heatPerShot": null,
@@ -6656,6 +6712,45 @@
       },
       "detonationDamage": null,
       "damageDropoff": null
+    },
+    {
+      "speed": 500.0,
+      "lifetime": 2.0,
+      "damage": {
+        "physical": 0.0,
+        "energy": 10.0,
+        "distortion": 35.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 2.0
+      },
+      "detonationDamage": null,
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 0.0,
+          "energy": 350.0,
+          "distortion": 350.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 350.0
+        },
+        "perMeter": {
+          "physical": 0.0,
+          "energy": 0.01,
+          "distortion": 0.01,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.01
+        },
+        "minDamage": {
+          "physical": 0.0,
+          "energy": 30.0,
+          "distortion": 20.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 6.0
+        }
+      }
     },
     {
       "speed": 1155.0,
@@ -13161,6 +13256,29 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked lbco_rifle_energy_01 rifle",
+      "manufacturer": "LBCO",
+      "manufacturerCode": "LBCO",
+      "componentClass": "Electron",
+      "mass": 4.9,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Skarnov \"Raider Camo\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 78,
+      "ammoIndex": 112,
+      "magazineIndex": 8
+    },
+    {
       "entityClass": "43269af0-736e-4232-8cfe-271367b28ee1",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -13178,8 +13296,8 @@
       },
       "name": "Sledge I Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 78,
-      "ammoIndex": 112,
+      "fireModesIndex": 79,
+      "ammoIndex": 113,
       "magazineIndex": 46
     },
     {
@@ -13200,8 +13318,8 @@
       },
       "name": "Sledge II Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 79,
-      "ammoIndex": 113,
+      "fireModesIndex": 80,
+      "ammoIndex": 114,
       "magazineIndex": 46
     },
     {
@@ -13222,8 +13340,8 @@
       },
       "name": "Sledge III Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 80,
-      "ammoIndex": 114,
+      "fireModesIndex": 81,
+      "ammoIndex": 115,
       "magazineIndex": 47
     },
     {
@@ -13244,8 +13362,8 @@
       },
       "name": "Strife Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 81,
-      "ammoIndex": 113,
+      "fireModesIndex": 82,
+      "ammoIndex": 114,
       "magazineIndex": 48
     },
     {
@@ -13266,8 +13384,8 @@
       },
       "name": "Suckerpunch Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 115,
+      "fireModesIndex": 83,
+      "ammoIndex": 116,
       "magazineIndex": 7
     },
     {
@@ -13288,8 +13406,8 @@
       },
       "name": "Suckerpunch-L Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 116,
+      "fireModesIndex": 83,
+      "ammoIndex": 117,
       "magazineIndex": 7
     },
     {
@@ -13310,8 +13428,8 @@
       },
       "name": "Suckerpunch-XL Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 117,
+      "fireModesIndex": 83,
+      "ammoIndex": 118,
       "magazineIndex": 7
     },
     {
@@ -13332,8 +13450,8 @@
       },
       "name": "Tarantula GT-870 Mark 1 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 118,
+      "fireModesIndex": 84,
+      "ammoIndex": 119,
       "magazineIndex": 49
     },
     {
@@ -13354,8 +13472,8 @@
       },
       "name": "Tarantula GT-870 Mark 2 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 119,
+      "fireModesIndex": 84,
+      "ammoIndex": 120,
       "magazineIndex": 16
     },
     {
@@ -13376,8 +13494,8 @@
       },
       "name": "Tarantula GT-870 Mark 3 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 120,
+      "fireModesIndex": 84,
+      "ammoIndex": 121,
       "magazineIndex": 50
     },
     {
@@ -13398,8 +13516,8 @@
       },
       "name": "Thlilye Laser Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 84,
-      "ammoIndex": 121,
+      "fireModesIndex": 85,
+      "ammoIndex": 122,
       "magazineIndex": 7
     },
     {
@@ -13420,8 +13538,8 @@
       },
       "name": "Tigerstrike T-19P",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 85,
-      "ammoIndex": 122,
+      "fireModesIndex": 86,
+      "ammoIndex": 123,
       "magazineIndex": 51
     },
     {
@@ -13443,7 +13561,7 @@
       },
       "name": "Tripledown Pistol",
       "cgItemType": "WeaponPersonal",
-      "ammoIndex": 123,
+      "ammoIndex": 124,
       "magazineIndex": 52
     },
     {
@@ -13465,8 +13583,8 @@
       },
       "name": "Vendetta \"Snow Camo\" HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 86,
-      "ammoIndex": 124,
+      "fireModesIndex": 87,
+      "ammoIndex": 125,
       "magazineIndex": 53
     },
     {
@@ -13488,8 +13606,8 @@
       },
       "name": "Vendetta HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 86,
-      "ammoIndex": 124,
+      "fireModesIndex": 87,
+      "ammoIndex": 125,
       "magazineIndex": 53
     },
     {
@@ -13510,8 +13628,8 @@
       },
       "name": "YellowJacket GT-210 Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 87,
-      "ammoIndex": 125,
+      "fireModesIndex": 88,
+      "ammoIndex": 126,
       "magazineIndex": 54
     },
     {
@@ -13533,8 +13651,8 @@
       },
       "name": "Yubarev \"Igniter\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13556,8 +13674,8 @@
       },
       "name": "Yubarev \"Mirage\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13579,8 +13697,8 @@
       },
       "name": "Yubarev \"Venom\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13602,8 +13720,8 @@
       },
       "name": "Yubarev Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13625,8 +13743,8 @@
       },
       "name": "Zenith \"Darkwave\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13648,8 +13766,8 @@
       },
       "name": "Zenith \"Landslide\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13671,8 +13789,8 @@
       },
       "name": "Zenith \"Snow Camo\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13694,8 +13812,8 @@
       },
       "name": "Zenith \"Thunderstrike\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13717,8 +13835,8 @@
       },
       "name": "Zenith Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -42392,6 +42510,30 @@
       "cgItemType": "WeaponMining"
     },
     {
+      "entityClass": "462c1e37-6259-4942-91e1-9c4de47ef0e4",
+      "itemType": "shipcomponent",
+      "attachType": "Radar",
+      "attachSubType": "MidRangeRadar",
+      "size": 3,
+      "grade": 3,
+      "tags": "flightReady",
+      "manufacturer": "WillsOp",
+      "manufacturerCode": "WLOP",
+      "componentClass": "Civilian",
+      "mass": 950.0,
+      "health": 3000.0,
+      "selfRepairTime": 117.0,
+      "emSignature": 3200.0,
+      "powerDraw": 8.0,
+      "sensitivity": 0.95,
+      "piercing": 0.25,
+      "pingCooldown": 2.5,
+      "minAimAssistRange": 1860.0,
+      "maxAimAssistRange": 2990.0,
+      "name": "Lephari",
+      "cgItemType": "Radar"
+    },
+    {
       "entityClass": "a117d541-aa61-49fd-ae53-469b0fdf7ccd",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -47890,29 +48032,6 @@
       "coolingRate": 74.0,
       "name": null,
       "cgItemType": "Cooler"
-    },
-    {
-      "entityClass": "462c1e37-6259-4942-91e1-9c4de47ef0e4",
-      "itemType": "shipcomponent",
-      "attachType": "Radar",
-      "attachSubType": "MidRangeRadar",
-      "size": 3,
-      "grade": 3,
-      "tags": "flightReady",
-      "manufacturer": "WillsOp",
-      "manufacturerCode": "WLOP",
-      "mass": 950.0,
-      "health": 3000.0,
-      "selfRepairTime": 117.0,
-      "emSignature": 3200.0,
-      "powerDraw": 8.0,
-      "sensitivity": 0.95,
-      "piercing": 0.25,
-      "pingCooldown": 2.5,
-      "minAimAssistRange": 1860.0,
-      "maxAimAssistRange": 2990.0,
-      "name": null,
-      "cgItemType": "Radar"
     },
     {
       "entityClass": "944a73bb-974c-4e4c-ab0f-6f9cd062c5a5",

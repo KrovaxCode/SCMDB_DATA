@@ -1,13 +1,13 @@
 {
-  "version": "4.10.3-ptu.13032516",
+  "version": "4.10.3-ptu.13055118",
   "meta": {
-    "totalItems": 1617,
-    "weapons": 272,
-    "armor": 922,
+    "totalItems": 1631,
+    "weapons": 275,
+    "armor": 933,
     "shipcomponents": 379,
     "unknown": 44,
     "unresolved": 1,
-    "withLootSources": 243
+    "withLootSources": 246
   },
   "damageResistancePools": [
     {
@@ -6718,7 +6718,7 @@
       "lifetime": 2.0,
       "damage": {
         "physical": 0.0,
-        "energy": 10.0,
+        "energy": 30.0,
         "distortion": 35.0,
         "thermal": 0.0,
         "biochemical": 0.0,
@@ -6744,11 +6744,11 @@
         },
         "minDamage": {
           "physical": 0.0,
-          "energy": 30.0,
-          "distortion": 20.0,
+          "energy": 20.0,
+          "distortion": 0.0,
           "thermal": 0.0,
           "biochemical": 0.0,
-          "stun": 6.0
+          "stun": 0.0
         }
       }
     },
@@ -11231,6 +11231,28 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "36db47ca-d33b-484e-a2cc-fdf51b7bd549",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 1,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 144.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M3A Cannon Raider Camo",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 65,
+      "magazineIndex": 7
+    },
+    {
       "entityClass": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -11253,6 +11275,28 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "b0ff21c6-312f-4196-88fb-c24d883ca003",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 2,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 360.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M4A Cannon Raider Camo",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 66,
+      "magazineIndex": 7
+    },
+    {
       "entityClass": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -11269,6 +11313,28 @@
         "category": "Medium"
       },
       "name": "M5A Cannon",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 67,
+      "magazineIndex": 7
+    },
+    {
+      "entityClass": "9fd5d7b0-0a54-40b5-a36e-dca802cd3aaa",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 3,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 900.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M5A Cannon Raider Camo",
       "cgItemType": "WeaponGun",
       "fireModesIndex": 45,
       "ammoIndex": 67,
@@ -13266,7 +13332,7 @@
       "manufacturer": "LBCO",
       "manufacturerCode": "LBCO",
       "componentClass": "Electron",
-      "mass": 4.9,
+      "mass": 2.9,
       "combatRange": {
         "ideal": 30.0,
         "max": 50.0,
@@ -20525,6 +20591,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "4349df6e-8a6a-4419-9ce7-9cc311d111e7",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 6.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Arms Raider Camo",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "f7bc48ae-f075-43d3-a4b9-ce6ab3dc7fac",
       "itemType": "armor",
       "attachType": "Char_Armor_Arms",
@@ -20640,6 +20730,30 @@
         "dissipationRate": 145.8
       },
       "name": "Corbel Core Patina",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 2
+    },
+    {
+      "entityClass": "3be51fb7-31c5-49cc-80ca-f92d161c1e5c",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 7.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Core Raider Camo",
       "cgItemType": "Char_Armor_Torso",
       "damageResistanceIndex": 1,
       "signaturesIndex": 2
@@ -20765,6 +20879,30 @@
       "signaturesIndex": 3
     },
     {
+      "entityClass": "571f0880-7b33-48f0-a860-4aee78b73e28",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "omc_utility_heavy Set_01 Color_01 SM_RestrictedArm Helmet HelmetCarryable",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Helmet Raider Camo",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
+    },
+    {
       "entityClass": "fdaffa09-1693-4db2-a3b1-99d90fdfb384",
       "itemType": "armor",
       "attachType": "Char_Armor_Helmet",
@@ -20880,6 +21018,30 @@
         "dissipationRate": 145.8
       },
       "name": "Corbel Legs Patina",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
+      "entityClass": "ab3f1e07-fa55-4db2-96d6-7db0083b9e67",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "$Legs++ SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 8.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Legs Raider Camo",
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
@@ -31577,6 +31739,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "bad0bae6-013e-4528-9088-58f62ff57645",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 6.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Arms Raider Camo",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "024e0420-6902-40f7-8f1a-0c13e92064a3",
       "itemType": "armor",
       "attachType": "Char_Armor_Arms",
@@ -31599,6 +31785,20 @@
       "cgItemType": "Char_Armor_Arms",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
+    },
+    {
+      "entityClass": "49b78c3e-5645-4155-a614-d9d628e2bbdf",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Backpack",
+      "attachSubType": "Personal",
+      "size": 3,
+      "grade": 1,
+      "tags": "qrt_utility_heavy Set_01 Color_01 backpack SM_RestrictedArm",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 6.0,
+      "name": "Palatino Backpack Raider Camo",
+      "cgItemType": "Char_Armor_Backpack"
     },
     {
       "entityClass": "cef54c0b-81d1-4ccb-a67f-f7304f198184",
@@ -31721,6 +31921,30 @@
       "signaturesIndex": 2
     },
     {
+      "entityClass": "23195726-303a-436b-a3e6-55e6b82f7419",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 7.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Core Raider Camo",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 2
+    },
+    {
       "entityClass": "89c91b5c-3006-4777-a870-9059b4f3efb2",
       "itemType": "armor",
       "attachType": "Char_Armor_Torso",
@@ -31836,6 +32060,30 @@
         "dissipationRate": 145.8
       },
       "name": "Palatino Helmet Moonfall",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
+    },
+    {
+      "entityClass": "730c213b-ce3b-4286-a9fc-08cc10c6d8ad",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": null,
+      "manufacturerCode": null,
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Helmet Raider Camo",
       "cgItemType": "Char_Armor_Helmet",
       "damageResistanceIndex": 1,
       "signaturesIndex": 3
@@ -31980,6 +32228,30 @@
         "dissipationRate": 145.8
       },
       "name": "Palatino Legs Necropolis",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
+      "entityClass": "e0c7ae94-0428-4236-90da-3e9900e7d4d9",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "$Legs++ SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 8.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Legs Raider Camo",
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
@@ -33301,6 +33573,54 @@
       "cgItemType": "Char_Armor_Undersuit",
       "damageResistanceIndex": 0,
       "signaturesIndex": 9
+    },
+    {
+      "entityClass": "a147bd26-7e93-410f-95f4-166da8d79a9c",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Undersuit",
+      "attachSubType": "UNDEFINED",
+      "size": 1,
+      "grade": 1,
+      "tags": "VGL flightsuit Set_01 Texture_03 Color_01 $invis_mobi++ SM_RestrictedArm",
+      "manufacturer": "Virgil",
+      "manufacturerCode": "VGL",
+      "mass": 1.0,
+      "temperatureResistance": {
+        "min": -30.0,
+        "max": 60.0
+      },
+      "radiationResistance": {
+        "capacity": 15200.0,
+        "dissipationRate": 81.0
+      },
+      "name": "Tailwind Flight Suit Raider Camo",
+      "cgItemType": "Char_Armor_Undersuit",
+      "damageResistanceIndex": 0,
+      "signaturesIndex": 9
+    },
+    {
+      "entityClass": "e71b77f0-156a-4f8f-9d32-4a026faf90f2",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Helmet",
+      "size": 1,
+      "grade": 1,
+      "tags": "vgl_flightsuit_helmet Set_01 Texture_11 Color_01 SM_RestrictedArm Helmet HelmetCarryable",
+      "manufacturer": "Virgil",
+      "manufacturerCode": "VGL",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -30.0,
+        "max": 60.0
+      },
+      "radiationResistance": {
+        "capacity": 15200.0,
+        "dissipationRate": 81.0
+      },
+      "name": "Tailwind Helmet Raider Camo",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 0,
+      "signaturesIndex": 0
     },
     {
       "entityClass": "cb8be778-fb01-4dad-85e4-aa99a7a69c9d",

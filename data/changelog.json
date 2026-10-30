@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.67",
+    "date": "2026-10-30T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13055118. The blueprint rewards of the new InterSec Defense Solutions missions in Nyx now have names: Raider Camo versions of the Corbel and Palatino armour, the M3A, M4A and M5A cannons and the Tailwind flight suit and helmet. Pay and time limits were reworked — the three \"Seek and Destroy Maulers\" levels now pay 403,500, 1,291,250 and 2,004,000 aUEC, while \"Vanduul Strike Group Detected\" drops to 112,250 — and the missions ask for a contractor rank again, from Jr. Contractor up to Elite Contractor." }
+    ]
+  },
+  {
     "version": "1.0.66",
     "date": "2026-10-29T00:00:00Z",
     "changes": [

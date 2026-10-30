@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.13032516",
+  "version": "4.10.3-ptu.13055118",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -14012,7 +14012,9 @@
       "blueprints": [
         {
           "blueprintRecord": "04fa9b45-45a6-4dae-a21d-7a865053fccc",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "36db47ca-d33b-484e-a2cc-fdf51b7bd549",
+          "name": "M3A Cannon Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14022,7 +14024,9 @@
       "blueprints": [
         {
           "blueprintRecord": "4394e0c5-8ffc-47aa-be0c-062f3213aa89",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "b0ff21c6-312f-4196-88fb-c24d883ca003",
+          "name": "M4A Cannon Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14032,7 +14036,9 @@
       "blueprints": [
         {
           "blueprintRecord": "06e3f3bc-a75b-4d12-8dd6-fadc0184b88e",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "9fd5d7b0-0a54-40b5-a36e-dca802cd3aaa",
+          "name": "M5A Cannon Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14054,7 +14060,9 @@
       "blueprints": [
         {
           "blueprintRecord": "41f5d2b5-3bbe-42d7-bce6-6c5a4662e51f",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "4349df6e-8a6a-4419-9ce7-9cc311d111e7",
+          "name": "Corbel Arms Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14064,7 +14072,9 @@
       "blueprints": [
         {
           "blueprintRecord": "b356eedd-43f0-4c0e-9797-2a864da94735",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "3be51fb7-31c5-49cc-80ca-f92d161c1e5c",
+          "name": "Corbel Core Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14074,7 +14084,9 @@
       "blueprints": [
         {
           "blueprintRecord": "d5737fc2-fd2e-42d4-8246-76bc624c390e",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "571f0880-7b33-48f0-a860-4aee78b73e28",
+          "name": "Corbel Helmet Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14084,7 +14096,9 @@
       "blueprints": [
         {
           "blueprintRecord": "98ef4a00-9d0b-4504-8246-178440327138",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "ab3f1e07-fa55-4db2-96d6-7db0083b9e67",
+          "name": "Corbel Legs Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14094,7 +14108,9 @@
       "blueprints": [
         {
           "blueprintRecord": "b33bdfb5-6d25-4a7a-86f6-fdf6da4362bb",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "bad0bae6-013e-4528-9088-58f62ff57645",
+          "name": "Palatino Arms Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14104,7 +14120,9 @@
       "blueprints": [
         {
           "blueprintRecord": "62646684-53f5-4ef3-95f8-2022da314aaf",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "49b78c3e-5645-4155-a614-d9d628e2bbdf",
+          "name": "Palatino Backpack Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14114,7 +14132,9 @@
       "blueprints": [
         {
           "blueprintRecord": "f43fcac4-3bb2-4cb4-bd01-2768b585209d",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "23195726-303a-436b-a3e6-55e6b82f7419",
+          "name": "Palatino Core Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14124,7 +14144,9 @@
       "blueprints": [
         {
           "blueprintRecord": "4454b4bc-fc57-4421-a689-cd4ac8599649",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "730c213b-ce3b-4286-a9fc-08cc10c6d8ad",
+          "name": "Palatino Helmet Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14134,7 +14156,9 @@
       "blueprints": [
         {
           "blueprintRecord": "61666d7d-06ca-48d2-8dbd-9e245cc129a3",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "e0c7ae94-0428-4236-90da-3e9900e7d4d9",
+          "name": "Palatino Legs Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14144,7 +14168,9 @@
       "blueprints": [
         {
           "blueprintRecord": "e6234718-dfc7-45c5-968e-c8dd1b390caa",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "a147bd26-7e93-410f-95f4-166da8d79a9c",
+          "name": "Tailwind Flight Suit Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -14154,7 +14180,9 @@
       "blueprints": [
         {
           "blueprintRecord": "018a29dc-d128-4697-b181-a885c60ee29c",
-          "weight": 1
+          "weight": 1,
+          "entityClass": "e71b77f0-156a-4f8f-9d32-4a026faf90f2",
+          "name": "Tailwind Helmet Raider Camo"
         }
       ],
       "source": "vanduulincursion"
@@ -18046,6 +18074,13 @@
       "Vanduul Scythe",
       "Vanduul Stinger"
     ],
+    "0f2d3efaecc1": [
+      "Esperia Stinger"
+    ],
+    "b65390206690": [
+      "Esperia Stinger",
+      "Vanduul Stinger"
+    ],
     "b6cb63fc04c5": [
       "Vanduul Mauler Destroyer"
     ],
@@ -18074,7 +18109,7 @@
       "MISC Starfarer Gemini",
       "Origin 600i"
     ],
-    "d85f0ff23e6c": [
+    "dd008c8c570b": [
       "@vehicle_NameVNCL_King_Hunter",
       "Anvil Carrack",
       "Crusader A2 Hercules Starlifter",
@@ -18082,17 +18117,17 @@
       "Crusader M2 Hercules Starlifter",
       "Drake Caterpillar",
       "Esperia Blade",
-      "Esperia Glaive",
-      "Esperia Stinger",
       "MISC Hull C",
       "MISC Starfarer",
       "MISC Starfarer Gemini",
       "Origin 600i",
       "Vanduul Blade",
+      "Vanduul Mauler Destroyer"
+    ],
+    "8f6375c57276": [
+      "Esperia Glaive",
       "Vanduul Glaive",
-      "Vanduul Mauler Destroyer",
-      "Vanduul Scythe",
-      "Vanduul Stinger"
+      "Vanduul Scythe"
     ],
     "48777277e725": [
       "Aegis Hammerhead",
@@ -18228,11 +18263,6 @@
     "fb289d282061": [
       "Esperia Blade",
       "Vanduul Blade",
-      "Vanduul Glaive",
-      "Vanduul Scythe"
-    ],
-    "8f6375c57276": [
-      "Esperia Glaive",
       "Vanduul Glaive",
       "Vanduul Scythe"
     ],
@@ -67459,7 +67489,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 36,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -67478,13 +67508,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 273250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -67507,15 +67537,20 @@
           "groups": [
             {
               "role": "WaveShips",
-              "poolId": "b2cea3353acd",
+              "poolId": "8f6375c57276",
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 5,
-                  "maxShips": 5,
+                  "minShips": 10,
+                  "maxShips": 10,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
+                      "poolId": "c1035cad2acb",
+                      "minCount": 5,
+                      "maxCount": 5
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
                       "minCount": 5,
                       "maxCount": 5
                     }
@@ -67523,25 +67558,45 @@
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 4,
-                  "maxShips": 4,
+                  "minShips": 7,
+                  "maxShips": 7,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 4,
-                      "maxCount": 4
+                      "poolId": "c1035cad2acb",
+                      "minCount": 3,
+                      "maxCount": 3
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
+                      "minCount": 2,
+                      "maxCount": 2
+                    },
+                    {
+                      "poolId": "c1035cad2acb",
+                      "minCount": 2,
+                      "maxCount": 2
                     }
                   ]
                 },
                 {
                   "name": "Wave3",
-                  "minShips": 2,
-                  "maxShips": 2,
+                  "minShips": 18,
+                  "maxShips": 18,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "poolId": "c1035cad2acb",
+                      "minCount": 8,
+                      "maxCount": 8
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
+                      "minCount": 6,
+                      "maxCount": 6
+                    },
+                    {
+                      "poolId": "c1035cad2acb",
+                      "minCount": 4,
+                      "maxCount": 4
                     }
                   ]
                 }
@@ -67551,8 +67606,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 11,
-          "totalMaxShips": 11
+          "totalMinShips": 35,
+          "totalMaxShips": 35
         }
       },
       "propertyValues": null,
@@ -67587,7 +67642,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_VH_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_VH_Van_Title_001",
@@ -93441,7 +93496,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 20,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -93460,13 +93515,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 112250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -93536,7 +93591,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_3Way_Desc_Hard_001",
       "titleLocKey": "Intersec_3Way_Title_Hard_001",
@@ -94549,7 +94604,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 40,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -94568,13 +94623,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 265000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "1f7f050b-2bed-4f1e-806b-1988c5f09017",
+        "name": "Head Contractor",
+        "minReputation": 38000,
+        "nameKey": "RepScope_Contractor_Rank5",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -94702,7 +94757,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank5"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_S_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_S_Title_001",
@@ -123917,7 +123972,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 48,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -123936,13 +123991,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 493250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -123965,46 +124020,71 @@
           "groups": [
             {
               "role": "WaveShips",
-              "poolId": "9140f724b764",
+              "poolId": "b2cea3353acd",
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 5,
-                  "maxShips": 5,
+                  "minShips": 9,
+                  "maxShips": 9,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 5,
-                      "maxCount": 5
+                      "poolId": "c1035cad2acb",
+                      "minCount": 4,
+                      "maxCount": 4
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
+                      "minCount": 3,
+                      "maxCount": 3
+                    },
+                    {
+                      "poolId": "c1035cad2acb",
+                      "minCount": 2,
+                      "maxCount": 2
                     }
                   ]
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 5,
-                  "maxShips": 5,
+                  "minShips": 18,
+                  "maxShips": 18,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 5,
-                      "maxCount": 5
+                      "poolId": "c1035cad2acb",
+                      "minCount": 8,
+                      "maxCount": 8
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
+                      "minCount": 6,
+                      "maxCount": 6
+                    },
+                    {
+                      "poolId": "c1035cad2acb",
+                      "minCount": 4,
+                      "maxCount": 4
                     }
                   ]
                 },
                 {
                   "name": "Wave3",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 21,
+                  "maxShips": 21,
                   "slots": [
                     {
-                      "poolId": "b6cb63fc04c5",
-                      "minCount": 1,
-                      "maxCount": 1
+                      "poolId": "c1035cad2acb",
+                      "minCount": 10,
+                      "maxCount": 10
+                    },
+                    {
+                      "poolId": "5118849fb6eb",
+                      "minCount": 6,
+                      "maxCount": 6
                     },
                     {
                       "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "minCount": 5,
+                      "maxCount": 5
                     }
                   ]
                 }
@@ -124014,8 +124094,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 13,
-          "totalMaxShips": 13
+          "totalMinShips": 48,
+          "totalMaxShips": 48
         }
       },
       "propertyValues": null,
@@ -124050,7 +124130,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_S_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_S_Van_Title_001",
@@ -138624,7 +138704,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": false,
       "illegal": false,
-      "timeToComplete": 20,
+      "timeToComplete": 25,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -138633,10 +138713,7 @@
         "3ec889190196",
         "1b514e20ca22"
       ],
-      "destinations": [
-        "6c53461ec25a",
-        "a82df50418c9"
-      ],
+      "destinations": null,
       "locationSets": null,
       "prerequisites": {
         "crimeStat": {
@@ -138651,7 +138728,7 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 142000,
+      "rewardUEC": 177500,
       "buyIn": null,
       "minStanding": null,
       "maxStanding": null,
@@ -176987,7 +177064,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 36,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -177006,13 +177083,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 273250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -177101,7 +177178,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_3Way_Desc_VeryHard_001",
       "titleLocKey": "Intersec_3Way_Title_VeryHard_001",
@@ -215171,13 +215248,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 82750,
+      "rewardUEC": 72500,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -215216,7 +215293,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank1"
       },
       "descriptionLocKey": "Intersec_ElimAux_ShatteredBlade_Med_Desc_001",
       "titleLocKey": "Intersec_ElimAux_ShatteredBlade_Med_Title_001",
@@ -246271,7 +246348,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 15,
+      "timeToComplete": 10,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -246290,13 +246367,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 58000,
+      "rewardUEC": 33750,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "fab8e959-132a-4fa8-a83e-92c42492438d",
+        "name": "Contractor",
+        "minReputation": 2200,
+        "nameKey": "RepScope_Contractor_Rank2",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -246360,7 +246437,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank2"
       },
       "descriptionLocKey": "Intersec_BoardShip_ShatteredBlade_Desc_001",
       "titleLocKey": "Intersec_BoardShip_ShatteredBlade_Title_001",
@@ -270031,7 +270108,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 45,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -270050,13 +270127,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 403500,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "1f7f050b-2bed-4f1e-806b-1988c5f09017",
+        "name": "Head Contractor",
+        "minReputation": 38000,
+        "nameKey": "RepScope_Contractor_Rank5",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -270083,25 +270160,25 @@
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 2,
-                  "maxShips": 2,
+                  "minShips": 5,
+                  "maxShips": 5,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "poolId": "7ef3e17a68a5",
+                      "minCount": 5,
+                      "maxCount": 5
                     }
                   ]
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 2,
-                  "maxShips": 2,
+                  "minShips": 5,
+                  "maxShips": 5,
                   "slots": [
                     {
                       "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "minCount": 5,
+                      "maxCount": 5
                     }
                   ]
                 }
@@ -270110,7 +270187,7 @@
             },
             {
               "role": "FinalWaveWithTarget",
-              "poolId": "9140f724b764",
+              "poolId": "b2cea3353acd",
               "waves": [
                 {
                   "name": "Wave1",
@@ -270118,7 +270195,7 @@
                   "maxShips": 3,
                   "slots": [
                     {
-                      "poolId": "b6cb63fc04c5",
+                      "poolId": "0f2d3efaecc1",
                       "minCount": 1,
                       "maxCount": 1
                     },
@@ -270135,8 +270212,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 7,
-          "totalMaxShips": 7
+          "totalMinShips": 13,
+          "totalMaxShips": 13
         }
       },
       "propertyValues": null,
@@ -270157,7 +270234,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank5"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
@@ -270190,7 +270267,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 195,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -270209,13 +270286,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 2004000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -270242,6 +270319,30 @@
               "waves": [
                 {
                   "name": "Wave1",
+                  "minShips": 10,
+                  "maxShips": 10,
+                  "slots": [
+                    {
+                      "poolId": "7ef3e17a68a5",
+                      "minCount": 10,
+                      "maxCount": 10
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave2",
+                  "minShips": 5,
+                  "maxShips": 5,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 5,
+                      "maxCount": 5
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave3",
                   "minShips": 4,
                   "maxShips": 4,
                   "slots": [
@@ -270251,37 +270352,13 @@
                       "maxCount": 4
                     }
                   ]
-                },
-                {
-                  "name": "Wave2",
-                  "minShips": 3,
-                  "maxShips": 3,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 3,
-                      "maxCount": 3
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave3",
-                  "minShips": 2,
-                  "maxShips": 2,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
-                    }
-                  ]
                 }
               ],
               "classification": "vanduul"
             },
             {
               "role": "FinalWaveWithTarget",
-              "poolId": "d85f0ff23e6c",
+              "poolId": "dd008c8c570b",
               "waves": [
                 {
                   "name": "Wave1",
@@ -270294,7 +270371,7 @@
                       "maxCount": 1
                     },
                     {
-                      "poolId": "b2cea3353acd",
+                      "poolId": "7ef3e17a68a5",
                       "minCount": 4,
                       "maxCount": 4
                     },
@@ -270311,8 +270388,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 19,
-          "totalMaxShips": 19
+          "totalMinShips": 29,
+          "totalMaxShips": 29
         }
       },
       "propertyValues": null,
@@ -270353,7 +270430,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank6"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
@@ -270386,7 +270463,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 144,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -270405,13 +270482,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 1291250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -270442,7 +270519,7 @@
                   "maxShips": 4,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
+                      "poolId": "b65390206690",
                       "minCount": 4,
                       "maxCount": 4
                     }
@@ -270450,13 +270527,13 @@
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 5,
+                  "maxShips": 5,
                   "slots": [
                     {
                       "poolId": "b2cea3353acd",
-                      "minCount": 3,
-                      "maxCount": 3
+                      "minCount": 5,
+                      "maxCount": 5
                     }
                   ]
                 },
@@ -270502,8 +270579,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 14,
-          "totalMaxShips": 14
+          "totalMinShips": 16,
+          "totalMaxShips": 16
         }
       },
       "propertyValues": null,
@@ -270538,7 +270615,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank6"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
@@ -295072,7 +295149,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 48,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -295091,13 +295168,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 493250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -295202,7 +295279,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_3Way_Desc_Super_001",
       "titleLocKey": "Intersec_3Way_Title_Super_001",
@@ -302778,7 +302855,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 42,
+      "timeToComplete": 38,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -302797,13 +302874,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 318750,
+      "rewardUEC": 213000,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -302944,7 +303021,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_VH_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_VH_Title_001",
@@ -320243,7 +320320,7 @@
       "contractorNameKey": "@InterSec_From",
       "canBeShared": true,
       "illegal": false,
-      "timeToComplete": 51,
+      "timeToComplete": 20,
       "locations": [
         "2bfaa11ff510",
         "09d6ce156e8f",
@@ -320262,13 +320339,13 @@
         ]
       },
       "pyroRegion": null,
-      "rewardUEC": 457250,
+      "rewardUEC": 112250,
       "buyIn": null,
       "minStanding": {
-        "guid": "a8f635c5-7fc0-4d27-8a08-27bb3476bfb8",
-        "name": "Neutral",
-        "minReputation": 0,
-        "nameKey": "mobiGlas_Reputation_Stance_Neutral",
+        "guid": "f97544c1-66a4-4aff-af1a-4da20f114f72",
+        "name": "Veteran Contractor",
+        "minReputation": 15000,
+        "nameKey": "RepScope_Contractor_Rank4",
         "scopeName": "FactionReputation",
         "scopeDisplayName": "Standing",
         "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
@@ -320295,25 +320372,30 @@
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 8,
+                  "maxShips": 8,
                   "slots": [
                     {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 3,
-                      "maxCount": 3
+                      "poolId": "7ef3e17a68a5",
+                      "minCount": 4,
+                      "maxCount": 4
+                    },
+                    {
+                      "poolId": "c1035cad2acb",
+                      "minCount": 4,
+                      "maxCount": 4
                     }
                   ]
                 },
                 {
                   "name": "Wave2",
-                  "minShips": 2,
-                  "maxShips": 2,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
                     {
                       "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
+                      "minCount": 4,
+                      "maxCount": 4
                     }
                   ]
                 }
@@ -320323,8 +320405,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 5,
-          "totalMaxShips": 5
+          "totalMinShips": 12,
+          "totalMaxShips": 12
         }
       },
       "propertyValues": null,
@@ -320345,7 +320427,7 @@
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
-        "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+        "ReputationRank": "@RepScope_Contractor_Rank4"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_H_Van_Title_001",

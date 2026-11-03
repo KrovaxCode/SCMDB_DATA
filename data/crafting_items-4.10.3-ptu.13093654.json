@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.13055118",
+  "version": "4.10.3-ptu.13093654",
   "meta": {
     "totalItems": 1631,
     "weapons": 275,
@@ -43491,7 +43491,7 @@
       "manufacturer": "Chimera Communications",
       "manufacturerCode": "CHCO",
       "componentClass": "Industrial",
-      "mass": 0.0,
+      "mass": 590.0,
       "health": 1170.0,
       "selfRepairTime": 67.1,
       "emSignature": 2970.0,

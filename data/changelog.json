@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.68",
+    "date": "2026-11-04T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13093654. The three \"Seek and Destroy Maulers\" missions are now \"Seek and Destroy Super Stingers\", \"Raid Shattered Blade Base\" is now \"Target Shattered Blade: [TARGET]\", and \"Living Vanduul Sample\" is gone. The RSI Aurora Mk I and the Aegis Hammerhead no longer turn up in a large share of the missions that listed them." },
+      { "type": "fix", "text": "🚀 Ships that defend a mission's target, like the \"Defenders\" in bounty missions, were listed as friendly. Going by their role and classification they appear to be opponents, so about 150 missions now count them as hostile in the badges and in the Combat tab. Ships you protect yourself stay friendly. Thanks mucki." },
+      { "type": "fix", "text": "⛏ Mining Solver: share links now keep crafted laser values, so a shared loadout opens with the same laser power. \"Clear all\" resets them too. Thanks BobBoSG." }
+    ]
+  },
+  {
     "version": "1.0.67",
     "date": "2026-10-30T00:00:00Z",
     "changes": [

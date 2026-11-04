@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.13093654",
+  "version": "4.10.3-ptu.13107423",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -8115,6 +8115,9 @@
     },
     "e49ac702a005": {
       "name": "Cryopod (Vanduul)"
+    },
+    "3b71fd46dd5f": {
+      "name": "Cryopod (Living Vanduul)"
     },
     "b1ed28a5af04": {
       "name": "TH-01 Propulsor"
@@ -17967,28 +17970,76 @@
       "MISC Reliant Tana",
       "RSI Scorpius"
     ],
-    "f2f6b104ca6a": [
-      "Aegis Idris-M",
-      "Aegis Idris-P"
+    "a27036017e85": [
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil F8A Lightning",
+      "Anvil F8C Lightning",
+      "Anvil F8C Lightning Executive Edition",
+      "Anvil F8C Lightning Wikelo Sneak Special",
+      "Anvil F8C Lightning Wikelo War Special",
+      "Anvil Hurricane",
+      "Crusader Ares Star Fighter Inferno",
+      "Crusader Ares Star Fighter Inferno Wikelo War Special",
+      "Crusader Ares Star Fighter Ion",
+      "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
+      "Cutlass Black PYAM Exec",
+      "Drake Cutlass 2949 Best In Show Edition",
+      "Drake Cutlass Black",
+      "Drake Cutlass Blue",
+      "Drake Cutlass Red",
+      "Drake Cutlass Steel",
+      "Esperia Stinger",
+      "F8C Lightning PYAM Exec",
+      "Origin M80",
+      "RSI Meteor",
+      "RSI Meteor PYAM Exec",
+      "RSI Meteor Wikelo Sneak Special",
+      "Vanduul Stinger",
+      "Wreckage"
     ],
-    "895bd36b4591": [
-      "Aegis Idris-M",
-      "Aegis Idris-P",
+    "6d3ad9e527b1": [
+      "RSI Scorpius",
+      "RSI Scorpius Antares",
+      "RSI Scorpius Wikelo Sneak Special"
+    ],
+    "6ac9f1c01496": [
       "Aegis Vanguard Harbinger",
       "Aegis Vanguard Hoplite",
       "Aegis Vanguard Sentinel",
       "Aegis Vanguard Warden",
       "Anvil Arrow",
       "Anvil F8A Lightning",
+      "Anvil F8C Lightning",
+      "Anvil F8C Lightning Executive Edition",
+      "Anvil F8C Lightning Wikelo Sneak Special",
+      "Anvil F8C Lightning Wikelo War Special",
       "Anvil Hawk",
       "Anvil Hurricane",
       "Crusader Ares Star Fighter Inferno",
+      "Crusader Ares Star Fighter Inferno Wikelo War Special",
       "Crusader Ares Star Fighter Ion",
+      "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
+      "Cutlass Black PYAM Exec",
+      "Drake Cutlass 2949 Best In Show Edition",
       "Drake Cutlass Black",
+      "Drake Cutlass Blue",
+      "Drake Cutlass Red",
       "Drake Cutlass Steel",
       "Esperia Stinger",
+      "F8C Lightning PYAM Exec",
+      "Origin M80",
+      "RSI Meteor",
+      "RSI Meteor PYAM Exec",
+      "RSI Meteor Wikelo Sneak Special",
+      "RSI Polaris",
       "RSI Scorpius",
-      "RSI Scorpius Antares"
+      "RSI Scorpius Antares",
+      "RSI Scorpius Wikelo Sneak Special",
+      "Vanduul Stinger",
+      "Wreckage"
     ],
     "b2cea3353acd": [
       "Esperia Blade",
@@ -19688,6 +19739,10 @@
       "MISC Hull A",
       "MISC Prospector",
       "RSI Mantis"
+    ],
+    "f2f6b104ca6a": [
+      "Aegis Idris-M",
+      "Aegis Idris-P"
     ],
     "9810a99bc9df": [
       "Aegis Vanguard Harbinger",
@@ -23381,6 +23436,13 @@
         "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
         "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
         "amount": 1000
+      }
+    ],
+    [
+      {
+        "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
+        "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
+        "amount": 4000
       }
     ],
     [
@@ -94588,7 +94650,7 @@
             },
             {
               "role": "FinalWaveWithTarget",
-              "poolId": "895bd36b4591",
+              "poolId": "6ac9f1c01496",
               "waves": [
                 {
                   "name": "Wave1",
@@ -94596,13 +94658,12 @@
                   "maxShips": 8,
                   "slots": [
                     {
-                      "poolId": "f2f6b104ca6a",
+                      "poolId": "16dc6194283a",
                       "minCount": 1,
-                      "maxCount": 1,
-                      "cargoManifest": "mixedcargo_generic_lowvalue_scraps"
+                      "maxCount": 1
                     },
                     {
-                      "poolId": "a7b5ed2a0824",
+                      "poolId": "a27036017e85",
                       "minCount": 3,
                       "maxCount": 3,
                       "cargoManifest": "mixedcargo_generic_lowvalue_scraps"
@@ -94613,9 +94674,10 @@
                       "maxCount": 3
                     },
                     {
-                      "poolId": "3600dedf054c",
+                      "poolId": "6d3ad9e527b1",
                       "minCount": 1,
-                      "maxCount": 1
+                      "maxCount": 1,
+                      "cargoManifest": "mixedcargo_generic_lowvalue_scraps"
                     }
                   ]
                 }
@@ -123915,13 +123977,13 @@
                 },
                 {
                   "name": "Wave3",
-                  "minShips": 21,
-                  "maxShips": 21,
+                  "minShips": 19,
+                  "maxShips": 19,
                   "slots": [
                     {
                       "poolId": "c1035cad2acb",
-                      "minCount": 10,
-                      "maxCount": 10
+                      "minCount": 8,
+                      "maxCount": 8
                     },
                     {
                       "poolId": "5118849fb6eb",
@@ -123941,8 +124003,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 48,
-          "totalMaxShips": 48
+          "totalMinShips": 46,
+          "totalMaxShips": 46
         }
       },
       "propertyValues": null,
@@ -138537,6 +138599,116 @@
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
       "factionRewardsIndex": 121
+    },
+    {
+      "id": "3b3d142f-d487-4cf8-ac93-ca7c8599a7d8",
+      "debugName": "IDS_ResourceGathering_CryoP_Blue",
+      "category": "career",
+      "missionType": "Collection",
+      "missionTypeKey": "@mobiGlas_ui_MissionType_Collection",
+      "title": "Living Vanduul Sample",
+      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nIntel has been received that Shattered Blade have possession of a cryopod believed to contain a living Vanduul sample. Reports say that this pod is marked out by having blue trim on its casing.\\n\\nAny Intersec contractor that locates one of these cryopods should consider its acquisition a vital priority and adjust their mission parameters accordingly.\\n\\nOnce secured, the cryopod should be delivered with all due haste to <EM4>[DESTINATION]</EM4>.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
+      "contractorName": "InterSec Defense Solutions",
+      "contractorNameKey": "@InterSec_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 25,
+      "locations": [
+        "2bfaa11ff510",
+        "09d6ce156e8f",
+        "9542fdb52c04",
+        "698deb941a6c",
+        "3ec889190196",
+        "1b514e20ca22"
+      ],
+      "destinations": [
+        "6c53461ec25a",
+        "a82df50418c9"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 177500,
+      "buyIn": null,
+      "minStanding": {
+        "guid": "fc15a087-8f8f-4cad-bc45-2e6617d7a363",
+        "name": "Jr. Contractor",
+        "minReputation": 800,
+        "nameKey": "RepScope_Contractor_Rank1",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "maxStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@Intersec_BlueCryo_Title_001",
+      "descriptionKey": "@Intersec_BlueCryo_Desc_001",
+      "availableSystems": [
+        "Nyx"
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "36e8ac4d-8962-4b03-89e7-cd7a06fc4adc",
+          "chance": 1,
+          "poolName": "BP_MISSIONREWARD_InterSec_ResourceGathering",
+          "trigger": "complete"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 5,
+          "maxAmount": 5,
+          "resource": "3b71fd46dd5f"
+        }
+      ],
+      "tokenSubstitutions": {
+        "ReputationRank": "@RepScope_Contractor_Rank1"
+      },
+      "descriptionLocKey": "Intersec_BlueCryo_Desc_001",
+      "titleLocKey": "Intersec_BlueCryo_Title_001",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 1,
+      "abandonedCooldownTime": 1,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Nyx"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
     },
     {
       "id": "c24d61ed-6547-4325-bb62-b7c3c7c4d272",
@@ -301492,6 +301664,12 @@
       "availableSystems": [
         "Nyx"
       ],
+      "requiredScenarios": [
+        {
+          "name": "ContentBlocker_Scenario",
+          "enabled": false
+        }
+      ],
       "blueprintRewards": [
         {
           "blueprintPool": "909180a9-2e15-4243-8900-29bf24a4e8f3",
@@ -320402,13 +320580,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -500
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -320574,13 +320745,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -320740,13 +320904,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -320777,7 +320934,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 179
+      "factionRewardsIndex": 180
     },
     {
       "id": "9995ee0f-619a-4f29-8b98-a8b5d0159edd",
@@ -320906,13 +321063,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -8000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -320943,7 +321093,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 180
+      "factionRewardsIndex": 181
     },
     {
       "id": "bc3300a9-a66b-4921-b651-1cc982978d71",
@@ -321047,13 +321197,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -250
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -321084,7 +321227,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 181
+      "factionRewardsIndex": 182
     },
     {
       "id": "93e20af2-796f-4b52-b3e8-020cfad06415",
@@ -321219,13 +321362,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -4000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -321256,7 +321392,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 182
+      "factionRewardsIndex": 183
     },
     {
       "id": "ccdb8a76-4772-4292-ab9f-ac5696d3d483",
@@ -322236,7 +322372,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 183
+      "factionRewardsIndex": 184
     },
     {
       "id": "128d40e5-6bcb-4503-bb60-45ac58c634fb",
@@ -322344,7 +322480,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 183
+      "factionRewardsIndex": 184
     },
     {
       "id": "f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb",
@@ -322452,7 +322588,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 183
+      "factionRewardsIndex": 184
     },
     {
       "id": "44d85e9e-b93a-4488-9273-61c3445ab4aa",
@@ -322583,13 +322719,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -8000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -322628,7 +322757,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 180
+      "factionRewardsIndex": 181
     },
     {
       "id": "9c3a0eb4-de92-4d96-bac6-e1c48d2160a9",
@@ -322799,13 +322928,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -8000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_009",
@@ -322840,7 +322962,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 180
+      "factionRewardsIndex": 181
     },
     {
       "id": "372d93ed-c8d9-4a44-8f6f-b69c6d219af0",
@@ -323594,13 +323716,6 @@
       "descriptionKey": "@bhg_bounty_desc_HeadHunters_001",
       "availableSystems": [
         "Pyro"
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
       ],
       "haulingOrders": null,
       "tokenSubstitutions": {
@@ -324385,13 +324500,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_006",
@@ -324426,7 +324534,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 179
+      "factionRewardsIndex": 180
     },
     {
       "id": "8a5bb688-3517-4ffe-9f67-65617b1cbf0b",
@@ -325187,13 +325295,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -4000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_008",
@@ -325228,7 +325329,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 182
+      "factionRewardsIndex": 183
     },
     {
       "id": "539de750-ba46-4986-b4f4-9780c45f6f07",
@@ -325364,13 +325465,6 @@
       "descriptionKey": "@bhg_bounty_desc_gen_001",
       "availableSystems": [
         "Nyx"
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
       ],
       "blueprintRewards": [
         {
@@ -326175,13 +326269,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_007",
@@ -326395,13 +326482,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_007",
@@ -326564,13 +326644,6 @@
       "descriptionKey": "@bhg_bounty_desc_gen_001",
       "availableSystems": [
         "Nyx"
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -500
-        }
       ],
       "blueprintRewards": [
         {
@@ -327368,13 +327441,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -500
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_005",
@@ -327577,13 +327643,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -500
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_005",
@@ -327749,13 +327808,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -327794,7 +327846,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 179
+      "factionRewardsIndex": 180
     },
     {
       "id": "624f373a-3ddd-4215-937c-fc2a03397192",
@@ -328553,13 +328605,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_006",
@@ -328602,7 +328647,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 179
+      "factionRewardsIndex": 180
     },
     {
       "id": "aa1ed093-a478-4eab-9d2b-1063d7fd8601",
@@ -328767,13 +328812,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -1000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_006",
@@ -328808,7 +328846,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 179
+      "factionRewardsIndex": 180
     },
     {
       "id": "44616d84-c549-4c9f-b967-573b035c3c3e",
@@ -328945,13 +328983,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -4000
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -328990,7 +329021,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 182
+      "factionRewardsIndex": 183
     },
     {
       "id": "212ee743-03a1-48cd-93ed-85dd427f17a9",
@@ -329161,13 +329192,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -4000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_008",
@@ -329202,7 +329226,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 182
+      "factionRewardsIndex": 183
     },
     {
       "id": "b7e2fdb1-cb2b-4608-ac51-f396d7b62814",
@@ -329306,13 +329330,6 @@
       "availableSystems": [
         "Nyx"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "7b4a8d50-31ca-4e53-8ab7-a9ccb0b84bea",
-          "amount": -100
-        }
-      ],
       "blueprintRewards": [
         {
           "blueprintPool": "e52bf354-8918-474d-987e-55c01bfecdd3",
@@ -329353,7 +329370,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 181
+      "factionRewardsIndex": 182
     },
     {
       "id": "516e0b36-ee18-4ddf-b1d4-f302437682f1",
@@ -330086,13 +330103,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "7b4a8d50-31ca-4e53-8ab7-a9ccb0b84bea",
-          "amount": -100
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_004",
@@ -330135,7 +330145,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 181
+      "factionRewardsIndex": 182
     },
     {
       "id": "ff797e2e-ce15-4b8d-8098-7ecafdc23a19",
@@ -330279,13 +330289,6 @@
       "availableSystems": [
         "Stanton"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "7b4a8d50-31ca-4e53-8ab7-a9ccb0b84bea",
-          "amount": -100
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_004",
@@ -330328,7 +330331,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 181
+      "factionRewardsIndex": 182
     },
     {
       "id": "764b9fb9-c2c1-4475-b76e-772011514542",
@@ -331088,13 +331091,6 @@
       "availableSystems": [
         "Pyro"
       ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "6fe6526a-4ae0-44ec-a5b7-4a1a7f8bdc97",
-          "scopeGuid": "d1eb915e-95c8-43a7-b5c7-a612bb7a16c9",
-          "amount": -8000
-        }
-      ],
       "haulingOrders": null,
       "tokenSubstitutions": {
         "Danger": "@hurston_danger_009",
@@ -331129,7 +331125,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 180
+      "factionRewardsIndex": 181
     },
     {
       "id": "016fd75d-9d75-4a91-9f34-303e43fd9eee",
@@ -336960,7 +336956,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 184
+      "factionRewardsIndex": 185
     },
     {
       "id": "3d1ca18b-691f-48d4-84e1-06eca4fa5e03",
@@ -356645,7 +356641,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "2041cd72-0d11-414c-914b-4e6664e1bb48",
@@ -356716,7 +356712,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "a15156b5-b386-49de-8d23-5ab3820452d0",
@@ -356787,7 +356783,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "0f672755-e714-4309-bfff-75ae9379ea09",
@@ -356860,7 +356856,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ff038693-21d9-4ca9-898b-af689ab3fd97",
@@ -356930,7 +356926,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "7874f47b-a04f-488a-b140-663763018dde",
@@ -357064,7 +357060,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "0c40417a-048e-430d-a214-92ae69cb739a",
@@ -357198,7 +357194,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "28a70fe0-c544-4d98-a8b4-ef5600dee4c3",
@@ -357339,7 +357335,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "3528e202-cd7d-46ef-b316-b70f2f48c196",
@@ -357414,7 +357410,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "1da661b8-da61-4d94-a141-91b137155686",
@@ -357484,7 +357480,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "f04e4f60-7339-46ee-9711-dce47fceb8ce",
@@ -357589,7 +357585,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "563821d6-4947-46bb-ba04-d2bb2bf43dd4",
@@ -357688,7 +357684,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "c3585189-f091-45ae-a473-416bed1ea35f",
@@ -357859,7 +357855,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "31dac17d-efe8-450b-a252-0d7d14f1ada8",
@@ -358281,7 +358277,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "bfa57b6f-3bf7-4aab-bb5c-7c89fe7afde6",
@@ -358519,7 +358515,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "21a2c02c-e4c8-46b9-9eb9-50afc821050c",
@@ -358653,7 +358649,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "0882085e-9e04-450d-b1f4-c128fd722525",
@@ -358785,7 +358781,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "1b0b8dcf-f32b-4fb1-a30e-50a1fa6a2497",
@@ -358855,7 +358851,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "68316c82-3840-40d4-a567-5a124977aee0",
@@ -358925,7 +358921,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "59745c47-753c-4a88-90ac-47bef1134a00",
@@ -358988,7 +358984,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "1b2fab16-3d86-4f3c-bd75-69daed1811cc",
@@ -359051,7 +359047,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "22aa8995-74de-4de7-a66d-1328d8730b6f",
@@ -359188,7 +359184,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "2e0a4e26-36bf-481b-81ce-0d5a96707dfe",
@@ -359258,7 +359254,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "0d20c436-779d-4c51-ad46-f80eef26fe7b",
@@ -359340,7 +359336,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "cc5f94cc-b559-4c32-9c4d-1d1512da0f64",
@@ -359417,7 +359413,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "f6b66176-3b92-4eaf-9d5e-e11e9f8e5235",
@@ -359529,7 +359525,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "83dcf298-979c-4cd7-a5c4-75ff9ea7956d",
@@ -359632,7 +359628,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "10039ddf-76f3-4bad-beb7-e6907448f843",
@@ -359741,7 +359737,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "15e8c915-3bca-4a19-b938-db463dfdc1fd",
@@ -359859,7 +359855,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "3b3b2b6e-5906-46ae-a3e0-4754a7756286",
@@ -360104,7 +360100,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "fd795080-9b24-4bbe-90b1-13411bfd9e07",
@@ -360245,7 +360241,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "6a91a30e-c00d-41ee-b7f0-46f4a14a09dd",
@@ -360384,7 +360380,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "0f87560d-b1ba-4b73-9435-6b840c5c0a9f",
@@ -360461,7 +360457,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "f700567d-285d-43ce-bf63-35da3b54d93e",
@@ -360538,7 +360534,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "7c7574f9-aeeb-4ed9-be73-b7285c52afea",
@@ -360633,7 +360629,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "ead4b413-6d02-4468-9b63-bb62eac9c2de",
@@ -360791,7 +360787,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "19be1ad4-f42c-401d-b793-65f686fa66be",
@@ -360916,7 +360912,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "3e1b0ab4-251d-4c41-9c69-66b916928b11",
@@ -361005,7 +361001,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "e4ada47c-b638-439d-996a-0b6306a5db13",
@@ -361099,7 +361095,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "3a656950-4458-42c1-a39d-90b0e1429b83",
@@ -361180,7 +361176,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "80d5bb38-4786-41de-a16c-2e1daf40fb03",
@@ -361257,7 +361253,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "5f6d46f5-fdd1-4cc0-ba96-d894739c1dfd",
@@ -361375,7 +361371,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "271d359d-9665-483e-ae81-03256ec4ad90",
@@ -361491,7 +361487,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "38308d6e-8596-4ec4-9979-1a6958c99ee6",
@@ -361611,7 +361607,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "0cde567f-ea5f-40b0-8058-a2b4697b7924",
@@ -361688,7 +361684,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "1a5150a6-04ea-4c49-a091-39b1ee5b27f7",
@@ -361765,7 +361761,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "acc4fff7-a5da-4e5d-a676-1a53b4144742",
@@ -361887,7 +361883,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "69ff5023-c48a-4765-846c-3f9051fce97c",
@@ -362005,7 +362001,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "17a76e0a-19fc-44d9-a5a6-6ad857d541c9",
@@ -362082,7 +362078,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "7e34de33-0143-4358-9315-21e5d26737b9",
@@ -362204,7 +362200,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "a6b193db-ce73-43c5-85a5-a84d8353551d",
@@ -362307,7 +362303,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "56fd5866-55ce-4d8f-a238-4635aeb65134",
@@ -362410,7 +362406,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 186
+      "factionRewardsIndex": 187
     },
     {
       "id": "488c7ef4-f894-421e-ad74-9924ce8d5d3f",
@@ -362491,7 +362487,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "d7e97c8d-fe0d-410c-8857-ec51cd756b13",
@@ -362550,7 +362546,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "0c94c7a0-5104-4d7e-bb00-29e564808b24",
@@ -362621,7 +362617,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "71ba53c8-174d-490c-97bb-9e1df106b490",
@@ -362759,7 +362755,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "a52e47b3-1b27-4796-83dc-222e738e6b36",
@@ -362875,7 +362871,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "39fccb94-71ef-41b0-9613-8cc7a3d895b4",
@@ -363006,7 +363002,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "d7d3bb53-b571-49ee-93b7-20527c33fe59",
@@ -363100,7 +363096,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "cc9f3535-0df7-439b-bc87-20cfa7427168",
@@ -363247,7 +363243,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "3011e956-5a4f-4a97-afdb-35b311126555",
@@ -363324,7 +363320,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "72cfb7a1-5d4d-4942-87b5-d33d6d2d325d",
@@ -363400,7 +363396,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "13ad9181-1b8c-4438-927b-80f18fcb433b",
@@ -363478,7 +363474,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "bbbd5f8d-762f-4eb1-aa1a-91704d21ed90",
@@ -363560,7 +363556,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "4000bfd0-e2dd-447b-82b0-7264cbbd05d0",
@@ -363642,7 +363638,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "c085db84-0310-49a1-8f6d-a1a8bc07482c",
@@ -363726,7 +363722,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "470da5cc-95b7-4894-b7ce-b832385f3939",
@@ -363816,7 +363812,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "8ec1b19e-4824-4eaf-a91c-5e7c8faf0044",
@@ -363900,7 +363896,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "9ca56b30-54b4-4cdd-a394-109cfac216eb",
@@ -364049,7 +364045,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "bcd27fe8-8dd0-4796-a8f4-3ee5b8f482e1",
@@ -364126,7 +364122,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "8906068e-6cf4-430e-b88d-f3cfd079a703",
@@ -364380,7 +364376,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "a073dd81-cf17-4cc2-8313-dab212d1401b",
@@ -364469,7 +364465,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "43962492-3c26-4783-ba51-d18aea9fd488",
@@ -364545,7 +364541,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "bc7c4247-2cac-432f-8dc0-f373eced0f0f",
@@ -364623,7 +364619,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "d0cce29f-b267-4805-92d8-5bb93fdb5993",
@@ -364704,7 +364700,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "4ea082ba-3da1-402b-8853-efacd66b4a9f",
@@ -364837,7 +364833,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "9d75f5b4-f783-4fe3-a78d-598e65ce84a5",
@@ -364927,7 +364923,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "0466b429-89a3-4d4b-a298-d1870092d0e1",
@@ -364993,7 +364989,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "a037ca99-190c-4cbe-afe2-ff4aa401d536",
@@ -365059,7 +365055,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "d59f1d24-5241-4b64-9a55-f937205727e9",
@@ -365152,7 +365148,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "b5eb95f8-8a72-4524-b535-50cf272363f8",
@@ -365350,7 +365346,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "27004406-b524-4f02-8cf3-f2f627bdf233",
@@ -365414,7 +365410,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1648e49b-8cf1-4133-b529-4040479dcb58",
@@ -365606,7 +365602,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "cbd6dd27-bc3a-490d-a699-03e05c5fe4b0",
@@ -365738,7 +365734,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "5d8a3a27-9378-420c-8044-b0eb54b68baf",
@@ -365898,7 +365894,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "0c9b4da4-731e-47ce-8fd2-6984d6200a4a",
@@ -366090,7 +366086,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "98e55f87-44fb-47c9-97fd-262cc9251a64",
@@ -366160,7 +366156,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "c31e88f3-32ae-49bc-8b5e-dabb106f3b75",
@@ -366236,7 +366232,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "42a3aff9-66c5-43e6-b270-c15e07746715",
@@ -366322,7 +366318,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "59df1ef5-a562-4068-b469-99ec912ab557",
@@ -366479,7 +366475,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "0f1d3f57-30fb-4c55-a137-6d05db5fd834",
@@ -366576,7 +366572,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "3638431c-6506-47da-84d4-32d722bacad9",
@@ -366660,7 +366656,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1fe77d3d-35b2-4a74-8f5e-198c3fcb7004",
@@ -366746,7 +366742,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "c79a721c-3e35-45a6-87b7-ef8616b638b2",
@@ -366836,7 +366832,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "37866746-0c4a-4d4f-bb62-c1abb775d882",
@@ -366926,7 +366922,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "5d1d506d-d024-42d9-8716-fa3925b97762",
@@ -367010,7 +367006,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "5387c0fc-041f-4b90-a3de-ca385d11dcfe",
@@ -367107,7 +367103,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "3a893a1c-3da8-4338-aec9-696794d9983e",
@@ -367191,7 +367187,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "236537cc-3ca7-449f-9bd7-1ec1cbac3847",
@@ -367277,7 +367273,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1fb07e48-b31e-4f6b-99ba-212a29e82871",
@@ -367367,7 +367363,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "7548fb6f-1e1d-4fb5-99ee-81d3dda88d3a",
@@ -367531,7 +367527,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "881e08d0-1290-4a27-a843-343641093ed2",
@@ -367678,7 +367674,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "222a7975-6008-4b47-b7e6-258f2f974d2e",
@@ -367765,7 +367761,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1ffcc351-1cfe-44d5-b43a-b13d12cf8d1e",
@@ -367859,7 +367855,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1544c7a1-f509-4181-afb6-edf90f21be5d",
@@ -367957,7 +367953,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "6bf1ca3e-32a0-4aac-b084-dad84826e71c",
@@ -368055,7 +368051,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "61eb9285-c1ef-4e04-9da6-965345c388a9",
@@ -368155,7 +368151,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "6cf0e6a4-72d8-4295-a587-5f566dd25eb2",
@@ -368250,7 +368246,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "8b9cf4a8-c068-4d62-abda-fbe1d3e4af2c",
@@ -368342,7 +368338,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "6dc0df2f-6360-47bf-83b1-577b6c21c2d5",
@@ -368543,7 +368539,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "dcecbd56-1077-4294-9f3a-63d2f9591375",
@@ -368625,7 +368621,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "8e6476d6-d20b-4c93-9760-d329ad4290ef",
@@ -368709,7 +368705,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "cd353fab-6389-4538-a928-68649cb535ab",
@@ -368792,7 +368788,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "2f054a8b-6bc2-46e6-8b4e-8106670dcba3",
@@ -368881,7 +368877,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "1132717a-3ae9-4957-84d2-a7966a6e0218",
@@ -369080,7 +369076,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "6733cb15-27c1-42d1-9e15-12d5696db877",
@@ -369157,7 +369153,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "b8283820-eb99-42d7-bf39-bd95af80142c",
@@ -369232,7 +369228,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "c0c89192-6925-476a-a225-c1d1d3920b62",
@@ -369309,7 +369305,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "555e08c9-2d81-46fc-a147-622da31e26d5",
@@ -369386,7 +369382,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "dc901056-11e4-4e7c-acb9-623961553198",
@@ -369509,7 +369505,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "efcbb80b-89e3-4746-acdd-078ff370a149",
@@ -369735,7 +369731,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "ee4dae8c-7b28-4bbf-bf72-3ce6b5b67a7f",
@@ -369826,7 +369822,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "52f7d54d-8dca-4092-a1d8-8641a13961b3",
@@ -369897,7 +369893,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "3b58a869-9604-4500-83d4-f3b7ee176228",
@@ -369966,7 +369962,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "cf72467e-433b-46d7-b7c9-c7dd099683c8",
@@ -370037,7 +370033,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "9655caa7-bbd8-4089-81e2-83d500cc4863",
@@ -370114,7 +370110,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 187
+      "factionRewardsIndex": 188
     },
     {
       "id": "2f6162bf-fc09-4753-b4cc-02e85c724725",
@@ -370197,7 +370193,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "1a84c14e-96d9-4307-aefa-9cd8659610c9",
@@ -370442,7 +370438,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "d4a28f4e-8a31-404d-ab20-bb6d6d42124d",
@@ -370519,7 +370515,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "e945d5ef-d55c-4b61-97c5-9b7447b5764a",
@@ -370614,7 +370610,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "c926101c-4d2a-4014-8ff8-cec7c7b24ff5",
@@ -370709,7 +370705,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "f78b4f8f-cfec-4f98-a683-720961967578",
@@ -370806,7 +370802,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "c3e5963c-2a51-403a-8630-a6e05e868331",
@@ -370903,7 +370899,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "7fa500b8-316a-469a-920a-ede2797765ea",
@@ -371000,7 +370996,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 188
+      "factionRewardsIndex": 189
     },
     {
       "id": "05d7a11d-8720-47c7-9d50-b5d7a03fef0e",
@@ -371094,7 +371090,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "0a4efc1f-f643-4048-bd32-883319b72a93",
@@ -371189,7 +371185,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "543e1d62-635f-4b56-964b-416b8a762cd6",
@@ -371286,7 +371282,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "cac3b366-f5d6-498b-af20-b36e9df3f74c",
@@ -371383,7 +371379,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "ef9d030a-4f13-49bb-818c-9dd2a7b1a347",
@@ -371480,7 +371476,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "536e11b9-a041-4606-9c9e-5dd4e51343f5",
@@ -371577,7 +371573,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "cacdcf24-84bd-49b8-96e4-92e720585330",
@@ -371660,7 +371656,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "70bd1246-8e11-40e7-91f8-c5b9c8617bfa",
@@ -371754,7 +371750,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "9ce4eae8-6584-4ddd-b288-54d899aa6f12",
@@ -371835,7 +371831,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "b8974305-98c1-418d-b251-b59459426cb8",
@@ -371935,7 +371931,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "50d9a01c-7f05-4ef7-ac98-78c88a49adac",
@@ -372019,7 +372015,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "dca46bbb-7a9f-438a-b892-abb4683f059f",
@@ -372130,7 +372126,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "5fd3b52e-e095-498a-aac8-15f16b73252b",
@@ -372241,7 +372237,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "5cce7935-637d-4c15-a817-91136ea022a7",
@@ -372330,7 +372326,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "654c55df-d4f6-479c-b09b-d8fa9cf1ab3e",
@@ -372407,7 +372403,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "80bd02cf-4f5e-47e4-bd46-0c1697336233",
@@ -372534,7 +372530,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "50495425-6853-47ff-bce5-c2ab765ce1b4",
@@ -372656,7 +372652,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "c191952a-7afa-4c60-ade3-82b71fcc9de6",
@@ -372773,7 +372769,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "e79b2e84-534a-47d7-bfa0-36253caa561a",
@@ -372848,7 +372844,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "e140ecf5-2557-434c-a112-fa8fd7cde813",
@@ -372925,7 +372921,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "57c34412-117f-4d8d-82c4-eeb4992d9631",
@@ -373046,7 +373042,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "0b35c27b-59a8-470c-91ef-ce916386251f",
@@ -373172,7 +373168,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "7db6be10-677e-4dca-b27f-c1edb0ccbcad",
@@ -373243,7 +373239,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "68809c4b-8dd8-4ca1-8169-a0d0898e59b8",
@@ -373358,7 +373354,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "698a2696-0c6b-4ab2-be85-370a7782d1fe",
@@ -373508,7 +373504,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "aae2bb8c-9062-4169-a24e-49836893b2d2",
@@ -373623,7 +373619,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "04d3c89e-9dd1-489a-b155-f448e75aea46",
@@ -373738,7 +373734,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "e41e956c-9d41-4f74-a3cf-72f0d233567a",
@@ -373824,7 +373820,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "6c51af92-0bdd-487e-b32e-752e9c142cca",
@@ -373939,7 +373935,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "d8f8b755-efd6-41eb-95a0-0e333eef8a65",
@@ -374060,7 +374056,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "a910b7f6-7e4d-48e0-891c-f666406db4a6",
@@ -374152,7 +374148,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "f108b67f-64b3-42bd-b126-643d637d5097",
@@ -374244,7 +374240,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "5b4be6e7-a4c9-4e85-b98f-bdabb372534a",
@@ -374321,7 +374317,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "589336ad-3946-4a35-9470-4b42b038e274",
@@ -374549,7 +374545,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "546625d0-0617-43a4-a7bb-b7ad5987b6b5",
@@ -374676,7 +374672,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "e69b5b80-acd4-4a61-942f-d623170d2858",
@@ -374753,7 +374749,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "3e84937f-f9c8-4c47-8f98-b31e29c119c4",
@@ -374845,7 +374841,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "fd5615f8-a727-47e2-861e-679188653a33",
@@ -374932,7 +374928,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "ff044893-63cb-4609-8fac-22fb6c66ce11",
@@ -375024,7 +375020,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "c7fa2573-bb99-40b1-8ad8-b4cc9ba591aa",
@@ -375116,7 +375112,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "365bf47e-cfdc-4774-bc1e-3d5156ebc427",
@@ -375208,7 +375204,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 189
+      "factionRewardsIndex": 190
     },
     {
       "id": "9663d2cd-6e5a-4764-be19-08ad88df7507",
@@ -375282,7 +375278,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "b32fba85-8711-4dee-8007-a043d88c17ef",
@@ -375353,7 +375349,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "4518132e-7299-465f-a42c-c3efdfdbd046",
@@ -375424,7 +375420,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "0d3b359b-b038-4765-814f-792e2f54aa45",
@@ -375497,7 +375493,7 @@
       ],
       "partialRewardPayoutIndex": 2,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "fa76b87e-e37a-4420-832e-bfe197729965",
@@ -375570,7 +375566,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "647d9946-6a15-47a8-be11-3825aded5f56",
@@ -375698,7 +375694,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "de830b23-692b-4493-b274-a8aa98c65378",
@@ -375770,7 +375766,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "2a6bd2d2-6245-4850-b7ec-29fc38146c83",
@@ -375844,7 +375840,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "18541391-aa87-4e29-8883-1e0022a27291",
@@ -375918,7 +375914,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "2cbf6678-9d74-4982-8298-e125688d94da",
@@ -376018,7 +376014,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "3aecdc63-c5c5-455e-8f5b-53a1941c5ff6",
@@ -376075,7 +376071,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "99524c5c-8693-429d-9f88-86eed6cbb8b2",
@@ -376134,7 +376130,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "159f5338-90b9-40b0-864b-a162a09023ae",
@@ -376264,7 +376260,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "df42dc6b-5b76-4a99-a572-51ce3ea3bfec",
@@ -376394,7 +376390,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "03698e91-9dfb-486e-9463-f37c8bde765d",
@@ -376524,7 +376520,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "8e90ce76-e5e5-49a0-bc6a-7c5b0963c388",
@@ -376654,7 +376650,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "2aeca397-bbde-43c2-b494-57b0ac6977e9",
@@ -376922,7 +376918,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "c8c7bf19-93a3-4e30-9af6-39cbcca2e4fa",
@@ -376992,7 +376988,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "2e669681-127d-4235-aa1c-41d321f1e3e6",
@@ -377150,7 +377146,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ea1cb775-4219-40c8-be3a-ac98adbb5331",
@@ -377231,7 +377227,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ef0b95be-1975-4035-863c-6e73b94a6074",
@@ -377311,7 +377307,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "b443a6f3-ef75-482f-8507-1b0bbaae0b2d",
@@ -377393,7 +377389,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "17b4e74d-e581-438b-893f-68e6f80f9ebd",
@@ -377475,7 +377471,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "d34b3fd0-bdd5-40c3-a521-0c0c758c47dd",
@@ -377842,7 +377838,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "e0718312-ac4d-4cb4-8f4c-6ec9e599ac74",
@@ -377896,7 +377892,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "071f2a79-cbf2-4ede-8b1e-e2109ef63d66",
@@ -377951,7 +377947,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "b3819710-5c2c-4db2-b232-95af66734e54",
@@ -378005,7 +378001,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ce79c43c-32f6-4413-85c9-c78b3924037a",
@@ -378059,7 +378055,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "91acd7df-3bb6-4764-9323-b2b625b841ec",
@@ -378114,7 +378110,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "944801b5-df9d-44a1-9a52-e575c5ea7858",
@@ -378169,7 +378165,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "5b15b60b-dd61-4115-8787-b88ac3d9f00d",
@@ -378224,7 +378220,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "e13a799a-12af-4a53-aef3-800fdcd28b42",
@@ -378278,7 +378274,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "05e8b305-d182-4db0-82b3-394ddc9b9a77",
@@ -378332,7 +378328,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "af175776-2722-4ec6-9451-c8c7ee4c268a",
@@ -378403,7 +378399,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "8d14e8be-5a58-4826-8407-5b35be739732",
@@ -378457,7 +378453,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "63416f88-efb2-4103-8cba-0a60de753a9e",
@@ -378512,7 +378508,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "518d6875-e517-4b0b-a6bc-eda8096307ac",
@@ -378644,7 +378640,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "d4eac174-04bf-437b-9595-3fa05e359e07",
@@ -378735,7 +378731,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "afc02dff-dbd7-4eee-bdd0-0d875a25763d",
@@ -378807,7 +378803,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ec5aeda7-8d3e-4405-b8c0-07d5057305aa",
@@ -378930,7 +378926,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "928c9317-d1ed-4ea9-979c-1e8cac7b1ca1",
@@ -379013,7 +379009,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "4327d2a4-a19d-4fcb-960a-acd9194b266a",
@@ -379172,7 +379168,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "87efa5f4-d6f4-4b26-a51c-85dc1fac6266",
@@ -379283,7 +379279,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "9b62c553-1b80-48da-9777-29221a2de172",
@@ -379372,7 +379368,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "c511cdda-0d01-49ec-a7ed-88723ebc2e59",
@@ -379603,7 +379599,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "fa0150eb-6148-45ec-b003-d97eed746347",
@@ -379667,7 +379663,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "bf29ab28-f31a-4a24-ba07-47906fd51386",
@@ -379729,7 +379725,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ac4b8de7-d42e-4874-96d5-adabba67da73",
@@ -379793,7 +379789,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "86432180-5242-42ca-9108-c2681ac28a52",
@@ -379863,7 +379859,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "cc17910b-fe1d-4684-a0fc-264f0ad3a134",
@@ -380045,7 +380041,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "f2cd346d-0339-4f42-adb2-407916037c51",
@@ -380103,7 +380099,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "8f957107-3a35-4471-9b8f-534195aab758",
@@ -380159,7 +380155,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "3f6322d0-1873-480d-9f8f-3c9a6cf55ef5",
@@ -380217,7 +380213,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "aaa3db93-85ff-41c1-a8b3-d5e6b4e94265",
@@ -380275,7 +380271,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "ea2e453c-a637-46f3-bf6c-486c68c413b1",
@@ -380355,7 +380351,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "45e7b8b9-0f1e-42a8-ab67-4b5996a090ae",
@@ -380438,7 +380434,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "4bac622e-49d4-4b0b-8cca-4d78d46fad67",
@@ -380521,7 +380517,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "c98415de-ffa0-48ad-b3c1-ad29c42e10b1",
@@ -380615,7 +380611,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "f1de88c0-a528-45f6-b642-ba765bd249f1",
@@ -380684,7 +380680,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "f0c658d1-9acb-47e9-b032-7da09b42298a",
@@ -380752,7 +380748,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "337c3c81-f086-4510-b5b9-6fd7597bae8c",
@@ -380833,7 +380829,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "58ada4ab-eb45-4a24-8c96-1632d42cf476",
@@ -380904,7 +380900,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "b282f4d1-b22c-4f27-9b42-0edabdb326be",
@@ -380974,7 +380970,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "68ecc3c2-1af8-47d2-80bf-efbce346f267",
@@ -381051,7 +381047,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "8c0dbcbd-ebaf-4d04-b934-bbebda6f9191",
@@ -381139,7 +381135,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "e5b8f0ca-8d85-46e7-8b11-be2c449c3b43",
@@ -381244,7 +381240,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "7b5bbd2f-e16a-421c-809f-8d1d35e9c096",
@@ -381359,7 +381355,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "15676c6a-5ea5-4983-83a6-a7e61fdd5770",
@@ -381468,7 +381464,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "44a11ae7-d1fe-4397-a3b4-54a209cf8f90",
@@ -381577,7 +381573,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "a15fcca0-9de7-4233-bee5-a545df6f095f",
@@ -381686,7 +381682,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "8d319950-67e4-4cc5-845f-da5f854b5348",
@@ -381795,7 +381791,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "160d1c4f-2f11-4746-a7f9-e0603851478b",
@@ -381904,7 +381900,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "05c4628c-4fdc-4279-ab36-6c03997c7295",
@@ -381986,7 +381982,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "375b9d89-e6a5-452f-b834-047cb743482d",
@@ -382070,7 +382066,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "e0e41991-b694-48db-bf68-8795262da0e8",
@@ -382151,7 +382147,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "c1063adb-30a0-4027-84b0-fb06529383ee",
@@ -382239,7 +382235,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "70ac2f0d-aa3b-412f-8940-f1c363ad3351",
@@ -382318,7 +382314,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "b7c6de5a-4403-46d3-9e6b-b2c23d653a6c",
@@ -382480,7 +382476,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "427442fa-30cb-4ea9-a483-ad54d2d27161",
@@ -382568,7 +382564,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "4562ff5f-a28c-4216-b4f8-831e55e5d004",
@@ -382643,7 +382639,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "45f6464d-2913-4000-9eb2-cb743deea6f5",
@@ -382785,7 +382781,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "dbc88372-fe44-4faf-a67d-a7854e121a6f",
@@ -382850,7 +382846,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "f82d4c02-7579-4d5a-b5b6-3e4c3c567f15",
@@ -382913,7 +382909,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "0390b1a3-138b-4760-a65f-198d24df5aa2",
@@ -382978,7 +382974,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "c4f720fd-21c1-4060-adf8-417838b8809b",
@@ -383043,7 +383039,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "e7e831be-6fae-4650-9ccc-81aa6fe3551c",
@@ -383134,7 +383130,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "89b787b8-ebc0-4f12-b286-1f7f9f41f947",
@@ -383239,7 +383235,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 185
+      "factionRewardsIndex": 186
     },
     {
       "id": "06d087e3-aee8-4a6d-b819-be06b54390da",
@@ -383327,7 +383323,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "02674975-c818-4535-bffb-e0240be87b26",
@@ -383445,7 +383441,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "14e4a39e-cbd2-4d82-aead-d9cafa38f6b4",
@@ -383690,7 +383686,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "6d480cb9-a179-489d-9f88-5b4e9793a4e7",
@@ -383831,7 +383827,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "ebe7e695-83b2-4a34-9ece-212eee62f0eb",
@@ -383970,7 +383966,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "851cb0b2-3965-430f-b824-f8dfaa2e40ac",
@@ -384047,7 +384043,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "6514b864-8911-4bd1-b9e5-a286db3eccd7",
@@ -384124,7 +384120,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "f3285f2e-9866-4ab5-99fe-ec32fe9c9b16",
@@ -384214,7 +384210,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "a35314f2-a334-49e3-8850-7f316487d473",
@@ -384306,7 +384302,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "7b653aa6-cfb3-44bc-9ebc-01f5c39f039c",
@@ -384401,7 +384397,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "0deda031-5607-42ab-9626-3b7d3a814539",
@@ -384496,7 +384492,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "feaf144f-463c-4b6e-85da-6a6c6f59d578",
@@ -384593,7 +384589,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "85aec31a-2b0e-4b90-a44c-c773934c5d3e",
@@ -384690,7 +384686,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "691d09bf-7a07-4809-a860-0065f876dc37",
@@ -384787,7 +384783,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "c1af052f-31e6-4874-843c-77ae72063bb1",
@@ -384883,7 +384879,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "3a533b9b-d3fc-46f6-b2c9-aa713973199d",
@@ -384979,7 +384975,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "47ed852c-5445-4f66-99c7-320981615d11",
@@ -385069,7 +385065,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "81e4857b-a5d3-4ad5-89d0-9bec88eb7b80",
@@ -385172,7 +385168,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "8a7b0a47-5f0b-411f-81a3-16a830730671",
@@ -385262,7 +385258,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "f3eda6ce-4301-453d-b85a-677591753e00",
@@ -385354,7 +385350,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "212df642-26d0-4e99-b8c0-c212ae4cfbd8",
@@ -385495,7 +385491,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "fecdc2c1-7267-44d7-95ab-9358d266bfb0",
@@ -385572,7 +385568,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "5468552d-fb97-4548-a49f-1f19fca2a335",
@@ -385668,7 +385664,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "1c2bb5a0-4226-4f93-ab76-ec2c0f110eeb",
@@ -385766,7 +385762,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "b7819e19-30fb-485e-98f8-4bd45044c1bd",
@@ -385868,7 +385864,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "22282ab5-4876-4b27-8f5c-ae816974e68a",
@@ -385970,7 +385966,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "e9a36014-7bb2-495d-8888-1bf883ee2fee",
@@ -386079,7 +386075,7 @@
       ],
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "10ff3ab2-1850-484c-9052-d97c24d1a269",
@@ -386175,7 +386171,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     },
     {
       "id": "e17b7546-8bc3-429b-a4de-1165c4867afc",
@@ -386273,7 +386269,7 @@
       },
       "partialRewardPayoutIndex": 3,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 190
+      "factionRewardsIndex": 191
     }
   ]
 }

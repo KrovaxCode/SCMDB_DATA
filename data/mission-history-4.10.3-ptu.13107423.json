@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "ptu",
-  "current_version": "4.10.3-ptu.13093654",
-  "generated_at": "2026-11-03T22:34:48Z",
+  "current_version": "4.10.3-ptu.13107423",
+  "generated_at": "2026-11-04T21:48:00Z",
   "versions_seen": [
     "4.10.0",
     "4.10.1",
@@ -6319,6 +6319,10 @@
       "last_seen": "4.10.3"
     },
     "b4570e85-55f9-4723-bf40-c01fe7aa3be2": {
+      "first_seen": "4.10.3",
+      "last_seen": "4.10.3"
+    },
+    "3b3d142f-d487-4cf8-ac93-ca7c8599a7d8": {
       "first_seen": "4.10.3",
       "last_seen": "4.10.3"
     }

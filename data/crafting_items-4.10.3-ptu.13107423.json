@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.13093654",
+  "version": "4.10.3-ptu.13107423",
   "meta": {
     "totalItems": 1631,
     "weapons": 275,
@@ -3836,7 +3836,7 @@
       {
         "name": "Rapid",
         "fireRate": 375.0,
-        "heatPerShot": 5.0,
+        "heatPerShot": 6.33,
         "wearPerShot": 0.07,
         "type": "rapid",
         "spread": {
@@ -3863,7 +3863,7 @@
       {
         "name": "Single",
         "fireRate": 376.0,
-        "heatPerShot": 5.0,
+        "heatPerShot": 6.33,
         "wearPerShot": 0.07,
         "type": "single",
         "spread": {

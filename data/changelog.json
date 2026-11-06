@@ -1,5 +1,15 @@
 [
   {
+    "version": "1.0.69",
+    "date": "2026-11-06T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13119881, the first 5.0 PTU. It brings 282 new missions, nearly all in Nyx, and most of them come from the new mission boards: guild terminals of the United Resource Workers, the Interstellar Transport Guild, the Mercenary Guild and the Academy of Science, plus a local noticeboard. Shubin, Adagio, Hockrow, FTL, Ling, Covalex, Red Wind, Eckhart, Northrock, Rayari and the Bounty Hunters Guild all post work there. \"Opportunity for Independent Cargo Hauler\" is gone." },
+      { "type": "data", "text": "🧪 Foxwell Enforcement's Yellow, Orange and Red contracts now only ask for the Foxwell introduction mission; Orange work no longer needs a chain of earlier jobs. The lowest Standing rank is now called \"Applicant\" instead of \"Neutral\", Cornerstone Developments now posts the \"Orison Relief\" orders, and the Origin M80 turns up in many more mission encounters." },
+      { "type": "data", "text": "🧪 Armour takes less impact force across most pieces — for example 0.4 instead of 0.65 — and most armour now has an IR signature. The Polaris shield blueprint now crafts the RSI Deterrent instead of the Glacis, and the Fresnel LMGs are listed under VOLT." },
+      { "type": "feat", "text": "📋 Mission boards: missions you take at a guild terminal or the noticeboard instead of the mobiGlas now carry a BOARD or NOTICE badge. The detail view says where to take them and how far the board reaches (Local, Regional, Global or Solar), and the filters can show or hide board missions by guild and reach. In the table, \"Accept At\" and \"Board Reach\" are available as columns." }
+    ]
+  },
+  {
     "version": "1.0.68",
     "date": "2026-11-04T00:00:00Z",
     "changes": [

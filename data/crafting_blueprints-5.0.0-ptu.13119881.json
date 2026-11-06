@@ -1,8 +1,8 @@
 {
-  "version": "4.10.3-ptu.13107423",
+  "version": "5.0.0-ptu.13119881",
   "meta": {
     "totalBlueprints": 1633,
-    "totalProducts": 1621,
+    "totalProducts": 1622,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -172,7 +172,7 @@
       "unit": "%.2f per Km",
       "category": "other"
     },
-    "crafter_craftspeed": {
+    "crafter_crafttime": {
       "name": "Craft Speed",
       "unit": null,
       "category": "crafter"
@@ -108914,7 +108914,7 @@
     {
       "guid": "bb511044-6590-4e19-b077-a347cad104fa",
       "tag": "BP_CRAFT_SHLD_RSI_S04_Polaris_SCItem",
-      "productEntityClass": "6fc982c0-2747-42b7-a628-7c76ecedf732",
+      "productEntityClass": "d9870a05-1a66-4a9a-bec6-30eb67e3a3ce",
       "gear": "vehiclegear",
       "type": "shield",
       "subtype": "size4",
@@ -109013,8 +109013,8 @@
           ]
         }
       ],
-      "productName": "Glacis",
-      "manufacturer": "Origin Jumpworks"
+      "productName": "Deterrent",
+      "manufacturer": "Roberts Space Industries"
     },
     {
       "guid": "a97e0f32-9098-4b83-a54a-ddccc4820fd6",
@@ -119602,7 +119602,7 @@
         }
       ],
       "productName": "Fresnel Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "b0b3fdea-eb1a-46e8-bdf8-9662f0e7c997",
@@ -119699,7 +119699,7 @@
         }
       ],
       "productName": "Fresnel \"Molten\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "4e5cfca9-312e-4ef0-93fd-0cd01dcad86b",
@@ -119796,7 +119796,7 @@
         }
       ],
       "productName": "Fresnel \"Icebox\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "f4257ce3-9afa-4694-a707-aade876dc75c",
@@ -119893,7 +119893,7 @@
         }
       ],
       "productName": "Fresnel \"Rockfall\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "19550053-2b2c-4382-9da0-cf72e32e7976",

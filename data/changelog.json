@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.70",
+    "date": "2026-11-07T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13132336. The PTU is back on 4.10.3 for now, so the 5.0 missions and mission boards aren't shown until 5.0 returns. \"Target Shattered Blade: [TARGET]\" now also gives the Skarnov Rifle Battery (30 cap) blueprint, and the Polaris shield blueprint crafts the RSI Deterrent instead of the Glacis here as well." }
+    ]
+  },
+  {
     "version": "1.0.69",
     "date": "2026-11-06T00:00:00Z",
     "changes": [

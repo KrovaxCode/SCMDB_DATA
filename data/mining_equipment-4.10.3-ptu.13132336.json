@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13119881",
+  "version": "4.10.3-ptu.13132336",
   "meta": {
     "lasers": 18,
     "modulesPassive": 20,
@@ -46,7 +46,7 @@
       "dangerBreakingFillRateExponent": 2.0,
       "dangerBreakingDecayRate": 0.3,
       "cSCUPerVolume": 3.0,
-      "defaultMass": 1.0,
+      "defaultMass": 0.001,
       "instabilityWavePeriod": 3.0,
       "instabilityWaveVariance": 1.0,
       "instabilityCurveFactor": 1.0,

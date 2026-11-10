@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.71",
+    "date": "2026-11-10T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13145606. A small one: \"Eradicate UEE Threat: [TARGET]\" can now spawn more ships, mostly Hornet variants plus the Vanduul Glaive and Scythe." },
+      { "type": "fix", "text": "📡 Log Watcher 0.1.10: missions that set no map marker, like Recco Battaglia's mining jobs, are now recognised by their title instead of showing up as unknown. If several missions share that title, SCMDB asks which one you played. Thanks TBBle." }
+    ]
+  },
+  {
     "version": "1.0.70",
     "date": "2026-11-07T00:00:00Z",
     "changes": [

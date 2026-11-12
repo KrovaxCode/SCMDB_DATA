@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.73",
+    "date": "2026-11-12T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 New LIVE patch — 4.10.2-live.12913470 → 4.10.3-live.13165946, matching the last PTU almost exactly. Twelve new InterSec Defense Solutions missions in Nyx go up against the Vanduul and the Shattered Blade, most of them tied to the Ship Battles V3 scenario, with Raider Camo versions of the Corbel and Palatino armour, the M3A, M4A and M5A cannons, the Tailwind flight suit and the Skarnov rifle as blueprint rewards. Bounty Hunters Guild's \"Verified Bounty\" missions no longer cost reputation when failed, the RSI Aurora Mk I and the Aegis Hammerhead turn up in far fewer mission encounters, and the Polaris shield blueprint now crafts the RSI Deterrent. New since the last PTU: the Drake Marauder joins \"Eradicate UEE Threat\", and a new size 1 mining laser appears in the Mining Solver, still without a proper name." }
+    ]
+  },
+  {
     "version": "1.0.72",
     "date": "2026-11-12T00:00:00Z",
     "changes": [

@@ -1,13 +1,13 @@
 {
-  "version": "4.10.2-live.12913470",
+  "version": "4.10.3-live.13165946",
   "meta": {
-    "totalItems": 1616,
-    "weapons": 271,
-    "armor": 922,
-    "shipcomponents": 379,
-    "unknown": 44,
+    "totalItems": 1633,
+    "weapons": 275,
+    "armor": 933,
+    "shipcomponents": 380,
+    "unknown": 45,
     "unresolved": 1,
-    "withLootSources": 242
+    "withLootSources": 246
   },
   "damageResistancePools": [
     {
@@ -3834,6 +3834,62 @@
     ],
     [
       {
+        "name": "Rapid",
+        "fireRate": 375.0,
+        "heatPerShot": 6.33,
+        "wearPerShot": 0.07,
+        "type": "rapid",
+        "spread": {
+          "min": 0.18,
+          "max": 5.0,
+          "firstAttack": 1.35,
+          "attack": 1.25,
+          "decay": 6.5
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.2,
+          "pitchMaxDeg": 1.0,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 3.0,
+          "smoothTime": 0.4,
+          "decayStart": 0.13,
+          "minDecay": 0.5,
+          "maxDecay": 0.8
+        }
+      },
+      {
+        "name": "Single",
+        "fireRate": 376.0,
+        "heatPerShot": 6.33,
+        "wearPerShot": 0.07,
+        "type": "single",
+        "spread": {
+          "min": 0.18,
+          "max": 5.0,
+          "firstAttack": 1.35,
+          "attack": 1.25,
+          "decay": 6.5
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.2,
+          "pitchMaxDeg": 1.0,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 3.0,
+          "smoothTime": 0.4,
+          "decayStart": 0.13,
+          "minDecay": 0.5,
+          "maxDecay": 0.8
+        }
+      }
+    ],
+    [
+      {
         "name": "Charge",
         "fireRate": null,
         "heatPerShot": null,
@@ -6656,6 +6712,45 @@
       },
       "detonationDamage": null,
       "damageDropoff": null
+    },
+    {
+      "speed": 500.0,
+      "lifetime": 2.0,
+      "damage": {
+        "physical": 0.0,
+        "energy": 30.0,
+        "distortion": 35.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 2.0
+      },
+      "detonationDamage": null,
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 0.0,
+          "energy": 350.0,
+          "distortion": 350.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 350.0
+        },
+        "perMeter": {
+          "physical": 0.0,
+          "energy": 0.01,
+          "distortion": 0.01,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.01
+        },
+        "minDamage": {
+          "physical": 0.0,
+          "energy": 20.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        }
+      }
     },
     {
       "speed": 1155.0,
@@ -11136,6 +11231,28 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "36db47ca-d33b-484e-a2cc-fdf51b7bd549",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 1,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 144.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M3A Cannon Raider Camo",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 65,
+      "magazineIndex": 7
+    },
+    {
       "entityClass": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -11158,6 +11275,28 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "b0ff21c6-312f-4196-88fb-c24d883ca003",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 2,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 360.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M4A Cannon Raider Camo",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 66,
+      "magazineIndex": 7
+    },
+    {
       "entityClass": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -11174,6 +11313,28 @@
         "category": "Medium"
       },
       "name": "M5A Cannon",
+      "cgItemType": "WeaponGun",
+      "fireModesIndex": 45,
+      "ammoIndex": 67,
+      "magazineIndex": 7
+    },
+    {
+      "entityClass": "9fd5d7b0-0a54-40b5-a36e-dca802cd3aaa",
+      "itemType": "weapon",
+      "attachType": "WeaponGun",
+      "attachSubType": "Gun",
+      "size": 3,
+      "grade": 1,
+      "tags": "BEHR LaserCannon flightReady weaponMountUsable",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 900.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "M5A Cannon Raider Camo",
       "cgItemType": "WeaponGun",
       "fireModesIndex": 45,
       "ammoIndex": 67,
@@ -13161,6 +13322,29 @@
       "magazineIndex": 7
     },
     {
+      "entityClass": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked lbco_rifle_energy_01 rifle",
+      "manufacturer": "LBCO",
+      "manufacturerCode": "LBCO",
+      "componentClass": "Electron",
+      "mass": 2.9,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Skarnov \"Raider Camo\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 78,
+      "ammoIndex": 112,
+      "magazineIndex": 8
+    },
+    {
       "entityClass": "43269af0-736e-4232-8cfe-271367b28ee1",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -13178,8 +13362,8 @@
       },
       "name": "Sledge I Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 78,
-      "ammoIndex": 112,
+      "fireModesIndex": 79,
+      "ammoIndex": 113,
       "magazineIndex": 46
     },
     {
@@ -13200,8 +13384,8 @@
       },
       "name": "Sledge II Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 79,
-      "ammoIndex": 113,
+      "fireModesIndex": 80,
+      "ammoIndex": 114,
       "magazineIndex": 46
     },
     {
@@ -13222,8 +13406,8 @@
       },
       "name": "Sledge III Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 80,
-      "ammoIndex": 114,
+      "fireModesIndex": 81,
+      "ammoIndex": 115,
       "magazineIndex": 47
     },
     {
@@ -13244,8 +13428,8 @@
       },
       "name": "Strife Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 81,
-      "ammoIndex": 113,
+      "fireModesIndex": 82,
+      "ammoIndex": 114,
       "magazineIndex": 48
     },
     {
@@ -13266,8 +13450,8 @@
       },
       "name": "Suckerpunch Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 115,
+      "fireModesIndex": 83,
+      "ammoIndex": 116,
       "magazineIndex": 7
     },
     {
@@ -13288,8 +13472,8 @@
       },
       "name": "Suckerpunch-L Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 116,
+      "fireModesIndex": 83,
+      "ammoIndex": 117,
       "magazineIndex": 7
     },
     {
@@ -13310,8 +13494,8 @@
       },
       "name": "Suckerpunch-XL Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 117,
+      "fireModesIndex": 83,
+      "ammoIndex": 118,
       "magazineIndex": 7
     },
     {
@@ -13332,8 +13516,8 @@
       },
       "name": "Tarantula GT-870 Mark 1 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 118,
+      "fireModesIndex": 84,
+      "ammoIndex": 119,
       "magazineIndex": 49
     },
     {
@@ -13354,8 +13538,8 @@
       },
       "name": "Tarantula GT-870 Mark 2 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 119,
+      "fireModesIndex": 84,
+      "ammoIndex": 120,
       "magazineIndex": 16
     },
     {
@@ -13376,8 +13560,8 @@
       },
       "name": "Tarantula GT-870 Mark 3 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 120,
+      "fireModesIndex": 84,
+      "ammoIndex": 121,
       "magazineIndex": 50
     },
     {
@@ -13398,8 +13582,8 @@
       },
       "name": "Thlilye Laser Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 84,
-      "ammoIndex": 121,
+      "fireModesIndex": 85,
+      "ammoIndex": 122,
       "magazineIndex": 7
     },
     {
@@ -13420,8 +13604,8 @@
       },
       "name": "Tigerstrike T-19P",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 85,
-      "ammoIndex": 122,
+      "fireModesIndex": 86,
+      "ammoIndex": 123,
       "magazineIndex": 51
     },
     {
@@ -13443,7 +13627,7 @@
       },
       "name": "Tripledown Pistol",
       "cgItemType": "WeaponPersonal",
-      "ammoIndex": 123,
+      "ammoIndex": 124,
       "magazineIndex": 52
     },
     {
@@ -13465,8 +13649,8 @@
       },
       "name": "Vendetta \"Snow Camo\" HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 86,
-      "ammoIndex": 124,
+      "fireModesIndex": 87,
+      "ammoIndex": 125,
       "magazineIndex": 53
     },
     {
@@ -13488,8 +13672,8 @@
       },
       "name": "Vendetta HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 86,
-      "ammoIndex": 124,
+      "fireModesIndex": 87,
+      "ammoIndex": 125,
       "magazineIndex": 53
     },
     {
@@ -13510,8 +13694,8 @@
       },
       "name": "YellowJacket GT-210 Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 87,
-      "ammoIndex": 125,
+      "fireModesIndex": 88,
+      "ammoIndex": 126,
       "magazineIndex": 54
     },
     {
@@ -13533,8 +13717,8 @@
       },
       "name": "Yubarev \"Igniter\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13556,8 +13740,8 @@
       },
       "name": "Yubarev \"Mirage\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13579,8 +13763,8 @@
       },
       "name": "Yubarev \"Venom\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13602,8 +13786,8 @@
       },
       "name": "Yubarev Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
+      "fireModesIndex": 89,
+      "ammoIndex": 127,
       "magazineIndex": 55
     },
     {
@@ -13625,8 +13809,8 @@
       },
       "name": "Zenith \"Darkwave\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13648,8 +13832,8 @@
       },
       "name": "Zenith \"Landslide\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13671,8 +13855,8 @@
       },
       "name": "Zenith \"Snow Camo\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13694,8 +13878,8 @@
       },
       "name": "Zenith \"Thunderstrike\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -13717,8 +13901,8 @@
       },
       "name": "Zenith Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
       "magazineIndex": 56
     },
     {
@@ -20407,6 +20591,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "4349df6e-8a6a-4419-9ce7-9cc311d111e7",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 6.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Arms Raider Camo",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "f7bc48ae-f075-43d3-a4b9-ce6ab3dc7fac",
       "itemType": "armor",
       "attachType": "Char_Armor_Arms",
@@ -20522,6 +20730,30 @@
         "dissipationRate": 145.8
       },
       "name": "Corbel Core Patina",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 2
+    },
+    {
+      "entityClass": "3be51fb7-31c5-49cc-80ca-f92d161c1e5c",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 7.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Core Raider Camo",
       "cgItemType": "Char_Armor_Torso",
       "damageResistanceIndex": 1,
       "signaturesIndex": 2
@@ -20647,6 +20879,30 @@
       "signaturesIndex": 3
     },
     {
+      "entityClass": "571f0880-7b33-48f0-a860-4aee78b73e28",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "omc_utility_heavy Set_01 Color_01 SM_RestrictedArm Helmet HelmetCarryable",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Helmet Raider Camo",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
+    },
+    {
       "entityClass": "fdaffa09-1693-4db2-a3b1-99d90fdfb384",
       "itemType": "armor",
       "attachType": "Char_Armor_Helmet",
@@ -20762,6 +21018,30 @@
         "dissipationRate": 145.8
       },
       "name": "Corbel Legs Patina",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
+      "entityClass": "ab3f1e07-fa55-4db2-96d6-7db0083b9e67",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "$Legs++ SM_RestrictedArm",
+      "manufacturer": "Clark Defense Systems",
+      "manufacturerCode": "CDS",
+      "mass": 8.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Corbel Legs Raider Camo",
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
@@ -31459,6 +31739,30 @@
       "signaturesIndex": 1
     },
     {
+      "entityClass": "bad0bae6-013e-4528-9088-58f62ff57645",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 6.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Arms Raider Camo",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
       "entityClass": "024e0420-6902-40f7-8f1a-0c13e92064a3",
       "itemType": "armor",
       "attachType": "Char_Armor_Arms",
@@ -31481,6 +31785,20 @@
       "cgItemType": "Char_Armor_Arms",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
+    },
+    {
+      "entityClass": "49b78c3e-5645-4155-a614-d9d628e2bbdf",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Backpack",
+      "attachSubType": "Personal",
+      "size": 3,
+      "grade": 1,
+      "tags": "qrt_utility_heavy Set_01 Color_01 backpack SM_RestrictedArm",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 6.0,
+      "name": "Palatino Backpack Raider Camo",
+      "cgItemType": "Char_Armor_Backpack"
     },
     {
       "entityClass": "cef54c0b-81d1-4ccb-a67f-f7304f198184",
@@ -31603,6 +31921,30 @@
       "signaturesIndex": 2
     },
     {
+      "entityClass": "23195726-303a-436b-a3e6-55e6b82f7419",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 7.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Core Raider Camo",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 2
+    },
+    {
       "entityClass": "89c91b5c-3006-4777-a870-9059b4f3efb2",
       "itemType": "armor",
       "attachType": "Char_Armor_Torso",
@@ -31718,6 +32060,30 @@
         "dissipationRate": 145.8
       },
       "name": "Palatino Helmet Moonfall",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 3
+    },
+    {
+      "entityClass": "730c213b-ce3b-4286-a9fc-08cc10c6d8ad",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": null,
+      "manufacturerCode": null,
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Helmet Raider Camo",
       "cgItemType": "Char_Armor_Helmet",
       "damageResistanceIndex": 1,
       "signaturesIndex": 3
@@ -31862,6 +32228,30 @@
         "dissipationRate": 145.8
       },
       "name": "Palatino Legs Necropolis",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 1,
+      "signaturesIndex": 1
+    },
+    {
+      "entityClass": "e0c7ae94-0428-4236-90da-3e9900e7d4d9",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Heavy",
+      "size": 1,
+      "grade": 1,
+      "tags": "$Legs++ SM_RestrictedArm qrt_utility_heavy Set_01 Color_01",
+      "manufacturer": "Quirinus Tech",
+      "manufacturerCode": "QRT",
+      "mass": 8.0,
+      "temperatureResistance": {
+        "min": -70.0,
+        "max": 100.0
+      },
+      "radiationResistance": {
+        "capacity": 26800.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Palatino Legs Raider Camo",
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 1,
       "signaturesIndex": 1
@@ -33183,6 +33573,54 @@
       "cgItemType": "Char_Armor_Undersuit",
       "damageResistanceIndex": 0,
       "signaturesIndex": 9
+    },
+    {
+      "entityClass": "a147bd26-7e93-410f-95f4-166da8d79a9c",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Undersuit",
+      "attachSubType": "UNDEFINED",
+      "size": 1,
+      "grade": 1,
+      "tags": "VGL flightsuit Set_01 Texture_03 Color_01 $invis_mobi++ SM_RestrictedArm",
+      "manufacturer": "Virgil",
+      "manufacturerCode": "VGL",
+      "mass": 1.0,
+      "temperatureResistance": {
+        "min": -30.0,
+        "max": 60.0
+      },
+      "radiationResistance": {
+        "capacity": 15200.0,
+        "dissipationRate": 81.0
+      },
+      "name": "Tailwind Flight Suit Raider Camo",
+      "cgItemType": "Char_Armor_Undersuit",
+      "damageResistanceIndex": 0,
+      "signaturesIndex": 9
+    },
+    {
+      "entityClass": "e71b77f0-156a-4f8f-9d32-4a026faf90f2",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Helmet",
+      "size": 1,
+      "grade": 1,
+      "tags": "vgl_flightsuit_helmet Set_01 Texture_11 Color_01 SM_RestrictedArm Helmet HelmetCarryable",
+      "manufacturer": "Virgil",
+      "manufacturerCode": "VGL",
+      "mass": 5.0,
+      "temperatureResistance": {
+        "min": -30.0,
+        "max": 60.0
+      },
+      "radiationResistance": {
+        "capacity": 15200.0,
+        "dissipationRate": 81.0
+      },
+      "name": "Tailwind Helmet Raider Camo",
+      "cgItemType": "Char_Armor_Helmet",
+      "damageResistanceIndex": 0,
+      "signaturesIndex": 0
     },
     {
       "entityClass": "cb8be778-fb01-4dad-85e4-aa99a7a69c9d",
@@ -38813,6 +39251,80 @@
       "cgItemType": "Radar"
     },
     {
+      "entityClass": "d9870a05-1a66-4a9a-bec6-30eb67e3a3ce",
+      "itemType": "shipcomponent",
+      "attachType": "Shield",
+      "attachSubType": "UNDEFINED",
+      "size": 4,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 16000.0,
+      "health": 13000.0,
+      "selfRepairTime": 250.0,
+      "emSignature": 2970.0,
+      "powerDraw": 6.0,
+      "shieldHealth": 648000.0,
+      "shieldRegen": 47520.0,
+      "downedRegenDelay": 12.2,
+      "damagedRegenDelay": 6.1,
+      "shieldResistance": {
+        "physical": {
+          "min": 0.0,
+          "max": 0.25
+        },
+        "energy": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "distortion": {
+          "min": 0.75,
+          "max": 0.95
+        },
+        "thermal": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "biochemical": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "stun": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "shieldAbsorption": {
+        "physical": {
+          "min": 0.0,
+          "max": 0.45
+        },
+        "energy": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "distortion": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "thermal": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "biochemical": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "stun": {
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "name": "Deterrent",
+      "cgItemType": "Shield"
+    },
+    {
       "entityClass": "86eec5f7-3dd0-40f2-a433-3dc143c0d231",
       "itemType": "unknown",
       "attachType": "WeaponAttachment",
@@ -42392,6 +42904,30 @@
       "cgItemType": "WeaponMining"
     },
     {
+      "entityClass": "462c1e37-6259-4942-91e1-9c4de47ef0e4",
+      "itemType": "shipcomponent",
+      "attachType": "Radar",
+      "attachSubType": "MidRangeRadar",
+      "size": 3,
+      "grade": 3,
+      "tags": "flightReady",
+      "manufacturer": "WillsOp",
+      "manufacturerCode": "WLOP",
+      "componentClass": "Civilian",
+      "mass": 950.0,
+      "health": 3000.0,
+      "selfRepairTime": 117.0,
+      "emSignature": 3200.0,
+      "powerDraw": 8.0,
+      "sensitivity": 0.95,
+      "piercing": 0.25,
+      "pingCooldown": 2.5,
+      "minAimAssistRange": 1860.0,
+      "maxAimAssistRange": 2990.0,
+      "name": "Lephari",
+      "cgItemType": "Radar"
+    },
+    {
       "entityClass": "a117d541-aa61-49fd-ae53-469b0fdf7ccd",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -43029,7 +43565,7 @@
       "manufacturer": "Chimera Communications",
       "manufacturerCode": "CHCO",
       "componentClass": "Industrial",
-      "mass": 0.0,
+      "mass": 590.0,
       "health": 1170.0,
       "selfRepairTime": 67.1,
       "emSignature": 2970.0,
@@ -45226,6 +45762,20 @@
       "quantumFuelRate": 5.0,
       "name": "Siren",
       "cgItemType": "QuantumDrive"
+    },
+    {
+      "entityClass": "62c5b91c-fd3e-4a9b-8ee6-a35e59cf82c3",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Magazine",
+      "size": 1,
+      "grade": 1,
+      "tags": "lbco_rifle_energy_01",
+      "manufacturer": "LBCO",
+      "manufacturerCode": "LBCO",
+      "mass": 1.05,
+      "name": "Skarnov Rifle Battery (30 cap)",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "92fc134c-4d10-48fb-b439-aec44e36fe4e",
@@ -47890,29 +48440,6 @@
       "coolingRate": 74.0,
       "name": null,
       "cgItemType": "Cooler"
-    },
-    {
-      "entityClass": "462c1e37-6259-4942-91e1-9c4de47ef0e4",
-      "itemType": "shipcomponent",
-      "attachType": "Radar",
-      "attachSubType": "MidRangeRadar",
-      "size": 3,
-      "grade": 3,
-      "tags": "flightReady",
-      "manufacturer": "WillsOp",
-      "manufacturerCode": "WLOP",
-      "mass": 950.0,
-      "health": 3000.0,
-      "selfRepairTime": 117.0,
-      "emSignature": 3200.0,
-      "powerDraw": 8.0,
-      "sensitivity": 0.95,
-      "piercing": 0.25,
-      "pingCooldown": 2.5,
-      "minAimAssistRange": 1860.0,
-      "maxAimAssistRange": 2990.0,
-      "name": null,
-      "cgItemType": "Radar"
     },
     {
       "entityClass": "944a73bb-974c-4e4c-ab0f-6f9cd062c5a5",

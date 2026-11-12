@@ -1,8 +1,8 @@
 {
-  "version": "4.10.2-live.12913470",
+  "version": "4.10.3-live.13165946",
   "meta": {
-    "totalBlueprints": 1618,
-    "totalProducts": 1606,
+    "totalBlueprints": 1634,
+    "totalProducts": 1623,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -1061,6 +1061,47 @@
         }
       ],
       "productName": "Yubarev Pistol Battery (10 cap)",
+      "manufacturer": "LBCO"
+    },
+    {
+      "guid": "f784e808-1962-4751-9abb-a0d681e6a618",
+      "tag": "BP_CRAFT_lbco_rifle_energy_01_mag",
+      "productEntityClass": "62c5b91c-fd3e-4a9b-8ee6-a35e59cf82c3",
+      "gear": "fpsgear",
+      "type": "ammo",
+      "subtype": "electron",
+      "tiers": [
+        {
+          "craftTimeSeconds": 10,
+          "slots": [
+            {
+              "name": "Magazine",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Charge Chamber",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Gold"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Skarnov Rifle Battery (30 cap)",
       "manufacturer": "LBCO"
     },
     {
@@ -31722,6 +31763,35 @@
       "manufacturer": "Quirinus Tech"
     },
     {
+      "guid": "62646684-53f5-4ef3-95f8-2022da314aaf",
+      "tag": "BP_CRAFT_qrt_utility_heavy_backpack_01_05_01",
+      "productEntityClass": "49b78c3e-5645-4155-a614-d9d628e2bbdf",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "combat",
+      "tiers": [
+        {
+          "craftTimeSeconds": 105,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Ouratite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Palatino Backpack Raider Camo",
+      "manufacturer": "Quirinus Tech"
+    },
+    {
       "guid": "5c23d353-10be-45b5-a1c6-fb2c8eeb3ab6",
       "tag": "BP_CRAFT_slaver_armor_heavy_arms_01_01_01",
       "productEntityClass": "c5accc85-3784-40dc-b819-8949e1394f66",
@@ -36449,6 +36519,85 @@
       "manufacturer": "Clark Defense Systems"
     },
     {
+      "guid": "41f5d2b5-3bbe-42d7-bce6-6c5a4662e51f",
+      "tag": "BP_CRAFT_omc_utility_heavy_arms_01_03_01",
+      "productEntityClass": "4349df6e-8a6a-4419-9ce7-9cc311d111e7",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Titanium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Corbel Arms Raider Camo",
+      "manufacturer": "Clark Defense Systems"
+    },
+    {
       "guid": "d4bcbab1-b2e8-432d-9427-9a471eef2aa9",
       "tag": "BP_CRAFT_omc_utility_heavy_core_01_01_01",
       "productEntityClass": "49b52040-a1f0-407f-a64b-0896274cfe82",
@@ -36841,6 +36990,85 @@
         }
       ],
       "productName": "Corbel Core Crush",
+      "manufacturer": "Clark Defense Systems"
+    },
+    {
+      "guid": "b356eedd-43f0-4c0e-9797-2a864da94735",
+      "tag": "BP_CRAFT_omc_utility_heavy_core_01_03_01",
+      "productEntityClass": "3be51fb7-31c5-49cc-80ca-f92d161c1e5c",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.07,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.07,
+                  "minQuality": 500,
+                  "resourceName": "Titanium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Corbel Core Raider Camo",
       "manufacturer": "Clark Defense Systems"
     },
     {
@@ -37239,6 +37467,85 @@
       "manufacturer": "Clark Defense Systems"
     },
     {
+      "guid": "d5737fc2-fd2e-42d4-8246-76bc624c390e",
+      "tag": "BP_CRAFT_omc_utility_heavy_helmet_01_03_01",
+      "productEntityClass": "571f0880-7b33-48f0-a860-4aee78b73e28",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Titanium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Corbel Helmet Raider Camo",
+      "manufacturer": "Clark Defense Systems"
+    },
+    {
       "guid": "42af157a-aa29-4784-88f6-374984d4c4cd",
       "tag": "BP_CRAFT_omc_utility_heavy_legs_01_01_01",
       "productEntityClass": "acb808af-0c02-4459-97e4-9e3ac06d6a15",
@@ -37631,6 +37938,85 @@
         }
       ],
       "productName": "Corbel Legs Crush",
+      "manufacturer": "Clark Defense Systems"
+    },
+    {
+      "guid": "98ef4a00-9d0b-4504-8246-178440327138",
+      "tag": "BP_CRAFT_omc_utility_heavy_legs_01_03_01",
+      "productEntityClass": "ab3f1e07-fa55-4db2-96d6-7db0083b9e67",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Titanium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Corbel Legs Raider Camo",
       "manufacturer": "Clark Defense Systems"
     },
     {
@@ -38644,6 +39030,85 @@
       "manufacturer": "Quirinus Tech"
     },
     {
+      "guid": "b33bdfb5-6d25-4a7a-86f6-fdf6da4362bb",
+      "tag": "BP_CRAFT_qrt_utility_heavy_arms_01_04_01",
+      "productEntityClass": "bad0bae6-013e-4528-9088-58f62ff57645",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 270,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Palatino Arms Raider Camo",
+      "manufacturer": "Quirinus Tech"
+    },
+    {
       "guid": "82cb5508-47ad-4cdc-8e8d-1af302c7a3c7",
       "tag": "BP_CRAFT_qrt_utility_heavy_core_01_01_01",
       "productEntityClass": "cef54c0b-81d1-4ccb-a67f-f7304f198184",
@@ -39118,6 +39583,85 @@
       "manufacturer": "Quirinus Tech"
     },
     {
+      "guid": "f43fcac4-3bb2-4cb4-bd01-2768b585209d",
+      "tag": "BP_CRAFT_qrt_utility_heavy_core_01_04_01",
+      "productEntityClass": "23195726-303a-436b-a3e6-55e6b82f7419",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 270,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.07,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.07,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Palatino Core Raider Camo",
+      "manufacturer": "Quirinus Tech"
+    },
+    {
       "guid": "947f8d7f-9101-48e4-b5c4-95bda222c03c",
       "tag": "BP_CRAFT_qrt_utility_heavy_helmet_01_01_01",
       "productEntityClass": "138ffa9b-26b2-4b6f-b831-425948234fb2",
@@ -39510,6 +40054,85 @@
         }
       ],
       "productName": "Palatino Helmet Metropolis",
+      "manufacturer": "Quirinus Tech"
+    },
+    {
+      "guid": "4454b4bc-fc57-4421-a689-cd4ac8599649",
+      "tag": "BP_CRAFT_qrt_utility_heavy_helmet_01_04_01",
+      "productEntityClass": "730c213b-ce3b-4286-a9fc-08cc10c6d8ad",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 270,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Palatino Helmet Raider Camo",
       "manufacturer": "Quirinus Tech"
     },
     {
@@ -39984,6 +40607,85 @@
         }
       ],
       "productName": "Palatino Legs Metropolis",
+      "manufacturer": "Quirinus Tech"
+    },
+    {
+      "guid": "61666d7d-06ca-48d2-8dbd-9e245cc129a3",
+      "tag": "BP_CRAFT_qrt_utility_heavy_legs_01_04_01",
+      "productEntityClass": "e0c7ae94-0428-4236-90da-3e9900e7d4d9",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "engineer",
+      "tiers": [
+        {
+          "craftTimeSeconds": 270,
+          "slots": [
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Laranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            },
+            {
+              "name": "Casing Weave",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Palatino Legs Raider Camo",
       "manufacturer": "Quirinus Tech"
     },
     {
@@ -47156,6 +47858,52 @@
       "manufacturer": "Virgil"
     },
     {
+      "guid": "e6234718-dfc7-45c5-968e-c8dd1b390caa",
+      "tag": "BP_CRAFT_vgl_flightsuit_01_03_01",
+      "productEntityClass": "a147bd26-7e93-410f-95f4-166da8d79a9c",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "flightsuit",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Suit Underlay",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Silicon"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Tailwind Flight Suit Raider Camo",
+      "manufacturer": "Virgil"
+    },
+    {
       "guid": "ffaa61a2-1c00-4f0a-a855-a06855f9ce6b",
       "tag": "BP_CRAFT_vgl_flightsuit_helmet_01_02_01",
       "productEntityClass": "42176077-e614-4bdf-8cce-24383458f875",
@@ -47567,6 +48315,52 @@
         }
       ],
       "productName": "Tailwind Flight Helmet Airwolf",
+      "manufacturer": "Virgil"
+    },
+    {
+      "guid": "018a29dc-d128-4697-b181-a885c60ee29c",
+      "tag": "BP_CRAFT_vgl_flightsuit_helmet_01_11_01",
+      "productEntityClass": "e71b77f0-156a-4f8f-9d32-4a026faf90f2",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "flightsuit",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Suit Underlay",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Silicon"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Tailwind Helmet Raider Camo",
       "manufacturer": "Virgil"
     },
     {
@@ -100409,8 +101203,8 @@
           ]
         }
       ],
-      "productName": null,
-      "manufacturer": null
+      "productName": "Lephari",
+      "manufacturer": "WillsOp"
     },
     {
       "guid": "fe10b216-fbda-4d6e-97c8-75fd2064269b",
@@ -108161,7 +108955,7 @@
     {
       "guid": "bb511044-6590-4e19-b077-a347cad104fa",
       "tag": "BP_CRAFT_SHLD_RSI_S04_Polaris_SCItem",
-      "productEntityClass": "6fc982c0-2747-42b7-a628-7c76ecedf732",
+      "productEntityClass": "d9870a05-1a66-4a9a-bec6-30eb67e3a3ce",
       "gear": "vehiclegear",
       "type": "shield",
       "subtype": "size4",
@@ -108260,8 +109054,8 @@
           ]
         }
       ],
-      "productName": "Glacis",
-      "manufacturer": "Origin Jumpworks"
+      "productName": "Deterrent",
+      "manufacturer": "Roberts Space Industries"
     },
     {
       "guid": "a97e0f32-9098-4b83-a54a-ddccc4820fd6",
@@ -114105,6 +114899,88 @@
       "manufacturer": "Behring"
     },
     {
+      "guid": "04fa9b45-45a6-4dae-a21d-7a865053fccc",
+      "tag": "BP_CRAFT_BEHR_LaserCannon_S1_mr02",
+      "productEntityClass": "36db47ca-d33b-484e-a2cc-fdf51b7bd549",
+      "gear": "vehiclegear",
+      "type": "weapons",
+      "subtype": "laser",
+      "tiers": [
+        {
+          "craftTimeSeconds": 540,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.36,
+                  "minQuality": 1,
+                  "resourceName": "Agricium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Integrity",
+                  "propertyKey": "health_maxhealth"
+                }
+              ]
+            },
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 7,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            },
+            {
+              "name": "Aperture Iris",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 7,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "M3A Cannon Raider Camo",
+      "manufacturer": "Behring"
+    },
+    {
       "guid": "6cf912b7-6aa4-4be8-81de-58bc03ba67a6",
       "tag": "BP_CRAFT_BEHR_LaserCannon_S2",
       "productEntityClass": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
@@ -114187,6 +115063,88 @@
       "manufacturer": "Behring"
     },
     {
+      "guid": "4394e0c5-8ffc-47aa-be0c-062f3213aa89",
+      "tag": "BP_CRAFT_BEHR_LaserCannon_S2_mr02",
+      "productEntityClass": "b0ff21c6-312f-4196-88fb-c24d883ca003",
+      "gear": "vehiclegear",
+      "type": "weapons",
+      "subtype": "laser",
+      "tiers": [
+        {
+          "craftTimeSeconds": 960,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.64,
+                  "minQuality": 1,
+                  "resourceName": "Agricium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Integrity",
+                  "propertyKey": "health_maxhealth"
+                }
+              ]
+            },
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 13,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            },
+            {
+              "name": "Aperture Iris",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 13,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "M4A Cannon Raider Camo",
+      "manufacturer": "Behring"
+    },
+    {
       "guid": "9fe902be-8b39-4d71-9017-e2fed7b0604c",
       "tag": "BP_CRAFT_BEHR_LaserCannon_S3",
       "productEntityClass": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
@@ -114266,6 +115224,88 @@
         }
       ],
       "productName": "M5A Cannon",
+      "manufacturer": "Behring"
+    },
+    {
+      "guid": "06e3f3bc-a75b-4d12-8dd6-fadc0184b88e",
+      "tag": "BP_CRAFT_BEHR_LaserCannon_S3_mr02",
+      "productEntityClass": "9fd5d7b0-0a54-40b5-a36e-dca802cd3aaa",
+      "gear": "vehiclegear",
+      "type": "weapons",
+      "subtype": "laser",
+      "tiers": [
+        {
+          "craftTimeSeconds": 1680,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 1.16,
+                  "minQuality": 1,
+                  "resourceName": "Agricium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.9,
+                  "modifierAtEnd": 1.1,
+                  "propertyName": "Integrity",
+                  "propertyKey": "health_maxhealth"
+                }
+              ]
+            },
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 23,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            },
+            {
+              "name": "Aperture Iris",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 23,
+                  "minQuality": 1,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "M5A Cannon Raider Camo",
       "manufacturer": "Behring"
     },
     {
@@ -126150,6 +127190,103 @@
       ],
       "productName": "Karna \"Alpine Sunset\" Rifle",
       "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "6ee1ad6f-2c93-48f8-ba75-f6ad83f4f5a4",
+      "tag": "BP_CRAFT_lbco_rifle_energy_01_mr01",
+      "productEntityClass": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Sadaryx"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Skarnov \"Raider Camo\" Rifle",
+      "manufacturer": "LBCO"
     },
     {
       "guid": "e3097998-28ef-48ad-a220-2ddaa1a85ce3",

@@ -1,7 +1,7 @@
 {
-  "version": "4.10.2-live.12913470",
+  "version": "4.10.3-live.13165946",
   "meta": {
-    "lasers": 18,
+    "lasers": 19,
     "modulesPassive": 20,
     "modulesActive": 9,
     "gadgets": 6,
@@ -96,6 +96,36 @@
         "fullDamageRange": 40.0,
         "zeroDamageRange": 45.0,
         "damagePerSecond": 3900.0
+      },
+      "extractionBeam": {
+        "fullDamageRange": 40.0,
+        "zeroDamageRange": 45.0,
+        "damagePerSecond": 1295.0
+      },
+      "modifiers": {
+        "instability": 35.0,
+        "optimalChargeWindowSize": 40.0,
+        "resistance": 25.0,
+        "shatterDamage": 0.0,
+        "clusterFactor": 0.0,
+        "optimalChargeRate": -40.0,
+        "catastrophicChargeRate": 0.0,
+        "filter": 40.0
+      }
+    },
+    {
+      "name": "item_Mining_MiningLaser_GAMA_Hyun_S1_Name",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": "31907472-a884-4ebc-86db-cd4f7797e514",
+      "vehicleBuiltIn": null,
+      "moduleSlots": 2,
+      "throttleLerpSpeed": 7.0,
+      "throttleMinimum": 0.2,
+      "miningBeam": {
+        "fullDamageRange": 40.0,
+        "zeroDamageRange": 45.0,
+        "damagePerSecond": 3150.0
       },
       "extractionBeam": {
         "fullDamageRange": 40.0,

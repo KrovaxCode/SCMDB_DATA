@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.72",
+    "date": "2026-11-12T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 4.10.3-ptu.13160301. Two of the three \"Seek and Destroy Super Stingers\" missions are now \"Draw Out Maulers\" and \"Interdict Vanduul Maulers\", each with a new briefing. \"Handle Vanduul Attack on Ship\" and \"Pilot Under Fire From Vanduul\" no longer spawn the Vanduul Mauler, and the MISC Prospector can now turn up as the wreck in salvage claims." },
+      { "type": "fix", "text": "🔍 The \"Released since\" list counted missions that are no longer in the game data, so a patch could promise one more new mission than it shows. Thanks DarkRod and Oshida." }
+    ]
+  },
+  {
     "version": "1.0.71",
     "date": "2026-11-10T00:00:00Z",
     "changes": [

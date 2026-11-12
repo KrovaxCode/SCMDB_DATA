@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-ptu.13145606",
+  "version": "4.10.3-ptu.13160301",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -16045,17 +16045,6 @@
     "5118849fb6eb": [
       "Vanduul Scythe"
     ],
-    "9df66f4eacf8": [
-      "@vehicle_NameVNCL_King_Hunter",
-      "Esperia Blade",
-      "Esperia Glaive",
-      "Esperia Stinger",
-      "Vanduul Blade",
-      "Vanduul Glaive",
-      "Vanduul Mauler Destroyer",
-      "Vanduul Scythe",
-      "Vanduul Stinger"
-    ],
     "ad47f353446e": [
       "Drake Cutlass Black",
       "Drake Cutlass Red",
@@ -17696,6 +17685,108 @@
       "RSI Constellation Mk IV Andromeda",
       "RSI Mantis"
     ],
+    "112db3b16f5b": [
+      "Aegis Avenger Titan",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Reclaimer",
+      "Aegis Retaliator",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Anvil Hawk",
+      "Banu Defender",
+      "C.O. Nomad",
+      "Crusader Mercury Star Runner",
+      "Drake Buccaneer",
+      "Esperia Prowler",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Reliant Kore",
+      "Origin 300i",
+      "Origin 325a",
+      "Origin 400i",
+      "Origin 600i",
+      "RSI Constellation Mk IV Taurus"
+    ],
+    "e2e9ffebfc67": [
+      "Aegis Avenger Stalker",
+      "Aegis Avenger Titan",
+      "Aegis Avenger Titan Renegade",
+      "Aegis Avenger Warlock",
+      "Aegis Gladius",
+      "Aegis Gladius Valiant",
+      "Aegis Reclaimer",
+      "Aegis Retaliator",
+      "Aegis Sabre",
+      "Aegis Sabre Comet",
+      "Aegis Sabre Firebird",
+      "Aegis Sabre Raven",
+      "Aegis Vanguard Harbinger",
+      "Aegis Vanguard Hoplite",
+      "Aegis Vanguard Sentinel",
+      "Aegis Vanguard Warden",
+      "Anvil Arrow",
+      "Anvil Carrack",
+      "Anvil Gladiator",
+      "Anvil Hawk",
+      "Anvil Hurricane",
+      "Anvil Valkyrie",
+      "Aopoa Khartu-al",
+      "Banu Defender",
+      "C.O. Mustang Alpha",
+      "C.O. Mustang Beta",
+      "C.O. Mustang Delta",
+      "C.O. Nomad",
+      "Crusader A1 Spirit",
+      "Crusader M2 Hercules Starlifter",
+      "Crusader Mercury Star Runner",
+      "Drake Buccaneer",
+      "Drake Caterpillar",
+      "Drake Cutlass Black",
+      "Drake Cutlass Steel",
+      "Drake Cutter",
+      "Drake Cutter Rambler",
+      "Drake Cutter Scout",
+      "Drake Herald",
+      "Esperia Prowler",
+      "Esperia Talon",
+      "Esperia Talon Shrike",
+      "Grey's Shiv",
+      "MISC Freelancer",
+      "MISC Freelancer DUR",
+      "MISC Freelancer MAX",
+      "MISC Freelancer MIS",
+      "MISC Reliant Kore",
+      "MISC Reliant Tana",
+      "Origin 100i",
+      "Origin 125a",
+      "Origin 135c",
+      "Origin 300i",
+      "Origin 315p",
+      "Origin 325a",
+      "Origin 400i",
+      "Origin 600i",
+      "RSI Constellation Mk IV Taurus",
+      "RSI Mantis",
+      "RSI Perseus",
+      "RSI Scorpius",
+      "RSI Zeus Mk II CL",
+      "RSI Zeus Mk II ES"
+    ],
+    "b2cea3353acd": [
+      "Esperia Blade",
+      "Esperia Glaive",
+      "Esperia Stinger",
+      "Vanduul Blade",
+      "Vanduul Glaive",
+      "Vanduul Scythe",
+      "Vanduul Stinger"
+    ],
     "380dbe75a13b": [
       "Crusader A2 Hercules Starlifter",
       "MISC Starfarer Gemini"
@@ -18118,15 +18209,6 @@
       "Vanduul Stinger",
       "Wreckage"
     ],
-    "b2cea3353acd": [
-      "Esperia Blade",
-      "Esperia Glaive",
-      "Esperia Stinger",
-      "Vanduul Blade",
-      "Vanduul Glaive",
-      "Vanduul Scythe",
-      "Vanduul Stinger"
-    ],
     "0f2d3efaecc1": [
       "Esperia Stinger"
     ],
@@ -18433,6 +18515,9 @@
     ],
     "2d20fa6d0166": [
       "Drake Vulture"
+    ],
+    "2121610b3a21": [
+      "MISC Prospector"
     ],
     "cc657a74dc18": [
       "Argo MOLE"
@@ -19673,7 +19758,7 @@
       "Drake Cutlass Black",
       "RSI Mantis"
     ],
-    "67fdf51ddafe": [
+    "328cbe4e61ef": [
       "Aegis Sabre",
       "Anvil Terrapin",
       "Aopoa San'tok.yāi",
@@ -19685,6 +19770,7 @@
       "Esperia Talon",
       "Esperia Talon Shrike",
       "Gatac Syulen",
+      "MISC Prospector",
       "Origin 315p",
       "Origin 325a",
       "Origin 350r"
@@ -19780,9 +19866,6 @@
       "RSI Scorpius",
       "RSI Scorpius Antares",
       "RSI Zeus Mk II CL"
-    ],
-    "2121610b3a21": [
-      "MISC Prospector"
     ],
     "6071f192b996": [
       "Crusader Ares Star Fighter Ion",
@@ -56305,7 +56388,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "67fdf51ddafe",
+              "poolId": "328cbe4e61ef",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -56313,7 +56396,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "67fdf51ddafe",
+                      "poolId": "328cbe4e61ef",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -61028,7 +61111,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "67fdf51ddafe",
+              "poolId": "328cbe4e61ef",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -61036,7 +61119,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "67fdf51ddafe",
+                      "poolId": "328cbe4e61ef",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -61982,7 +62065,7 @@
           "groups": [
             {
               "role": "SalvageSpawnDescription",
-              "poolId": "67fdf51ddafe",
+              "poolId": "328cbe4e61ef",
               "waves": [
                 {
                   "name": "SalvageableShip",
@@ -61990,7 +62073,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "67fdf51ddafe",
+                      "poolId": "328cbe4e61ef",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -89055,6 +89138,202 @@
       "factionRewardsIndex": 10
     },
     {
+      "id": "22afc3c3-5a36-4da9-8877-5d1b717622b5",
+      "debugName": "Intersec_DrawOutBoss_Nyx_Super_Van",
+      "category": "career",
+      "missionType": "Mercenary",
+      "missionTypeKey": "@mobiglas_ui_Mercenary",
+      "title": "Draw Out Maulers",
+      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nLong-range scans indicate the presence of an extremely dangerous Mauler-led strike group at <EM4>[LOCATION]</EM4>. Intersec are looking for highly-experienced combat pilots with fully combat-ready ships to take part in an operation to draw out and eliminate the Mauler.\\n\\nIt goes without saying that this commission should only be attempted with substantial back-up. Rewards will reflect the high-risk nature of this contract.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
+      "contractorName": "InterSec Defense Solutions",
+      "contractorNameKey": "@InterSec_From",
+      "canBeShared": true,
+      "illegal": false,
+      "timeToComplete": 195,
+      "locations": [
+        "2bfaa11ff510",
+        "09d6ce156e8f",
+        "9542fdb52c04",
+        "698deb941a6c",
+        "3ec889190196",
+        "1b514e20ca22"
+      ],
+      "destinations": null,
+      "locationSets": null,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 2004000,
+      "buyIn": null,
+      "minStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "maxStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "WaveShips",
+              "poolId": "b2cea3353acd",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 10,
+                  "maxShips": 10,
+                  "slots": [
+                    {
+                      "poolId": "7ef3e17a68a5",
+                      "minCount": 10,
+                      "maxCount": 10
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave2",
+                  "minShips": 5,
+                  "maxShips": 5,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 5,
+                      "maxCount": 5
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave3",
+                  "minShips": 4,
+                  "maxShips": 4,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            },
+            {
+              "role": "FinalWaveWithTarget",
+              "poolId": "dd008c8c570b",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 10,
+                  "maxShips": 10,
+                  "slots": [
+                    {
+                      "poolId": "57673e2428c1",
+                      "minCount": 1,
+                      "maxCount": 1
+                    },
+                    {
+                      "poolId": "7ef3e17a68a5",
+                      "minCount": 4,
+                      "maxCount": 4
+                    },
+                    {
+                      "poolId": "9eded38c0fe8",
+                      "minCount": 5,
+                      "maxCount": 5
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 29,
+          "totalMaxShips": 29
+        }
+      },
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001",
+      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001",
+      "availableSystems": [
+        "Nyx"
+      ],
+      "requiredScenarios": [
+        {
+          "name": "ContentBlocker_Scenario",
+          "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "49e5c63e-7ba1-412d-a64c-cfbf2cc2beb0",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S2_mr02",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "65abf96f-eb4f-4a70-a3ff-3dcda2c8047f",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S1_mr02",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "fed61c42-055e-400f-9d39-8bfa44e9bcff",
+          "chance": 1,
+          "poolName": "BP_REWARD_BEHR_LaserCannon_S3_mr02",
+          "trigger": "complete"
+        }
+      ],
+      "haulingOrders": null,
+      "tokenSubstitutions": {
+        "ReputationRank": "@RepScope_Contractor_Rank6"
+      },
+      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001",
+      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 20,
+      "abandonedCooldownTime": 20,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Nyx"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0,
+      "factionRewardsIndex": 62
+    },
+    {
       "id": "6e95c206-a089-40e2-acc5-79881c2c2c3c",
       "debugName": "HH_Pyro_RegionB_M_ChainElimAll_1Cluster_ElimSpec_AttackCFP",
       "category": "career",
@@ -111874,7 +112153,7 @@
             },
             {
               "role": "HostileShipSpawnDescriptions",
-              "poolId": "9df66f4eacf8",
+              "poolId": "b2cea3353acd",
               "waves": [
                 {
                   "name": "Starter Wave",
@@ -111882,12 +112161,12 @@
                   "maxShips": 3,
                   "slots": [
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 2,
                       "maxCount": 2
                     },
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 1,
                       "maxCount": 1
                     }
@@ -111899,12 +112178,12 @@
                   "maxShips": 3,
                   "slots": [
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 1,
                       "maxCount": 1
                     },
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 2,
                       "maxCount": 2
                     }
@@ -124436,6 +124715,191 @@
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
       "factionRewardsIndex": 53
+    },
+    {
+      "id": "b4570e85-55f9-4723-bf40-c01fe7aa3be2",
+      "debugName": "Intersec_DrawOutBoss_Nyx_VeryHard_Van",
+      "category": "career",
+      "missionType": "Mercenary",
+      "missionTypeKey": "@mobiglas_ui_Mercenary",
+      "title": "Interdict Vanduul Maulers",
+      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIntersec are looking for experienced pilots to join a Mauler-hunting operation being at  <EM4>[LOCATION]</EM4>. The Vanduul ship has been spotted in the area and it poses too large a threat to leave it to its own devices. As such, pilots will be tasked with drawing the Mauler into combat by attacking Vanduul fighters in the area. \\n\\nGiven the risks, Intersec highly recommends assembling a team of experienced pilots with well-armed ships.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
+      "contractorName": "InterSec Defense Solutions",
+      "contractorNameKey": "@InterSec_From",
+      "canBeShared": true,
+      "illegal": false,
+      "timeToComplete": 144,
+      "locations": [
+        "2bfaa11ff510",
+        "09d6ce156e8f",
+        "9542fdb52c04",
+        "698deb941a6c",
+        "3ec889190196",
+        "1b514e20ca22"
+      ],
+      "destinations": null,
+      "locationSets": null,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": 1291250,
+      "buyIn": null,
+      "minStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "maxStanding": {
+        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
+        "name": "Elite Contractor",
+        "minReputation": 95250,
+        "nameKey": "RepScope_Contractor_Rank6",
+        "scopeName": "FactionReputation",
+        "scopeDisplayName": "Standing",
+        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
+        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
+        "includeWhenSharing": false
+      },
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "WaveShips",
+              "poolId": "b2cea3353acd",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 4,
+                  "maxShips": 4,
+                  "slots": [
+                    {
+                      "poolId": "b65390206690",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave2",
+                  "minShips": 5,
+                  "maxShips": 5,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 5,
+                      "maxCount": 5
+                    }
+                  ]
+                },
+                {
+                  "name": "Wave3",
+                  "minShips": 2,
+                  "maxShips": 2,
+                  "slots": [
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 2,
+                      "maxCount": 2
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            },
+            {
+              "role": "FinalWaveWithTarget",
+              "poolId": "9140f724b764",
+              "waves": [
+                {
+                  "name": "Wave1",
+                  "minShips": 5,
+                  "maxShips": 5,
+                  "slots": [
+                    {
+                      "poolId": "b6cb63fc04c5",
+                      "minCount": 1,
+                      "maxCount": 1
+                    },
+                    {
+                      "poolId": "b2cea3353acd",
+                      "minCount": 4,
+                      "maxCount": 4
+                    }
+                  ]
+                }
+              ],
+              "classification": "vanduul"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 16,
+          "totalMaxShips": 16
+        }
+      },
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001",
+      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001",
+      "availableSystems": [
+        "Nyx"
+      ],
+      "requiredScenarios": [
+        {
+          "name": "ContentBlocker_Scenario",
+          "enabled": false
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "0800fb93-4eec-4a40-b6b6-69a1e48b6279",
+          "chance": 1,
+          "poolName": "BP_REWARD_vgl_flightsuit_01_03_01",
+          "trigger": "complete"
+        },
+        {
+          "blueprintPool": "f12f04aa-882a-4235-9b2e-562fec0b7e0e",
+          "chance": 1,
+          "poolName": "BP_REWARD_vgl_flightsuit_helmet_01_11_01",
+          "trigger": "complete"
+        }
+      ],
+      "haulingOrders": null,
+      "tokenSubstitutions": {
+        "ReputationRank": "@RepScope_Contractor_Rank6"
+      },
+      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001",
+      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": false,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 20,
+      "abandonedCooldownTime": 20,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Nyx"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0,
+      "factionRewardsIndex": 62
     },
     {
       "id": "0a3bc165-d4d5-48b0-9b7a-0a34341e50c0",
@@ -200578,7 +201042,7 @@
             },
             {
               "role": "HostileShipSpawnDescriptions",
-              "poolId": "9df66f4eacf8",
+              "poolId": "b2cea3353acd",
               "waves": [
                 {
                   "name": "Starter Wave",
@@ -200586,12 +201050,12 @@
                   "maxShips": 3,
                   "slots": [
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 2,
                       "maxCount": 2
                     },
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 1,
                       "maxCount": 1
                     }
@@ -200603,12 +201067,12 @@
                   "maxShips": 2,
                   "slots": [
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 1,
                       "maxCount": 1
                     },
                     {
-                      "poolId": "9df66f4eacf8",
+                      "poolId": "b2cea3353acd",
                       "minCount": 1,
                       "maxCount": 1
                     }
@@ -206330,7 +206794,7 @@
             },
             {
               "role": "HostileShipSpawnDescriptions",
-              "poolId": "8d9f3011a245",
+              "poolId": "e2e9ffebfc67",
               "waves": [
                 {
                   "name": "Starter Wave",
@@ -206348,7 +206812,7 @@
                       "maxCount": 1
                     },
                     {
-                      "poolId": "e9fb744f1437",
+                      "poolId": "112db3b16f5b",
                       "minCount": 2,
                       "maxCount": 2
                     }
@@ -206360,7 +206824,7 @@
                   "maxShips": 5,
                   "slots": [
                     {
-                      "poolId": "e9fb744f1437",
+                      "poolId": "112db3b16f5b",
                       "minCount": 2,
                       "maxCount": 2
                     },
@@ -256572,7 +257036,37 @@
         "scopeGuid": "3d5342a7-c3da-4ca0-872b-4b184efe5a07",
         "includeWhenSharing": false
       },
-      "shipEncounters": null,
+      "shipEncounters": {
+        "spawnConfig": {
+          "groups": [
+            {
+              "role": "SalvageSpawnDescription",
+              "poolId": "2121610b3a21",
+              "waves": [
+                {
+                  "name": "SalvageableShip",
+                  "minShips": 1,
+                  "maxShips": 1,
+                  "slots": [
+                    {
+                      "poolId": "2121610b3a21",
+                      "minCount": 1,
+                      "maxCount": 1,
+                      "inexact": true,
+                      "cargoManifest": "legalcargo_generic_lowvalue_halfcargo"
+                    }
+                  ]
+                }
+              ],
+              "classification": "unmanned"
+            }
+          ],
+          "waveDelay": null,
+          "numberOfWaves": null,
+          "totalMinShips": 1,
+          "totalMaxShips": 1
+        }
+      },
       "propertyValues": {
         "duration": 0.0,
         "ClaimNumber": 10000
@@ -270050,387 +270544,6 @@
       "haulingOrders": null,
       "tokenSubstitutions": {
         "ReputationRank": "@RepScope_Contractor_Rank5"
-      },
-      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
-      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": false,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 20,
-      "abandonedCooldownTime": 20,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Nyx"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 62
-    },
-    {
-      "id": "22afc3c3-5a36-4da9-8877-5d1b717622b5",
-      "debugName": "Intersec_DrawOutBoss_Nyx_Super_Van",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Seek and Destroy Super Stingers",
-      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nScanners have detected the engine signatures of a significant number of Vanduul vessels, including potential Super Stingers, at <EM4>[LOCATION]</EM4>. In the event these scans prove accurate, the Super Stingers should be considered priority targets. \\n\\nYou are advised to arrange for backup to accompany you. This looks to be the kind of mission that leads to more substantial  contracts.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
-      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
-      "contractorName": "InterSec Defense Solutions",
-      "contractorNameKey": "@InterSec_From",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 195,
-      "locations": [
-        "2bfaa11ff510",
-        "09d6ce156e8f",
-        "9542fdb52c04",
-        "698deb941a6c",
-        "3ec889190196",
-        "1b514e20ca22"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "locality": [
-          {
-            "name": "Nyx"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 2004000,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
-        "name": "Elite Contractor",
-        "minReputation": 95250,
-        "nameKey": "RepScope_Contractor_Rank6",
-        "scopeName": "FactionReputation",
-        "scopeDisplayName": "Standing",
-        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
-        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
-        "includeWhenSharing": false
-      },
-      "maxStanding": {
-        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
-        "name": "Elite Contractor",
-        "minReputation": 95250,
-        "nameKey": "RepScope_Contractor_Rank6",
-        "scopeName": "FactionReputation",
-        "scopeDisplayName": "Standing",
-        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
-        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
-        "includeWhenSharing": false
-      },
-      "shipEncounters": {
-        "spawnConfig": {
-          "groups": [
-            {
-              "role": "WaveShips",
-              "poolId": "b2cea3353acd",
-              "waves": [
-                {
-                  "name": "Wave1",
-                  "minShips": 10,
-                  "maxShips": 10,
-                  "slots": [
-                    {
-                      "poolId": "7ef3e17a68a5",
-                      "minCount": 10,
-                      "maxCount": 10
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave2",
-                  "minShips": 5,
-                  "maxShips": 5,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 5,
-                      "maxCount": 5
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave3",
-                  "minShips": 4,
-                  "maxShips": 4,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 4,
-                      "maxCount": 4
-                    }
-                  ]
-                }
-              ],
-              "classification": "vanduul"
-            },
-            {
-              "role": "FinalWaveWithTarget",
-              "poolId": "dd008c8c570b",
-              "waves": [
-                {
-                  "name": "Wave1",
-                  "minShips": 10,
-                  "maxShips": 10,
-                  "slots": [
-                    {
-                      "poolId": "57673e2428c1",
-                      "minCount": 1,
-                      "maxCount": 1
-                    },
-                    {
-                      "poolId": "7ef3e17a68a5",
-                      "minCount": 4,
-                      "maxCount": 4
-                    },
-                    {
-                      "poolId": "9eded38c0fe8",
-                      "minCount": 5,
-                      "maxCount": 5
-                    }
-                  ]
-                }
-              ],
-              "classification": "vanduul"
-            }
-          ],
-          "waveDelay": null,
-          "numberOfWaves": null,
-          "totalMinShips": 29,
-          "totalMaxShips": 29
-        }
-      },
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
-      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
-      "availableSystems": [
-        "Nyx"
-      ],
-      "requiredScenarios": [
-        {
-          "name": "ContentBlocker_Scenario",
-          "enabled": false
-        }
-      ],
-      "blueprintRewards": [
-        {
-          "blueprintPool": "49e5c63e-7ba1-412d-a64c-cfbf2cc2beb0",
-          "chance": 1,
-          "poolName": "BP_REWARD_BEHR_LaserCannon_S2_mr02",
-          "trigger": "complete"
-        },
-        {
-          "blueprintPool": "65abf96f-eb4f-4a70-a3ff-3dcda2c8047f",
-          "chance": 1,
-          "poolName": "BP_REWARD_BEHR_LaserCannon_S1_mr02",
-          "trigger": "complete"
-        },
-        {
-          "blueprintPool": "fed61c42-055e-400f-9d39-8bfa44e9bcff",
-          "chance": 1,
-          "poolName": "BP_REWARD_BEHR_LaserCannon_S3_mr02",
-          "trigger": "complete"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepScope_Contractor_Rank6"
-      },
-      "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
-      "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": false,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 20,
-      "abandonedCooldownTime": 20,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Nyx"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 62
-    },
-    {
-      "id": "b4570e85-55f9-4723-bf40-c01fe7aa3be2",
-      "debugName": "Intersec_DrawOutBoss_Nyx_VeryHard_Van",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Seek and Destroy Super Stingers",
-      "description": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nScanners have detected the engine signatures of a significant number of Vanduul vessels, including potential Super Stingers, at <EM4>[LOCATION]</EM4>. In the event these scans prove accurate, the Super Stingers should be considered priority targets. \\n\\nYou are advised to arrange for backup to accompany you. This looks to be the kind of mission that leads to more substantial  contracts.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
-      "factionGuid": "a9ab3e4f-30a3-4816-a1dd-4df51fd6678c",
-      "contractorName": "InterSec Defense Solutions",
-      "contractorNameKey": "@InterSec_From",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 144,
-      "locations": [
-        "2bfaa11ff510",
-        "09d6ce156e8f",
-        "9542fdb52c04",
-        "698deb941a6c",
-        "3ec889190196",
-        "1b514e20ca22"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "locality": [
-          {
-            "name": "Nyx"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 1291250,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
-        "name": "Elite Contractor",
-        "minReputation": 95250,
-        "nameKey": "RepScope_Contractor_Rank6",
-        "scopeName": "FactionReputation",
-        "scopeDisplayName": "Standing",
-        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
-        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
-        "includeWhenSharing": false
-      },
-      "maxStanding": {
-        "guid": "426da095-27b1-4ac3-8722-af57a973c79c",
-        "name": "Elite Contractor",
-        "minReputation": 95250,
-        "nameKey": "RepScope_Contractor_Rank6",
-        "scopeName": "FactionReputation",
-        "scopeDisplayName": "Standing",
-        "scopeDisplayNameKey": "@mobiGlas_Reputation_Standing",
-        "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
-        "includeWhenSharing": false
-      },
-      "shipEncounters": {
-        "spawnConfig": {
-          "groups": [
-            {
-              "role": "WaveShips",
-              "poolId": "b2cea3353acd",
-              "waves": [
-                {
-                  "name": "Wave1",
-                  "minShips": 4,
-                  "maxShips": 4,
-                  "slots": [
-                    {
-                      "poolId": "b65390206690",
-                      "minCount": 4,
-                      "maxCount": 4
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave2",
-                  "minShips": 5,
-                  "maxShips": 5,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 5,
-                      "maxCount": 5
-                    }
-                  ]
-                },
-                {
-                  "name": "Wave3",
-                  "minShips": 2,
-                  "maxShips": 2,
-                  "slots": [
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 2,
-                      "maxCount": 2
-                    }
-                  ]
-                }
-              ],
-              "classification": "vanduul"
-            },
-            {
-              "role": "FinalWaveWithTarget",
-              "poolId": "9140f724b764",
-              "waves": [
-                {
-                  "name": "Wave1",
-                  "minShips": 5,
-                  "maxShips": 5,
-                  "slots": [
-                    {
-                      "poolId": "b6cb63fc04c5",
-                      "minCount": 1,
-                      "maxCount": 1
-                    },
-                    {
-                      "poolId": "b2cea3353acd",
-                      "minCount": 4,
-                      "maxCount": 4
-                    }
-                  ]
-                }
-              ],
-              "classification": "vanduul"
-            }
-          ],
-          "waveDelay": null,
-          "numberOfWaves": null,
-          "totalMinShips": 16,
-          "totalMaxShips": 16
-        }
-      },
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",
-      "descriptionKey": "@Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
-      "availableSystems": [
-        "Nyx"
-      ],
-      "requiredScenarios": [
-        {
-          "name": "ContentBlocker_Scenario",
-          "enabled": false
-        }
-      ],
-      "blueprintRewards": [
-        {
-          "blueprintPool": "0800fb93-4eec-4a40-b6b6-69a1e48b6279",
-          "chance": 1,
-          "poolName": "BP_REWARD_vgl_flightsuit_01_03_01",
-          "trigger": "complete"
-        },
-        {
-          "blueprintPool": "f12f04aa-882a-4235-9b2e-562fec0b7e0e",
-          "chance": 1,
-          "poolName": "BP_REWARD_vgl_flightsuit_helmet_01_11_01",
-          "trigger": "complete"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepScope_Contractor_Rank6"
       },
       "descriptionLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001",
       "titleLocKey": "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001",

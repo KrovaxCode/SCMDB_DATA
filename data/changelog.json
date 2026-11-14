@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.74",
+    "date": "2026-11-14T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13189690, back on 5.0 after the 4.10.3 PTU. 34 new board missions, among them Mercenary Guild tracker licence certifications from Beginner's Permit to Master, URW jobs powering up and fixing mining extractors, antennas, relays and sprinklers on a new URW career board, and \"Save Nonna's Hot Sauce!\". Eckhart Security, Hockrow Agency and Bounty Hunters Guild missions now run under the Mercenary Guild, and Ling Family Hauling under the Interstellar Transport Guild. 26 missions have new names, such as \"Break Outlaw Supply Chain\" and \"Criminal Blackout\". Many board missions pay more or now show a reward at all, several need a higher rank, and the FTL courier missions no longer give blueprints. Weapons now come with distinct combat ranges, and many ship shields have new strength, regeneration and resistance values. \"Missing: [TARGET]\" is gone." },
+      { "type": "improve", "text": "📊 InterSec Defense Solutions: the mission calculator now splits reputation across the party for shared contracts, following the 4.10.3 patch notes. Earlier patches seemed to give every party member the full amount; that hasn't been confirmed in-game for 4.10.3 yet." }
+    ]
+  },
+  {
     "version": "1.0.73",
     "date": "2026-11-12T00:00:00Z",
     "changes": [

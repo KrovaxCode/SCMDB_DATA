@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "ptu",
-  "current_version": "4.10.3-ptu.13160301",
-  "generated_at": "2026-11-12T00:11:08Z",
+  "current_version": "5.0.0-ptu.13189690",
+  "generated_at": "2026-11-14T00:04:27Z",
   "versions_seen": [
     "4.10.0",
     "4.10.1",
@@ -7452,6 +7452,142 @@
       "last_seen": "5.0.0"
     },
     "2d7d60ae-9287-4e25-aec9-e0d5e0125676": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "7b319e43-96be-40e8-afb1-266b2132f9dd": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "98cd64c9-b27f-4dd5-b0a6-d66bcd77ed97": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "7f7eac8f-6107-4f37-bdd3-c36fdb3871fd": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "280fd63f-806d-4350-a08d-881d132b7929": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "748a3290-0636-42ff-a9be-0307f73d5bd9": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "e7aee279-fcbe-4cfc-b29d-591d7f84f500": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "e270dadb-5c2f-476a-9f0f-d6c47dd79db5": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "3d9e6eda-b0f1-4464-9abc-db61e2b77012": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "f9192e74-4deb-4b58-a630-ebee072ada2d": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "c31c63d8-7b1a-4fbc-9866-aeb1655846b4": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "bb034707-4131-4de0-a432-167cb7656f42": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "7bf619d6-0743-4b1e-a029-4347698d6f79": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "ad0607fd-d690-4f2e-bfb7-fda4219c2016": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "e48638a4-96ea-443b-821a-d2faabd7b6cb": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "549b203a-8043-4fae-8e18-40a80a4f22df": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "211ef3bc-a8aa-4bdf-8681-c5d8dd17864c": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "324e2ecd-b553-4f3f-825a-93c390173df2": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "76e05604-7cde-41f8-b83b-dd536671c49a": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "09886653-acfa-49bc-bc9e-fa6208c4f493": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "03adfdd2-65b7-41e4-9c20-87229dbe49aa": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "2fd7c652-d323-433e-8c1e-45e60933b6db": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "a1f86b64-5c52-4aa6-87ad-875ae063416c": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "1991b28e-15ff-44e7-ae8c-011c3d3a014b": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "cef89978-03fa-4f1e-a350-c8ec8c462e02": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "bafaff24-2429-4461-9667-a569441c9fa6": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "e263e414-5c3c-4118-bca6-7ec7bb303177": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "f61ca65d-af73-4c2b-bceb-db82452eca2f": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "8713e2ff-7d35-4831-80bf-96472f4efb7a": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "63007bd0-4cd6-4b37-bb72-aefb2f0df0b4": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "f8c26ce1-70a0-4dff-8daf-7a0e6ccd150a": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "8b1dbfc9-a549-45ab-9cae-4bd212b01b5d": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "a13a4d05-22b1-4bef-a8b1-8aa126868e76": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "14ffabb8-f1f3-49ec-8d0e-bbbe200849d3": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "069b4754-cae6-4c16-921b-2e3daa173c2e": {
       "first_seen": "5.0.0",
       "last_seen": "5.0.0"
     }

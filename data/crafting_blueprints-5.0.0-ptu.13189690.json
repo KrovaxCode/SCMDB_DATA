@@ -1,8 +1,8 @@
 {
-  "version": "4.10.3-ptu.13160301",
+  "version": "5.0.0-ptu.13189690",
   "meta": {
-    "totalBlueprints": 1634,
-    "totalProducts": 1623,
+    "totalBlueprints": 1633,
+    "totalProducts": 1622,
     "totalResources": 26,
     "totalItems": 11
   },
@@ -172,7 +172,7 @@
       "unit": "%.2f per Km",
       "category": "other"
     },
-    "crafter_craftspeed": {
+    "crafter_crafttime": {
       "name": "Craft Speed",
       "unit": null,
       "category": "crafter"
@@ -1061,47 +1061,6 @@
         }
       ],
       "productName": "Yubarev Pistol Battery (10 cap)",
-      "manufacturer": "LBCO"
-    },
-    {
-      "guid": "f784e808-1962-4751-9abb-a0d681e6a618",
-      "tag": "BP_CRAFT_lbco_rifle_energy_01_mag",
-      "productEntityClass": "62c5b91c-fd3e-4a9b-8ee6-a35e59cf82c3",
-      "gear": "fpsgear",
-      "type": "ammo",
-      "subtype": "electron",
-      "tiers": [
-        {
-          "craftTimeSeconds": 10,
-          "slots": [
-            {
-              "name": "Magazine",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.02,
-                  "minQuality": 0,
-                  "resourceName": "Hephaestanite"
-                }
-              ],
-              "modifiers": null
-            },
-            {
-              "name": "Charge Chamber",
-              "options": [
-                {
-                  "type": "resource",
-                  "quantity": 0.01,
-                  "minQuality": 0,
-                  "resourceName": "Gold"
-                }
-              ],
-              "modifiers": null
-            }
-          ]
-        }
-      ],
-      "productName": "Skarnov Rifle Battery (30 cap)",
       "manufacturer": "LBCO"
     },
     {
@@ -119643,7 +119602,7 @@
         }
       ],
       "productName": "Fresnel Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "b0b3fdea-eb1a-46e8-bdf8-9662f0e7c997",
@@ -119740,7 +119699,7 @@
         }
       ],
       "productName": "Fresnel \"Molten\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "4e5cfca9-312e-4ef0-93fd-0cd01dcad86b",
@@ -119837,7 +119796,7 @@
         }
       ],
       "productName": "Fresnel \"Icebox\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "f4257ce3-9afa-4694-a707-aade876dc75c",
@@ -119934,7 +119893,7 @@
         }
       ],
       "productName": "Fresnel \"Rockfall\" Energy LMG",
-      "manufacturer": "Klaus & Werner"
+      "manufacturer": "VOLT"
     },
     {
       "guid": "19550053-2b2c-4382-9da0-cf72e32e7976",

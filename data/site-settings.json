@@ -3,27 +3,27 @@
   "blueprints_enabled": true,
   "require_rsi_for_entries": false,
   "updated_by": null,
-  "updated_at": "2026-10-24T00:43:39.856+00:00",
+  "updated_at": "2026-11-12T23:04:58.651+00:00",
   "ptu_enabled": true,
   "scenario_overrides": {
     "ptu": {
-      "ORS_Scenario": true,
+      "ORS_Scenario": false,
       "RoX_Scenario": false,
       "NMP2_Scenario": true,
-      "VisitingIasi_Scenario": true,
+      "VisitingIasi_Scenario": false,
       "ContentBlocker_Scenario": true
     },
     "live": {
-      "ORS_Scenario": true,
+      "ORS_Scenario": false,
       "RoX_Scenario": false,
       "NMP2_Scenario": true,
       "CleanAir_Scenario": false,
-      "VisitingIasi_Scenario": true,
+      "VisitingIasi_Scenario": false,
       "ContentBlocker_Scenario": true,
       "Luminalia Holiday Event": false
     }
   },
   "mema_enabled": true,
   "mema_cache_interval_hours": 12,
-  "mema_cache_last_refreshed": "2026-11-12T18:01:17Z"
+  "mema_cache_last_refreshed": "2026-11-13T23:25:40Z"
 }

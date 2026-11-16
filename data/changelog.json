@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.75",
+    "date": "2026-11-17T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13189690 → 5.0.0-ptu.13201184. New board missions include three \"Luminalia Present Delivery\" runs in Stanton, new Interstellar Transport Guild hauling and courier jobs, and six Wikelo vehicle trades that still lack proper names in the game files and, for now, all seem to list the Drake Clipper Wikelo War Special as their reward. FTL Courier, Covalex, Red Wind Linehaul and Ling Family Hauling missions now run under the Interstellar Transport Guild, Adagio Holdings under United Resource Workers and Northrock Service Group under the Mercenary Guild, and many of them now need a higher rank. Courier and hauling missions mostly pay a little less but allow more time, twelve Mercenary missions now show a reward at all, and the construction runs carry more cargo. The FTL ship blueprints moved from several courier missions to Mercenary strikes on outlaw supplies. Several \"Salvager Needed\" orders are gone, and salvage missions no longer seem tied to Nyx." }
+    ]
+  },
+  {
     "version": "1.0.74",
     "date": "2026-11-14T00:00:00Z",
     "changes": [

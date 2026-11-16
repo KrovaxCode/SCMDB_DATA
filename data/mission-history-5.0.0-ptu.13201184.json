@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "ptu",
-  "current_version": "5.0.0-ptu.13189690",
-  "generated_at": "2026-11-14T00:04:27Z",
+  "current_version": "5.0.0-ptu.13201184",
+  "generated_at": "2026-11-16T22:37:32Z",
   "versions_seen": [
     "4.10.0",
     "4.10.1",
@@ -7588,6 +7588,94 @@
       "last_seen": "5.0.0"
     },
     "069b4754-cae6-4c16-921b-2e3daa173c2e": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "c62bb3cd-b71a-419f-b660-df7efa850aa4": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "49e002d4-3699-4a28-b82e-5d8d1ef9ac38": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "5f4863c3-af22-485e-94b5-21eeed9f72e9": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "f6f90f0d-7916-4901-821d-8d0ff4129901": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "5b1c4812-4fda-4e6c-9540-905d99c72dc8": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "1dcfe63d-c3bd-4d07-8f3f-8f37e5e13934": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "9228d363-5aa2-48a6-8989-0789db209ade": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "5292578c-45e7-4d93-ad3e-482c730a901d": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "922c98c9-3321-47a6-8b2d-aa4bf1915408": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "26e05ad6-0633-4cec-a9fb-3badf846f5f4": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "bc72d1da-c1a6-4d89-8b41-d93d447236a1": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "4ea771c6-c8d5-4e4a-8394-a35be57a5b43": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "880a9c42-35e4-4fe6-8110-c804e657b826": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "46075c79-e0ec-4863-917d-6eebd64913bb": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "7b2aaadd-256d-485e-8c9d-52b5a3dde749": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "19587168-c936-4e1d-a136-ec8e18961c16": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "4c52762e-dae7-4865-a090-efb893e16fd3": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "12c1b1ee-cf4e-4b01-a08a-1d140ae0f0df": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "0f0e6536-e00f-431a-bcad-d8b44686612d": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "5abdd3b7-1d16-4d4b-afc5-077b82db169e": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "adb1605c-bb66-4070-83bd-141bc0d9aec5": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "614030d1-a28e-49dd-987f-88e42c79f531": {
       "first_seen": "5.0.0",
       "last_seen": "5.0.0"
     }

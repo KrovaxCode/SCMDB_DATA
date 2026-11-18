@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.0.76",
+    "date": "2026-11-18T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13215521 → 5.0.0-ptu.13228337, a small update. The RSI Constellation Mk IV Andromeda now turns up in several Mercenary missions such as \"Reprisal Attack\" and \"Tricky Ambush\", while \"Tactical Strike Group Needed\" drops most of its larger ships, among them the Idris-M, Polaris, Carrack and 890 Jump. The Aegis Hammerhead joins \"Combat Gauntlet - Scenario #7\". Package retrieval missions in New Babbage and Orison now point to the landing pad's storage instead of a locker, and the mining favour missions no longer list a cargo amount." },
+      { "type": "fix", "text": "⛏ Mining Solver: the laser list splits evenly into two columns again. A long laser name could stretch one column and add a sideways scrollbar." },
+      { "type": "fix", "text": "🔗 Shared PTU mission links open the mission again. If your last visit was on LIVE, they loaded the PTU but showed no mission." }
+    ]
+  },
+  {
     "version": "1.0.75",
     "date": "2026-11-17T00:00:00Z",
     "changes": [

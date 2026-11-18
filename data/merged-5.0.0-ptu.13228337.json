@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13215521",
+  "version": "5.0.0-ptu.13228337",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -2167,8 +2167,8 @@
       "planet": null,
       "moon": null
     },
-    "192c4d0c5ea8": {
-      "name": "a Landing Pad Locker in New Babbage",
+    "a683e98edd2b": {
+      "name": "a Landing Pad's Storage in New Babbage",
       "type": "Destination",
       "system": null,
       "planet": null,
@@ -3168,8 +3168,8 @@
       "planet": null,
       "moon": null
     },
-    "1e646dc3c217": {
-      "name": "a Landing Pad Locker in Orison",
+    "43be30e1169e": {
+      "name": "a Landing Pad's Storage in Orison",
       "type": "Destination",
       "system": null,
       "planet": null,
@@ -5933,8 +5933,8 @@
       "planet": null,
       "moon": null
     },
-    "826e7730f4b1": {
-      "name": "a Landing Pad Locker in Orison",
+    "e4250791bc61": {
+      "name": "a Landing Pad's Storage in Orison",
       "type": "Outpost",
       "system": null,
       "planet": null,
@@ -5961,8 +5961,8 @@
       "planet": null,
       "moon": null
     },
-    "b0119de4651d": {
-      "name": "a Landing Pad Locker in New Babbage",
+    "5c6df9ee76db": {
+      "name": "a Landing Pad's Storage in New Babbage",
       "type": "Outpost",
       "system": null,
       "planet": null,
@@ -14946,20 +14946,18 @@
       "Aegis Vanguard Harbinger",
       "MISC Freelancer MIS"
     ],
-    "87bb3d575ed8": [
-      "RSI Constellation Mk IV Andromeda",
-      "RSI Constellation Mk IV Aquila",
-      "RSI Constellation Mk IV Phoenix",
-      "RSI Constellation Mk IV Taurus"
+    "da917cbb0025": [
+      "RSI Constellation Mk IV Andromeda"
     ],
-    "d53580525e08": [
+    "244a7f40ec11": [
       "Aegis Gladius",
-      "RSI Constellation Mk IV Andromeda",
-      "RSI Constellation Mk IV Aquila",
-      "RSI Constellation Mk IV Phoenix",
-      "RSI Constellation Mk IV Taurus"
+      "RSI Constellation Mk IV Andromeda"
     ],
-    "f138c9611009": [
+    "61c9b34a20c6": [
+      "Aegis Hammerhead"
+    ],
+    "ec3b346f8af0": [
+      "Aegis Hammerhead",
       "Anvil Arrow",
       "Anvil F7C Hornet Mk I"
     ],
@@ -17864,10 +17862,11 @@
     "512a4a571f61": [
       "Kruger P-52 Merlin"
     ],
-    "90b4e7b02c97": [
+    "902d0d039eb5": [
       "Anvil Valkyrie",
       "Crusader Mercury Star Runner",
       "Drake Corsair",
+      "RSI Constellation Mk IV Andromeda",
       "RSI Constellation Mk IV Taurus"
     ],
     "e826588f5fb5": [
@@ -19002,76 +19001,21 @@
     "950eb1966f1f": [
       "RSI Perseus"
     ],
-    "1475b1d62456": [
-      "Aegis Hammerhead",
-      "Aegis Idris-M",
-      "Aegis Idris-P",
-      "Aegis Reclaimer",
-      "Aegis Redeemer",
-      "Aegis Retaliator",
-      "Anvil Carrack",
-      "Anvil Paladin",
-      "Anvil Valkyrie",
-      "Crusader A2 Hercules Starlifter",
-      "Crusader M2 Hercules Starlifter",
-      "Crusader Mercury Star Runner",
-      "Drake Caterpillar",
-      "Drake Corsair",
-      "Esperia Prowler",
-      "MISC Starfarer Gemini",
-      "Origin 400i",
-      "Origin 600i",
-      "Origin 890 Jump",
-      "RSI Constellation Mk IV Andromeda",
-      "RSI Constellation Mk IV Aquila",
-      "RSI Constellation Mk IV Phoenix",
-      "RSI Constellation Mk IV Taurus",
-      "RSI Perseus",
-      "RSI Polaris",
-      "RSI Zeus Mk II CL",
-      "RSI Zeus Mk II ES"
-    ],
-    "6173c031d04c": [
-      "Aegis Hammerhead",
-      "Aegis Idris-M",
-      "Aegis Idris-P",
-      "Aegis Reclaimer",
-      "Aegis Redeemer",
-      "Aegis Retaliator",
-      "Anvil Carrack",
+    "c337a2b53a23": [
       "Anvil F7C Hornet Mk II",
       "Anvil Paladin",
-      "Anvil Valkyrie",
-      "Crusader A2 Hercules Starlifter",
       "Crusader Ares Star Fighter Ion",
-      "Crusader M2 Hercules Starlifter",
-      "Crusader Mercury Star Runner",
       "Drake Buccaneer",
-      "Drake Caterpillar",
       "Drake Corsair",
-      "Esperia Prowler",
-      "MISC Starfarer Gemini",
-      "Origin 400i",
-      "Origin 600i",
-      "Origin 890 Jump",
       "RSI Constellation Mk IV Andromeda",
-      "RSI Constellation Mk IV Aquila",
-      "RSI Constellation Mk IV Phoenix",
-      "RSI Constellation Mk IV Taurus",
       "RSI Perseus",
-      "RSI Polaris",
       "RSI Scorpius",
-      "RSI Scorpius Antares",
-      "RSI Zeus Mk II CL",
-      "RSI Zeus Mk II ES"
+      "RSI Scorpius Antares"
     ],
     "902ae8dc35d2": [
       "Aegis Gladius",
       "Anvil Arrow",
       "Anvil F7C Hornet Mk I"
-    ],
-    "61c9b34a20c6": [
-      "Aegis Hammerhead"
     ],
     "8a96f7533ee7": [
       "Aegis Hammerhead",
@@ -19885,9 +19829,6 @@
       "Drake Cutlass Black",
       "Origin 325a",
       "RSI Mantis"
-    ],
-    "da917cbb0025": [
-      "RSI Constellation Mk IV Andromeda"
     ],
     "d774f48b6e3d": [
       "Aegis Gladius",
@@ -22011,11 +21952,12 @@
       "RSI Constellation Mk IV Taurus",
       "Vanduul Scythe"
     ],
-    "0d390eddfb12": [
+    "58a34c393806": [
       "Anvil Valkyrie",
       "Crusader Mercury Star Runner",
       "Drake Corsair",
       "Esperia Glaive",
+      "RSI Constellation Mk IV Andromeda",
       "RSI Constellation Mk IV Taurus",
       "Vanduul Glaive"
     ],
@@ -45680,7 +45622,7 @@
         "5d80ab4ad88b",
         "e2beb6696cba",
         "f7c830e7a221",
-        "192c4d0c5ea8",
+        "a683e98edd2b",
         "2acfcb4ea0cd",
         "b71b14f92ce7",
         "5191cd90cb7c",
@@ -50076,7 +50018,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -50399,7 +50341,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -50727,7 +50669,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -51027,7 +50969,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -51322,7 +51264,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -51655,7 +51597,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -55537,18 +55479,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -68404,7 +68346,7 @@
           "groups": [
             {
               "role": "WaveShips",
-              "poolId": "d53580525e08",
+              "poolId": "244a7f40ec11",
               "waves": [
                 {
                   "name": "Wave1",
@@ -68412,7 +68354,7 @@
                   "maxShips": 3,
                   "slots": [
                     {
-                      "poolId": "87bb3d575ed8",
+                      "poolId": "da917cbb0025",
                       "minCount": 1,
                       "maxCount": 1,
                       "cargoManifest": "mixedcargo_generic_highvalue_fullcargo"
@@ -68588,13 +68530,18 @@
           "groups": [
             {
               "role": "WaveShips",
-              "poolId": "f138c9611009",
+              "poolId": "ec3b346f8af0",
               "waves": [
                 {
                   "name": "Wave1",
-                  "minShips": 3,
-                  "maxShips": 3,
+                  "minShips": 4,
+                  "maxShips": 4,
                   "slots": [
+                    {
+                      "poolId": "61c9b34a20c6",
+                      "minCount": 1,
+                      "maxCount": 1
+                    },
                     {
                       "poolId": "fd6e4244cfbc",
                       "minCount": 1,
@@ -68613,8 +68560,8 @@
           ],
           "waveDelay": null,
           "numberOfWaves": null,
-          "totalMinShips": 3,
-          "totalMaxShips": 3
+          "totalMinShips": 4,
+          "totalMaxShips": 4
         }
       },
       "propertyValues": {
@@ -69794,18 +69741,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -70683,21 +70630,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 10,
+          "maxAmount": 10,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -72246,7 +72190,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -72574,7 +72518,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -72912,7 +72856,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -73260,7 +73204,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -73603,7 +73547,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -73941,7 +73885,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -107200,18 +107144,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 6,
+          "maxAmount": 6,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "58316cb2bfad"
         }
       ],
@@ -121718,18 +121662,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 3,
+          "maxAmount": 3,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "58316cb2bfad"
         }
       ],
@@ -121979,21 +121923,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 10,
+          "maxAmount": 10,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -128440,15 +128381,13 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 20,
+          "maxAmount": 20,
           "resource": "09573715702d"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "0cbc2354efd3"
         }
       ],
@@ -130614,18 +130553,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 12,
+          "maxAmount": 12,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -153619,15 +153558,13 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 40,
+          "maxAmount": 40,
           "resource": "09573715702d"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "0cbc2354efd3"
         }
       ],
@@ -196235,21 +196172,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 20,
+          "maxAmount": 20,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -196778,7 +196712,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -202162,7 +202096,7 @@
             },
             {
               "role": "TargetSpawnDescriptions",
-              "poolId": "90b4e7b02c97",
+              "poolId": "902d0d039eb5",
               "waves": [
                 {
                   "name": null,
@@ -202170,7 +202104,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "90b4e7b02c97",
+                      "poolId": "902d0d039eb5",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -202434,7 +202368,7 @@
             },
             {
               "role": "TargetSpawnDescriptions",
-              "poolId": "90b4e7b02c97",
+              "poolId": "902d0d039eb5",
               "waves": [
                 {
                   "name": null,
@@ -202442,7 +202376,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "90b4e7b02c97",
+                      "poolId": "902d0d039eb5",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -213167,18 +213101,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 5,
+          "maxAmount": 5,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -234682,15 +234616,13 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 40,
+          "maxAmount": 40,
           "resource": "09573715702d"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "0cbc2354efd3"
         }
       ],
@@ -240347,7 +240279,7 @@
         "4a7ab0fddbf0",
         "718cdf0c50a2",
         "e18276938022",
-        "1e646dc3c217",
+        "43be30e1169e",
         "6c6487e34330",
         "7e6f1702d348",
         "ea80a2a12a76",
@@ -240416,7 +240348,7 @@
         "8ee3497b51c0",
         "8982b1b7f98b",
         "d8675e773713",
-        "192c4d0c5ea8",
+        "a683e98edd2b",
         "fa9d612ade69",
         "d7b3fdc408e0",
         "cacd56228997",
@@ -241667,7 +241599,7 @@
         "4a7ab0fddbf0",
         "718cdf0c50a2",
         "e18276938022",
-        "1e646dc3c217",
+        "43be30e1169e",
         "6c6487e34330",
         "7e6f1702d348",
         "ea80a2a12a76",
@@ -241736,7 +241668,7 @@
         "8ee3497b51c0",
         "8982b1b7f98b",
         "d8675e773713",
-        "192c4d0c5ea8",
+        "a683e98edd2b",
         "fa9d612ade69",
         "d7b3fdc408e0",
         "cacd56228997",
@@ -241934,7 +241866,7 @@
         "4a7ab0fddbf0",
         "718cdf0c50a2",
         "e18276938022",
-        "1e646dc3c217",
+        "43be30e1169e",
         "6c6487e34330",
         "7e6f1702d348",
         "ea80a2a12a76",
@@ -242003,7 +241935,7 @@
         "8ee3497b51c0",
         "8982b1b7f98b",
         "d8675e773713",
-        "192c4d0c5ea8",
+        "a683e98edd2b",
         "fa9d612ade69",
         "d7b3fdc408e0",
         "cacd56228997",
@@ -253227,7 +253159,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -254359,7 +254291,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -255414,7 +255346,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -255762,7 +255694,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -256060,7 +255992,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -258136,7 +258068,7 @@
       ],
       "destinations": [
         "75d51b1611c1",
-        "192c4d0c5ea8"
+        "a683e98edd2b"
       ],
       "locationSets": null,
       "prerequisites": {
@@ -261878,21 +261810,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 10,
+          "maxAmount": 10,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -262024,13 +261953,13 @@
                       "maxCount": 1,
                       "inexact": true,
                       "cargoManifest": "mixedcargo_generic_mediumvalue_halfcargo",
-                      "poolId": "0d390eddfb12"
+                      "poolId": "58a34c393806"
                     }
                   ]
                 }
               ],
               "classification": "criminal",
-              "poolId": "0d390eddfb12"
+              "poolId": "58a34c393806"
             },
             {
               "role": "AlliedSpawnDescriptions",
@@ -262288,7 +262217,7 @@
             },
             {
               "role": "TargetSpawnDescriptions",
-              "poolId": "90b4e7b02c97",
+              "poolId": "902d0d039eb5",
               "waves": [
                 {
                   "name": null,
@@ -262296,7 +262225,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "90b4e7b02c97",
+                      "poolId": "902d0d039eb5",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -262518,7 +262447,7 @@
             },
             {
               "role": "TargetSpawnDescriptions",
-              "poolId": "90b4e7b02c97",
+              "poolId": "902d0d039eb5",
               "waves": [
                 {
                   "name": null,
@@ -262526,7 +262455,7 @@
                   "maxShips": 1,
                   "slots": [
                     {
-                      "poolId": "90b4e7b02c97",
+                      "poolId": "902d0d039eb5",
                       "minCount": 1,
                       "maxCount": 1,
                       "inexact": true,
@@ -283825,18 +283754,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 3,
+          "maxAmount": 3,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "58316cb2bfad"
         }
       ],
@@ -283985,18 +283914,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 12,
+          "maxAmount": 12,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -300336,18 +300265,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "7864af679283"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 12,
+          "maxAmount": 12,
           "resource": "3ac5a8d439b0"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "cbd033bb21f6"
         }
       ],
@@ -308532,15 +308461,13 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 20,
+          "maxAmount": 20,
           "resource": "09573715702d"
         },
         {
-          "minSCU": 1,
-          "maxSCU": 1,
-          "maxContainerSize": 16,
+          "minAmount": 16,
+          "maxAmount": 16,
           "resource": "0cbc2354efd3"
         }
       ],
@@ -314665,18 +314592,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 6,
+          "maxAmount": 6,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "58316cb2bfad"
         }
       ],
@@ -324624,7 +324551,7 @@
             },
             {
               "role": "Phase1_HostileShipSpawnDescriptions",
-              "poolId": "6173c031d04c",
+              "poolId": "c337a2b53a23",
               "waves": [
                 {
                   "name": "First Wave ",
@@ -324669,7 +324596,7 @@
                       "maxCount": 1
                     },
                     {
-                      "poolId": "1475b1d62456",
+                      "poolId": "da917cbb0025",
                       "minCount": 3,
                       "maxCount": 3
                     }
@@ -324691,7 +324618,7 @@
                       "maxCount": 2
                     },
                     {
-                      "poolId": "1475b1d62456",
+                      "poolId": "da917cbb0025",
                       "minCount": 2,
                       "maxCount": 2
                     },
@@ -329538,18 +329465,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 3,
+          "maxAmount": 3,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 1,
-          "maxAmount": 1,
+          "minAmount": 4,
+          "maxAmount": 4,
           "resource": "58316cb2bfad"
         }
       ],
@@ -339604,13 +339531,13 @@
                       "maxCount": 1,
                       "inexact": true,
                       "cargoManifest": "mixedcargo_generic_mediumvalue_halfcargo",
-                      "poolId": "0d390eddfb12"
+                      "poolId": "58a34c393806"
                     }
                   ]
                 }
               ],
               "classification": "criminal",
-              "poolId": "0d390eddfb12"
+              "poolId": "58a34c393806"
             },
             {
               "role": "AlliedSpawnDescriptions",
@@ -340793,21 +340720,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 20,
+          "maxAmount": 20,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -347412,21 +347336,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "7f9c25502260"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 32,
+          "maxAmount": 32,
           "resource": "0ba6b75cdf40"
         },
         {
-          "minSCU": 2,
-          "maxSCU": 2,
-          "maxContainerSize": 16,
+          "minAmount": 20,
+          "maxAmount": 20,
           "resource": "8bfeeb9f5e98"
         }
       ],
@@ -347495,18 +347416,18 @@
       "availableSystems": null,
       "haulingOrders": [
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "279f95eb0a1d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 6,
+          "maxAmount": 6,
           "resource": "a6d8c6a7f80d"
         },
         {
-          "minAmount": 2,
-          "maxAmount": 2,
+          "minAmount": 8,
+          "maxAmount": 8,
           "resource": "58316cb2bfad"
         }
       ],
@@ -391093,7 +391014,7 @@
         "7358b465cb42",
         "542d5bba0a4e",
         "33fb69c82e7b",
-        "b0119de4651d",
+        "5c6df9ee76db",
         "dd4b2c21d504",
         "7835df714e97",
         "4878a19f70fb",
@@ -394583,7 +394504,7 @@
         "7358b465cb42",
         "542d5bba0a4e",
         "33fb69c82e7b",
-        "b0119de4651d",
+        "5c6df9ee76db",
         "dd4b2c21d504",
         "7835df714e97",
         "4878a19f70fb",
@@ -394705,7 +394626,7 @@
             "7358b465cb42",
             "542d5bba0a4e",
             "33fb69c82e7b",
-            "b0119de4651d",
+            "5c6df9ee76db",
             "dd4b2c21d504",
             "7835df714e97",
             "4878a19f70fb",
@@ -396173,7 +396094,7 @@
         "cf31285ae831",
         "8539750b0e1f",
         "d05dd7e33838",
-        "826e7730f4b1",
+        "e4250791bc61",
         "5ca2c505eaa1",
         "869d31d9ae5e",
         "f2d7471c5237",
@@ -397845,7 +397766,7 @@
         "7358b465cb42",
         "542d5bba0a4e",
         "33fb69c82e7b",
-        "b0119de4651d",
+        "5c6df9ee76db",
         "dd4b2c21d504",
         "7835df714e97",
         "4878a19f70fb",
@@ -398808,7 +398729,7 @@
         "cf31285ae831",
         "8539750b0e1f",
         "d05dd7e33838",
-        "826e7730f4b1",
+        "e4250791bc61",
         "5ca2c505eaa1",
         "869d31d9ae5e",
         "f2d7471c5237",
@@ -398874,7 +398795,7 @@
             "cf31285ae831",
             "8539750b0e1f",
             "d05dd7e33838",
-            "826e7730f4b1",
+            "e4250791bc61",
             "5ca2c505eaa1",
             "869d31d9ae5e",
             "f2d7471c5237",
@@ -407155,7 +407076,7 @@
         "7358b465cb42",
         "542d5bba0a4e",
         "33fb69c82e7b",
-        "b0119de4651d",
+        "5c6df9ee76db",
         "dd4b2c21d504",
         "7835df714e97",
         "4878a19f70fb",
@@ -407289,7 +407210,7 @@
             "7358b465cb42",
             "542d5bba0a4e",
             "33fb69c82e7b",
-            "b0119de4651d",
+            "5c6df9ee76db",
             "dd4b2c21d504",
             "7835df714e97",
             "4878a19f70fb",
@@ -409489,13 +409410,13 @@
       "canReacceptAfterAbandoning": false,
       "canReacceptAfterFailing": true,
       "locations": [
-        "826e7730f4b1",
+        "e4250791bc61",
         "f2d7471c5237",
         "377f888147ba",
         "3da7101c169c",
         "b4de9ffe26a6",
         "90cb841eed0e",
-        "b0119de4651d",
+        "5c6df9ee76db",
         "35612a2f1355",
         "edb2b26535cf"
       ],
@@ -409536,7 +409457,7 @@
       "locationSets": [
         {
           "locations": [
-            "826e7730f4b1",
+            "e4250791bc61",
             "f2d7471c5237",
             "377f888147ba",
             "3da7101c169c",
@@ -409566,7 +409487,7 @@
         {
           "locations": [
             "90cb841eed0e",
-            "b0119de4651d",
+            "5c6df9ee76db",
             "35612a2f1355",
             "edb2b26535cf"
           ],

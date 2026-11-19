@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.77",
+    "date": "2026-11-19T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13228337 → 5.0.0-ptu.13238477. Every ship shield now starts regenerating sooner after taking damage or going down, roughly a fifth earlier, while size 2 shields such as the FR-76, Rampart and Sheut lose about a fifth of their strength. The Revenant Gatling hits for about 30 % less per round, and the Multi-Delivery and Multi-Pickup Supply Runs now carry Construction Materials instead of Molina Ventilation Filters." }
+    ]
+  },
+  {
     "version": "1.0.76",
     "date": "2026-11-18T00:00:00Z",
     "changes": [

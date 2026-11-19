@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13228337",
+  "version": "5.0.0-ptu.13238477",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -8073,10 +8073,6 @@
       "name": "Construction Materials",
       "nameKey": "items_commodities_ConstructionMaterials"
     },
-    "bfafbce2357f": {
-      "name": "Molina Ventilation Filters",
-      "nameKey": "items_commodities_VentFilters"
-    },
     "b791e5d84f22": {
       "name": "Processed Food",
       "nameKey": "items_commodities_processedFood"
@@ -8573,6 +8569,10 @@
     "1867b99d7007": {
       "name": "Molina Mold Samples",
       "nameKey": "items_commodities_MoldSamples"
+    },
+    "bfafbce2357f": {
+      "name": "Molina Ventilation Filters",
+      "nameKey": "items_commodities_VentFilters"
     },
     "cd1ff039a425": {
       "name": "Molina Mold Treatment",
@@ -145429,7 +145429,7 @@
           "minSCU": 155,
           "maxSCU": 155,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 155,
@@ -145682,7 +145682,7 @@
           "minSCU": 155,
           "maxSCU": 155,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 155,
@@ -183777,7 +183777,7 @@
           "minSCU": 95,
           "maxSCU": 95,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 95,
@@ -184030,7 +184030,7 @@
           "minSCU": 95,
           "maxSCU": 95,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 95,
@@ -301436,7 +301436,7 @@
           "minSCU": 45,
           "maxSCU": 45,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 45,
@@ -301689,7 +301689,7 @@
           "minSCU": 45,
           "maxSCU": 45,
           "maxContainerSize": 16,
-          "resource": "bfafbce2357f"
+          "resource": "0c3cf1b52df3"
         },
         {
           "minSCU": 45,

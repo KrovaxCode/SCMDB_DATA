@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13228337",
+  "version": "5.0.0-ptu.13238477",
   "meta": {
     "totalItems": 1632,
     "weapons": 275,
@@ -6419,7 +6419,7 @@
       "speed": 1296.0,
       "lifetime": 2.16,
       "damage": {
-        "physical": 136.73,
+        "physical": 95.7,
         "energy": 0.0,
         "distortion": 0.0,
         "thermal": 0.0,
@@ -36228,8 +36228,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 120000.0,
       "shieldRegen": 6175.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "downedRegenDelay": 16.9,
+      "damagedRegenDelay": 9.1,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36301,10 +36301,10 @@
       "selfRepairTime": 56.0,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
+      "shieldHealth": 9600.0,
       "shieldRegen": 2470.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36378,8 +36378,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 3510.0,
       "shieldRegen": 741.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36453,8 +36453,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 120000.0,
       "shieldRegen": 6500.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36526,10 +36526,10 @@
       "selfRepairTime": 50.9,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
+      "shieldHealth": 9600.0,
       "shieldRegen": 2600.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36603,8 +36603,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 3510.0,
       "shieldRegen": 780.0,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36678,8 +36678,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 120000.0,
       "shieldRegen": 7150.0,
-      "downedRegenDelay": 17.2,
-      "damagedRegenDelay": 10.1,
+      "downedRegenDelay": 14.1,
+      "damagedRegenDelay": 7.6,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36751,10 +36751,10 @@
       "selfRepairTime": 46.7,
       "emSignature": 1350.0,
       "powerDraw": 3.0,
-      "shieldHealth": 12000.0,
+      "shieldHealth": 9600.0,
       "shieldRegen": 2860.0,
-      "downedRegenDelay": 15.6,
-      "damagedRegenDelay": 9.2,
+      "downedRegenDelay": 12.8,
+      "damagedRegenDelay": 6.9,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36828,8 +36828,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 3510.0,
       "shieldRegen": 858.0,
-      "downedRegenDelay": 14.2,
-      "damagedRegenDelay": 8.3,
+      "downedRegenDelay": 11.7,
+      "damagedRegenDelay": 6.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -36917,8 +36917,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4680.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37175,8 +37175,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 3707.0,
       "shieldRegen": 782.6,
-      "downedRegenDelay": 19.6,
-      "damagedRegenDelay": 11.5,
+      "downedRegenDelay": 16.1,
+      "damagedRegenDelay": 8.6,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37467,10 +37467,10 @@
       "selfRepairTime": 61.6,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1684.8,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "downedRegenDelay": 16.9,
+      "damagedRegenDelay": 9.1,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37556,10 +37556,10 @@
       "selfRepairTime": 56.0,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1778.4,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37713,10 +37713,10 @@
       "selfRepairTime": 63.6,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1872.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37852,10 +37852,10 @@
       "selfRepairTime": 77.0,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
+      "shieldHealth": 6144.0,
       "shieldRegen": 1497.6,
-      "downedRegenDelay": 17.5,
-      "damagedRegenDelay": 10.3,
+      "downedRegenDelay": 14.4,
+      "damagedRegenDelay": 7.7,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -37929,8 +37929,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4680.0,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -38412,8 +38412,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 533.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -38625,8 +38625,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 842.0,
       "shieldRegen": 296.4,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -38836,10 +38836,10 @@
       "selfRepairTime": 50.9,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1872.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -38932,8 +38932,8 @@
       "powerDraw": 1.0,
       "shieldHealth": 2625.0,
       "shieldRegen": 525.2,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "downedRegenDelay": 10.8,
+      "damagedRegenDelay": 5.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -39125,10 +39125,10 @@
       "selfRepairTime": 63.6,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
+      "shieldHealth": 10138.0,
       "shieldRegen": 2745.6,
-      "downedRegenDelay": 19.6,
-      "damagedRegenDelay": 11.5,
+      "downedRegenDelay": 16.1,
+      "damagedRegenDelay": 8.6,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -39453,8 +39453,8 @@
       "powerDraw": 6.0,
       "shieldHealth": 1944000.0,
       "shieldRegen": 35640.0,
-      "downedRegenDelay": 20.7,
-      "damagedRegenDelay": 12.2,
+      "downedRegenDelay": 17.1,
+      "damagedRegenDelay": 9.2,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40091,8 +40091,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 3707.0,
       "shieldRegen": 906.1,
-      "downedRegenDelay": 16.3,
-      "damagedRegenDelay": 9.6,
+      "downedRegenDelay": 13.4,
+      "damagedRegenDelay": 7.2,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40164,10 +40164,10 @@
       "selfRepairTime": 58.3,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
+      "shieldHealth": 10138.0,
       "shieldRegen": 3019.9,
-      "downedRegenDelay": 17.9,
-      "damagedRegenDelay": 10.5,
+      "downedRegenDelay": 14.7,
+      "damagedRegenDelay": 7.9,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40241,8 +40241,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 126720.0,
       "shieldRegen": 7550.4,
-      "downedRegenDelay": 19.7,
-      "damagedRegenDelay": 11.6,
+      "downedRegenDelay": 16.2,
+      "damagedRegenDelay": 8.7,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40354,8 +40354,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2246.0,
       "shieldRegen": 449.8,
-      "downedRegenDelay": 15.9,
-      "damagedRegenDelay": 9.4,
+      "downedRegenDelay": 13.1,
+      "damagedRegenDelay": 7.0,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40619,8 +40619,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 3707.0,
       "shieldRegen": 824.2,
-      "downedRegenDelay": 17.9,
-      "damagedRegenDelay": 10.5,
+      "downedRegenDelay": 14.7,
+      "damagedRegenDelay": 7.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -40944,8 +40944,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 126720.0,
       "shieldRegen": 6864.0,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "downedRegenDelay": 17.8,
+      "damagedRegenDelay": 9.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41148,10 +41148,10 @@
       "selfRepairTime": 70.0,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
+      "shieldHealth": 10138.0,
       "shieldRegen": 2607.8,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "downedRegenDelay": 17.8,
+      "damagedRegenDelay": 9.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41251,8 +41251,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4446.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "downedRegenDelay": 16.9,
+      "damagedRegenDelay": 9.1,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41460,8 +41460,8 @@
       "powerDraw": 6.0,
       "shieldHealth": 1080000.0,
       "shieldRegen": 19800.0,
-      "downedRegenDelay": 20.7,
-      "damagedRegenDelay": 12.2,
+      "downedRegenDelay": 17.1,
+      "damagedRegenDelay": 9.2,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41582,8 +41582,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 561.6,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41657,8 +41657,8 @@
       "powerDraw": 4.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4212.0,
-      "downedRegenDelay": 22.6,
-      "damagedRegenDelay": 13.3,
+      "downedRegenDelay": 18.6,
+      "damagedRegenDelay": 10.0,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41732,8 +41732,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 561.6,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -41805,10 +41805,10 @@
       "selfRepairTime": 63.6,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
+      "shieldHealth": 6144.0,
       "shieldRegen": 1664.0,
-      "downedRegenDelay": 14.5,
-      "damagedRegenDelay": 8.5,
+      "downedRegenDelay": 11.9,
+      "damagedRegenDelay": 6.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -42115,8 +42115,8 @@
       "powerDraw": 6.0,
       "shieldHealth": 4224000.0,
       "shieldRegen": 77440.0,
-      "downedRegenDelay": 26.2,
-      "damagedRegenDelay": 15.4,
+      "downedRegenDelay": 21.6,
+      "damagedRegenDelay": 11.6,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -42348,8 +42348,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 505.7,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -42728,8 +42728,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2246.0,
       "shieldRegen": 499.2,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "downedRegenDelay": 10.8,
+      "damagedRegenDelay": 5.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -43517,8 +43517,8 @@
       "powerDraw": 1.0,
       "shieldHealth": 2625.0,
       "shieldRegen": 642.2,
-      "downedRegenDelay": 9.9,
-      "damagedRegenDelay": 5.8,
+      "downedRegenDelay": 8.2,
+      "damagedRegenDelay": 4.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -43681,10 +43681,10 @@
       "selfRepairTime": 63.0,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
+      "shieldHealth": 7181.0,
       "shieldRegen": 1847.3,
-      "downedRegenDelay": 13.1,
-      "damagedRegenDelay": 7.7,
+      "downedRegenDelay": 10.8,
+      "damagedRegenDelay": 5.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -43974,8 +43974,8 @@
       "powerDraw": 1.0,
       "shieldHealth": 842.0,
       "shieldRegen": 296.4,
-      "downedRegenDelay": 15.5,
-      "damagedRegenDelay": 9.1,
+      "downedRegenDelay": 12.7,
+      "damagedRegenDelay": 6.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -44049,8 +44049,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 617.5,
-      "downedRegenDelay": 14.2,
-      "damagedRegenDelay": 8.3,
+      "downedRegenDelay": 11.7,
+      "damagedRegenDelay": 6.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -44138,8 +44138,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 5148.0,
-      "downedRegenDelay": 17.2,
-      "damagedRegenDelay": 10.1,
+      "downedRegenDelay": 14.1,
+      "damagedRegenDelay": 7.6,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -44638,10 +44638,10 @@
       "selfRepairTime": 77.0,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1684.8,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "downedRegenDelay": 16.9,
+      "damagedRegenDelay": 9.1,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -44715,8 +44715,8 @@
       "powerDraw": 6.0,
       "shieldHealth": 330480.0,
       "shieldRegen": 6415.2,
-      "downedRegenDelay": 18.9,
-      "damagedRegenDelay": 11.1,
+      "downedRegenDelay": 15.5,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -44826,10 +44826,10 @@
       "selfRepairTime": 46.7,
       "emSignature": 1980.0,
       "powerDraw": 4.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 2059.2,
-      "downedRegenDelay": 15.6,
-      "damagedRegenDelay": 9.2,
+      "downedRegenDelay": 12.8,
+      "damagedRegenDelay": 6.9,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45291,10 +45291,10 @@
       "selfRepairTime": 70.0,
       "emSignature": 1130.0,
       "powerDraw": 3.0,
-      "shieldHealth": 8640.0,
+      "shieldHealth": 6912.0,
       "shieldRegen": 1778.4,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45406,8 +45406,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 3707.0,
       "shieldRegen": 741.0,
-      "downedRegenDelay": 21.6,
-      "damagedRegenDelay": 12.7,
+      "downedRegenDelay": 17.8,
+      "damagedRegenDelay": 9.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45481,8 +45481,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 126720.0,
       "shieldRegen": 6177.6,
-      "downedRegenDelay": 26.0,
-      "damagedRegenDelay": 15.3,
+      "downedRegenDelay": 21.4,
+      "damagedRegenDelay": 11.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45554,10 +45554,10 @@
       "selfRepairTime": 77.0,
       "emSignature": 1650.0,
       "powerDraw": 4.0,
-      "shieldHealth": 12672.0,
+      "shieldHealth": 10138.0,
       "shieldRegen": 2471.3,
-      "downedRegenDelay": 23.6,
-      "damagedRegenDelay": 13.9,
+      "downedRegenDelay": 19.5,
+      "damagedRegenDelay": 10.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45714,10 +45714,10 @@
       "selfRepairTime": 57.3,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
+      "shieldHealth": 7181.0,
       "shieldRegen": 1944.8,
-      "downedRegenDelay": 11.9,
-      "damagedRegenDelay": 7.0,
+      "downedRegenDelay": 9.8,
+      "damagedRegenDelay": 5.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45791,8 +45791,8 @@
       "powerDraw": 1.0,
       "shieldHealth": 2625.0,
       "shieldRegen": 553.8,
-      "downedRegenDelay": 11.9,
-      "damagedRegenDelay": 7.0,
+      "downedRegenDelay": 9.8,
+      "damagedRegenDelay": 5.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -45864,10 +45864,10 @@
       "selfRepairTime": 69.3,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
+      "shieldHealth": 7181.0,
       "shieldRegen": 1749.8,
-      "downedRegenDelay": 14.4,
-      "damagedRegenDelay": 8.5,
+      "downedRegenDelay": 11.9,
+      "damagedRegenDelay": 6.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -46425,8 +46425,8 @@
       "powerDraw": 3.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 505.7,
-      "downedRegenDelay": 18.7,
-      "damagedRegenDelay": 11.0,
+      "downedRegenDelay": 15.4,
+      "damagedRegenDelay": 8.3,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -46500,8 +46500,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4446.0,
-      "downedRegenDelay": 20.6,
-      "damagedRegenDelay": 12.1,
+      "downedRegenDelay": 16.9,
+      "damagedRegenDelay": 9.1,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -46846,8 +46846,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 126720.0,
       "shieldRegen": 6520.8,
-      "downedRegenDelay": 23.6,
-      "damagedRegenDelay": 13.9,
+      "downedRegenDelay": 19.5,
+      "damagedRegenDelay": 10.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -47078,8 +47078,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2246.0,
       "shieldRegen": 474.5,
-      "downedRegenDelay": 14.5,
-      "damagedRegenDelay": 8.5,
+      "downedRegenDelay": 11.9,
+      "damagedRegenDelay": 6.4,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -47366,10 +47366,10 @@
       "selfRepairTime": 70.0,
       "emSignature": 1230.0,
       "powerDraw": 3.0,
-      "shieldHealth": 7680.0,
+      "shieldHealth": 6144.0,
       "shieldRegen": 1580.8,
-      "downedRegenDelay": 15.9,
-      "damagedRegenDelay": 9.4,
+      "downedRegenDelay": 13.1,
+      "damagedRegenDelay": 7.0,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -47580,10 +47580,10 @@
       "selfRepairTime": 52.5,
       "emSignature": 500.0,
       "powerDraw": 2.0,
-      "shieldHealth": 8976.0,
+      "shieldHealth": 7181.0,
       "shieldRegen": 2139.8,
-      "downedRegenDelay": 10.9,
-      "damagedRegenDelay": 6.4,
+      "downedRegenDelay": 9.0,
+      "damagedRegenDelay": 4.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -47800,8 +47800,8 @@
       "powerDraw": 1.0,
       "shieldHealth": 2625.0,
       "shieldRegen": 583.7,
-      "downedRegenDelay": 10.8,
-      "damagedRegenDelay": 6.4,
+      "downedRegenDelay": 8.9,
+      "damagedRegenDelay": 4.8,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -48113,8 +48113,8 @@
       "powerDraw": 2.0,
       "shieldHealth": 2527.0,
       "shieldRegen": 533.0,
-      "downedRegenDelay": 17.0,
-      "damagedRegenDelay": 10.0,
+      "downedRegenDelay": 14.0,
+      "damagedRegenDelay": 7.5,
       "shieldResistance": {
         "physical": {
           "min": 0.4,
@@ -48214,8 +48214,8 @@
       "powerDraw": 5.0,
       "shieldHealth": 86400.0,
       "shieldRegen": 4212.0,
-      "downedRegenDelay": 22.6,
-      "damagedRegenDelay": 13.3,
+      "downedRegenDelay": 18.6,
+      "damagedRegenDelay": 10.0,
       "shieldResistance": {
         "physical": {
           "min": 0.4,

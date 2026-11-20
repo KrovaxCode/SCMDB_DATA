@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.0.78",
+    "date": "2026-11-20T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "📦 New LIVE build — 4.10.3-live.13165946 → 4.10.3-live.13220821, a hotfix. No changes to missions, blueprints or mining in the data." },
+      { "type": "improve", "text": "🗂 Filters: the filter sidebars on Missions, Resources and the Fabricator are now grouped into sections you can fold away. Each section shows how many of its filters are active and has its own ✕, and a section opens by itself when a shared link or another page sets a filter inside it. On Missions, ⚙ Filters under the search hides sections you never use, the mission board filters sit under Mission as Terminal and Reach, and the Accept At column is now called Board Terminal." }
+    ]
+  },
+  {
     "version": "1.0.77",
     "date": "2026-11-19T00:00:00Z",
     "changes": [

@@ -1,5 +1,5 @@
 {
-  "version": "4.10.3-live.13165946",
+  "version": "4.10.3-live.13220821",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -25928,6 +25928,12 @@
         "cargo": 0
       },
       {
+        "name": "Gladius Dunlevy",
+        "career": "Combat",
+        "role": "Light Fighter",
+        "source": "datacore"
+      },
+      {
         "name": "Gladius Pirate",
         "career": "Combat",
         "role": "Light Fighter",
@@ -25956,6 +25962,20 @@
         "career": "Combat",
         "role": "Frigate",
         "cargo": 1374
+      },
+      {
+        "name": "Idris-M",
+        "career": "Combat",
+        "role": "Frigate",
+        "cargo": 362,
+        "source": "datacore"
+      },
+      {
+        "name": "Idris-P",
+        "career": "Combat",
+        "role": "Frigate",
+        "cargo": 374,
+        "source": "datacore"
       },
       {
         "name": "Reclaimer",
@@ -26004,6 +26024,12 @@
         "career": "Combat",
         "role": "Interdiction",
         "cargo": 0
+      },
+      {
+        "name": "Sabre Raven EX",
+        "career": "Combat",
+        "role": "Medium Fighter",
+        "source": "datacore"
       },
       {
         "name": "Tiburon",
@@ -26188,6 +26214,13 @@
         "cargo": 0
       },
       {
+        "name": "Liberator",
+        "career": "Transporter",
+        "role": "Light Carrier",
+        "cargo": 400,
+        "source": "datacore"
+      },
+      {
         "name": "Paladin",
         "career": "Gunship",
         "role": "Gunship",
@@ -26238,6 +26271,12 @@
         "career": "Combat",
         "role": "Medium Fighter",
         "cargo": 0
+      },
+      {
+        "name": "San'tok.yāi",
+        "career": "Combat",
+        "role": "Medium Fighter",
+        "source": "datacore"
       }
     ],
     "Argo Astronautics (ARGO)": [
@@ -26526,6 +26565,12 @@
         "cargo": 1440
       },
       {
+        "name": "Marauder",
+        "career": "Combat",
+        "role": "Medium Fighter",
+        "source": "datacore"
+      },
+      {
         "name": "Pitbull",
         "career": "Combat",
         "role": "Snub Fighter",
@@ -26583,6 +26628,13 @@
       }
     ],
     "Gatac Manufacture (GAMA)": [
+      {
+        "name": "Hyun",
+        "career": "Generalist",
+        "role": "Generalist",
+        "cargo": 32,
+        "source": "datacore"
+      },
       {
         "name": "Railen",
         "career": "Transporter",
@@ -27098,6 +27150,13 @@
         "career": "Exploration",
         "role": "Expedition",
         "cargo": 32
+      },
+      {
+        "name": "Galaxy",
+        "career": "Multi-Role",
+        "role": "Modular",
+        "cargo": 32,
+        "source": "datacore"
       }
     ],
     "Vanduul (VNCL)": [

@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.79",
+    "date": "2026-11-22T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13238477 → 5.0.0-ptu.13248297, a small update. Six Eckhart Security missions in Stanton seem to be gone: two \"Deal with [TARGET] and Support Forces\", three \"Expel Outlaws\" and one \"High-Risk Bounty\". Mission board missions that can send you anywhere in the system now show their reach as Intra-System instead of Solar, and the Reach filter follows." }
+    ]
+  },
+  {
     "version": "1.0.78",
     "date": "2026-11-20T00:00:00Z",
     "changes": [

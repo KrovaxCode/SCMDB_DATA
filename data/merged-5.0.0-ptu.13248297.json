@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13238477",
+  "version": "5.0.0-ptu.13248297",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -23516,13 +23516,6 @@
     ],
     [
       {
-        "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "amount": 500
-      }
-    ],
-    [
-      {
         "factionGuid": "09efeef4-c646-408d-a979-3ae56a3b1beb",
         "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
         "amount": 250
@@ -23680,6 +23673,13 @@
         "factionGuid": "016c2950-0292-468c-a408-a5283b52f158",
         "scopeGuid": "d31bd373-35ab-4ea4-b0a7-0ccc867ef082",
         "amount": 100
+      }
+    ],
+    [
+      {
+        "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
+        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
+        "amount": 500
       }
     ],
     [
@@ -37706,8 +37706,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_VeryHard",
@@ -71486,8 +71486,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -71578,8 +71578,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -71670,8 +71670,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -74665,8 +74665,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -74757,8 +74757,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -74849,8 +74849,8 @@
       "board": {
         "id": "3d0db4bc-ebc3-408a-bed3-b426f49d9d87",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -85551,227 +85551,6 @@
       "factionRewardsIndex": 87
     },
     {
-      "id": "00913455-4019-4b7e-a5eb-347ad3d49740",
-      "debugName": "EckhartSecurity_DC_Stanton1_SakuraSun-Magnolia_MultiEliminateAllAndBoss",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Deal with [TARGET] and Support Forces",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a big league bounty contract that’s primed to be executed. <EM4>[TARGET]</EM4> and their crew were identified executing a raid on <EM4>[LOCATION]</EM4>. If their MO holds true, <EM4>[TARGET]</EM4> has surfaced to land a big score and then will disappear into the ether. Let's not allow that to happen again. \\n\\nWord is the hostile forces have spread themselves across the location. That’ll make hunting down the precise location of <EM4>[TARGET]</EM4> difficult. In addition, expect the target to act defensively when under attack. In previous engagements, they remained hidden and directed their forces from afar. It is our recommendation that you focus on thinning out their allies first and force <EM4>[TARGET]</EM4> to come to their own defense. Would also advise you to bring plenty of ammo and even some support to help keep you from being overwhelmed.    \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 20,
-      "locations": [
-        "35c3ed47bd36",
-        "99c43e1e85bd",
-        "648636bf0041",
-        "bced3e1d984f",
-        "c72718053d50",
-        "c664d65bf1a8",
-        "dc082238a5f2",
-        "b5224145ba6b",
-        "7376a9a337a5",
-        "46e296ad90af"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton1"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 134500,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "de7aefe9-2265-48ab-a8f8-125e086a938e",
-        "name": "Sr. Security Contractor",
-        "minReputation": 120000,
-        "nameKey": "RepStanding_Security_Rank4",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-          "amount": -50
-        }
-      ],
-      "blueprintRewards": [
-        {
-          "blueprintPool": "7d65ed76-f824-430a-8597-045b6b759dfb",
-          "chance": 1,
-          "poolName": "BP_REWARDS_EckhartSecurityKillNPCBoss",
-          "trigger": "complete"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank4"
-      },
-      "descriptionLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
-      "id": "920fe294-7e9d-435b-a475-1a5651eac16c",
-      "debugName": "EckhartSecurity_DC_Stanton4_S4LD01_MultiEliminateAllAndBoss",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Deal with [TARGET] and Support Forces",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a big league bounty contract that’s primed to be executed. <EM4>[TARGET]</EM4> and their crew were identified executing a raid on <EM4>[LOCATION]</EM4>. If their MO holds true, <EM4>[TARGET]</EM4> has surfaced to land a big score and then will disappear into the ether. Let's not allow that to happen again. \\n\\nWord is the hostile forces have spread themselves across the location. That’ll make hunting down the precise location of <EM4>[TARGET]</EM4> difficult. In addition, expect the target to act defensively when under attack. In previous engagements, they remained hidden and directed their forces from afar. It is our recommendation that you focus on thinning out their allies first and force <EM4>[TARGET]</EM4> to come to their own defense. Would also advise you to bring plenty of ammo and even some support to help keep you from being overwhelmed.    \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 15,
-      "locations": [
-        "15a181728888",
-        "960c8cc0f396",
-        "a04622ab97b4",
-        "25aa2c378538",
-        "675b12c67264",
-        "e5f28a5b940d",
-        "57af51fd4c53",
-        "705704694b60",
-        "2926c9ad408c"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton4"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 134500,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "de7aefe9-2265-48ab-a8f8-125e086a938e",
-        "name": "Sr. Security Contractor",
-        "minReputation": 120000,
-        "nameKey": "RepStanding_Security_Rank4",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-          "amount": -50
-        }
-      ],
-      "blueprintRewards": [
-        {
-          "blueprintPool": "7d65ed76-f824-430a-8597-045b6b759dfb",
-          "chance": 1,
-          "poolName": "BP_REWARDS_EckhartSecurityKillNPCBoss",
-          "trigger": "complete"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank4"
-      },
-      "descriptionLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
       "id": "fc928502-87e0-46a4-8398-8944f4be08d5",
       "debugName": "HH_Pyro_RegionA_M_2AsteroidBase_Criminals_EliminateAll_RetrieveStolenGoods",
       "category": "career",
@@ -87564,7 +87343,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "3c228b26-8aaa-4d87-8ec7-b355bf594af5",
@@ -88119,7 +87898,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "52a2eb46-f4fe-411f-861e-355371a5dc5a",
@@ -88615,7 +88394,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "54c44da2-b1b3-4067-a3b9-cfd73fad73c9",
@@ -88812,7 +88591,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "7d230313-8856-484a-b219-3a983488833d",
@@ -88934,7 +88713,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "99eef676-42d3-4bd5-b910-28d5b1f11dcf",
@@ -89178,7 +88957,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "2f063444-86e6-4c06-8d17-2c21ef4f9f2e",
@@ -90041,7 +89820,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "889c253e-7435-4ee1-9e34-f7996e71c9e8",
@@ -90329,7 +90108,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "af4ffb08-954a-4f75-9493-e3cd102af48d",
@@ -90490,7 +90269,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 93
+      "factionRewardsIndex": 92
     },
     {
       "id": "1c5e4a84-749c-4747-9f37-e1ad310da801",
@@ -90782,7 +90561,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "6e021eb3-c0da-4bd4-981f-a80be83d9e3b",
@@ -91420,7 +91199,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 94
+      "factionRewardsIndex": 93
     },
     {
       "id": "d9b36826-3477-4b7a-ab09-2fe6a724e352",
@@ -91667,7 +91446,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 94
+      "factionRewardsIndex": 93
     },
     {
       "id": "9f4abd5c-9e33-4c1c-9d7a-fd249c2ea7bb",
@@ -91858,7 +91637,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 94
+      "factionRewardsIndex": 93
     },
     {
       "id": "0697c275-c36e-4592-a78b-687bdff4597e",
@@ -91985,7 +91764,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 95
+      "factionRewardsIndex": 94
     },
     {
       "id": "5cc8e348-6d8f-4aa5-9db2-1f8b931ca2dd",
@@ -92106,7 +91885,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 96
+      "factionRewardsIndex": 95
     },
     {
       "id": "5cc369df-bb38-4edd-8123-6ec02ea8bf44",
@@ -92237,7 +92016,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "db07826a-4dce-4417-94d5-767224f06e93",
@@ -92352,7 +92131,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "8fba71bc-a262-4240-8c4e-09a21c3090fc",
@@ -92557,7 +92336,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "3b3fa1fd-b780-44be-8dd2-6bec3e80f7d5",
@@ -92662,7 +92441,7 @@
       "hideInMobiGlas": true,
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 98
+      "factionRewardsIndex": 97
     },
     {
       "id": "1b73532f-c922-46fd-9635-c8b2e7c8a3cd",
@@ -92740,7 +92519,7 @@
       "hideInMobiGlas": true,
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 98
+      "factionRewardsIndex": 97
     },
     {
       "id": "012adaaf-7a50-49e6-90f2-5bbc62604ee8",
@@ -92975,7 +92754,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 99
+      "factionRewardsIndex": 98
     },
     {
       "id": "0739da60-2d98-4e53-9932-3adfd8453840",
@@ -93096,7 +92875,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "f788856f-7bc9-4a1c-a5fc-abb273106543",
@@ -93211,7 +92990,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "71d8062d-7725-4f88-8ec3-f8710316c691",
@@ -93830,7 +93609,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "8b18d982-1e25-41a5-b159-e7e4ea5c9620",
@@ -95705,7 +95484,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "2d4654d9-f5f3-4c08-85e0-7bc4d8b3e21d",
@@ -96608,7 +96387,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 101
+      "factionRewardsIndex": 100
     },
     {
       "id": "3f3e5f1b-2fce-41f6-a56a-27b03214cf89",
@@ -96903,7 +96682,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "bcf3840e-9b2b-4477-9993-fbb8ed5b7a92",
@@ -97848,7 +97627,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "afc59f9a-15ba-45b7-a3e8-2b4f9f4ecea7",
@@ -98197,7 +97976,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "bc92e499-e5ae-4a91-8c14-66b8a96ba0a0",
@@ -98414,7 +98193,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "d90427cd-7890-4bc4-9c6d-08eab3eb7576",
@@ -98629,7 +98408,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "ee13990f-4865-40ba-9abc-e326f1b470e6",
@@ -100062,7 +99841,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "4e01dbe6-2440-465c-a5af-3adabde9ce62",
@@ -101210,7 +100989,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 104
+      "factionRewardsIndex": 103
     },
     {
       "id": "04eabfdd-ab02-43d9-864d-1d5163e870e5",
@@ -101324,7 +101103,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 105
+      "factionRewardsIndex": 104
     },
     {
       "id": "1c9a3435-06c4-4612-a510-08361ffb2c61",
@@ -101641,7 +101420,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 106
+      "factionRewardsIndex": 105
     },
     {
       "id": "7c93c444-7bdf-42af-b4f5-ab8e8c926326",
@@ -101773,7 +101552,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "452db3ef-9b8c-4f34-9ae8-df9e1bd681c1",
@@ -102187,109 +101966,6 @@
       "factionRewardsIndex": 63
     },
     {
-      "id": "ec99f981-dac4-4f47-8177-855019bc438f",
-      "debugName": "EckhartSecurity_DC_Stanton1_HDPC-Cassillo_MarkupWing_EliminateAll",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Expel Outlaws",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Clear Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is sending frantic comms that one of their locations is under attack. We need a contractor who can hustle to <EM4>[LOCATION]</EM4> and clear the location of hostile actors. \\n\\nAccording to onsite personnel, the outlaws are currently holed up near the <EM4>[LOCATION]</EM4>. Approach with caution and be prepared to use lethal force if the outlaws resist being removed.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 14,
-      "locations": [
-        "35c3ed47bd36",
-        "99c43e1e85bd",
-        "648636bf0041",
-        "bced3e1d984f",
-        "c72718053d50",
-        "c664d65bf1a8",
-        "dc082238a5f2",
-        "b5224145ba6b",
-        "7376a9a337a5",
-        "46e296ad90af"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton1"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 58000,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "1e2a0269-d0a2-463a-90ce-52269c8ee307",
-        "name": "Jr. Security Contractor",
-        "minReputation": 5000,
-        "nameKey": "RepStanding_Security_Rank2",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_EliminateAll_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_EliminateAll_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "factionRewards_fail": [
-        {
-          "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-          "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-          "amount": -50
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank2"
-      },
-      "descriptionLocKey": "EckhartSecurity_EliminateAll_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_EliminateAll_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
       "id": "25440ea0-7b89-4926-aea2-69699bca35b3",
       "debugName": "EckhartSecurity_DC_Stanton1_HDPC-Farnesway_Storage_EliminateAll",
       "category": "career",
@@ -102390,197 +102066,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
-      "id": "3e525df0-ea80-4e44-b9f3-2eb476119f8b",
-      "debugName": "EckhartSecurity_DC_Stanton4_S4LD01_MarkupWing_EliminateAll",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Expel Outlaws",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Clear Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is sending frantic comms that one of their locations is under attack. We need a contractor who can hustle to <EM4>[LOCATION]</EM4> and clear the location of hostile actors. \\n\\nAccording to onsite personnel, the outlaws are currently holed up near the <EM4>[LOCATION]</EM4>. Approach with caution and be prepared to use lethal force if the outlaws resist being removed.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 14,
-      "locations": [
-        "15a181728888",
-        "960c8cc0f396",
-        "a04622ab97b4",
-        "25aa2c378538",
-        "675b12c67264",
-        "e5f28a5b940d",
-        "57af51fd4c53",
-        "705704694b60",
-        "2926c9ad408c"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton4"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 58000,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "57946f8c-e6b3-4589-8324-224968470728",
-        "name": "Security Trainee",
-        "minReputation": 1,
-        "nameKey": "RepStanding_Security_Rank1",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_EliminateAll_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_EliminateAll_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank1"
-      },
-      "descriptionLocKey": "EckhartSecurity_EliminateAll_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_EliminateAll_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
-      "id": "c61aa912-1e27-4a32-bf5c-c0d479aa6264",
-      "debugName": "EckhartSecurity_DC_Stanton4_SakuraSun-Goldenrod_Shipping_EliminateAll",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "Expel Outlaws",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Clear Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is sending frantic comms that one of their locations is under attack. We need a contractor who can hustle to <EM4>[LOCATION]</EM4> and clear the location of hostile actors. \\n\\nAccording to onsite personnel, the outlaws are currently holed up near the <EM4>[LOCATION]</EM4>. Approach with caution and be prepared to use lethal force if the outlaws resist being removed.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 14,
-      "locations": [
-        "15a181728888",
-        "960c8cc0f396",
-        "a04622ab97b4",
-        "25aa2c378538",
-        "675b12c67264",
-        "e5f28a5b940d",
-        "57af51fd4c53",
-        "705704694b60",
-        "2926c9ad408c"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton4"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 54250,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "57946f8c-e6b3-4589-8324-224968470728",
-        "name": "Security Trainee",
-        "minReputation": 1,
-        "nameKey": "RepStanding_Security_Rank1",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_EliminateAll_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_EliminateAll_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank1"
-      },
-      "descriptionLocKey": "EckhartSecurity_EliminateAll_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_EliminateAll_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "e124df75-8367-4e3f-9c6e-94fe5049ef68",
@@ -105920,7 +105406,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "d4d26850-d4f4-4549-a0af-a478ee0be480",
@@ -114322,7 +113808,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "5712cdfc-84da-456f-97ed-697c9d04c026",
@@ -115882,7 +115368,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "d687fa20-4647-4816-b5a5-b3329aceaa67",
@@ -119986,7 +119472,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "922f2480-2b0f-470d-90c7-63c766633912",
@@ -120134,7 +119620,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "61eecd26-6a64-4ccc-9ba0-c5592f096c34",
@@ -120334,7 +119820,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "85fb56f9-98f6-4206-acd5-bffe9c948162",
@@ -121082,7 +120568,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "7473dfc9-e18c-48f1-98b8-e9da92759440",
@@ -124449,7 +123935,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "af309dab-851d-4509-ba18-ac663b5d4dee",
@@ -124649,7 +124135,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "bfc725de-6d4f-4b00-940e-3b96028aae58",
@@ -124812,7 +124298,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "3d9e6eda-b0f1-4464-9abc-db61e2b77012",
@@ -125920,102 +125406,6 @@
       "factionRewardsIndex": 119
     },
     {
-      "id": "35327fed-283b-4b9b-9df6-031a1efe9423",
-      "debugName": "EckhartSecurity_DC_Stanton1_HDPC-Farnesway_MarkupWing_EliminateBoss",
-      "category": "career",
-      "missionType": "Mercenary",
-      "missionTypeKey": "@mobiglas_ui_Mercenary",
-      "title": "High-Risk Bounty: [TARGET]",
-      "description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nWe’ve received actionable intelligence on a dangerous bounty, who’s turned out to be extremely elusive. <EM4>[TARGET]</EM4> was spotted with a dedicated contingent of known associates at <EM4>[LOCATION]</EM4>. We’re looking for a contractor ready and willing to execute this bounty before they disappear again.\\n\\nBased on previous attempts to apprehend this criminal, there’s a good chance that <EM4>[TARGET]</EM4> will try to avoid a direct confrontation, and instead send their allies to confront you. We believe that neutralizing these protective forces, and shredding the safety net they provide, is the best way to draw out <EM4>[TARGET]</EM4> to face you directly. \\n\\nExpect to confront a significant and skilled force. We advise that you plan accordingly. Payment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "factionGuid": "2dc1b38c-cd5f-4d37-aea7-5453b609f61d",
-      "contractorName": "Eckhart Security",
-      "contractorNameKey": "@EckhartSecurity_RepUI_Name",
-      "canBeShared": true,
-      "illegal": false,
-      "timeToComplete": 12,
-      "locations": [
-        "35c3ed47bd36",
-        "99c43e1e85bd",
-        "648636bf0041",
-        "bced3e1d984f",
-        "c72718053d50",
-        "c664d65bf1a8",
-        "dc082238a5f2",
-        "b5224145ba6b",
-        "7376a9a337a5",
-        "46e296ad90af"
-      ],
-      "destinations": null,
-      "locationSets": null,
-      "prerequisites": {
-        "crimeStat": {
-          "min": 0,
-          "max": 2,
-          "includeWhenSharing": false
-        },
-        "locality": [
-          {
-            "name": "Stanton1"
-          }
-        ]
-      },
-      "pyroRegion": null,
-      "rewardUEC": 49750,
-      "buyIn": null,
-      "minStanding": {
-        "guid": "57946f8c-e6b3-4589-8324-224968470728",
-        "name": "Security Trainee",
-        "minReputation": 1,
-        "nameKey": "RepStanding_Security_Rank1",
-        "scopeName": "Security",
-        "scopeDisplayName": "Security",
-        "scopeDisplayNameKey": "@RepScope_Security_Name",
-        "scopeGuid": "e23f8034-3e76-49b3-bfc6-228bcb1381df",
-        "includeWhenSharing": false
-      },
-      "maxStanding": null,
-      "shipEncounters": null,
-      "propertyValues": null,
-      "subContractIds": null,
-      "parentDebugName": null,
-      "parentId": null,
-      "subContractIndex": null,
-      "titleKey": "@EckhartSecurity_EliminateBoss_DC_Title_001",
-      "descriptionKey": "@EckhartSecurity_EliminateBoss_DC_Desc_001",
-      "availableSystems": [
-        "Stanton"
-      ],
-      "requiredIntros": [
-        {
-          "debugName": "EckhartSecurity_Mercenary_Intro",
-          "title": "Security Contractor Evaluation",
-          "titleKey": "@EckhartSecurity_Mercenary_Intro_Title_001",
-          "titleLocKey": "EckhartSecurity_Mercenary_Intro_Title_001"
-        }
-      ],
-      "haulingOrders": null,
-      "tokenSubstitutions": {
-        "ReputationRank": "@RepStanding_Security_Rank1"
-      },
-      "descriptionLocKey": "EckhartSecurity_EliminateBoss_DC_Desc_001",
-      "titleLocKey": "EckhartSecurity_EliminateBoss_DC_Title_001",
-      "onceOnly": false,
-      "maxPlayersPerInstance": 1,
-      "availableInPrison": false,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "hasPersonalCooldown": false,
-      "personalCooldownTime": 1,
-      "abandonedCooldownTime": 1,
-      "hideInMobiGlas": false,
-      "systems": [
-        "Stanton"
-      ],
-      "partialRewardPayoutIndex": 0,
-      "availabilityIndex": 0,
-      "factionRewardsIndex": 89
-    },
-    {
       "id": "0b4c6e81-838a-4e0a-8ecd-7f2893095a8d",
       "debugName": "EckhartSecurity_DC_Stanton4_S4Compex-A_Storage_EliminateBoss",
       "category": "career",
@@ -126116,7 +125506,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "63c605db-220f-40f1-b203-ab7852a070a1",
@@ -126219,7 +125609,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "6932a99c-6b2d-4144-b872-2a0222469a1c",
@@ -127772,7 +127162,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "d15502ef-9f95-44f2-9a74-608a0eab401a",
@@ -128043,7 +127433,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "cdea5768-6bb8-43a5-b613-84dc9be80bbc",
@@ -130517,7 +129907,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "984411c5-3301-4aa9-9b83-a880e7e269db",
@@ -137187,8 +136577,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_Hard",
@@ -141237,7 +140627,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "27ac3a6b-922d-445c-903b-5f71480f4c36",
@@ -141631,7 +141021,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "6de6a0e8-7eb1-4fd7-89b5-82a8575251f1",
@@ -141966,7 +141356,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "78c14822-ea17-41c9-af27-4e2072675948",
@@ -142158,7 +141548,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "e51f7a50-4fef-45a8-94a6-325fd32fb434",
@@ -142989,7 +142379,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "d5ce9150-5ca8-4871-9796-36900378704c",
@@ -143225,7 +142615,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "9aced3fa-2745-48ae-882d-491aa7f2b031",
@@ -144212,7 +143602,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "1dd9f39c-119f-4815-94b6-a91946ffea33",
@@ -145203,8 +144593,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -145455,8 +144845,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -145708,8 +145098,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -145960,8 +145350,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -147076,8 +146466,8 @@
       "board": {
         "id": "1a277b61-c901-41ed-9b0b-a75fa6cab996",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -147994,8 +147384,8 @@
       "board": {
         "id": "1a277b61-c901-41ed-9b0b-a75fa6cab996",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -148369,8 +147759,8 @@
       "board": {
         "id": "1a277b61-c901-41ed-9b0b-a75fa6cab996",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -150071,7 +149461,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "a15eb32b-ae6a-409e-b4b8-700ffe65ad1b",
@@ -169656,8 +169046,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_Super",
@@ -174491,8 +173881,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -174577,8 +173967,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -174663,8 +174053,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -174761,8 +174151,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -174865,8 +174255,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -174951,8 +174341,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -175043,8 +174433,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -175129,8 +174519,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -175215,8 +174605,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -175301,8 +174691,8 @@
       "board": {
         "id": "510a7801-7e3e-4102-bb18-a66c7cf696cb",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -183551,8 +182941,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -183803,8 +183193,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -184056,8 +183446,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -184174,8 +183564,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -186136,7 +185526,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "57f5021a-167a-466a-bee3-8c068c12d146",
@@ -186627,7 +186017,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 106
+      "factionRewardsIndex": 105
     },
     {
       "id": "58f69319-3c6a-42e4-a955-918983fcdb8c",
@@ -191713,7 +191103,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "ee9d9bf7-f511-4fa0-acc6-d92789248263",
@@ -192095,7 +191485,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "e4b5cdf8-6ee0-429e-9cfe-64354a379cce",
@@ -192731,7 +192121,7 @@
       ],
       "partialRewardPayoutIndex": 1,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "d8ec7692-7a17-45c9-baca-5c03a8c74862",
@@ -192877,7 +192267,7 @@
       ],
       "partialRewardPayoutIndex": 1,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "f7ff6f16-d8ed-45fd-b780-e6d4337d2f77",
@@ -193033,7 +192423,7 @@
       ],
       "partialRewardPayoutIndex": 1,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "cffacde7-f964-42ab-9750-2352a296cc44",
@@ -193174,7 +192564,7 @@
       ],
       "partialRewardPayoutIndex": 1,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "34ed9d72-d537-418a-b0f1-35a19401acb7",
@@ -195870,7 +195260,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 93
+      "factionRewardsIndex": 92
     },
     {
       "id": "aa5a2f0c-a578-4061-a792-2b93e74bb2bc",
@@ -197063,8 +196453,8 @@
       "board": {
         "id": "e29eae76-5a8a-4577-8c6a-f943a46aae90",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -197219,7 +196609,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "eb1cc349-e772-4171-b743-57c818f33f8d",
@@ -198475,8 +197865,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -199646,7 +199036,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "62f48881-77c5-42ff-9acb-119d2a2db812",
@@ -214381,7 +213771,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "aacbdcb7-1c1a-4754-8f37-d19841a2d02a",
@@ -218439,7 +217829,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "c0c7ceb4-facd-4d7a-8a33-5f6da63a6543",
@@ -219399,7 +218789,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "89dbcf32-7f95-494d-8989-5f7295ce3ee5",
@@ -219951,7 +219341,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "36431200-e22d-4161-a018-a544565f9e1a",
@@ -221040,7 +220430,11 @@
       "locations": null,
       "destinations": null,
       "locationSets": null,
-      "prerequisites": {},
+      "prerequisites": {
+        "locationProperty": {
+          "resolvedLocations": null
+        }
+      },
       "pyroRegion": null,
       "rewardUEC": 82750,
       "buyIn": null,
@@ -221704,7 +221098,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "f89b7163-52b6-4b8b-a941-6c62a8d571ba",
@@ -221943,7 +221337,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "c6effe42-9a2e-4222-adab-168fb6e74001",
@@ -222801,7 +222195,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "2de750c2-44b5-4e3d-93a9-7b433882fd4e",
@@ -223084,7 +222478,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "e85277a9-8db7-4bc5-8621-2ae5b11086e6",
@@ -223238,7 +222632,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "63deca2e-dc75-4d78-a729-8dbd74456c2c",
@@ -223553,7 +222947,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "5aefc427-5c02-4940-a2f0-c93dab00383b",
@@ -224524,7 +223918,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "eadcd6bc-1c7b-4782-b7f6-4cad4fb39bcc",
@@ -224899,7 +224293,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "a945ab4e-ea8f-4e5b-886f-fd02a68f439c",
@@ -225219,7 +224613,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "f1b75984-740f-44ac-9f87-59fc16cc7420",
@@ -225452,7 +224846,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 91
+      "factionRewardsIndex": 90
     },
     {
       "id": "67d23e1e-b328-42b9-9d90-685a1f78ba39",
@@ -226393,7 +225787,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "504f6d01-22e9-4bd0-8cec-bed0ff09937a",
@@ -226902,7 +226296,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "6f7e918e-518a-4765-b110-c4c5b98c8a2d",
@@ -227352,7 +226746,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
@@ -228132,7 +227526,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 99
+      "factionRewardsIndex": 98
     },
     {
       "id": "09886653-acfa-49bc-bc9e-fa6208c4f493",
@@ -234373,7 +233767,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "a49671c2-3637-455d-be33-9ca28eba7faa",
@@ -234578,7 +233972,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "8f55ec6b-8b65-4464-b1f1-28c43ca8aff0",
@@ -235068,7 +234462,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 92
+      "factionRewardsIndex": 91
     },
     {
       "id": "cdbd2484-129b-4aef-a22c-42c52ae02cdc",
@@ -239226,7 +238620,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "af13a863-6d63-4935-bec6-d55d73e44f83",
@@ -257334,7 +256728,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "4b7be4aa-578d-4b12-a486-76dd813d943b",
@@ -257627,7 +257021,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "b33537ad-722c-452d-a943-9e956094fcb5",
@@ -257864,7 +257258,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "2e3266ef-fe3c-424a-82dd-6084dcb72919",
@@ -261127,7 +260521,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "f51c4003-6262-453b-ab2e-07cc5ab31a12",
@@ -261424,7 +260818,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "1014bc9a-d852-42a4-8470-b988a59f1c03",
@@ -261588,7 +260982,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "f7acc5e0-40ec-48d5-8c07-cf1249074345",
@@ -266783,7 +266177,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 93
+      "factionRewardsIndex": 92
     },
     {
       "id": "c0dc1761-c299-4f6c-ab7b-13e3fd04e36b",
@@ -276855,7 +276249,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 101
+      "factionRewardsIndex": 100
     },
     {
       "id": "953f4c07-d7cc-429c-8b85-d52513ee5a66",
@@ -277250,8 +276644,8 @@
       "board": {
         "id": "e29eae76-5a8a-4577-8c6a-f943a46aae90",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -277622,8 +277016,8 @@
       "board": {
         "id": "e29eae76-5a8a-4577-8c6a-f943a46aae90",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -277746,8 +277140,8 @@
       "board": {
         "id": "e29eae76-5a8a-4577-8c6a-f943a46aae90",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -284437,7 +283831,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "3e2038ff-3ee3-4887-aa8a-9c7fd865c4fe",
@@ -284753,7 +284147,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "0e6b70f6-ee9d-437c-ae01-7ca28d17d616",
@@ -285154,7 +284548,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "6655fa88-92d6-4224-8c02-68be74906348",
@@ -285490,7 +284884,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "d2f45155-d6ee-4f2a-9eb6-b69f08c6c154",
@@ -290253,7 +289647,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "f2b7dbf6-3ff2-45cf-bf18-6765ef443c5e",
@@ -290551,7 +289945,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 89
+      "factionRewardsIndex": 107
     },
     {
       "id": "7f1e662e-4827-4330-a9b9-2cc1b8a3f2c1",
@@ -290802,7 +290196,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "4008ba96-3d35-4e44-aa4f-5d647b9bbfd6",
@@ -291138,7 +290532,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "759d9443-f0df-4544-894b-dac903b149b1",
@@ -291401,7 +290795,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "580bbf09-a9ae-401e-b0db-153404c6d90f",
@@ -293748,8 +293142,8 @@
       "board": {
         "id": "e29eae76-5a8a-4577-8c6a-f943a46aae90",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -294610,7 +294004,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "f3492e3b-b1e6-48d9-8388-6471608cb94e",
@@ -294903,7 +294297,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "0aae9359-4b9f-4d9b-af72-1b513594ccc8",
@@ -295137,7 +294531,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "723d015f-59af-4985-b96f-f2bfe37e05f0",
@@ -297030,7 +296424,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "9ab245c8-3176-40d5-a46a-c1bc2b2bcfe3",
@@ -298984,7 +298378,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "800d0117-2b80-4885-a35b-b9516a48d1f8",
@@ -299267,7 +298661,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "2e37a1cf-2e92-41d1-90de-03832a834d26",
@@ -299491,7 +298885,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "504a89f9-d2cc-4b0b-ad9a-8725fea66412",
@@ -301093,8 +300487,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -301210,8 +300604,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -301462,8 +300856,8 @@
       "board": {
         "id": "4f9a20ad-f76e-47e9-a9d1-412a0931f15f",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -301715,8 +301109,8 @@
       "board": {
         "id": "31c4bc59-7025-4f95-8b64-081ac2fb8e17",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -312826,7 +312220,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "f93099ce-fe91-4b41-b9c7-0f9ed0cea77f",
@@ -313245,7 +312639,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "1447c339-dbfe-4c4a-b1ac-5a2ebf726ee5",
@@ -313599,7 +312993,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "e498b836-8df6-4674-8500-68b746669b63",
@@ -314794,7 +314188,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "9bb5529b-54ed-4f46-a37d-634836687ac6",
@@ -315318,7 +314712,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "0952be21-c29f-4e37-bcd8-6132d2f77646",
@@ -316327,7 +315721,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "d0198bf9-bafe-47c9-87ba-a7e625c0a240",
@@ -316740,7 +316134,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "144fa3e2-a2cd-421e-b9e8-17ea647729c1",
@@ -317115,7 +316509,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 97
+      "factionRewardsIndex": 96
     },
     {
       "id": "da99eba1-7365-45dc-94e8-52dbcba867e7",
@@ -320401,7 +319795,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 99
+      "factionRewardsIndex": 98
     },
     {
       "id": "679fd34c-a20e-47cf-bf5c-eb713e283510",
@@ -322075,7 +321469,7 @@
       "hideInMobiGlas": true,
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 98
+      "factionRewardsIndex": 97
     },
     {
       "id": "7ea65625-fcca-4f89-93e6-371798e43ebd",
@@ -322872,7 +322266,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "a953c754-e864-4732-903e-a82db5df5271",
@@ -323155,7 +322549,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "8784007b-d2b2-4967-a27a-d3c0895d2b5c",
@@ -323379,7 +322773,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "3fb7df8f-e1ee-4557-9105-5ab137abdf33",
@@ -323959,7 +323353,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "dd1160cf-7081-4f5e-bb65-bdf631b94852",
@@ -324247,7 +323641,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "a953cc77-dde4-4000-ab2a-fb57f18c879a",
@@ -324476,7 +323870,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "24ac3c24-ed16-43f5-bb1c-626f0261fcb5",
@@ -326168,7 +325562,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "228ed7e4-ebdb-48b2-9f8e-3f395e27a76b",
@@ -326473,7 +325867,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "e2876be4-a6c7-48bf-a615-a15425c6158b",
@@ -326746,7 +326140,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "84476b48-109a-4871-b361-0ec3aa3a4d9d",
@@ -326963,7 +326357,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 102
+      "factionRewardsIndex": 101
     },
     {
       "id": "61134fca-1af9-48dc-802b-1886b8269ca3",
@@ -329251,7 +328645,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 93
+      "factionRewardsIndex": 92
     },
     {
       "id": "318bc17e-1b97-4ba5-a527-0c81076ef811",
@@ -329927,7 +329321,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 100
+      "factionRewardsIndex": 99
     },
     {
       "id": "bafaff08-53b0-49de-88fa-1e47525a6734",
@@ -331287,7 +330681,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "7f35c10a-1e6b-4c15-ac4c-e2bb768102d3",
@@ -332546,8 +331940,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_Easy",
@@ -333725,8 +333119,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_Medium",
@@ -334844,8 +334238,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Certification_VeryEasy",
@@ -338815,7 +338209,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 90
+      "factionRewardsIndex": 89
     },
     {
       "id": "80a7c19b-3856-434e-846d-e2966df891d6",
@@ -348664,7 +348058,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 93
+      "factionRewardsIndex": 92
     },
     {
       "id": "1fe9467e-88f1-4f4d-888b-5e95c177fdff",
@@ -351484,8 +350878,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Bounty_Super_Planet",
@@ -355363,8 +354757,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Bounty_Hard_Planet",
@@ -356841,8 +356235,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Bounty_Easy_Planet",
@@ -358331,8 +357725,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Bounty_Medium_Planet",
@@ -359062,8 +358456,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -359230,8 +358624,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "onceOnly": false,
       "maxPlayersPerInstance": 1,
@@ -360618,8 +360012,8 @@
       "board": {
         "id": "501147b8-3e02-456f-bd89-b17f11b09383",
         "scope": "SolarSystem",
-        "reach": "Solar",
-        "reachKey": null
+        "reach": "Intra-System",
+        "reachKey": "@ContractScope_SolarSystem"
       },
       "debugNames": [
         "MG_S_BountyHuntersGuild_Bounty_VeryEasy_Planet",
@@ -365874,7 +365268,7 @@
       "hideInMobiGlas": true,
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 98
+      "factionRewardsIndex": 97
     },
     {
       "id": "f81b133e-6043-469c-97e6-7524cad5eca5",
@@ -365988,7 +365382,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 103
+      "factionRewardsIndex": 102
     },
     {
       "id": "069b4754-cae6-4c16-921b-2e3daa173c2e",
@@ -375662,7 +375056,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "7afeaf4d-a225-4d03-8c8d-625746cde3b5",
@@ -375908,7 +375302,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "2aff8901-0787-4a79-a87b-e6846f7b91c0",
@@ -376014,7 +375408,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "b08f5fae-7dd8-4d51-a3df-ae71623d382e",
@@ -376233,7 +375627,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "adb32bca-f7d2-4182-a697-d36cc5467183",
@@ -377216,7 +376610,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "868d5596-1b23-499e-8afb-88800d6e3f5e",
@@ -377603,7 +376997,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "6d43451e-c36b-4f9a-bc41-9ee6e3b8587f",
@@ -377799,7 +377193,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "c4fd412d-06e5-4428-8819-2b1f62d9e9c6",
@@ -377905,7 +377299,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "e63947e0-f57d-4ca2-8947-4fd2f9d9e80d",
@@ -378149,7 +377543,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "21f45002-9ea8-4dca-9553-d27eb85ceab9",
@@ -378528,7 +377922,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "ae1596ff-c1ba-4b80-8265-b06e7864a3d5",
@@ -378827,7 +378221,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "f055aa9c-f9d9-4f93-82d1-e3a4a6b22f4e",
@@ -379271,7 +378665,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "501df9ce-0359-4492-80aa-cf5a746bbf9b",
@@ -379641,7 +379035,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "db71e9be-141b-4df2-b51b-3fbf926e687b",
@@ -379830,7 +379224,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "6166482f-352d-497a-aacc-417ce1820f03",
@@ -380061,7 +379455,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "0e5f4731-ef9b-4344-bffe-4aecd7ff8184",
@@ -380287,7 +379681,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "dd355331-ebe4-4fa2-8f8c-84f9df18839b",
@@ -381250,7 +380644,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "e5ac3362-5188-46cf-b931-79879e143b2b",
@@ -381617,7 +381011,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "1be171aa-8747-46cf-9c0b-f4ba47874e4a",
@@ -381937,7 +381331,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "2a53134f-239b-4c57-bb75-04598306a282",
@@ -382203,7 +381597,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "ab9bc47d-57f5-4ae8-ad61-c78ade917627",
@@ -382402,7 +381796,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "4011955c-14bf-4942-9150-c9fbd67e291c",
@@ -382713,7 +382107,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "1e67d50d-ce82-4e46-b0f9-140b6df64fb7",
@@ -382973,7 +382367,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "7955dd52-b892-4e0a-8daa-7abd5c63e192",
@@ -383272,7 +382666,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "af3d21d8-c6a3-46c6-9f1b-fc1ceb5472c4",
@@ -383683,7 +383077,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "595b60c2-ed21-47ff-952e-87f09d406e3e",
@@ -384035,7 +383429,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "32e98d19-2172-4734-8fef-834af5a97141",
@@ -384281,7 +383675,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "e3642732-191f-4915-9eea-e5a47df5f1e1",
@@ -384639,7 +384033,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "659c9aa2-7bef-4498-97d8-9eb643bc02f6",
@@ -384946,7 +384340,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "7e59e676-7b82-448a-b37e-a18035c74612",
@@ -385360,7 +384754,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "f4054178-9d89-4963-a801-387a902d5dc7",
@@ -385886,7 +385280,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "7cfba8eb-2437-45e5-814c-03ca1b1665e9",
@@ -386353,7 +385747,7 @@
       ],
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
-      "factionRewardsIndex": 107
+      "factionRewardsIndex": 106
     },
     {
       "id": "8df7d9a9-c887-4302-b93c-863788bdca01",

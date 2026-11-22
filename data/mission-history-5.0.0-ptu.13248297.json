@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "ptu",
-  "current_version": "5.0.0-ptu.13238477",
-  "generated_at": "2026-11-19T21:57:08Z",
+  "current_version": "5.0.0-ptu.13248297",
+  "generated_at": "2026-11-22T16:05:15Z",
   "versions_seen": [
     "4.10.0",
     "4.10.1",

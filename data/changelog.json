@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.80",
+    "date": "2026-11-23T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13248297 → 5.0.0-ptu.13260598. The Origin 890 Jump seems to have been shuffled between missions: it now turns up in about 64 Mercenary and bounty missions, for example for Headhunters and Foxwell Enforcement, and no longer in about 61 others, many of them for Citizens For Prosperity. In many bounty and Mercenary missions the target and its reinforcements or defenders now spawn as a single group; the number of ships stays the same. The Metamaterial Test #146 and #152 recipes change, and two Hockrow Agency recovery missions get new briefing text." }
+    ]
+  },
+  {
     "version": "1.0.79",
     "date": "2026-11-22T00:00:00Z",
     "changes": [

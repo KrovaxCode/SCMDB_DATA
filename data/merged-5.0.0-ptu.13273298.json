@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0-ptu.13260598",
+  "version": "5.0.0-ptu.13273298",
   "scopes": {
     "d31bd373-35ab-4ea4-b0a7-0ccc867ef082": {
       "scopeName": "FactionReputation",
@@ -8008,11 +8008,17 @@
       "name": "Savrilium",
       "nameKey": "items_commodities_savrilium"
     },
+    "d9882bce3691": {
+      "name": "Metamaterial Test #152"
+    },
     "07b40f01daf1": {
       "name": "Metamaterial Test #146"
     },
-    "d9882bce3691": {
-      "name": "Metamaterial Test #152"
+    "e6d2aebaaff7": {
+      "name": "Metamaterial Test #173"
+    },
+    "45a5ac0bc1fb": {
+      "name": "Metamaterial Test #188"
     },
     "279f95eb0a1d": {
       "name": "Marok Gem",
@@ -13940,6 +13946,78 @@
           "weight": 1,
           "entityClass": "8fbead8a-4e5b-4d63-bb80-442151e29094",
           "name": "Metamaterial Test #152"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "40253afb-9762-4bc2-a75d-1ace94166fe3": {
+      "name": "BP_REWARD_CollectorMaterial_003",
+      "blueprints": [
+        {
+          "blueprintRecord": "8bdcdcfb-105f-40f6-9807-4609be3e31b9",
+          "weight": 1,
+          "entityClass": "201c173f-902d-48f7-8312-c48d513a1fed",
+          "name": "Metamaterial Test #173"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "e097f43b-2863-41a6-a84d-4d4f50dee66e": {
+      "name": "BP_REWARD_CollectorMaterial_004",
+      "blueprints": [
+        {
+          "blueprintRecord": "5469e507-bc4b-4faa-8b57-84d85d516cff",
+          "weight": 1,
+          "entityClass": "d4155d0b-7649-45e6-8c4b-9a04ee5c5468",
+          "name": "Metamaterial Test #174"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "74271629-4d70-41e0-bd3d-da4125b45620": {
+      "name": "BP_REWARD_CollectorMaterial_005",
+      "blueprints": [
+        {
+          "blueprintRecord": "10e4ff2e-28b7-4601-bf94-e8c169372be3",
+          "weight": 1,
+          "entityClass": "9da24e73-142b-48ae-b9bf-8ff3adad8cb4",
+          "name": "Metamaterial Test #176"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "8fe4decd-4764-40fe-98a1-a7a428f0415e": {
+      "name": "BP_REWARD_CollectorMaterial_006",
+      "blueprints": [
+        {
+          "blueprintRecord": "b4b94507-305b-4884-81dd-e3813b24c5e7",
+          "weight": 1,
+          "entityClass": "6a0f515c-5c09-43a0-b8c7-27fab55301d9",
+          "name": "Metamaterial Test #188"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "bbd18b0d-0879-40a9-b71e-70d8ccd3083a": {
+      "name": "BP_REWARD_CollectorMaterial_007",
+      "blueprints": [
+        {
+          "blueprintRecord": "663e35a2-ff59-4ec2-89f9-9f7365700287",
+          "weight": 1,
+          "entityClass": "aceb6e56-a9b6-45c8-8dbc-bb856811d1be",
+          "name": "Metamaterial Test #191"
+        }
+      ],
+      "source": "collectorwikelo"
+    },
+    "b20214c6-f9ce-46c7-97d6-89fb86f49322": {
+      "name": "BP_REWARD_CollectorMaterial_008",
+      "blueprints": [
+        {
+          "blueprintRecord": "09dc3330-4347-4c82-9ad2-bc13f7ebb5f7",
+          "weight": 1,
+          "entityClass": "5e68036e-5101-412d-be81-2669d4f40e65",
+          "name": "Metamaterial Test #192"
         }
       ],
       "source": "collectorwikelo"
@@ -67226,9 +67304,9 @@
       ],
       "blueprintRewards": [
         {
-          "blueprintPool": "f1fe5e29-6a79-4245-b232-f79a63b78508",
+          "blueprintPool": "41371e2a-09d2-4eb6-b046-69e2ce34521d",
           "chance": 1,
-          "poolName": "BP_REWARD_CollectorMaterial_002",
+          "poolName": "BP_REWARD_CollectorMaterial_001",
           "trigger": "accept"
         }
       ],
@@ -67236,7 +67314,7 @@
         {
           "minAmount": 1,
           "maxAmount": 1,
-          "resource": "d9882bce3691"
+          "resource": "07b40f01daf1"
         }
       ],
       "descriptionLocKey": "TheCollector_Recipes_DrakeClipper",
@@ -105674,9 +105752,9 @@
       ],
       "blueprintRewards": [
         {
-          "blueprintPool": "41371e2a-09d2-4eb6-b046-69e2ce34521d",
+          "blueprintPool": "f1fe5e29-6a79-4245-b232-f79a63b78508",
           "chance": 1,
-          "poolName": "BP_REWARD_CollectorMaterial_001",
+          "poolName": "BP_REWARD_CollectorMaterial_002",
           "trigger": "accept"
         }
       ],
@@ -105684,7 +105762,7 @@
         {
           "minAmount": 1,
           "maxAmount": 1,
-          "resource": "07b40f01daf1"
+          "resource": "d9882bce3691"
         }
       ],
       "descriptionLocKey": "TheCollector_Recipes_Desc_L22Wolf",
@@ -132906,6 +132984,282 @@
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
       "factionRewardsIndex": 18
+    },
+    {
+      "id": "c62bb3cd-b71a-419f-b660-df7efa850aa4",
+      "debugName": "TheCollector_Vehicle_IroncladAssault",
+      "category": "story",
+      "missionType": "Wikelo - Vehicles",
+      "missionTypeKey": "@ContractManager_TempTab_Vehicles",
+      "title": "Ironclad Fight Better",
+      "description": "Ironclad a good ship. Assault fight very hard. Wikelo know how to make it fight harder. Wikelo very good at job. Bring me what I want and the blueprint can be for trade.",
+      "factionGuid": "5f442fdd-15cc-4f62-bd10-fce2023f4d0c",
+      "contractorName": "Wikelo",
+      "contractorNameKey": "@TheCollector_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 0,
+      "locations": [
+        "3dced004bd95",
+        "0d5560df310e",
+        "41553d69fce2",
+        "006e55c8e357"
+      ],
+      "destinations": [
+        "4c646c0b95d0",
+        "fd541f6a5abc",
+        "d53dab2b5316",
+        "bd45ac3103d0"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "87e124b5-79d4-438d-9be4-64c6c9f755f9"
+          ]
+        },
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "tagSearchLocations": [
+          {
+            "system": "Stanton",
+            "planet": "Crusader"
+          },
+          {
+            "system": "Stanton",
+            "planet": "microTech"
+          },
+          {
+            "system": "Stanton",
+            "planet": "Hurston"
+          },
+          {
+            "system": null,
+            "planet": null
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": null,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@TheCollector_Recipes_Title_IroncladAssault",
+      "descriptionKey": "@TheCollector_Recipes_Desc_IroncladAssault",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "itemRewards": [
+        {
+          "entityClass": "69013ffc-9916-4980-adb8-cdfc2e55ccec",
+          "name": "Drake Ironclad Assault Wikelo War Special",
+          "amount": 1,
+          "sendToPlayerHomeLocation": false,
+          "awardOnlyToMissionOwner": true,
+          "itemType": "vehicle"
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "f1fe5e29-6a79-4245-b232-f79a63b78508",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_002",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "40253afb-9762-4bc2-a75d-1ace94166fe3",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_003",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "8fe4decd-4764-40fe-98a1-a7a428f0415e",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_006",
+          "trigger": "accept"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 12,
+          "maxAmount": 12,
+          "resource": "d9882bce3691"
+        },
+        {
+          "minAmount": 7,
+          "maxAmount": 7,
+          "resource": "e6d2aebaaff7"
+        },
+        {
+          "minAmount": 10,
+          "maxAmount": 10,
+          "resource": "45a5ac0bc1fb"
+        }
+      ],
+      "descriptionLocKey": "TheCollector_Recipes_Desc_IroncladAssault",
+      "titleLocKey": "TheCollector_Recipes_Title_IroncladAssault",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 0,
+      "abandonedCooldownTime": 0,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
+    },
+    {
+      "id": "49e002d4-3699-4a28-b82e-5d8d1ef9ac38",
+      "debugName": "TheCollector_Vehicle_IroncladBase",
+      "category": "story",
+      "missionType": "Wikelo - Vehicles",
+      "missionTypeKey": "@ContractManager_TempTab_Vehicles",
+      "title": "Ironclad Work Harder",
+      "description": "Ironclad a good ship. But even good ship can be better. Wikelo know just how to make. Bring what Wikelo want and I trade better Ironclad blueprint to you.",
+      "factionGuid": "5f442fdd-15cc-4f62-bd10-fce2023f4d0c",
+      "contractorName": "Wikelo",
+      "contractorNameKey": "@TheCollector_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 0,
+      "locations": [
+        "3dced004bd95",
+        "0d5560df310e",
+        "41553d69fce2",
+        "006e55c8e357"
+      ],
+      "destinations": [
+        "4c646c0b95d0",
+        "fd541f6a5abc",
+        "d53dab2b5316",
+        "bd45ac3103d0"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "87e124b5-79d4-438d-9be4-64c6c9f755f9"
+          ]
+        },
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "tagSearchLocations": [
+          {
+            "system": "Stanton",
+            "planet": "Crusader"
+          },
+          {
+            "system": "Stanton",
+            "planet": "microTech"
+          },
+          {
+            "system": "Stanton",
+            "planet": "Hurston"
+          },
+          {
+            "system": null,
+            "planet": null
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": null,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@TheCollector_Recipes_Title_IroncladBase",
+      "descriptionKey": "@TheCollector_Recipes_Desc_IroncladBase",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "itemRewards": [
+        {
+          "entityClass": "5518a006-f649-4b01-95f4-6e7ca5a617c9",
+          "name": "Drake Ironclad Wikelo Work Special",
+          "amount": 1,
+          "sendToPlayerHomeLocation": false,
+          "awardOnlyToMissionOwner": true,
+          "itemType": "vehicle"
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "41371e2a-09d2-4eb6-b046-69e2ce34521d",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_001",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "40253afb-9762-4bc2-a75d-1ace94166fe3",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_003",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "8fe4decd-4764-40fe-98a1-a7a428f0415e",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_006",
+          "trigger": "accept"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 15,
+          "maxAmount": 15,
+          "resource": "07b40f01daf1"
+        },
+        {
+          "minAmount": 7,
+          "maxAmount": 7,
+          "resource": "e6d2aebaaff7"
+        },
+        {
+          "minAmount": 3,
+          "maxAmount": 3,
+          "resource": "45a5ac0bc1fb"
+        }
+      ],
+      "descriptionLocKey": "TheCollector_Recipes_Desc_IroncladBase",
+      "titleLocKey": "TheCollector_Recipes_Title_IroncladBase",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 0,
+      "abandonedCooldownTime": 0,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
     },
     {
       "id": "a368e5c8-9c12-45eb-a8bb-bb0799485ec5",
@@ -218502,6 +218856,122 @@
       "partialRewardPayoutIndex": 0,
       "availabilityIndex": 0,
       "factionRewardsIndex": 174
+    },
+    {
+      "id": "f6f90f0d-7916-4901-821d-8d0ff4129901",
+      "debugName": "TheCollector_Vehicle_Pitbull",
+      "category": "story",
+      "missionType": "Wikelo - Vehicles",
+      "missionTypeKey": "@ContractManager_TempTab_Vehicles",
+      "title": "Pitbull No Bark",
+      "description": "Wikelo know pitbull one time. Very loud. Even for Banu ears. Always barking. When Wikelo meet Drake Pitbull think I should make this one no bark. Extra stealth now. I can trade for the ship blueprint.",
+      "factionGuid": "5f442fdd-15cc-4f62-bd10-fce2023f4d0c",
+      "contractorName": "Wikelo",
+      "contractorNameKey": "@TheCollector_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 0,
+      "locations": [
+        "3dced004bd95",
+        "0d5560df310e",
+        "41553d69fce2",
+        "006e55c8e357"
+      ],
+      "destinations": [
+        "4c646c0b95d0",
+        "fd541f6a5abc",
+        "d53dab2b5316",
+        "bd45ac3103d0"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "87e124b5-79d4-438d-9be4-64c6c9f755f9"
+          ]
+        },
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "tagSearchLocations": [
+          {
+            "system": "Stanton",
+            "planet": "Crusader"
+          },
+          {
+            "system": "Stanton",
+            "planet": "microTech"
+          },
+          {
+            "system": "Stanton",
+            "planet": "Hurston"
+          },
+          {
+            "system": null,
+            "planet": null
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": null,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@TheCollector_Recipes_Title_Pitbull",
+      "descriptionKey": "@TheCollector_Recipes_Desc_Pitbull",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "itemRewards": [
+        {
+          "entityClass": "b3bc909e-de0f-402a-804e-8f8488c69a65",
+          "name": "Drake Pitbull Wikelo Sneak Special",
+          "amount": 1,
+          "sendToPlayerHomeLocation": false,
+          "awardOnlyToMissionOwner": true,
+          "itemType": "vehicle"
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "40253afb-9762-4bc2-a75d-1ace94166fe3",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_003",
+          "trigger": "accept"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 1,
+          "maxAmount": 1,
+          "resource": "e6d2aebaaff7"
+        }
+      ],
+      "descriptionLocKey": "TheCollector_Recipes_Desc_Pitbull",
+      "titleLocKey": "TheCollector_Recipes_Title_Pitbull",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 0,
+      "abandonedCooldownTime": 0,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
     },
     {
       "id": "76e05604-7cde-41f8-b83b-dd536671c49a",
@@ -313755,6 +314225,133 @@
       "factionRewardsIndex": 209
     },
     {
+      "id": "5b1c4812-4fda-4e6c-9540-905d99c72dc8",
+      "debugName": "TheCollector_Vehicle_Starlite",
+      "category": "story",
+      "missionType": "Wikelo - Vehicles",
+      "missionTypeKey": "@ContractManager_TempTab_Vehicles",
+      "title": "Starlite Shine Brighter",
+      "description": "When no fuel, MISC Starlite bring more. That is a very good thing. Big hero ship, yes? Wikelo make it help better. Big, big hero ship now. Give you blueprint for trade.",
+      "factionGuid": "5f442fdd-15cc-4f62-bd10-fce2023f4d0c",
+      "contractorName": "Wikelo",
+      "contractorNameKey": "@TheCollector_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 0,
+      "locations": [
+        "3dced004bd95",
+        "0d5560df310e",
+        "41553d69fce2",
+        "006e55c8e357"
+      ],
+      "destinations": [
+        "4c646c0b95d0",
+        "fd541f6a5abc",
+        "d53dab2b5316",
+        "bd45ac3103d0"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "87e124b5-79d4-438d-9be4-64c6c9f755f9"
+          ]
+        },
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "tagSearchLocations": [
+          {
+            "system": "Stanton",
+            "planet": "Crusader"
+          },
+          {
+            "system": "Stanton",
+            "planet": "microTech"
+          },
+          {
+            "system": "Stanton",
+            "planet": "Hurston"
+          },
+          {
+            "system": null,
+            "planet": null
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": null,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@TheCollector_Recipes_Title_Starlite",
+      "descriptionKey": "@TheCollector_Recipes_Desc_Starlite",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "itemRewards": [
+        {
+          "entityClass": "c7d9e1b7-46a1-4ffd-8487-47b9286e6e1c",
+          "name": "MISC Starlite Wikelo Work Special",
+          "amount": 1,
+          "sendToPlayerHomeLocation": false,
+          "awardOnlyToMissionOwner": true,
+          "itemType": "vehicle"
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "41371e2a-09d2-4eb6-b046-69e2ce34521d",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_001",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "f1fe5e29-6a79-4245-b232-f79a63b78508",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_002",
+          "trigger": "accept"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 1,
+          "maxAmount": 1,
+          "resource": "07b40f01daf1"
+        },
+        {
+          "minAmount": 1,
+          "maxAmount": 1,
+          "resource": "d9882bce3691"
+        }
+      ],
+      "descriptionLocKey": "TheCollector_Recipes_Desc_Starlite",
+      "titleLocKey": "TheCollector_Recipes_Title_Starlite",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 0,
+      "abandonedCooldownTime": 0,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
+    },
+    {
       "id": "5abc9255-3227-4c50-b89f-55f41e3457bb",
       "debugName": "NB_R_Local_ResourceGathering_Fauna_MediumQuantity_1",
       "category": "story",
@@ -328821,6 +329418,133 @@
       "hasPersonalCooldown": true,
       "personalCooldownTime": 15,
       "abandonedCooldownTime": 15,
+      "hideInMobiGlas": false,
+      "systems": [
+        "Stanton"
+      ],
+      "partialRewardPayoutIndex": 0,
+      "availabilityIndex": 0
+    },
+    {
+      "id": "1dcfe63d-c3bd-4d07-8f3f-8f37e5e13934",
+      "debugName": "TheCollector_Vehicle_Tiburon",
+      "category": "story",
+      "missionType": "Wikelo - Vehicles",
+      "missionTypeKey": "@ContractManager_TempTab_Vehicles",
+      "title": "Tiburon? You want?",
+      "description": "Human company make new version of Hammerhead ship. Not sure what name Tiburon mean, but very impressive. Very big gun. Wikelo study very well. Know all about. Can give you blueprint of skin and make for you. \\n\\nWe can trade. Bring me and I give to you.",
+      "factionGuid": "5f442fdd-15cc-4f62-bd10-fce2023f4d0c",
+      "contractorName": "Wikelo",
+      "contractorNameKey": "@TheCollector_From",
+      "canBeShared": false,
+      "illegal": false,
+      "timeToComplete": 0,
+      "locations": [
+        "3dced004bd95",
+        "0d5560df310e",
+        "41553d69fce2",
+        "006e55c8e357"
+      ],
+      "destinations": [
+        "4c646c0b95d0",
+        "fd541f6a5abc",
+        "d53dab2b5316",
+        "bd45ac3103d0"
+      ],
+      "locationSets": null,
+      "prerequisites": {
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "87e124b5-79d4-438d-9be4-64c6c9f755f9"
+          ]
+        },
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "tagSearchLocations": [
+          {
+            "system": "Stanton",
+            "planet": "Crusader"
+          },
+          {
+            "system": "Stanton",
+            "planet": "microTech"
+          },
+          {
+            "system": "Stanton",
+            "planet": "Hurston"
+          },
+          {
+            "system": null,
+            "planet": null
+          }
+        ]
+      },
+      "pyroRegion": null,
+      "rewardUEC": null,
+      "buyIn": null,
+      "minStanding": null,
+      "maxStanding": null,
+      "shipEncounters": null,
+      "propertyValues": null,
+      "subContractIds": null,
+      "parentDebugName": null,
+      "parentId": null,
+      "subContractIndex": null,
+      "titleKey": "@TheCollector_Recipes_Title_Tiburon",
+      "descriptionKey": "@TheCollector_Recipes_Desc_Tiburon",
+      "availableSystems": [
+        "Stanton"
+      ],
+      "itemRewards": [
+        {
+          "entityClass": "5e370ce1-4dc9-4637-8f2f-e5944e049ab2",
+          "name": "Aegis Tiburon Wikelo War Special",
+          "amount": 1,
+          "sendToPlayerHomeLocation": false,
+          "awardOnlyToMissionOwner": true,
+          "itemType": "vehicle"
+        }
+      ],
+      "blueprintRewards": [
+        {
+          "blueprintPool": "40253afb-9762-4bc2-a75d-1ace94166fe3",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_003",
+          "trigger": "accept"
+        },
+        {
+          "blueprintPool": "8fe4decd-4764-40fe-98a1-a7a428f0415e",
+          "chance": 1,
+          "poolName": "BP_REWARD_CollectorMaterial_006",
+          "trigger": "accept"
+        }
+      ],
+      "haulingOrders": [
+        {
+          "minAmount": 11,
+          "maxAmount": 11,
+          "resource": "e6d2aebaaff7"
+        },
+        {
+          "minAmount": 11,
+          "maxAmount": 11,
+          "resource": "45a5ac0bc1fb"
+        }
+      ],
+      "descriptionLocKey": "TheCollector_Recipes_Desc_Tiburon",
+      "titleLocKey": "TheCollector_Recipes_Title_Tiburon",
+      "onceOnly": false,
+      "maxPlayersPerInstance": 1,
+      "availableInPrison": false,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "hasPersonalCooldown": false,
+      "personalCooldownTime": 0,
+      "abandonedCooldownTime": 0,
       "hideInMobiGlas": false,
       "systems": [
         "Stanton"

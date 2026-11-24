@@ -1,10 +1,10 @@
 {
-  "version": "5.0.0-ptu.13260598",
+  "version": "5.0.0-ptu.13273298",
   "meta": {
-    "totalBlueprints": 1633,
-    "totalProducts": 1622,
-    "totalResources": 26,
-    "totalItems": 11
+    "totalBlueprints": 1639,
+    "totalProducts": 1628,
+    "totalResources": 28,
+    "totalItems": 14
   },
   "dismantle": {
     "efficiency": 0.5,
@@ -207,6 +207,7 @@
     "Borase",
     "Copper",
     "Corundum",
+    "Elespo",
     "Gold",
     "Hephaestanite",
     "Iron",
@@ -224,19 +225,23 @@
     "Tin",
     "Titanium",
     "Torite",
-    "Tungsten"
+    "Tungsten",
+    "WiDoW"
   ],
   "items": [
     "Aphorite",
     "Beradom",
     "Carinite",
+    "Carinite (Pure)",
     "Dolivine",
     "Feynmaline",
     "Glacosite",
     "Hadanite",
     "Janalite",
+    "Pouchweed",
     "Sadaryx",
     "Saldynium (Ore)",
+    "Valakkar Fang (Apex)",
     "Yormandi Eye"
   ],
   "blueprints": [
@@ -279,6 +284,325 @@
         }
       ],
       "productName": "Metamaterial Test #146",
+      "manufacturer": null
+    },
+    {
+      "guid": "8bdcdcfb-105f-40f6-9807-4609be3e31b9",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_003",
+      "productEntityClass": "201c173f-902d-48f7-8312-c48d513a1fed",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 10.0,
+                  "minQuality": 600,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 8.0,
+                  "minQuality": 0,
+                  "resourceName": "WiDoW"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Filament Coating",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Pouchweed"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #173",
+      "manufacturer": null
+    },
+    {
+      "guid": "5469e507-bc4b-4faa-8b57-84d85d516cff",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_004",
+      "productEntityClass": "d4155d0b-7649-45e6-8c4b-9a04ee5c5468",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 10.0,
+                  "minQuality": 600,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 8.0,
+                  "minQuality": 0,
+                  "resourceName": "WiDoW"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Filament Coating",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Pouchweed"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #174",
+      "manufacturer": null
+    },
+    {
+      "guid": "10e4ff2e-28b7-4601-bf94-e8c169372be3",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_005",
+      "productEntityClass": "9da24e73-142b-48ae-b9bf-8ff3adad8cb4",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 10.0,
+                  "minQuality": 600,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 8.0,
+                  "minQuality": 0,
+                  "resourceName": "WiDoW"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Filament Coating",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Pouchweed"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #176",
+      "manufacturer": null
+    },
+    {
+      "guid": "b4b94507-305b-4884-81dd-e3813b24c5e7",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_006",
+      "productEntityClass": "6a0f515c-5c09-43a0-b8c7-27fab55301d9",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Carinite (Pure)"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 4.0,
+                  "minQuality": 0,
+                  "resourceName": "Elespo"
+                },
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Valakkar Fang (Apex)"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #188",
+      "manufacturer": null
+    },
+    {
+      "guid": "663e35a2-ff59-4ec2-89f9-9f7365700287",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_007",
+      "productEntityClass": "aceb6e56-a9b6-45c8-8dbc-bb856811d1be",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 10.0,
+                  "minQuality": 600,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 8.0,
+                  "minQuality": 0,
+                  "resourceName": "WiDoW"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Filament Coating",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Pouchweed"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #191",
+      "manufacturer": null
+    },
+    {
+      "guid": "09dc3330-4347-4c82-9ad2-bc13f7ebb5f7",
+      "tag": "BP_CRAFT_Carryable_2H_CY_CollectorMaterial_008",
+      "productEntityClass": "5e68036e-5101-412d-be81-2669d4f40e65",
+      "gear": "missionitems",
+      "type": null,
+      "subtype": null,
+      "tiers": [
+        {
+          "craftTimeSeconds": 70,
+          "slots": [
+            {
+              "name": "Substrate",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 10.0,
+                  "minQuality": 600,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Lattice",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 8.0,
+                  "minQuality": 0,
+                  "resourceName": "WiDoW"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Filament Coating",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Pouchweed"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Metamaterial Test #192",
       "manufacturer": null
     },
     {

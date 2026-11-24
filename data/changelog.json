@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.81",
+    "date": "2026-11-24T00:00:00Z",
+    "changes": [
+      { "type": "data", "text": "🧪 New PTU build — 5.0.0-ptu.13260598 → 5.0.0-ptu.13273298. Wikelo has five new vehicle trades: the Drake Ironclad Assault Wikelo War Special and Ironclad Wikelo Work Special, the Drake Pitbull Wikelo Sneak Special, the MISC Starlite Wikelo Work Special and the Aegis Tiburon Wikelo War Special. They are paid in Metamaterial Tests, and six new ones (#173, #174, #176, #188, #191 and #192) show up in the Fabricator, crafted from Savrilium, WiDoW and Pouchweed or from Carinite (Pure) with Elespo or Valakkar Fang (Apex). \"Clipper Fight Now\" and \"Extra Special Wolf\" seem to have swapped the Metamaterial Test they ask for: the Clipper now takes #146 and the Alpha Wolf #152." }
+    ]
+  },
+  {
     "version": "1.0.80",
     "date": "2026-11-23T00:00:00Z",
     "changes": [

@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "channel": "ptu",
-  "current_version": "5.0.0-ptu.13273298",
-  "generated_at": "2026-11-24T21:19:13Z",
+  "current_version": "5.0.0-ptu.13284307",
+  "generated_at": "2026-11-26T00:40:46Z",
   "versions_seen": [
     "4.10.0",
     "4.10.1",
@@ -7680,6 +7680,18 @@
       "last_seen": "5.0.0"
     },
     "9e4885ba-0022-46d9-b3a2-e4cafd4e2c97": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "e1f99602-9a28-4d0e-b1a8-109ea8d9cd9b": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "9e2730df-6f50-487e-aa4c-c30ab9bdf512": {
+      "first_seen": "5.0.0",
+      "last_seen": "5.0.0"
+    },
+    "fc1d77fc-94a9-49f3-b937-995958991bf4": {
       "first_seen": "5.0.0",
       "last_seen": "5.0.0"
     }

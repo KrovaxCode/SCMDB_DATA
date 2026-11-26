@@ -1,8 +1,8 @@
 {
-  "version": "5.0.0-ptu.13273298",
+  "version": "5.0.0-ptu.13284307",
   "meta": {
-    "totalBlueprints": 1639,
-    "totalProducts": 1628,
+    "totalBlueprints": 1692,
+    "totalProducts": 1681,
     "totalResources": 28,
     "totalItems": 14
   },
@@ -1183,6 +1183,47 @@
       "manufacturer": "Gemini"
     },
     {
+      "guid": "ec67a3e8-f35a-4f9d-8260-8fd7c67245ea",
+      "tag": "BP_CRAFT_hdgw_pistol_ballistic_01_mag",
+      "productEntityClass": "aa9edf82-8a45-4088-b5de-14c646252f79",
+      "gear": "fpsgear",
+      "type": "ammo",
+      "subtype": "ballistic",
+      "tiers": [
+        {
+          "craftTimeSeconds": 10,
+          "slots": [
+            {
+              "name": "Magazine",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Core",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Torite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Salvo Frag Pistol Magazine (8 cap)",
+      "manufacturer": "Hedeby Gunworks"
+    },
+    {
       "guid": "34d6d2d6-6937-44ae-85f9-a690c43668ce",
       "tag": "BP_CRAFT_ksar_pistol_ballistic_01_mag",
       "productEntityClass": "90b873da-1d15-48ba-86f5-f5633e958c33",
@@ -1511,6 +1552,47 @@
       "manufacturer": "VOLT"
     },
     {
+      "guid": "abd61602-b3c4-4016-9e2d-4feed7680bdc",
+      "tag": "BP_CRAFT_asad_rifle_energy_01_mag",
+      "productEntityClass": "7624b16b-96ba-4c51-ae7a-a2d34f266626",
+      "gear": "fpsgear",
+      "type": "ammo",
+      "subtype": "laser",
+      "tiers": [
+        {
+          "craftTimeSeconds": 10,
+          "slots": [
+            {
+              "name": "Magazine",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Internal Array",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 Rifle Battery (40 cap)",
+      "manufacturer": "PH Associated Science and Development"
+    },
+    {
       "guid": "1c22c60d-b76b-4df0-9241-550e7c5f04ae",
       "tag": "BP_CRAFT_klwe_lmg_energy_01_mag",
       "productEntityClass": "b62224ba-5c56-4306-857a-70de7d570767",
@@ -1716,6 +1798,47 @@
       "manufacturer": "Klaus & Werner"
     },
     {
+      "guid": "00a9ef92-74ff-495a-b1ce-183572802882",
+      "tag": "BP_CRAFT_ksar_lmg_energy_01_mag",
+      "productEntityClass": "1a26b6d2-ea68-4da9-a421-b7c399bf441f",
+      "gear": "fpsgear",
+      "type": "ammo",
+      "subtype": "laser",
+      "tiers": [
+        {
+          "craftTimeSeconds": 10,
+          "slots": [
+            {
+              "name": "Magazine",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Internal Array",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Verdict LMG Battery (75 cap)",
+      "manufacturer": "Kastak Arms"
+    },
+    {
       "guid": "c447b13a-2a5a-4183-8f30-d8073ed5ebaa",
       "tag": "BP_CRAFT_ksar_smg_energy_01_mag",
       "productEntityClass": "31b73bfe-da55-4cb0-a19d-1c6543ca1fb9",
@@ -1878,6 +2001,47 @@
       ],
       "productName": "Quartz Energy SMG Battery (45 cap)",
       "manufacturer": "VOLT"
+    },
+    {
+      "guid": "62b6f4f4-d88f-4769-8449-ca132b95a036",
+      "tag": "BP_CRAFT_ksar_pistol_energy_01_mag",
+      "productEntityClass": "f8c2296c-d000-42d0-9b69-a7259689119a",
+      "gear": "fpsgear",
+      "type": "ammo",
+      "subtype": "plasma",
+      "tiers": [
+        {
+          "craftTimeSeconds": 10,
+          "slots": [
+            {
+              "name": "Magazine",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Conduit Channel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Hellion Pistol Plasma Round",
+      "manufacturer": "Kastak Arms"
     },
     {
       "guid": "e3596782-22aa-4d83-a50b-b70e7c4f418e",
@@ -36407,6 +36571,274 @@
       "manufacturer": "Roberts Space Industries"
     },
     {
+      "guid": "950e8610-cf5d-4334-9b3b-aeaf1bd6288f",
+      "tag": "BP_CRAFT_ruso_armor_light_arms_01_01_01",
+      "productEntityClass": "8c87d9a4-97ef-4176-9f0e-0d241904ee35",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "cosmonaut",
+      "tiers": [
+        {
+          "craftTimeSeconds": 120,
+          "slots": [
+            {
+              "name": "Segment Paneling",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Taranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Venture Arms \"Rust Society\"",
+      "manufacturer": "Roberts Space Industries"
+    },
+    {
+      "guid": "4f21e1e4-34c2-4290-833e-f60c4b74f711",
+      "tag": "BP_CRAFT_ruso_armor_light_core_01_01_01",
+      "productEntityClass": "c4eeae4b-e239-4ce2-bfb9-322e64ad4746",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "cosmonaut",
+      "tiers": [
+        {
+          "craftTimeSeconds": 120,
+          "slots": [
+            {
+              "name": "Segment Paneling",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Taranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Venture Core \"Rust Society\"",
+      "manufacturer": "Roberts Space Industries"
+    },
+    {
+      "guid": "33972123-5b6e-488d-9b65-1ca6fbab49da",
+      "tag": "BP_CRAFT_ruso_armor_light_helmet_01_01_01",
+      "productEntityClass": "54c91753-0a6e-420f-bfd7-d7e6b5f3ff8b",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "cosmonaut",
+      "tiers": [
+        {
+          "craftTimeSeconds": 120,
+          "slots": [
+            {
+              "name": "Segment Paneling",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Taranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Venture Helmet \"Rust Society\"",
+      "manufacturer": "Roberts Space Industries"
+    },
+    {
+      "guid": "a4e04961-238e-4362-96e6-8eacc50dccd5",
+      "tag": "BP_CRAFT_ruso_armor_light_legs_01_01_01",
+      "productEntityClass": "926a2bf7-600a-4d19-a6fa-bba397eb0b53",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "cosmonaut",
+      "tiers": [
+        {
+          "craftTimeSeconds": 120,
+          "slots": [
+            {
+              "name": "Segment Paneling",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Taranite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Damage Mitigation",
+                  "propertyKey": "armor_damagemitigation"
+                }
+              ]
+            },
+            {
+              "name": "Insulative Liner",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Aslarite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Venture Legs \"Rust Society\"",
+      "manufacturer": "Roberts Space Industries"
+    },
+    {
       "guid": "6940a96b-b26e-4547-b302-3cef3ec273ee",
       "tag": "BP_CRAFT_omc_utility_heavy_arms_01_01_01",
       "productEntityClass": "f7bc48ae-f075-43d3-a4b9-ce6ab3dc7fac",
@@ -69095,6 +69527,52 @@
       "manufacturer": "Roberts Space Industries"
     },
     {
+      "guid": "b3c2b3b7-57bf-4fe8-ac52-e0fd622715a6",
+      "tag": "BP_CRAFT_rsi_explorer_undersuit_01_01_ruso",
+      "productEntityClass": "cd99e671-9d3f-41eb-90a7-f565bb1b7b51",
+      "gear": "fpsgear",
+      "type": "armour",
+      "subtype": "undersuit",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Suit Underlay",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Silicon"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.8,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Max Temp",
+                  "propertyKey": "armor_temperaturemax"
+                },
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.0,
+                  "modifierAtEnd": 1.2,
+                  "propertyName": "Min Temp",
+                  "propertyKey": "armor_temperaturemin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Venture Undersuit \"Rust Society\"",
+      "manufacturer": "Roberts Space Industries"
+    },
+    {
       "guid": "62848d0b-b19d-4e74-a921-e67c847c9ddc",
       "tag": "BP_CRAFT_rsi_odyssey_undersuit_01_01_01",
       "productEntityClass": "f0705a24-2c09-43b0-b90f-ce84d06ec1cd",
@@ -69323,6 +69801,1113 @@
       ],
       "productName": "ForceFlex Undersuit Black/Gold",
       "manufacturer": "Virgil"
+    },
+    {
+      "guid": "f21e9923-9e9d-490e-9312-16f28da41f29",
+      "tag": "BP_CRAFT_arma_barrel_comp_s1",
+      "productEntityClass": "2d559b31-cf5f-4963-b276-c687f49601de",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.037,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.012,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Sion Compensator1",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "8c4c3e9e-b106-44ef-9586-fb1f0a873910",
+      "tag": "BP_CRAFT_arma_barrel_comp_s2",
+      "productEntityClass": "5867f3cf-e248-405c-b2fb-6e1abe579c82",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.056,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.018,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Sion Compensator2",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "7a946697-903f-4d7c-b332-24739e286bc7",
+      "tag": "BP_CRAFT_arma_barrel_comp_s3",
+      "productEntityClass": "f739108f-7720-4a5e-b173-a65e07b314da",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.065,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Sion Compensator3",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "5b271f69-00d9-415a-b50b-d9a8f829eec4",
+      "tag": "BP_CRAFT_arma_barrel_flhd_s1",
+      "productEntityClass": "04f546d6-651a-47f4-b0ae-64ed2b37557b",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.025,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.0078,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Veil Flash Hider1",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "f129e918-8831-47f3-9e26-e52773a4620a",
+      "tag": "BP_CRAFT_arma_barrel_flhd_s2",
+      "productEntityClass": "156f6405-7fdc-40e4-a783-703e807d9f88",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.037,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.012,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Veil Flash Hider2",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "1051618f-1e53-4321-aaae-780800a16694",
+      "tag": "BP_CRAFT_arma_barrel_flhd_s3",
+      "productEntityClass": "678aae5b-0d55-42fb-bfe2-ce9973715529",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.043,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.014,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Veil Flash Hider3",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "6c0388b7-901b-40be-9b9a-686532f18e9f",
+      "tag": "BP_CRAFT_arma_barrel_stab_s1",
+      "productEntityClass": "0ff25cf5-6f7b-47e8-8842-f12d8abfe68b",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.037,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.012,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Emod Stabilizer1",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "d8b84810-292a-4abe-906b-2b66367af532",
+      "tag": "BP_CRAFT_arma_barrel_stab_s2",
+      "productEntityClass": "ecbc4c11-95f3-4bd3-9fad-49bba798a942",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.056,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.018,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Emod Stabilizer2",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "bc79d07a-0752-4aae-a4f3-a04763c1e12d",
+      "tag": "BP_CRAFT_arma_barrel_supp_s1_03",
+      "productEntityClass": "003db92d-65ad-496e-baa8-e061ab6f1392",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.037,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.012,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Stoic Suppressor1",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "1ae9429f-a0ea-488a-8ad7-b168ece60d85",
+      "tag": "BP_CRAFT_arma_barrel_supp_s2_03",
+      "productEntityClass": "4ef9f8dd-6229-4c86-bc8e-025c6cc87c2c",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.056,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.018,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Stoic Suppressor2",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "db9bba4d-e50c-42b6-8b97-8e2e17839477",
+      "tag": "BP_CRAFT_arma_barrel_supp_s3_03",
+      "productEntityClass": "a3d3ce39-37f1-41a7-827d-ae83aded1285",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "barrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.065,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Tungsten"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Stoic Suppressor3",
+      "manufacturer": "ArmaMod"
+    },
+    {
+      "guid": "a5fa91e4-9d56-4112-b5b1-ecd8a1238d1d",
+      "tag": "BP_CRAFT_behr_optics_holo_x1_s1",
+      "productEntityClass": "4505b54f-0e2b-4dfa-8c15-3c9073561f93",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.043,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.039,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "PT1 (1x Holographic)",
+      "manufacturer": "Behring"
+    },
+    {
+      "guid": "ee988b22-5027-47e3-ae8e-9886260b6778",
+      "tag": "BP_CRAFT_behr_optics_tsco_x16_s3",
+      "productEntityClass": "77521326-082c-44f9-a5b2-09dfb87f3f14",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.15,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.14,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "EE16 (16x Telescopic)",
+      "manufacturer": "Behring"
+    },
+    {
+      "guid": "9d142db5-0f57-4a8f-9f4e-2664772bd59e",
+      "tag": "BP_CRAFT_behr_optics_tsco_x8_s3",
+      "productEntityClass": "0dabf62d-9b3e-4968-a371-ae0cb44057a1",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.15,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.14,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "EE08 (8x Telescopic)",
+      "manufacturer": "Behring"
+    },
+    {
+      "guid": "0f1fe3ac-5915-45b8-b431-7c7b2a9cddd3",
+      "tag": "BP_CRAFT_gmni_optics_tsco_x4_s2",
+      "productEntityClass": "718aca95-c774-4266-a0e2-50ba2a56088e",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.13,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.11,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "OT4-RF (4x Telescopic)",
+      "manufacturer": "Gemini"
+    },
+    {
+      "guid": "58389d0d-a406-4846-85b7-af26235cea92",
+      "tag": "BP_CRAFT_hdgw_optics_tsco_x4_s2",
+      "productEntityClass": "9a1d74cd-6a70-4fcf-a215-eb1180f2953d",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.15,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.13,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Myers (4x Telescopic)",
+      "manufacturer": "Hedeby Gunworks"
+    },
+    {
+      "guid": "f002d48d-9d67-4206-95c4-b14f950c5843",
+      "tag": "BP_CRAFT_klwe_optics_disp_x8_s3",
+      "productEntityClass": "c75282e6-8b92-4398-ac27-bd6f56d627b2",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.17,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.15,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Touchstone (8x Monitor)",
+      "manufacturer": "Klaus & Werner"
+    },
+    {
+      "guid": "a56d35cf-e9ee-443b-b004-35ba7aa209e7",
+      "tag": "BP_CRAFT_klwe_optics_rdot_x1_s1",
+      "productEntityClass": "b886d522-04ca-493e-9373-daa8a4f8066e",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.043,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.039,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "RD-1 Jaeger (1x Red Dot)",
+      "manufacturer": "Klaus & Werner"
+    },
+    {
+      "guid": "ee30f6c9-3309-4dbf-b5ee-c412a6cc10c2",
+      "tag": "BP_CRAFT_klwe_optics_tsco_2_5x_s2",
+      "productEntityClass": "d2da6df5-7f4f-4ef3-ada2-92de87d7487a",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 45,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.13,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.12,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "TS-25 Basara (2.5x Telescopic)",
+      "manufacturer": "Klaus & Werner"
+    },
+    {
+      "guid": "f9c9d61c-da2f-4185-82bf-61c550dae5ca",
+      "tag": "BP_CRAFT_lbco_optics_tsco_x16_s3",
+      "productEntityClass": "1ba4ebda-fa61-45e7-928f-a543161c9276",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.14,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.13,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Omarof (16x Telescopic)",
+      "manufacturer": "LBCO"
+    },
+    {
+      "guid": "3de06a3a-3bfa-4778-b1ca-a510b124e88e",
+      "tag": "BP_CRAFT_nvtc_optics_holo_x3_s1",
+      "productEntityClass": "fd9d06a9-5cf8-4325-9149-538d576e5146",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.095,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.086,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Gamma Plus (3x Holographic)",
+      "manufacturer": "NV-TAC"
+    },
+    {
+      "guid": "c9566274-527d-478b-a405-3015e439f675",
+      "tag": "BP_CRAFT_nvtc_optics_rdot_x1_s1_LAMP",
+      "productEntityClass": "495e07f0-3b09-49a7-857b-dccefca9f5d1",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.076,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.069,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Delta LL (1x Reflex)",
+      "manufacturer": "NV-TAC"
+    },
+    {
+      "guid": "cc8aeddc-d65c-48e4-ad63-bd51168f3928",
+      "tag": "BP_CRAFT_volt_optics_tsco_x8_s3",
+      "productEntityClass": "7b02ea9f-ba9a-48a9-89c4-e557155bd471",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "optics",
+      "tiers": [
+        {
+          "craftTimeSeconds": 60,
+          "slots": [
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.13,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Casing",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.12,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "FarSight (8x Telescopic)",
+      "manufacturer": "LBCO"
+    },
+    {
+      "guid": "5dc65b8a-f959-4e96-9378-017bf203c328",
+      "tag": "BP_CRAFT_klwe_ubarrel_lasr_s1",
+      "productEntityClass": "cdf4adaa-de1e-42cf-8b50-0fd3ad138a10",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "underbarrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.027,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Tracer Laser Pointer Orange",
+      "manufacturer": "NV-TAC"
+    },
+    {
+      "guid": "30d45fe2-3213-4947-91ee-36c042582db0",
+      "tag": "BP_CRAFT_klwe_ubarrel_lasr_s1_02",
+      "productEntityClass": "14bc8a2c-10f2-4f6e-a45e-eec476367d45",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "underbarrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.027,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Tracer Laser Pointer Green",
+      "manufacturer": "NV-TAC"
+    },
+    {
+      "guid": "2db12ce3-7332-45c0-bc13-bfc5d1199c75",
+      "tag": "BP_CRAFT_nvtc_ubarrel_flsh_s1_03",
+      "productEntityClass": "1d6b428a-33a8-4074-bd41-fbc6a16c72d1",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "underbarrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.027,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "FieldLite Flashlight Yellow",
+      "manufacturer": "NV-TAC"
+    },
+    {
+      "guid": "0bcea23a-e43b-43c9-b151-cc5fe284369f",
+      "tag": "BP_CRAFT_volt_ubarrel_flsh_s1",
+      "productEntityClass": "01ad699f-cf07-4775-b363-75b915094740",
+      "gear": "fpsgear",
+      "type": "attachments",
+      "subtype": "underbarrel",
+      "tiers": [
+        {
+          "craftTimeSeconds": 30,
+          "slots": [
+            {
+              "name": "Emitter",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.027,
+                  "minQuality": 0,
+                  "resourceName": "Quartz"
+                }
+              ],
+              "modifiers": null
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": null
+            }
+          ]
+        }
+      ],
+      "productName": "Lux Flashlight",
+      "manufacturer": "NV-TAC"
     },
     {
       "guid": "a1b5c9ef-be2e-4077-ba67-4a3028970c49",
@@ -118438,6 +120023,246 @@
       "manufacturer": "Hurston Dynamics"
     },
     {
+      "guid": "bca94f21-9786-4cc7-af3d-9ebe028c755f",
+      "tag": "BP_CRAFT_behr_glauncher_ballistic_01",
+      "productEntityClass": "a6688dce-f8c7-4b73-b657-bd1e17f951d3",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "launcher",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Stock",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "GP-33 MOD Grenade Launcher",
+      "manufacturer": "Behring"
+    },
+    {
+      "guid": "f126c312-2159-4607-8963-084bd728ef6a",
+      "tag": "BP_CRAFT_behr_glauncher_ballistic_01_cen01",
+      "productEntityClass": "e4a479eb-e58d-4fba-8d48-037af894b7b9",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "launcher",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Stock",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Hephaestanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.2,
+                  "modifierAtEnd": 0.8,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Barrel",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.03,
+                  "minQuality": 0,
+                  "resourceName": "Iron"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "GP-33 MOD \"Ashfall\" Grenade Launcher",
+      "manufacturer": "Behring"
+    },
+    {
       "guid": "b627e348-29b5-44c8-a836-258df60bcd08",
       "tag": "BP_CRAFT_behr_lmg_ballistic_01",
       "productEntityClass": "6f1674b1-fb58-4661-9114-f418862751d2",
@@ -119712,6 +121537,394 @@
       "manufacturer": "Klaus & Werner"
     },
     {
+      "guid": "b1d93383-eb67-47a7-9934-b6c11ee25e47",
+      "tag": "BP_CRAFT_ksar_lmg_energy_01",
+      "productEntityClass": "9eacc20a-8a7a-4600-8e88-b48237141363",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "lmg",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Verdict LMG",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "7634de37-0e17-40c9-817f-8ca608641931",
+      "tag": "BP_CRAFT_ksar_lmg_energy_01_tint01",
+      "productEntityClass": "ca3e2306-ecb6-4eae-a6f6-42bc7224c839",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "lmg",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Verdict \"Barricade\" LMG",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "6f149bf2-b98b-4cea-bc78-40f16d76a98d",
+      "tag": "BP_CRAFT_ksar_lmg_energy_01_tint02",
+      "productEntityClass": "c84438ce-c2b2-4aa8-86de-b7a60eca97bf",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "lmg",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Verdict \"Rancor\" LMG",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "2870c02c-7cb3-47c4-9916-9da4efc7d67d",
+      "tag": "BP_CRAFT_ksar_lmg_energy_01_tint03",
+      "productEntityClass": "c1a93154-135d-4cee-807e-7ceca1adbe35",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "lmg",
+      "tiers": [
+        {
+          "craftTimeSeconds": 240,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.06,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Hadanite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Verdict \"Memoir\" LMG",
+      "manufacturer": "Kastak Arms"
+    },
+    {
       "guid": "35e047ab-51a5-4d25-bd6c-6d6b99c93ff6",
       "tag": "BP_CRAFT_none_lmg_ballistic_01",
       "productEntityClass": "bca92494-a6de-4a81-880c-a9f7bb10427a",
@@ -120218,6 +122431,156 @@
       ],
       "productName": "Fresnel \"Rockfall\" Energy LMG",
       "manufacturer": "VOLT"
+    },
+    {
+      "guid": "6e83eedf-5e17-412d-be08-9530cd3b050f",
+      "tag": "BP_CRAFT_utfl_melee_01",
+      "productEntityClass": "04e84f78-fc3d-4d7e-a678-25e463bfde4f",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "melee",
+      "tiers": [
+        {
+          "craftTimeSeconds": 210,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 499,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.0,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.0,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            },
+            {
+              "name": "Grip",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Ouratite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 499,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.0,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.0,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "FSK-8 Combat Knife",
+      "manufacturer": "UltiFlex"
+    },
+    {
+      "guid": "4ac465d3-9d66-46b0-ae38-736554c7e262",
+      "tag": "BP_CRAFT_utfl_melee_01_grey01",
+      "productEntityClass": "089c5d5f-c3ea-456d-a35f-72bed985dbaf",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "melee",
+      "tiers": [
+        {
+          "craftTimeSeconds": 210,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.05,
+                  "minQuality": 0,
+                  "resourceName": "Savrilium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 499,
+                  "modifierAtStart": 0.95,
+                  "modifierAtEnd": 1.0,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.0,
+                  "modifierAtEnd": 1.05,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            },
+            {
+              "name": "Grip",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Ouratite"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 499,
+                  "modifierAtStart": 0.85,
+                  "modifierAtEnd": 1.0,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                },
+                {
+                  "startQuality": 500,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.0,
+                  "modifierAtEnd": 1.15,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "FSK-8 \"Ghost\" Combat Knife",
+      "manufacturer": "UltiFlex"
     },
     {
       "guid": "19550053-2b2c-4382-9da0-cf72e32e7976",
@@ -123877,6 +126240,394 @@
       "manufacturer": "Kastak Arms"
     },
     {
+      "guid": "2ad52000-28ce-4aea-ba67-a0683ca1ab05",
+      "tag": "BP_CRAFT_ksar_pistol_energy_01",
+      "productEntityClass": "7aa3ab5f-d8b3-4bdc-97e7-3461c8db3de8",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "pistol",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Hellion Pistol",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "45a1bc32-e49d-44f8-8c32-7316bcfc603e",
+      "tag": "BP_CRAFT_ksar_pistol_energy_01_tint01",
+      "productEntityClass": "cce44b1c-416c-43bb-ad34-1946d231fe34",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "pistol",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Hellion \"Esquire\" Pistol",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "75a11b67-e992-4673-9184-73c2bf3ec4d0",
+      "tag": "BP_CRAFT_ksar_pistol_energy_01_tint02",
+      "productEntityClass": "9ce0cf5e-a83d-4c57-9b99-cbd050185204",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "pistol",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Hellion \"Primetime\" Pistol",
+      "manufacturer": "Kastak Arms"
+    },
+    {
+      "guid": "e66011b0-a12d-4f4d-8901-38d5f54eba54",
+      "tag": "BP_CRAFT_ksar_pistol_energy_01_tint03",
+      "productEntityClass": "9cb50ad8-eabf-4055-83e8-f7e41d830158",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "pistol",
+      "tiers": [
+        {
+          "craftTimeSeconds": 90,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Lindinium"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.01,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 4,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Hellion \"Goodnite\" Pistol",
+      "manufacturer": "Kastak Arms"
+    },
+    {
       "guid": "97847c70-ec56-4b59-b946-4416d8f38d1d",
       "tag": "BP_CRAFT_lbco_pistol_energy_01",
       "productEntityClass": "959520d7-d83d-45b7-9e7a-f6d057494736",
@@ -124674,6 +127425,491 @@
       ],
       "productName": "Pulse \"Rouge\" Pistol",
       "manufacturer": "VOLT"
+    },
+    {
+      "guid": "d760a20a-5f2a-4386-96de-97e0db30fd9d",
+      "tag": "BP_CRAFT_asad_rifle_energy_01",
+      "productEntityClass": "20995f83-5951-4111-a5cb-e0ab16f54697",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 Rifle",
+      "manufacturer": "PH Associated Science and Development"
+    },
+    {
+      "guid": "479f3e32-de30-46f0-a2f5-d69fe727726f",
+      "tag": "BP_CRAFT_asad_rifle_energy_01_tint01",
+      "productEntityClass": "99d099b3-dc15-438e-abc4-91246fd06f8a",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 \"Metallic Gray\" Rifle",
+      "manufacturer": "PH Associated Science and Development"
+    },
+    {
+      "guid": "601e22c8-4951-4158-a073-9c5c719e1c3c",
+      "tag": "BP_CRAFT_asad_rifle_energy_01_tint02",
+      "productEntityClass": "4ce5f4ec-73ff-4849-897d-1d58836c8bf8",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 \"Dark Matter\" Rifle",
+      "manufacturer": "PH Associated Science and Development"
+    },
+    {
+      "guid": "c7636c2f-dc0c-439c-bdcf-51f51e4aa04f",
+      "tag": "BP_CRAFT_asad_rifle_energy_01_tint03",
+      "productEntityClass": "f5414051-c354-416d-b7d3-b6970f4eeb8b",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 \"Red and Black\" Rifle",
+      "manufacturer": "PH Associated Science and Development"
+    },
+    {
+      "guid": "d2e95acc-9fec-409e-a585-85a15fdedf83",
+      "tag": "BP_CRAFT_asad_rifle_energy_01_tint04",
+      "productEntityClass": "9dadec2c-f0a1-4daf-96cf-db0ca1e148af",
+      "gear": "fpsgear",
+      "type": "weapons",
+      "subtype": "rifle",
+      "tiers": [
+        {
+          "craftTimeSeconds": 150,
+          "slots": [
+            {
+              "name": "Frame",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.04,
+                  "minQuality": 0,
+                  "resourceName": "Corundum"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Smoothness",
+                  "propertyKey": "weapon_recoil_smoothness"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Handling",
+                  "propertyKey": "weapon_recoil_handling"
+                },
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 1.4,
+                  "modifierAtEnd": 0.6,
+                  "propertyName": "Recoil Kick",
+                  "propertyKey": "weapon_recoil_kick"
+                }
+              ]
+            },
+            {
+              "name": "Wiring",
+              "options": [
+                {
+                  "type": "resource",
+                  "quantity": 0.02,
+                  "minQuality": 0,
+                  "resourceName": "Copper"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.88,
+                  "modifierAtEnd": 1.12,
+                  "propertyName": "Fire Rate",
+                  "propertyKey": "weapon_firerate"
+                }
+              ]
+            },
+            {
+              "name": "Lenses",
+              "options": [
+                {
+                  "type": "item",
+                  "quantity": 1,
+                  "minQuality": 0,
+                  "modifiers": null,
+                  "itemName": "Dolivine"
+                }
+              ],
+              "modifiers": [
+                {
+                  "startQuality": 0,
+                  "endQuality": 1000,
+                  "modifierAtStart": 0.925,
+                  "modifierAtEnd": 1.075,
+                  "propertyName": "Impact Force",
+                  "propertyKey": "weapon_damage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "productName": "Model-K2 \"Dark Gray\" Rifle",
+      "manufacturer": "PH Associated Science and Development"
     },
     {
       "guid": "30e48bec-41ec-4322-92b5-da628e85830c",

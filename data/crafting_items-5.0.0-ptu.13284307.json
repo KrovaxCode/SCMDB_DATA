@@ -1,13 +1,13 @@
 {
-  "version": "5.0.0-ptu.13273298",
+  "version": "5.0.0-ptu.13284307",
   "meta": {
-    "totalItems": 1638,
-    "weapons": 275,
-    "armor": 933,
+    "totalItems": 1691,
+    "weapons": 292,
+    "armor": 938,
     "shipcomponents": 380,
-    "unknown": 50,
+    "unknown": 81,
     "unresolved": 1,
-    "withLootSources": 252
+    "withLootSources": 296
   },
   "damageResistancePools": [
     {
@@ -2101,6 +2101,35 @@
     ],
     [
       {
+        "name": "Single",
+        "fireRate": 60.0,
+        "heatPerShot": 0.0,
+        "wearPerShot": 0.33,
+        "type": "single",
+        "spread": {
+          "min": 4.0,
+          "max": 7.0,
+          "firstAttack": 4.0,
+          "attack": 2.0,
+          "decay": 1.0
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.0,
+          "pitchMaxDeg": 0.0,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 0.0,
+          "smoothTime": 0.0,
+          "decayStart": 0.0,
+          "minDecay": 0.0,
+          "maxDecay": 0.0
+        }
+      }
+    ],
+    [
+      {
         "name": null,
         "type": "sequence",
         "sequenceMode": "Looping",
@@ -2254,6 +2283,35 @@
           "decayStart": 0.13,
           "minDecay": 2.0,
           "maxDecay": 2.0
+        }
+      }
+    ],
+    [
+      {
+        "name": "Single",
+        "fireRate": 180.0,
+        "heatPerShot": 0.0,
+        "wearPerShot": 0.33,
+        "type": "single",
+        "spread": {
+          "min": 0.75,
+          "max": 7.0,
+          "firstAttack": 1.35,
+          "attack": 3.0,
+          "decay": 0.5
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 2.0,
+          "pitchMaxDeg": 4.0,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 0.5,
+          "smoothTime": 0.12,
+          "decayStart": 0.088,
+          "minDecay": 0.9,
+          "maxDecay": 1.2
         }
       }
     ],
@@ -2589,6 +2647,62 @@
           "decayStart": 0.13,
           "minDecay": 2.0,
           "maxDecay": 2.0
+        }
+      }
+    ],
+    [
+      {
+        "name": "Rapid",
+        "fireRate": 560.0,
+        "heatPerShot": 5.0,
+        "wearPerShot": 0.07,
+        "type": "rapid",
+        "spread": {
+          "min": 0.18,
+          "max": 5.0,
+          "firstAttack": 1.35,
+          "attack": 1.25,
+          "decay": 6.5
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 0.04,
+          "pitchMaxDeg": 0.14,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 2.0,
+          "smoothTime": 0.05,
+          "decayStart": 0.13,
+          "minDecay": 0.44,
+          "maxDecay": 0.59
+        }
+      },
+      {
+        "name": "Single",
+        "fireRate": 222.0,
+        "heatPerShot": 0.0,
+        "wearPerShot": 0.0,
+        "type": "single",
+        "spread": {
+          "min": 0.0,
+          "max": 4.0,
+          "firstAttack": 3.0,
+          "attack": 3.0,
+          "decay": 4.0
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": 1.5,
+          "pitchMaxDeg": 1.66,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 2.0,
+          "smoothTime": 0.033,
+          "decayStart": 0.13,
+          "minDecay": 0.8,
+          "maxDecay": 1.2
         }
       }
     ],
@@ -4093,6 +4207,62 @@
     [
       {
         "name": "Rapid",
+        "fireRate": 600.0,
+        "heatPerShot": 2.3,
+        "wearPerShot": 0.02,
+        "type": "rapid",
+        "spread": {
+          "min": 0.2,
+          "max": 6.0,
+          "firstAttack": 2.5,
+          "attack": 2.5,
+          "decay": 10.0
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": -0.2,
+          "pitchMaxDeg": 0.35,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 1.2,
+          "smoothTime": 0.05,
+          "decayStart": 0.13,
+          "minDecay": 1.1,
+          "maxDecay": 1.33
+        }
+      },
+      {
+        "name": "Rapid",
+        "fireRate": 300.0,
+        "heatPerShot": 2.3,
+        "wearPerShot": 0.02,
+        "type": "rapid",
+        "spread": {
+          "min": 0.2,
+          "max": 6.0,
+          "firstAttack": 2.5,
+          "attack": 2.5,
+          "decay": 10.0
+        },
+        "pelletCount": 1,
+        "ammoCost": 1,
+        "damageMultiplier": 1.0,
+        "recoil": {
+          "yawMaxDeg": -0.2,
+          "pitchMaxDeg": 0.35,
+          "rollMaxDeg": 0.0,
+          "maxFireTime": 1.2,
+          "smoothTime": 0.05,
+          "decayStart": 0.13,
+          "minDecay": 1.1,
+          "maxDecay": 1.33
+        }
+      }
+    ],
+    [
+      {
+        "name": "Rapid",
         "fireRate": 1600.0,
         "heatPerShot": 0.32,
         "wearPerShot": 8.2e-07,
@@ -5340,6 +5510,52 @@
       }
     },
     {
+      "speed": 50.0,
+      "lifetime": 4.0,
+      "damage": {
+        "physical": 5.0,
+        "energy": 0.0,
+        "distortion": 0.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 0.0
+      },
+      "detonationDamage": {
+        "physical": 75.0,
+        "energy": 0.0,
+        "distortion": 0.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 0.0
+      },
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 0.0,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "perMeter": {
+          "physical": 0.0,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "minDamage": {
+          "physical": 2.0,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        }
+      }
+    },
+    {
       "speed": 1495.0,
       "lifetime": 1.16,
       "damage": {
@@ -5405,6 +5621,52 @@
       },
       "detonationDamage": null,
       "damageDropoff": null
+    },
+    {
+      "speed": 75.0,
+      "lifetime": 2.0,
+      "damage": {
+        "physical": 0.0,
+        "energy": 32.5,
+        "distortion": 7.5,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 1.0
+      },
+      "detonationDamage": {
+        "physical": 1.0,
+        "energy": 0.0,
+        "distortion": 0.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 0.0
+      },
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 0.0,
+          "energy": 20.0,
+          "distortion": 25.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 25.0
+        },
+        "perMeter": {
+          "physical": 0.0,
+          "energy": 0.1,
+          "distortion": 0.05,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.05
+        },
+        "minDamage": {
+          "physical": 0.0,
+          "energy": 1.5,
+          "distortion": 1.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 1.0
+        }
+      }
     },
     {
       "speed": 897.0,
@@ -5729,6 +5991,45 @@
       },
       "detonationDamage": null,
       "damageDropoff": null
+    },
+    {
+      "speed": 550.0,
+      "lifetime": 2.0,
+      "damage": {
+        "physical": 16.5,
+        "energy": 0.0,
+        "distortion": 0.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 0.0
+      },
+      "detonationDamage": null,
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 40.0,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "perMeter": {
+          "physical": 0.05,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "minDamage": {
+          "physical": 10.0,
+          "energy": 0.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        }
+      }
     },
     {
       "speed": 1200.0,
@@ -6976,6 +7277,45 @@
       }
     },
     {
+      "speed": 600.0,
+      "lifetime": 4.0,
+      "damage": {
+        "physical": 0.0,
+        "energy": 14.35,
+        "distortion": 0.0,
+        "thermal": 0.0,
+        "biochemical": 0.0,
+        "stun": 0.0
+      },
+      "detonationDamage": null,
+      "damageDropoff": {
+        "minDistance": {
+          "physical": 0.0,
+          "energy": 40.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "perMeter": {
+          "physical": 0.0,
+          "energy": 0.01,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        },
+        "minDamage": {
+          "physical": 0.0,
+          "energy": 10.0,
+          "distortion": 0.0,
+          "thermal": 0.0,
+          "biochemical": 0.0,
+          "stun": 0.0
+        }
+      }
+    },
+    {
       "speed": 1350.0,
       "lifetime": 1.48,
       "damage": {
@@ -7230,6 +7570,11 @@
       "maxRestockCount": 3
     },
     {
+      "ammoCount": 1,
+      "initialAmmoCount": 1,
+      "maxRestockCount": 3
+    },
+    {
       "ammoCount": 2019,
       "initialAmmoCount": 2019,
       "maxRestockCount": 3
@@ -7247,6 +7592,11 @@
     {
       "ammoCount": 4314,
       "initialAmmoCount": 4314,
+      "maxRestockCount": 3
+    },
+    {
+      "ammoCount": 55,
+      "initialAmmoCount": 55,
       "maxRestockCount": 3
     },
     {
@@ -7588,6 +7938,10 @@
       "name": "Gyson Inc.",
       "guid": "d56a3985-2f29-4095-b2f2-542376cc74f4"
     },
+    "ARMA": {
+      "name": "ArmaMod",
+      "guid": "f2ca879c-deb6-49bf-a4b1-dc3a9cf91e7a"
+    },
     "HDGW": {
       "name": "Hedeby Gunworks",
       "guid": "9d3ee727-bb52-4ed2-bacf-47d93d8bb0d5"
@@ -7595,6 +7949,10 @@
     "LBCO": {
       "name": "LBCO",
       "guid": "98bb2e9e-fcc7-46e5-9ba6-d34c42c414e0"
+    },
+    "NVTC": {
+      "name": "NV-TAC",
+      "guid": "f113387e-0905-489a-829d-8cebfdc19e66"
     },
     "BEH": {
       "name": "Behring",
@@ -10222,6 +10580,36 @@
       "magazineIndex": 28
     },
     {
+      "entityClass": "089c5d5f-c3ea-456d-a35f-72bed985dbaf",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Knife",
+      "size": 1,
+      "grade": 1,
+      "tags": "knife",
+      "manufacturer": "UltiFlex",
+      "manufacturerCode": "UTFL",
+      "componentClass": "Melee",
+      "mass": 1.0,
+      "name": "FSK-8 \"Ghost\" Combat Knife",
+      "cgItemType": "WeaponPersonal"
+    },
+    {
+      "entityClass": "04e84f78-fc3d-4d7e-a678-25e463bfde4f",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Knife",
+      "size": 1,
+      "grade": 1,
+      "tags": "knife",
+      "manufacturer": "UltiFlex",
+      "manufacturerCode": "UTFL",
+      "componentClass": "Melee",
+      "mass": 1.0,
+      "name": "FSK-8 Combat Knife",
+      "cgItemType": "WeaponPersonal"
+    },
+    {
       "entityClass": "506e8192-ca9c-4c3a-8115-36e90e432148",
       "itemType": "weapon",
       "attachType": "WeaponPersonal",
@@ -10314,6 +10702,52 @@
       "magazineIndex": 29
     },
     {
+      "entityClass": "e4a479eb-e58d-4fba-8d48-037af894b7b9",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked glauncher SM_RestrictedWep",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "componentClass": "Ballistic",
+      "mass": 5.31,
+      "combatRange": {
+        "ideal": 15.0,
+        "max": 25.0,
+        "category": "Medium"
+      },
+      "name": "GP-33 MOD \"Ashfall\" Grenade Launcher",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 37,
+      "ammoIndex": 54,
+      "magazineIndex": 17
+    },
+    {
+      "entityClass": "a6688dce-f8c7-4b73-b657-bd1e17f951d3",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked glauncher SM_RestrictedWep",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "componentClass": "Ballistic",
+      "mass": 5.31,
+      "combatRange": {
+        "ideal": 15.0,
+        "max": 25.0,
+        "category": "Medium"
+      },
+      "name": "GP-33 MOD Grenade Launcher",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 37,
+      "ammoIndex": 54,
+      "magazineIndex": 17
+    },
+    {
       "entityClass": "2f68375a-3c66-4e02-9d1f-5d7f37c12725",
       "itemType": "weapon",
       "attachType": "WeaponGun",
@@ -10331,8 +10765,8 @@
       },
       "name": "GVSR Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 37,
-      "ammoIndex": 54,
+      "fireModesIndex": 38,
+      "ammoIndex": 55,
       "magazineIndex": 7
     },
     {
@@ -10354,8 +10788,8 @@
       },
       "name": "Gallant \"Boneyard\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10377,8 +10811,8 @@
       },
       "name": "Gallant \"Desert Shadow\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10400,8 +10834,8 @@
       },
       "name": "Gallant \"Executive Edition\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10423,8 +10857,8 @@
       },
       "name": "Gallant \"Midnight\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10446,8 +10880,8 @@
       },
       "name": "Gallant \"Nightstalker\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10469,8 +10903,8 @@
       },
       "name": "Gallant \"Stormfall\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10492,8 +10926,8 @@
       },
       "name": "Gallant \"Warhawk\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10515,8 +10949,8 @@
       },
       "name": "Gallant Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 38,
-      "ammoIndex": 55,
+      "fireModesIndex": 39,
+      "ammoIndex": 56,
       "magazineIndex": 30
     },
     {
@@ -10537,9 +10971,101 @@
       },
       "name": "Havoc Scattergun",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 39,
-      "ammoIndex": 56,
+      "fireModesIndex": 40,
+      "ammoIndex": 57,
       "magazineIndex": 31
+    },
+    {
+      "entityClass": "cce44b1c-416c-43bb-ad34-1946d231fe34",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Small",
+      "size": 1,
+      "grade": 1,
+      "tags": "pistol",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Plasma",
+      "mass": 1.1,
+      "combatRange": {
+        "ideal": 20.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Hellion \"Esquire\" Pistol",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 41,
+      "ammoIndex": 58,
+      "magazineIndex": 32
+    },
+    {
+      "entityClass": "9cb50ad8-eabf-4055-83e8-f7e41d830158",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Small",
+      "size": 1,
+      "grade": 1,
+      "tags": "pistol",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Plasma",
+      "mass": 1.1,
+      "combatRange": {
+        "ideal": 20.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Hellion \"Goodnite\" Pistol",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 41,
+      "ammoIndex": 58,
+      "magazineIndex": 32
+    },
+    {
+      "entityClass": "9ce0cf5e-a83d-4c57-9b99-cbd050185204",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Small",
+      "size": 1,
+      "grade": 1,
+      "tags": "pistol",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Plasma",
+      "mass": 1.1,
+      "combatRange": {
+        "ideal": 20.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Hellion \"Primetime\" Pistol",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 41,
+      "ammoIndex": 58,
+      "magazineIndex": 32
+    },
+    {
+      "entityClass": "7aa3ab5f-d8b3-4bdc-97e7-3461c8db3de8",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Small",
+      "size": 1,
+      "grade": 1,
+      "tags": "pistol",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Plasma",
+      "mass": 1.1,
+      "combatRange": {
+        "ideal": 20.0,
+        "max": 50.0,
+        "category": "Medium"
+      },
+      "name": "Hellion Pistol",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 41,
+      "ammoIndex": 58,
+      "magazineIndex": 32
     },
     {
       "entityClass": "c7c36fea-dcf5-48b9-9939-bf2771f9f8f4",
@@ -10559,9 +11085,9 @@
       },
       "name": "Hellion Scattergun",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 39,
-      "ammoIndex": 57,
-      "magazineIndex": 32
+      "fireModesIndex": 40,
+      "ammoIndex": 59,
+      "magazineIndex": 33
     },
     {
       "entityClass": "96337f4f-4743-4b41-808e-6b0b8a9bf486",
@@ -10582,9 +11108,9 @@
       },
       "name": "Karna \"Alpine Sunset\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "b5a8e588-4d57-410f-a784-99403cf65fc4",
@@ -10605,9 +11131,9 @@
       },
       "name": "Karna \"Brimstone\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "8ddd972d-78a4-4c4d-8c0e-805380cd3262",
@@ -10628,9 +11154,9 @@
       },
       "name": "Karna \"Fate\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "afee958a-8da3-48a3-aac7-14047d9de20e",
@@ -10651,9 +11177,9 @@
       },
       "name": "Karna \"Rager\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "fe86ec24-82bd-44d8-b1cc-8a0a23021a26",
@@ -10674,9 +11200,9 @@
       },
       "name": "Karna \"Valor\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "3825f6fa-bfcd-4ced-b207-47c2643a2258",
@@ -10697,9 +11223,9 @@
       },
       "name": "Karna Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 40,
-      "ammoIndex": 58,
-      "magazineIndex": 33
+      "fireModesIndex": 42,
+      "ammoIndex": 60,
+      "magazineIndex": 34
     },
     {
       "entityClass": "0eec337e-d8e4-402c-98dd-c7c16bea2e1d",
@@ -10720,8 +11246,8 @@
       },
       "name": "Killshot \"Dominion Camo\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 41,
-      "ammoIndex": 59,
+      "fireModesIndex": 43,
+      "ammoIndex": 61,
       "magazineIndex": 30
     },
     {
@@ -10743,8 +11269,8 @@
       },
       "name": "Killshot Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 41,
-      "ammoIndex": 59,
+      "fireModesIndex": 43,
+      "ammoIndex": 61,
       "magazineIndex": 30
     },
     {
@@ -10766,9 +11292,9 @@
       },
       "name": "LH86 \"Boneyard\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "15beb454-90fb-4492-a06f-44a8eda06949",
@@ -10789,9 +11315,9 @@
       },
       "name": "LH86 \"Desert Shadow\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "4ead50b4-ffef-46b1-8f2d-e4c5e489786b",
@@ -10812,9 +11338,9 @@
       },
       "name": "LH86 \"Luckbringer\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "0ca6f4ee-4f0a-4a28-9546-43b94990d188",
@@ -10835,9 +11361,9 @@
       },
       "name": "LH86 \"Nightstalker\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "837d0d8b-9bc4-4abc-8f98-12dcb4d6f91f",
@@ -10858,9 +11384,9 @@
       },
       "name": "LH86 \"Pathfinder\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "27b1ae96-778f-443e-b74f-204888ae35c6",
@@ -10881,9 +11407,9 @@
       },
       "name": "LH86 \"Permafrost\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "bff327cb-0cec-4fa9-bba2-88f237cf506e",
@@ -10904,9 +11430,9 @@
       },
       "name": "LH86 \"Scorched\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "b45e8eb9-270a-4266-9f8b-464c9350b235",
@@ -10927,9 +11453,9 @@
       },
       "name": "LH86 \"Stormfall\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "e0a377a8-c275-4c88-9885-3746f50caf9e",
@@ -10950,9 +11476,9 @@
       },
       "name": "LH86 \"Warhawk\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "b15f7736-0010-4c85-b684-85118761d124",
@@ -10973,9 +11499,9 @@
       },
       "name": "LH86 Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 42,
-      "ammoIndex": 60,
-      "magazineIndex": 34
+      "fireModesIndex": 44,
+      "ammoIndex": 62,
+      "magazineIndex": 35
     },
     {
       "entityClass": "0cced6b1-acfd-4c55-96cc-d0503638b9ad",
@@ -10995,7 +11521,7 @@
       },
       "name": "Lightstrike I Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
+      "fireModesIndex": 45,
       "ammoIndex": 49,
       "magazineIndex": 7
     },
@@ -11017,7 +11543,7 @@
       },
       "name": "Lightstrike II Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
+      "fireModesIndex": 45,
       "ammoIndex": 50,
       "magazineIndex": 7
     },
@@ -11039,7 +11565,7 @@
       },
       "name": "Lightstrike III Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
+      "fireModesIndex": 45,
       "ammoIndex": 51,
       "magazineIndex": 7
     },
@@ -11061,8 +11587,8 @@
       },
       "name": "Lightstrike IV Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
-      "ammoIndex": 61,
+      "fireModesIndex": 45,
+      "ammoIndex": 63,
       "magazineIndex": 7
     },
     {
@@ -11083,8 +11609,8 @@
       },
       "name": "Lightstrike V Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
-      "ammoIndex": 62,
+      "fireModesIndex": 45,
+      "ammoIndex": 64,
       "magazineIndex": 7
     },
     {
@@ -11105,8 +11631,8 @@
       },
       "name": "Lightstrike VI Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 43,
-      "ammoIndex": 63,
+      "fireModesIndex": 45,
+      "ammoIndex": 65,
       "magazineIndex": 7
     },
     {
@@ -11128,8 +11654,8 @@
       },
       "name": "Lumin V \"SecondWind\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 44,
-      "ammoIndex": 64,
+      "fireModesIndex": 46,
+      "ammoIndex": 66,
       "magazineIndex": 30
     },
     {
@@ -11151,8 +11677,8 @@
       },
       "name": "Lumin V \"Valor\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 44,
-      "ammoIndex": 64,
+      "fireModesIndex": 46,
+      "ammoIndex": 66,
       "magazineIndex": 30
     },
     {
@@ -11174,8 +11700,8 @@
       },
       "name": "Lumin V SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 44,
-      "ammoIndex": 64,
+      "fireModesIndex": 46,
+      "ammoIndex": 66,
       "magazineIndex": 30
     },
     {
@@ -11196,8 +11722,8 @@
       },
       "name": "M3A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 65,
+      "fireModesIndex": 47,
+      "ammoIndex": 67,
       "magazineIndex": 7
     },
     {
@@ -11218,8 +11744,8 @@
       },
       "name": "M3A Cannon Raider Camo",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 65,
+      "fireModesIndex": 47,
+      "ammoIndex": 67,
       "magazineIndex": 7
     },
     {
@@ -11240,8 +11766,8 @@
       },
       "name": "M4A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 66,
+      "fireModesIndex": 47,
+      "ammoIndex": 68,
       "magazineIndex": 7
     },
     {
@@ -11262,8 +11788,8 @@
       },
       "name": "M4A Cannon Raider Camo",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 66,
+      "fireModesIndex": 47,
+      "ammoIndex": 68,
       "magazineIndex": 7
     },
     {
@@ -11284,8 +11810,8 @@
       },
       "name": "M5A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 67,
+      "fireModesIndex": 47,
+      "ammoIndex": 69,
       "magazineIndex": 7
     },
     {
@@ -11306,8 +11832,8 @@
       },
       "name": "M5A Cannon Raider Camo",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 67,
+      "fireModesIndex": 47,
+      "ammoIndex": 69,
       "magazineIndex": 7
     },
     {
@@ -11328,8 +11854,8 @@
       },
       "name": "M6A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 68,
+      "fireModesIndex": 47,
+      "ammoIndex": 70,
       "magazineIndex": 7
     },
     {
@@ -11350,8 +11876,8 @@
       },
       "name": "M7A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 69,
+      "fireModesIndex": 47,
+      "ammoIndex": 71,
       "magazineIndex": 7
     },
     {
@@ -11372,8 +11898,8 @@
       },
       "name": "M8A Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 45,
-      "ammoIndex": 70,
+      "fireModesIndex": 47,
+      "ammoIndex": 72,
       "magazineIndex": 7
     },
     {
@@ -11394,8 +11920,8 @@
       },
       "name": "MVSA Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 46,
-      "ammoIndex": 71,
+      "fireModesIndex": 48,
+      "ammoIndex": 73,
       "magazineIndex": 7
     },
     {
@@ -11416,9 +11942,124 @@
       },
       "name": "Mantis GT-220 Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 47,
-      "ammoIndex": 72,
-      "magazineIndex": 35
+      "fireModesIndex": 49,
+      "ammoIndex": 74,
+      "magazineIndex": 36
+    },
+    {
+      "entityClass": "9dadec2c-f0a1-4daf-96cf-db0ca1e148af",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked asad_rifle_energy_01 rifle",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "componentClass": "Laser",
+      "mass": 3.2,
+      "combatRange": {
+        "ideal": 35.0,
+        "max": 60.0,
+        "category": "Medium"
+      },
+      "name": "Model-K2 \"Dark Gray\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 50,
+      "ammoIndex": 75,
+      "magazineIndex": 37
+    },
+    {
+      "entityClass": "4ce5f4ec-73ff-4849-897d-1d58836c8bf8",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked asad_rifle_energy_01 rifle",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "componentClass": "Laser",
+      "mass": 3.2,
+      "combatRange": {
+        "ideal": 35.0,
+        "max": 60.0,
+        "category": "Medium"
+      },
+      "name": "Model-K2 \"Dark Matter\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 50,
+      "ammoIndex": 75,
+      "magazineIndex": 37
+    },
+    {
+      "entityClass": "99d099b3-dc15-438e-abc4-91246fd06f8a",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked asad_rifle_energy_01 rifle",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "componentClass": "Laser",
+      "mass": 3.2,
+      "combatRange": {
+        "ideal": 35.0,
+        "max": 60.0,
+        "category": "Medium"
+      },
+      "name": "Model-K2 \"Metallic Gray\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 50,
+      "ammoIndex": 75,
+      "magazineIndex": 37
+    },
+    {
+      "entityClass": "f5414051-c354-416d-b7d3-b6970f4eeb8b",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked asad_rifle_energy_01 rifle",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "componentClass": "Laser",
+      "mass": 3.2,
+      "combatRange": {
+        "ideal": 35.0,
+        "max": 60.0,
+        "category": "Medium"
+      },
+      "name": "Model-K2 \"Red and Black\" Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 50,
+      "ammoIndex": 75,
+      "magazineIndex": 37
+    },
+    {
+      "entityClass": "20995f83-5951-4111-a5cb-e0ab16f54697",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 2,
+      "grade": 1,
+      "tags": "stocked asad_rifle_energy_01 rifle",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "componentClass": "Laser",
+      "mass": 3.2,
+      "combatRange": {
+        "ideal": 35.0,
+        "max": 60.0,
+        "category": "Medium"
+      },
+      "name": "Model-K2 Rifle",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 50,
+      "ammoIndex": 75,
+      "magazineIndex": 37
     },
     {
       "entityClass": "fecbf518-e3e5-4e58-905a-729a02e86265",
@@ -11438,8 +12079,8 @@
       },
       "name": "NDB-26 Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 48,
-      "ammoIndex": 73,
+      "fireModesIndex": 51,
+      "ammoIndex": 76,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11466,8 +12107,8 @@
       },
       "name": "NDB-28 Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 48,
-      "ammoIndex": 74,
+      "fireModesIndex": 51,
+      "ammoIndex": 77,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11494,8 +12135,8 @@
       },
       "name": "NDB-30 Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 48,
-      "ammoIndex": 75,
+      "fireModesIndex": 51,
+      "ammoIndex": 78,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11522,8 +12163,8 @@
       },
       "name": "NN-13 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 49,
-      "ammoIndex": 76,
+      "fireModesIndex": 52,
+      "ammoIndex": 79,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11550,8 +12191,8 @@
       },
       "name": "NN-14 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 49,
-      "ammoIndex": 77,
+      "fireModesIndex": 52,
+      "ammoIndex": 80,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11578,8 +12219,8 @@
       },
       "name": "NN-15 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 49,
-      "ammoIndex": 78,
+      "fireModesIndex": 52,
+      "ammoIndex": 81,
       "magazineIndex": 7,
       "knownIssue": {
         "expected": {
@@ -11606,9 +12247,9 @@
       },
       "name": "Novian \"Ghostmaker\" Crossbow",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 50,
-      "ammoIndex": 79,
-      "magazineIndex": 36
+      "fireModesIndex": 53,
+      "ammoIndex": 82,
+      "magazineIndex": 38
     },
     {
       "entityClass": "53309dc8-6988-4923-b765-d0846542e27f",
@@ -11628,9 +12269,9 @@
       },
       "name": "Novian \"Nighthunter\" Crossbow",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 50,
-      "ammoIndex": 79,
-      "magazineIndex": 36
+      "fireModesIndex": 53,
+      "ammoIndex": 82,
+      "magazineIndex": 38
     },
     {
       "entityClass": "d0e8d997-381b-44fe-a098-3c3ba6293b18",
@@ -11650,9 +12291,9 @@
       },
       "name": "Novian \"Wildshot\" Crossbow",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 50,
-      "ammoIndex": 79,
-      "magazineIndex": 36
+      "fireModesIndex": 53,
+      "ammoIndex": 82,
+      "magazineIndex": 38
     },
     {
       "entityClass": "cb57dee1-c2f2-4328-bd7f-8ff1c8481008",
@@ -11672,9 +12313,9 @@
       },
       "name": "Novian Crossbow",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 50,
-      "ammoIndex": 79,
-      "magazineIndex": 36
+      "fireModesIndex": 53,
+      "ammoIndex": 82,
+      "magazineIndex": 38
     },
     {
       "entityClass": "26838ca7-418a-47d2-8429-7339ebbb8993",
@@ -11694,8 +12335,8 @@
       },
       "name": "Omnisky III Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 51,
-      "ammoIndex": 80,
+      "fireModesIndex": 54,
+      "ammoIndex": 83,
       "magazineIndex": 7
     },
     {
@@ -11716,8 +12357,8 @@
       },
       "name": "Omnisky IX Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 81,
+      "fireModesIndex": 55,
+      "ammoIndex": 84,
       "magazineIndex": 7
     },
     {
@@ -11738,8 +12379,8 @@
       },
       "name": "Omnisky VI Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 82,
+      "fireModesIndex": 55,
+      "ammoIndex": 85,
       "magazineIndex": 7
     },
     {
@@ -11760,8 +12401,8 @@
       },
       "name": "Omnisky XII Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 83,
+      "fireModesIndex": 55,
+      "ammoIndex": 86,
       "magazineIndex": 7
     },
     {
@@ -11782,8 +12423,8 @@
       },
       "name": "Omnisky XV Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 84,
+      "fireModesIndex": 55,
+      "ammoIndex": 87,
       "magazineIndex": 7
     },
     {
@@ -11804,8 +12445,8 @@
       },
       "name": "Omnisky XVIII Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 85,
+      "fireModesIndex": 55,
+      "ammoIndex": 88,
       "magazineIndex": 7
     },
     {
@@ -11827,8 +12468,8 @@
       },
       "name": "P4-AR \"Blacklist\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11850,8 +12491,8 @@
       },
       "name": "P4-AR \"Desert Shadow\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11873,8 +12514,8 @@
       },
       "name": "P4-AR \"Nightstalker\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11896,8 +12537,8 @@
       },
       "name": "P4-AR \"SecondWind\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11919,8 +12560,8 @@
       },
       "name": "P4-AR \"Warhawk\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11942,8 +12583,8 @@
       },
       "name": "P4-AR Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 53,
-      "ammoIndex": 86,
+      "fireModesIndex": 56,
+      "ammoIndex": 89,
       "magazineIndex": 15
     },
     {
@@ -11965,8 +12606,8 @@
       },
       "name": "P6-LR \"Archangel\" Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 54,
-      "ammoIndex": 87,
+      "fireModesIndex": 57,
+      "ammoIndex": 90,
       "magazineIndex": 10
     },
     {
@@ -11988,8 +12629,8 @@
       },
       "name": "P6-LR \"Blacklist\" Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 54,
-      "ammoIndex": 87,
+      "fireModesIndex": 57,
+      "ammoIndex": 90,
       "magazineIndex": 10
     },
     {
@@ -12011,8 +12652,8 @@
       },
       "name": "P6-LR \"Rime\" Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 54,
-      "ammoIndex": 87,
+      "fireModesIndex": 57,
+      "ammoIndex": 90,
       "magazineIndex": 10
     },
     {
@@ -12034,8 +12675,8 @@
       },
       "name": "P6-LR Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 54,
-      "ammoIndex": 87,
+      "fireModesIndex": 57,
+      "ammoIndex": 90,
       "magazineIndex": 10
     },
     {
@@ -12057,8 +12698,8 @@
       },
       "name": "P8-AR Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 55,
-      "ammoIndex": 88,
+      "fireModesIndex": 58,
+      "ammoIndex": 91,
       "magazineIndex": 3
     },
     {
@@ -12080,8 +12721,8 @@
       },
       "name": "P8-SC \"Boneyard\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12103,8 +12744,8 @@
       },
       "name": "P8-SC \"Desert Shadow\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12126,8 +12767,8 @@
       },
       "name": "P8-SC \"Stormfall\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12149,8 +12790,8 @@
       },
       "name": "P8-SC SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12172,8 +12813,8 @@
       },
       "name": "P8-SC \"Executive Edition\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12195,8 +12836,8 @@
       },
       "name": "P8-SC \"Midnight\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12218,8 +12859,8 @@
       },
       "name": "P8-SC \"Nightstalker\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12241,8 +12882,8 @@
       },
       "name": "P8-SC \"Warhawk\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 56,
-      "ammoIndex": 89,
+      "fireModesIndex": 59,
+      "ammoIndex": 92,
       "magazineIndex": 30
     },
     {
@@ -12264,9 +12905,9 @@
       },
       "name": "Parallax \"Sanguine\" Energy Assault Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 57,
-      "ammoIndex": 90,
-      "magazineIndex": 37
+      "fireModesIndex": 60,
+      "ammoIndex": 93,
+      "magazineIndex": 39
     },
     {
       "entityClass": "98efd8ff-b0ba-48cf-bb48-3ff4e1bd3b3f",
@@ -12287,9 +12928,9 @@
       },
       "name": "Parallax \"Shock Trooper\" Energy Assault Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 57,
-      "ammoIndex": 90,
-      "magazineIndex": 37
+      "fireModesIndex": 60,
+      "ammoIndex": 93,
+      "magazineIndex": 39
     },
     {
       "entityClass": "3e58c8fd-19ff-47b6-9b3a-333addb2573d",
@@ -12310,9 +12951,9 @@
       },
       "name": "Parallax \"Sunstone\" Energy Assault Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 57,
-      "ammoIndex": 90,
-      "magazineIndex": 37
+      "fireModesIndex": 60,
+      "ammoIndex": 93,
+      "magazineIndex": 39
     },
     {
       "entityClass": "b144a16c-bba4-427e-9f78-bd379f9509f8",
@@ -12333,9 +12974,9 @@
       },
       "name": "Parallax Energy Assault Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 57,
-      "ammoIndex": 90,
-      "magazineIndex": 37
+      "fireModesIndex": 60,
+      "ammoIndex": 93,
+      "magazineIndex": 39
     },
     {
       "entityClass": "fac5a97f-64bf-450e-a2f2-90e4da5ccf73",
@@ -12355,9 +12996,9 @@
       },
       "name": "Predator Scattergun",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 58,
-      "ammoIndex": 91,
-      "magazineIndex": 38
+      "fireModesIndex": 61,
+      "ammoIndex": 94,
+      "magazineIndex": 40
     },
     {
       "entityClass": "2085a682-db46-4fa4-a00c-16925aaa26a4",
@@ -12378,9 +13019,9 @@
       },
       "name": "Prism \"Bonedust\" Laser Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 59,
-      "ammoIndex": 92,
-      "magazineIndex": 39
+      "fireModesIndex": 62,
+      "ammoIndex": 95,
+      "magazineIndex": 41
     },
     {
       "entityClass": "ca19298f-a111-46ed-bc88-870148c6d2b7",
@@ -12401,9 +13042,9 @@
       },
       "name": "Prism \"Deep Sea\" Laser Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 59,
-      "ammoIndex": 92,
-      "magazineIndex": 39
+      "fireModesIndex": 62,
+      "ammoIndex": 95,
+      "magazineIndex": 41
     },
     {
       "entityClass": "bc328b41-ebc6-4d85-aba1-9e04cb752fa7",
@@ -12424,9 +13065,9 @@
       },
       "name": "Prism \"Firesteel\" Laser Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 59,
-      "ammoIndex": 92,
-      "magazineIndex": 39
+      "fireModesIndex": 62,
+      "ammoIndex": 95,
+      "magazineIndex": 41
     },
     {
       "entityClass": "7dd1988f-77cf-40f0-a29e-dac5e2186aad",
@@ -12447,9 +13088,9 @@
       },
       "name": "Prism Laser Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 59,
-      "ammoIndex": 92,
-      "magazineIndex": 39
+      "fireModesIndex": 62,
+      "ammoIndex": 95,
+      "magazineIndex": 41
     },
     {
       "entityClass": "280070a1-de10-4ea8-9e27-bf4229ad67fd",
@@ -12470,8 +13111,8 @@
       },
       "name": "Pulse \"Blacklist\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 60,
-      "ammoIndex": 93,
+      "fireModesIndex": 63,
+      "ammoIndex": 96,
       "magazineIndex": 18
     },
     {
@@ -12493,8 +13134,8 @@
       },
       "name": "Pulse \"Rouge\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 60,
-      "ammoIndex": 93,
+      "fireModesIndex": 63,
+      "ammoIndex": 96,
       "magazineIndex": 18
     },
     {
@@ -12516,8 +13157,8 @@
       },
       "name": "Pulse Laser Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 60,
-      "ammoIndex": 93,
+      "fireModesIndex": 63,
+      "ammoIndex": 96,
       "magazineIndex": 18
     },
     {
@@ -12539,9 +13180,9 @@
       },
       "name": "Pulverizer LMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 61,
-      "ammoIndex": 94,
-      "magazineIndex": 40
+      "fireModesIndex": 64,
+      "ammoIndex": 97,
+      "magazineIndex": 42
     },
     {
       "entityClass": "aa41e4d8-6b99-4f63-90d5-b0956e70c1d8",
@@ -12561,8 +13202,8 @@
       },
       "name": "PyroBurst Scattergun",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 62,
-      "ammoIndex": 95,
+      "fireModesIndex": 65,
+      "ammoIndex": 98,
       "magazineIndex": 7
     },
     {
@@ -12583,8 +13224,8 @@
       },
       "name": "Quarreler Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 52,
-      "ammoIndex": 81,
+      "fireModesIndex": 55,
+      "ammoIndex": 84,
       "magazineIndex": 7
     },
     {
@@ -12606,8 +13247,8 @@
       },
       "name": "Quartz \"Black Op\" Energy SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 63,
-      "ammoIndex": 96,
+      "fireModesIndex": 66,
+      "ammoIndex": 99,
       "magazineIndex": 30
     },
     {
@@ -12629,8 +13270,8 @@
       },
       "name": "Quartz \"Deadfall\" Energy SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 63,
-      "ammoIndex": 96,
+      "fireModesIndex": 66,
+      "ammoIndex": 99,
       "magazineIndex": 30
     },
     {
@@ -12652,8 +13293,8 @@
       },
       "name": "Quartz \"Lumen\" Energy SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 63,
-      "ammoIndex": 96,
+      "fireModesIndex": 66,
+      "ammoIndex": 99,
       "magazineIndex": 30
     },
     {
@@ -12675,8 +13316,8 @@
       },
       "name": "Quartz Energy SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 63,
-      "ammoIndex": 96,
+      "fireModesIndex": 66,
+      "ammoIndex": 99,
       "magazineIndex": 30
     },
     {
@@ -12698,9 +13339,9 @@
       },
       "name": "R97 \"Kismet\" Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 64,
-      "ammoIndex": 97,
-      "magazineIndex": 41
+      "fireModesIndex": 67,
+      "ammoIndex": 100,
+      "magazineIndex": 43
     },
     {
       "entityClass": "97b5b51a-a161-4477-92df-1f35fefdb9c4",
@@ -12721,9 +13362,9 @@
       },
       "name": "R97 \"Righteous\" Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 64,
-      "ammoIndex": 97,
-      "magazineIndex": 41
+      "fireModesIndex": 67,
+      "ammoIndex": 100,
+      "magazineIndex": 43
     },
     {
       "entityClass": "2e15ad7c-79d0-48fc-91a1-bda4fbd45c6a",
@@ -12744,9 +13385,9 @@
       },
       "name": "R97 \"Scorched\" Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 64,
-      "ammoIndex": 97,
-      "magazineIndex": 41
+      "fireModesIndex": 67,
+      "ammoIndex": 100,
+      "magazineIndex": 43
     },
     {
       "entityClass": "4577e319-8762-4247-8050-882fabe0ea10",
@@ -12767,9 +13408,9 @@
       },
       "name": "R97 Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 64,
-      "ammoIndex": 97,
-      "magazineIndex": 41
+      "fireModesIndex": 67,
+      "ammoIndex": 100,
+      "magazineIndex": 43
     },
     {
       "entityClass": "03e1fa47-a15e-41bb-81f9-17d3be857a0d",
@@ -12790,8 +13431,8 @@
       },
       "name": "Ravager-212 \"Outcast\" Twin Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 65,
-      "ammoIndex": 98,
+      "fireModesIndex": 68,
+      "ammoIndex": 101,
       "magazineIndex": 9
     },
     {
@@ -12813,8 +13454,8 @@
       },
       "name": "Ravager-212 Twin Shotgun",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 65,
-      "ammoIndex": 98,
+      "fireModesIndex": 68,
+      "ammoIndex": 101,
       "magazineIndex": 9
     },
     {
@@ -12836,7 +13477,7 @@
       "name": "Reign-3 Repeater",
       "cgItemType": "WeaponGun",
       "fireModesIndex": 9,
-      "ammoIndex": 99,
+      "ammoIndex": 102,
       "magazineIndex": 7
     },
     {
@@ -12857,9 +13498,9 @@
       },
       "name": "Revenant Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 66,
-      "ammoIndex": 100,
-      "magazineIndex": 42
+      "fireModesIndex": 69,
+      "ammoIndex": 103,
+      "magazineIndex": 44
     },
     {
       "entityClass": "4c1892db-cc94-41f2-a513-0b7e1cba8f26",
@@ -12880,8 +13521,8 @@
       },
       "name": "Ripper \"Sunblock\" SMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 67,
-      "ammoIndex": 64,
+      "fireModesIndex": 70,
+      "ammoIndex": 66,
       "magazineIndex": 18
     },
     {
@@ -12903,9 +13544,9 @@
       },
       "name": "S-38 \"Scorched\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 68,
-      "ammoIndex": 101,
-      "magazineIndex": 39
+      "fireModesIndex": 71,
+      "ammoIndex": 104,
+      "magazineIndex": 41
     },
     {
       "entityClass": "c8c2e14b-5263-44f4-add3-bf70055976a3",
@@ -12926,9 +13567,9 @@
       },
       "name": "S-38 \"SecondWind\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 68,
-      "ammoIndex": 101,
-      "magazineIndex": 39
+      "fireModesIndex": 71,
+      "ammoIndex": 104,
+      "magazineIndex": 41
     },
     {
       "entityClass": "1f3400e1-0aa3-48bf-8595-38f4f4218df9",
@@ -12949,9 +13590,9 @@
       },
       "name": "S-38 Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 68,
-      "ammoIndex": 101,
-      "magazineIndex": 39
+      "fireModesIndex": 71,
+      "ammoIndex": 104,
+      "magazineIndex": 41
     },
     {
       "entityClass": "113bff56-11fa-4951-8b32-8a5590f3c830",
@@ -12972,8 +13613,8 @@
       },
       "name": "S71 \"Bullseye\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 69,
-      "ammoIndex": 102,
+      "fireModesIndex": 72,
+      "ammoIndex": 105,
       "magazineIndex": 8
     },
     {
@@ -12995,8 +13636,8 @@
       },
       "name": "S71 \"Justified\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 69,
-      "ammoIndex": 102,
+      "fireModesIndex": 72,
+      "ammoIndex": 105,
       "magazineIndex": 8
     },
     {
@@ -13018,8 +13659,8 @@
       },
       "name": "S71 \"Purgatory Camo\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 69,
-      "ammoIndex": 102,
+      "fireModesIndex": 72,
+      "ammoIndex": 105,
       "magazineIndex": 8
     },
     {
@@ -13041,8 +13682,8 @@
       },
       "name": "S71 Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 69,
-      "ammoIndex": 102,
+      "fireModesIndex": 72,
+      "ammoIndex": 105,
       "magazineIndex": 8
     },
     {
@@ -13063,9 +13704,9 @@
       },
       "name": "SW16BR1 “Buzzsaw” Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 70,
-      "ammoIndex": 103,
-      "magazineIndex": 43
+      "fireModesIndex": 73,
+      "ammoIndex": 106,
+      "magazineIndex": 45
     },
     {
       "entityClass": "d4ebab35-1d86-4259-82dc-cda6a7167c90",
@@ -13086,7 +13727,7 @@
       "name": "SW16BR2 “Sawbuck” Repeater",
       "cgItemType": "WeaponGun",
       "fireModesIndex": 12,
-      "ammoIndex": 104,
+      "ammoIndex": 107,
       "magazineIndex": 12
     },
     {
@@ -13107,9 +13748,9 @@
       },
       "name": "SW16BR3 “Shredder” Repeater",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 71,
-      "ammoIndex": 105,
-      "magazineIndex": 44
+      "fireModesIndex": 74,
+      "ammoIndex": 108,
+      "magazineIndex": 46
     },
     {
       "entityClass": "31c196fd-420b-4417-8aed-46fa9a118d60",
@@ -13130,8 +13771,8 @@
       },
       "name": "Salvo Esteban Frag Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 72,
-      "ammoIndex": 106,
+      "fireModesIndex": 75,
+      "ammoIndex": 109,
       "magazineIndex": 10
     },
     {
@@ -13153,8 +13794,8 @@
       },
       "name": "Salvo Frag Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 72,
-      "ammoIndex": 106,
+      "fireModesIndex": 75,
+      "ammoIndex": 109,
       "magazineIndex": 10
     },
     {
@@ -13176,8 +13817,8 @@
       },
       "name": "Scalpel \"Permafrost\" Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 73,
-      "ammoIndex": 107,
+      "fireModesIndex": 76,
+      "ammoIndex": 110,
       "magazineIndex": 11
     },
     {
@@ -13199,8 +13840,8 @@
       },
       "name": "Scalpel Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 73,
-      "ammoIndex": 107,
+      "fireModesIndex": 76,
+      "ammoIndex": 110,
       "magazineIndex": 11
     },
     {
@@ -13221,9 +13862,9 @@
       },
       "name": "Scorpion GT-215 Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 74,
-      "ammoIndex": 108,
-      "magazineIndex": 45
+      "fireModesIndex": 77,
+      "ammoIndex": 111,
+      "magazineIndex": 47
     },
     {
       "entityClass": "e0c51f49-8910-4c99-92e5-ba7eca915bbb",
@@ -13243,8 +13884,8 @@
       },
       "name": "Singe Cannon (S1)",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 75,
-      "ammoIndex": 109,
+      "fireModesIndex": 78,
+      "ammoIndex": 112,
       "magazineIndex": 7
     },
     {
@@ -13265,8 +13906,8 @@
       },
       "name": "Singe Cannon (S2)",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 76,
-      "ammoIndex": 110,
+      "fireModesIndex": 79,
+      "ammoIndex": 113,
       "magazineIndex": 7
     },
     {
@@ -13287,8 +13928,8 @@
       },
       "name": "Singe Cannon (S3)",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 77,
-      "ammoIndex": 111,
+      "fireModesIndex": 80,
+      "ammoIndex": 114,
       "magazineIndex": 7
     },
     {
@@ -13310,8 +13951,8 @@
       },
       "name": "Skarnov \"Raider Camo\" Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 78,
-      "ammoIndex": 112,
+      "fireModesIndex": 81,
+      "ammoIndex": 115,
       "magazineIndex": 8
     },
     {
@@ -13332,9 +13973,9 @@
       },
       "name": "Sledge I Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 79,
-      "ammoIndex": 113,
-      "magazineIndex": 46
+      "fireModesIndex": 82,
+      "ammoIndex": 116,
+      "magazineIndex": 48
     },
     {
       "entityClass": "c657c03c-6ac6-4da6-ab70-bfab52804444",
@@ -13354,9 +13995,9 @@
       },
       "name": "Sledge II Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 80,
-      "ammoIndex": 114,
-      "magazineIndex": 46
+      "fireModesIndex": 83,
+      "ammoIndex": 117,
+      "magazineIndex": 48
     },
     {
       "entityClass": "ccd05b20-4042-4c49-a4c0-4a94f6d841ee",
@@ -13376,9 +14017,9 @@
       },
       "name": "Sledge III Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 81,
-      "ammoIndex": 115,
-      "magazineIndex": 47
+      "fireModesIndex": 84,
+      "ammoIndex": 118,
+      "magazineIndex": 49
     },
     {
       "entityClass": "86630fcf-09c3-4def-a7b4-9385cbc05a42",
@@ -13398,9 +14039,9 @@
       },
       "name": "Strife Mass Driver Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 82,
-      "ammoIndex": 114,
-      "magazineIndex": 48
+      "fireModesIndex": 85,
+      "ammoIndex": 117,
+      "magazineIndex": 50
     },
     {
       "entityClass": "d195eb47-24b8-45c0-a4d0-1771d60dc1a8",
@@ -13420,8 +14061,8 @@
       },
       "name": "Suckerpunch Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 116,
+      "fireModesIndex": 86,
+      "ammoIndex": 119,
       "magazineIndex": 7
     },
     {
@@ -13442,8 +14083,8 @@
       },
       "name": "Suckerpunch-L Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 117,
+      "fireModesIndex": 86,
+      "ammoIndex": 120,
       "magazineIndex": 7
     },
     {
@@ -13464,8 +14105,8 @@
       },
       "name": "Suckerpunch-XL Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 83,
-      "ammoIndex": 118,
+      "fireModesIndex": 86,
+      "ammoIndex": 121,
       "magazineIndex": 7
     },
     {
@@ -13486,9 +14127,9 @@
       },
       "name": "Tarantula GT-870 Mark 1 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 84,
-      "ammoIndex": 119,
-      "magazineIndex": 49
+      "fireModesIndex": 87,
+      "ammoIndex": 122,
+      "magazineIndex": 51
     },
     {
       "entityClass": "972c562f-bc9b-441c-a2fb-785293e54eda",
@@ -13508,8 +14149,8 @@
       },
       "name": "Tarantula GT-870 Mark 2 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 84,
-      "ammoIndex": 120,
+      "fireModesIndex": 87,
+      "ammoIndex": 123,
       "magazineIndex": 16
     },
     {
@@ -13530,9 +14171,9 @@
       },
       "name": "Tarantula GT-870 Mark 3 Cannon",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 84,
-      "ammoIndex": 121,
-      "magazineIndex": 50
+      "fireModesIndex": 87,
+      "ammoIndex": 124,
+      "magazineIndex": 52
     },
     {
       "entityClass": "6e3a862f-d13e-4873-ba34-24f3e554984d",
@@ -13552,8 +14193,8 @@
       },
       "name": "Thlilye Laser Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 85,
-      "ammoIndex": 122,
+      "fireModesIndex": 88,
+      "ammoIndex": 125,
       "magazineIndex": 7
     },
     {
@@ -13574,9 +14215,9 @@
       },
       "name": "Tigerstrike T-19P",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 86,
-      "ammoIndex": 123,
-      "magazineIndex": 51
+      "fireModesIndex": 89,
+      "ammoIndex": 126,
+      "magazineIndex": 53
     },
     {
       "entityClass": "9f047e7d-1324-473c-b944-03e87976f25a",
@@ -13597,8 +14238,8 @@
       },
       "name": "Tripledown Pistol",
       "cgItemType": "WeaponPersonal",
-      "ammoIndex": 124,
-      "magazineIndex": 52
+      "ammoIndex": 127,
+      "magazineIndex": 54
     },
     {
       "entityClass": "2445465a-d906-4e06-9a02-7eaead122bf7",
@@ -13619,9 +14260,9 @@
       },
       "name": "Vendetta \"Snow Camo\" HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 87,
-      "ammoIndex": 125,
-      "magazineIndex": 53
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
+      "magazineIndex": 55
     },
     {
       "entityClass": "e302c7ae-b850-412d-983e-36dbf04f98fe",
@@ -13642,9 +14283,101 @@
       },
       "name": "Vendetta HMG",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 87,
-      "ammoIndex": 125,
-      "magazineIndex": 53
+      "fireModesIndex": 90,
+      "ammoIndex": 128,
+      "magazineIndex": 55
+    },
+    {
+      "entityClass": "ca3e2306-ecb6-4eae-a6f6-42bc7224c839",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked lmg ksar_lmg_energy_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Energy",
+      "mass": 10.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 40.0,
+        "category": "Medium"
+      },
+      "name": "Verdict \"Barricade\" LMG",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 91,
+      "ammoIndex": 129,
+      "magazineIndex": 28
+    },
+    {
+      "entityClass": "c1a93154-135d-4cee-807e-7ceca1adbe35",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked lmg ksar_lmg_energy_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Energy",
+      "mass": 10.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 40.0,
+        "category": "Medium"
+      },
+      "name": "Verdict \"Memoir\" LMG",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 91,
+      "ammoIndex": 129,
+      "magazineIndex": 28
+    },
+    {
+      "entityClass": "c84438ce-c2b2-4aa8-86de-b7a60eca97bf",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked lmg ksar_lmg_energy_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Energy",
+      "mass": 10.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 40.0,
+        "category": "Medium"
+      },
+      "name": "Verdict \"Rancor\" LMG",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 91,
+      "ammoIndex": 129,
+      "magazineIndex": 28
+    },
+    {
+      "entityClass": "9eacc20a-8a7a-4600-8e88-b48237141363",
+      "itemType": "weapon",
+      "attachType": "WeaponPersonal",
+      "attachSubType": "Medium",
+      "size": 4,
+      "grade": 1,
+      "tags": "stocked lmg ksar_lmg_energy_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "componentClass": "Energy",
+      "mass": 10.0,
+      "combatRange": {
+        "ideal": 30.0,
+        "max": 40.0,
+        "category": "Medium"
+      },
+      "name": "Verdict LMG",
+      "cgItemType": "WeaponPersonal",
+      "fireModesIndex": 91,
+      "ammoIndex": 129,
+      "magazineIndex": 28
     },
     {
       "entityClass": "81645f3b-2c01-4fc4-aa9f-ed860b976058",
@@ -13664,9 +14397,9 @@
       },
       "name": "YellowJacket GT-210 Gatling",
       "cgItemType": "WeaponGun",
-      "fireModesIndex": 88,
-      "ammoIndex": 126,
-      "magazineIndex": 54
+      "fireModesIndex": 92,
+      "ammoIndex": 130,
+      "magazineIndex": 56
     },
     {
       "entityClass": "1874f421-36cc-4993-969a-b7c374b6f07a",
@@ -13687,9 +14420,9 @@
       },
       "name": "Yubarev \"Igniter\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
-      "magazineIndex": 55
+      "fireModesIndex": 93,
+      "ammoIndex": 131,
+      "magazineIndex": 57
     },
     {
       "entityClass": "f9678f5a-3aee-4355-96fe-8bb78f49df83",
@@ -13710,9 +14443,9 @@
       },
       "name": "Yubarev \"Mirage\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
-      "magazineIndex": 55
+      "fireModesIndex": 93,
+      "ammoIndex": 131,
+      "magazineIndex": 57
     },
     {
       "entityClass": "19e3192c-60a3-44ba-816c-625dd6729379",
@@ -13733,9 +14466,9 @@
       },
       "name": "Yubarev \"Venom\" Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
-      "magazineIndex": 55
+      "fireModesIndex": 93,
+      "ammoIndex": 131,
+      "magazineIndex": 57
     },
     {
       "entityClass": "959520d7-d83d-45b7-9e7a-f6d057494736",
@@ -13756,9 +14489,9 @@
       },
       "name": "Yubarev Pistol",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 89,
-      "ammoIndex": 127,
-      "magazineIndex": 55
+      "fireModesIndex": 93,
+      "ammoIndex": 131,
+      "magazineIndex": 57
     },
     {
       "entityClass": "7e37741d-8090-48b3-ab84-b60fd138761d",
@@ -13779,9 +14512,9 @@
       },
       "name": "Zenith \"Darkwave\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 90,
-      "ammoIndex": 128,
-      "magazineIndex": 56
+      "fireModesIndex": 94,
+      "ammoIndex": 132,
+      "magazineIndex": 58
     },
     {
       "entityClass": "b1662474-624e-453d-93fa-64638bcf9317",
@@ -13802,9 +14535,9 @@
       },
       "name": "Zenith \"Landslide\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 90,
-      "ammoIndex": 128,
-      "magazineIndex": 56
+      "fireModesIndex": 94,
+      "ammoIndex": 132,
+      "magazineIndex": 58
     },
     {
       "entityClass": "601a0c77-6e96-4bbd-ae76-15c0fa1e5928",
@@ -13825,9 +14558,9 @@
       },
       "name": "Zenith \"Snow Camo\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 90,
-      "ammoIndex": 128,
-      "magazineIndex": 56
+      "fireModesIndex": 94,
+      "ammoIndex": 132,
+      "magazineIndex": 58
     },
     {
       "entityClass": "8df5d8a3-8052-4504-91ff-4a4c9d33218d",
@@ -13848,9 +14581,9 @@
       },
       "name": "Zenith \"Thunderstrike\" Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 90,
-      "ammoIndex": 128,
-      "magazineIndex": 56
+      "fireModesIndex": 94,
+      "ammoIndex": 132,
+      "magazineIndex": 58
     },
     {
       "entityClass": "0c37582b-ab78-440d-911e-c39322bccf1f",
@@ -13871,9 +14604,9 @@
       },
       "name": "Zenith Laser Sniper Rifle",
       "cgItemType": "WeaponPersonal",
-      "fireModesIndex": 90,
-      "ammoIndex": 128,
-      "magazineIndex": 56
+      "fireModesIndex": 94,
+      "ammoIndex": 132,
+      "magazineIndex": 58
     },
     {
       "entityClass": "9a26bc89-a35b-4317-adfd-ec4a285d7e72",
@@ -36021,6 +36754,30 @@
       "signaturesIndex": 0
     },
     {
+      "entityClass": "8c87d9a4-97ef-4176-9f0e-0d241904ee35",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Arms",
+      "attachSubType": "Light",
+      "size": 1,
+      "grade": 1,
+      "tags": "Set_01 Texture_01 Color_01 SM_RestrictedArm",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 1.3,
+      "temperatureResistance": {
+        "min": -37.0,
+        "max": 67.0
+      },
+      "radiationResistance": {
+        "capacity": 26000.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Venture Arms \"Rust Society\"",
+      "cgItemType": "Char_Armor_Arms",
+      "damageResistanceIndex": 2,
+      "signaturesIndex": 0
+    },
+    {
       "entityClass": "dc079d73-0014-41ff-8c00-3adf0eabbc3b",
       "itemType": "armor",
       "attachType": "Char_Armor_Torso",
@@ -36041,6 +36798,54 @@
       },
       "name": "Venture Core",
       "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 2,
+      "signaturesIndex": 0
+    },
+    {
+      "entityClass": "c4eeae4b-e239-4ce2-bfb9-322e64ad4746",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Torso",
+      "attachSubType": "Light",
+      "size": 1,
+      "grade": 1,
+      "tags": "Set_01 Texture_01 Color_01 SM_RestrictedArm",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 7.4,
+      "temperatureResistance": {
+        "min": -37.0,
+        "max": 67.0
+      },
+      "radiationResistance": {
+        "capacity": 26000.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Venture Core \"Rust Society\"",
+      "cgItemType": "Char_Armor_Torso",
+      "damageResistanceIndex": 2,
+      "signaturesIndex": 0
+    },
+    {
+      "entityClass": "54c91753-0a6e-420f-bfd7-d7e6b5f3ff8b",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Helmet",
+      "attachSubType": "Light",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm Helmet HelmetCarryable",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 1.5,
+      "temperatureResistance": {
+        "min": -37.0,
+        "max": 67.0
+      },
+      "radiationResistance": {
+        "capacity": 26000.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Venture Helmet \"Rust Society\"",
+      "cgItemType": "Char_Armor_Helmet",
       "damageResistanceIndex": 2,
       "signaturesIndex": 0
     },
@@ -36091,6 +36896,54 @@
       "cgItemType": "Char_Armor_Legs",
       "damageResistanceIndex": 2,
       "signaturesIndex": 0
+    },
+    {
+      "entityClass": "926a2bf7-600a-4d19-a6fa-bba397eb0b53",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Legs",
+      "attachSubType": "Light",
+      "size": 1,
+      "grade": 1,
+      "tags": "SM_RestrictedArm $snoopy_pants+",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 1.3,
+      "temperatureResistance": {
+        "min": -40.0,
+        "max": 70.0
+      },
+      "radiationResistance": {
+        "capacity": 26000.0,
+        "dissipationRate": 145.8
+      },
+      "name": "Venture Legs \"Rust Society\"",
+      "cgItemType": "Char_Armor_Legs",
+      "damageResistanceIndex": 2,
+      "signaturesIndex": 0
+    },
+    {
+      "entityClass": "cd99e671-9d3f-41eb-90a7-f565bb1b7b51",
+      "itemType": "armor",
+      "attachType": "Char_Armor_Undersuit",
+      "attachSubType": "UNDEFINED",
+      "size": 1,
+      "grade": 1,
+      "tags": "Explorer Set_01 Color_01 $armor_mobi++ SM_RestrictedArm",
+      "manufacturer": "Roberts Space Industries",
+      "manufacturerCode": "RSI",
+      "mass": 2.0,
+      "temperatureResistance": {
+        "min": -30.0,
+        "max": 60.0
+      },
+      "radiationResistance": {
+        "capacity": 15200.0,
+        "dissipationRate": 81.0
+      },
+      "name": "Venture Undersuit \"Rust Society\"",
+      "cgItemType": "Char_Armor_Undersuit",
+      "damageResistanceIndex": 5,
+      "signaturesIndex": 7
     },
     {
       "entityClass": "c04c08dd-6a92-452e-bf67-3a2d1dcf6e33",
@@ -39361,6 +40214,20 @@
       "cgItemType": "PowerPlant"
     },
     {
+      "entityClass": "495e07f0-3b09-49a7-857b-dccefca9f5d1",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "Delta LL (1x Reflex)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "0a713a9d-7e70-4586-87a6-ce08c337a8ea",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -39743,6 +40610,34 @@
       "cgItemType": "PowerPlant"
     },
     {
+      "entityClass": "0dabf62d-9b3e-4968-a371-ae0cb44057a1",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 3,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 0.1,
+      "name": "EE08 (8x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "77521326-082c-44f9-a5b2-09dfb87f3f14",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 3,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 0.1,
+      "name": "EE16 (16x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "85e4dfef-4a24-48ae-8e3f-0998fa1745ab",
       "itemType": "shipcomponent",
       "attachType": "QuantumDrive",
@@ -39852,6 +40747,34 @@
       "coolingRate": 49.0,
       "name": "Elsen",
       "cgItemType": "Cooler"
+    },
+    {
+      "entityClass": "0ff25cf5-6f7b-47e8-8842-f12d8abfe68b",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 1,
+      "grade": 1,
+      "tags": "FPS_Barrel energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Emod Stabilizer1",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "ecbc4c11-95f3-4bd3-9fad-49bba798a942",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 2,
+      "grade": 1,
+      "tags": "FPS_Barrel energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Emod Stabilizer2",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "f6ab217a-2506-42ad-b6f2-90bdf939c0af",
@@ -40412,6 +41335,20 @@
       "cgItemType": "Shield"
     },
     {
+      "entityClass": "7b02ea9f-ba9a-48a9-89c4-e557155bd471",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 3,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "LBCO",
+      "manufacturerCode": "LBCO",
+      "mass": 0.1,
+      "name": "FarSight (8x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "dc56860d-0727-4c69-883c-0606f5307822",
       "itemType": "shipcomponent",
       "attachType": "Radar",
@@ -40458,6 +41395,20 @@
       "maxAimAssistRange": 3042.0,
       "name": "Fidele",
       "cgItemType": "Radar"
+    },
+    {
+      "entityClass": "1d6b428a-33a8-4074-bd41-fbc6a16c72d1",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "BottomAttachment",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "FieldLite Flashlight Yellow",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "50e95028-4764-416c-9380-7d9d52d8d82b",
@@ -41344,6 +42295,20 @@
       "cgItemType": "WeaponAttachment"
     },
     {
+      "entityClass": "fd9d06a9-5cf8-4325-9149-538d576e5146",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "Gamma Plus (3x Holographic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "7efda460-54a9-4447-b74d-eaa25ea882cb",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -42009,6 +42974,20 @@
       ],
       "name": "Helix II Mining Laser",
       "cgItemType": "WeaponMining"
+    },
+    {
+      "entityClass": "f8c2296c-d000-42d0-9b69-a7259689119a",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Magazine",
+      "size": 1,
+      "grade": 1,
+      "tags": "ksar_pistol_ballistic_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "mass": 0.3,
+      "name": "Hellion Pistol Plasma Round",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "3bd1502d-f593-456f-a3a9-14fec5b8c1a5",
@@ -43236,6 +44215,20 @@
       "cgItemType": "WeaponAttachment"
     },
     {
+      "entityClass": "01ad699f-cf07-4775-b363-75b915094740",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "BottomAttachment",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "Lux Flashlight",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "78e0c040-6668-4b43-a29c-4c47051bba8d",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -43659,6 +44652,34 @@
       "cgItemType": "Shield"
     },
     {
+      "entityClass": "7624b16b-96ba-4c51-ae7a-a2d34f266626",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Magazine",
+      "size": 1,
+      "grade": 1,
+      "tags": "asad_rifle_energy_01",
+      "manufacturer": "PH Associated Science and Development",
+      "manufacturerCode": "ASD",
+      "mass": 0.5,
+      "name": "Model-K2 Rifle Battery (40 cap)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "9a1d74cd-6a70-4fcf-a215-eb1180f2953d",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 2,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Hedeby Gunworks",
+      "manufacturerCode": "HDGW",
+      "mass": 0.1,
+      "name": "Myers (4x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "397bd43e-fdbf-45b3-ba56-79647656f23e",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -43748,6 +44769,20 @@
       "quantumFuelRate": 18.0,
       "name": "Nova",
       "cgItemType": "QuantumDrive"
+    },
+    {
+      "entityClass": "718aca95-c774-4266-a0e2-50ba2a56088e",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 2,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Gemini",
+      "manufacturerCode": "GEM",
+      "mass": 0.1,
+      "name": "OT4-RF (4x Telescopic)",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "5f3fced2-3c4a-4a50-8a3e-4ba36064854c",
@@ -43947,6 +44982,20 @@
       "cgItemType": "QuantumDrive"
     },
     {
+      "entityClass": "1ba4ebda-fa61-45e7-928f-a543161c9276",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 3,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "LBCO",
+      "manufacturerCode": "LBCO",
+      "mass": 0.1,
+      "name": "Omarof (16x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "13880fbe-7295-4f55-886d-251ad01e2677",
       "itemType": "shipcomponent",
       "attachType": "PowerPlant",
@@ -44114,6 +45163,20 @@
       },
       "name": "PIN",
       "cgItemType": "Shield"
+    },
+    {
+      "entityClass": "4505b54f-0e2b-4dfa-8c15-3c9073561f93",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Behring",
+      "manufacturerCode": "BEH",
+      "mass": 0.1,
+      "name": "PT1 (1x Holographic)",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "15ebdff2-2724-4fb3-abbf-db20e150da77",
@@ -44679,6 +45742,20 @@
       "manufacturerCode": "GEM",
       "mass": 0.78,
       "name": "R97 Shotgun Magazine (18 cap)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "b886d522-04ca-493e-9373-daa8a4f8066e",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Klaus & Werner",
+      "manufacturerCode": "KLA",
+      "mass": 0.1,
+      "name": "RD-1 Jaeger (1x Red Dot)",
       "cgItemType": "WeaponAttachment"
     },
     {
@@ -45435,6 +46512,20 @@
       "cgItemType": "Shield"
     },
     {
+      "entityClass": "aa9edf82-8a45-4088-b5de-14c646252f79",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Magazine",
+      "size": 1,
+      "grade": 1,
+      "tags": "hdgw_pistol_ballistic_01",
+      "manufacturer": "Hedeby Gunworks",
+      "manufacturerCode": "HDGW",
+      "mass": 0.38,
+      "name": "Salvo Frag Pistol Magazine (8 cap)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "86c8ec89-6fa6-4bbe-852c-d9e98bb41325",
       "itemType": "shipcomponent",
       "attachType": "Radar",
@@ -46008,6 +47099,48 @@
       "cgItemType": "Shield"
     },
     {
+      "entityClass": "2d559b31-cf5f-4963-b276-c687f49601de",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 1,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Sion Compensator1",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "5867f3cf-e248-405c-b2fb-6e1abe579c82",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 2,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Sion Compensator2",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "f739108f-7720-4a5e-b173-a65e07b314da",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 3,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Sion Compensator3",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "95a43815-970e-4a70-87df-0658c32495d8",
       "itemType": "shipcomponent",
       "attachType": "QuantumDrive",
@@ -46567,6 +47700,48 @@
       "cgItemType": "Shield"
     },
     {
+      "entityClass": "003db92d-65ad-496e-baa8-e061ab6f1392",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 1,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Stoic Suppressor1",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "4ef9f8dd-6229-4c86-bc8e-025c6cc87c2c",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 2,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Stoic Suppressor2",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "a3d3ce39-37f1-41a7-827d-ae83aded1285",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 3,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Stoic Suppressor3",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "3a2e37f0-dc95-4082-b74d-fe968ed64eb3",
       "itemType": "shipcomponent",
       "attachType": "Shield",
@@ -47124,6 +48299,20 @@
       "cgItemType": "QuantumDrive"
     },
     {
+      "entityClass": "d2da6df5-7f4f-4ef3-ada2-92de87d7487a",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 2,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Klaus & Werner",
+      "manufacturerCode": "KLA",
+      "mass": 0.1,
+      "name": "TS-25 Basara (2.5x Telescopic)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
       "entityClass": "576b939f-1596-42ee-95b4-d5c871542d8c",
       "itemType": "shipcomponent",
       "attachType": "Cooler",
@@ -47416,6 +48605,48 @@
         },
         "note": "Torrez (Fuel_Nozzle_SHIN_NozzleExpensiveSecure) has its AttachDef Type attribute set to 'DockingCollar' rather than 'FuelNozzle'. The filename, entity class name, and Localization key (@Nozzle_FuelGiver_SHIN_NozzleExpensiveSecure_Name) consistently indicate this is a fuel nozzle item used in the refueling workflow. Observed effect: appears in the BP_REWARDS_FuelNozzle pool with cgItemType 'DockingCollar' which may surface under a Docking Collar category in downstream UI. The data catalog does not yet appear to define a FuelNozzle Type - this annotation reflects the apparent intent inferred from filename and Localization conventions. Not yet verified in-game whether this affects attachment behavior."
       }
+    },
+    {
+      "entityClass": "c75282e6-8b92-4398-ac27-bd6f56d627b2",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "IronSight",
+      "size": 3,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "Klaus & Werner",
+      "manufacturerCode": "KLA",
+      "mass": 0.1,
+      "name": "Touchstone (8x Monitor)",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "14bc8a2c-10f2-4f6e-a45e-eec476367d45",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "BottomAttachment",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "Tracer Laser Pointer Green",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "cdf4adaa-de1e-42cf-8b50-0fd3ad138a10",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "BottomAttachment",
+      "size": 1,
+      "grade": 1,
+      "tags": "",
+      "manufacturer": "NV-TAC",
+      "manufacturerCode": "NVTC",
+      "mass": 0.1,
+      "name": "Tracer Laser Pointer Orange",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "9dd4d8a5-49ab-493f-93cb-0536050cd9b4",
@@ -47940,6 +49171,62 @@
       },
       "name": "Veil",
       "cgItemType": "Shield"
+    },
+    {
+      "entityClass": "04f546d6-651a-47f4-b0ae-64ed2b37557b",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 1,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Veil Flash Hider1",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "156f6405-7fdc-40e4-a783-703e807d9f88",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 2,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Veil Flash Hider2",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "678aae5b-0d55-42fb-bfe2-ce9973715529",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Barrel",
+      "size": 3,
+      "grade": 1,
+      "tags": "FPS_Barrel ballistic_attach energy_attach",
+      "manufacturer": "ArmaMod",
+      "manufacturerCode": "ARMA",
+      "mass": 0.1,
+      "name": "Veil Flash Hider3",
+      "cgItemType": "WeaponAttachment"
+    },
+    {
+      "entityClass": "1a26b6d2-ea68-4da9-a421-b7c399bf441f",
+      "itemType": "unknown",
+      "attachType": "WeaponAttachment",
+      "attachSubType": "Magazine",
+      "size": 1,
+      "grade": 1,
+      "tags": "ksar_lmg_energy_01",
+      "manufacturer": "Kastak Arms",
+      "manufacturerCode": "KSAR",
+      "mass": 1.62,
+      "name": "Verdict LMG Battery (75 cap)",
+      "cgItemType": "WeaponAttachment"
     },
     {
       "entityClass": "5d57c71c-7122-4567-86ee-0936091ee182",

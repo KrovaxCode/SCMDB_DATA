@@ -1,9 +1,10 @@
 {
-  "version": "5.0.0-ptu.13273298",
+  "version": "5.0.0-ptu.13284307",
   "meta": {
     "totalLocations": 50,
+    "totalTerrainLocations": 1,
     "totalElements": 39,
-    "totalCompositions": 63,
+    "totalCompositions": 65,
     "totalClusteringPresets": 23,
     "totalRefineries": 20,
     "totalRefineryProfiles": 10,
@@ -2506,6 +2507,39 @@
         }
       ]
     },
+    "d19e906e-e262-4b4d-8713-5c52186f9d2f": {
+      "name": "Savrilium (Ore)",
+      "minimumDistinctElements": 3,
+      "parts": [
+        {
+          "elementGuid": "6426f04e-2f7d-4c8e-a615-64aa582eaa31",
+          "elementName": "Savrilium (Ore)",
+          "probability": 1.0,
+          "minPercent": 9.7,
+          "maxPercent": 15.7,
+          "curveExponent": 1.0,
+          "qualityScale": 1.0
+        },
+        {
+          "elementGuid": "6426f04e-2f7d-4c8e-a615-64aa582eaa31",
+          "elementName": "Savrilium (Ore)",
+          "probability": 1.0,
+          "minPercent": 24.3,
+          "maxPercent": 74.3,
+          "curveExponent": 1.0,
+          "qualityScale": 0.49
+        },
+        {
+          "elementGuid": "f2f5bf2e-87f9-4f3d-bb59-b4e11eceeaad",
+          "elementName": "Gold (Ore)",
+          "probability": 1.0,
+          "minPercent": 5.0,
+          "maxPercent": 10.0,
+          "curveExponent": 1.0,
+          "qualityScale": 0.789
+        }
+      ]
+    },
     "30dc2e47-7eb0-4a08-ad72-e943b72f8e3d": {
       "name": "Stileron",
       "minimumDistinctElements": 3,
@@ -2869,6 +2903,30 @@
           "maxPercent": 5.0,
           "curveExponent": 1.0,
           "qualityScale": 0.789
+        }
+      ]
+    },
+    "98aa6986-1b1b-475b-8488-41ad6182d1da": {
+      "name": "Torite (Ore)",
+      "minimumDistinctElements": 2,
+      "parts": [
+        {
+          "elementGuid": "d0b10af3-e0f3-4bc3-b2d9-737dbb7846cf",
+          "elementName": "Torite (Ore)",
+          "probability": 1.0,
+          "minPercent": 9.7,
+          "maxPercent": 15.7,
+          "curveExponent": 1.0,
+          "qualityScale": 1.0
+        },
+        {
+          "elementGuid": "d0b10af3-e0f3-4bc3-b2d9-737dbb7846cf",
+          "elementName": "Torite (Ore)",
+          "probability": 1.0,
+          "minPercent": 34.3,
+          "maxPercent": 84.3,
+          "curveExponent": 1.0,
+          "qualityScale": 0.49
         }
       ]
     },
@@ -11379,6 +11437,200 @@
         {
           "name": "Rivers",
           "globalModifier": 50.0
+        }
+      ]
+    }
+  ],
+  "terrainLocations": [
+    {
+      "locationName": "Nyx I",
+      "system": "Nyx",
+      "locationType": "planet",
+      "planet": "nyx1",
+      "starmapGuid": "2a8a3554-b2f2-489d-a50c-5adff46cbf1b",
+      "terrainLayers": [
+        {
+          "layerGuid": "902664c3-41da-75fe-6bae-3b5cefe924e8",
+          "name": "granite_01",
+          "kind": "geology",
+          "totalDensity": 0.2042,
+          "deposits": [
+            {
+              "compositionGuid": "becf21b0-3812-4e04-aeb5-031d61104fdd",
+              "density": 0.0898,
+              "share": 0.4398,
+              "assetSizeRange": [
+                10.86200047,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "98aa6986-1b1b-475b-8488-41ad6182d1da",
+              "density": 0.0471,
+              "share": 0.2307,
+              "assetSizeRange": [
+                10.68500042,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "387cb792-f770-4eee-a525-e4cacd2cb2d1",
+              "density": 0.0351,
+              "share": 0.1719,
+              "assetSizeRange": [
+                11.3920002,
+                50.0
+              ]
+            },
+            {
+              "compositionGuid": "4e79ec1e-84ae-4f7c-a566-6e52aa5959ba",
+              "density": 0.0322,
+              "share": 0.1577,
+              "assetSizeRange": [
+                10.15400028,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "layerGuid": "128033a2-1e36-1f31-6ea6-209a65a84fbf",
+          "name": "granite_02",
+          "kind": "geology",
+          "totalDensity": 0.132,
+          "deposits": [
+            {
+              "compositionGuid": "9b0c86e4-82bc-42d9-99ea-3201e6072553",
+              "density": 0.0647,
+              "share": 0.4902,
+              "assetSizeRange": [
+                10.33100033,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "387cb792-f770-4eee-a525-e4cacd2cb2d1",
+              "density": 0.0351,
+              "share": 0.2659,
+              "assetSizeRange": [
+                9.80099964,
+                50.0
+              ]
+            },
+            {
+              "compositionGuid": "4e79ec1e-84ae-4f7c-a566-6e52aa5959ba",
+              "density": 0.0322,
+              "share": 0.2439,
+              "assetSizeRange": [
+                11.3920002,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "layerGuid": "902664c3-42da-75fe-6baf-3b5cefe924e8",
+          "name": "limestone_02",
+          "kind": "geology",
+          "totalDensity": 0.033,
+          "deposits": [
+            {
+              "compositionGuid": "e2e4a538-7f96-4c9b-8136-fb961dd37cea",
+              "density": 0.033,
+              "share": 1.0,
+              "assetSizeRange": [
+                11.03899956,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "layerGuid": "1173e6bf-fabc-beab-94cf-99f4ef6d9967",
+          "name": "arid_01",
+          "kind": "soil",
+          "totalDensity": 0.286,
+          "deposits": [
+            {
+              "compositionGuid": "f9361e5b-fb9f-444f-8ed7-a4e5dd6fee81",
+              "density": 0.145,
+              "share": 0.507,
+              "assetSizeRange": [
+                10.33100033,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "454fd533-5d95-4619-a345-b0379ce94a12",
+              "density": 0.141,
+              "share": 0.493,
+              "assetSizeRange": [
+                10.15400028,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "layerGuid": "39fa1baf-6128-f8de-ce91-b35b77784ae8",
+          "name": "balanced_01",
+          "kind": "soil",
+          "totalDensity": 0.05072,
+          "deposits": [
+            {
+              "compositionGuid": "64799ef4-d78d-4828-b039-73ffcf7470a4",
+              "density": 0.0424,
+              "share": 0.836,
+              "assetSizeRange": [
+                10.33100033,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "d19e906e-e262-4b4d-8713-5c52186f9d2f",
+              "density": 0.00832,
+              "share": 0.164,
+              "assetSizeRange": [
+                11.56900024,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "layerGuid": "39fa1baf-6128-f8de-ce91-b25b77784ae8",
+          "name": "semi_arid_01",
+          "kind": "soil",
+          "totalDensity": 0.1906,
+          "deposits": [
+            {
+              "compositionGuid": "0a6060e6-261f-4f87-8fc9-07a6342d579e",
+              "density": 0.0642,
+              "share": 0.3368,
+              "assetSizeRange": [
+                10.68500042,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "f69ad5eb-97f4-4623-ae8e-f7c12ba09598",
+              "density": 0.0642,
+              "share": 0.3368,
+              "assetSizeRange": [
+                11.21500015,
+                100.0
+              ]
+            },
+            {
+              "compositionGuid": "20724d8d-ab6e-4a69-8837-ebd850e2cfab",
+              "density": 0.0622,
+              "share": 0.3263,
+              "assetSizeRange": [
+                10.86200047,
+                100.0
+              ]
+            }
+          ]
         }
       ]
     }

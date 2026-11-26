@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.0.82",
+    "date": "2026-11-26T00:00:00Z",
+    "changes": [
+      {
+        "type": "data",
+        "text": "🧪 New PTU build — 5.0.0-ptu.13273298 → 5.0.0-ptu.13284307. About 30 missions from the Nyx mission boards now come with blueprint rewards, among them Mercenary Guild, Interstellar Transport Guild and United Resource Workers jobs. 53 new blueprints come with them, for example the Model-K2 rifle, the Verdict LMG, the Hellion pistol, the GP-33 MOD grenade launcher, the FSK-8 combat knife and the Venture \"Rust Society\" armor, plus a range of scopes, suppressors and other attachments. A few of these reward pools point to a blueprint that doesn't seem to exist in the game files yet; those show up as \"Unknown Item\"."
+      },
+      {
+        "type": "feat",
+        "text": "🎖 Guild XP (PTU): missions that also pay guild XP now show it next to the base XP, for example \"+100 AoS\". The table has an optional Guild XP column you can sort by, and the calculator shows how many missions each guild rank takes. The guild ranks currently seem to borrow the contractor rank names, and whether guild XP is split in a party isn't known yet."
+      },
+      {
+        "type": "feat",
+        "text": "⛏ Resources: Nyx I now shows up in the resource view. Its rocks seem to depend on the terrain (ground and rock types) rather than the planet as a whole, so SCMDB lists which rocks turn up on each terrain type instead of an overall percentage. Ship mining only for now."
+      }
+    ]
+  },
+  {
     "version": "1.0.81",
     "date": "2026-11-24T00:00:00Z",
     "changes": [
